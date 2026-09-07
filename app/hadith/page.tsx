@@ -1,9 +1,20 @@
+import { OG_IMAGE } from "@/lib/site";
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   collections, GRADED_ORDER, UNGRADED_ORDER, HADITH_TOTAL, COMPILATION_TOTAL,
 } from "@/lib/hadith";
 
-export const metadata = { title: "Hadith · One Minute Iman" };
+export const metadata: Metadata = {
+  title: "Hadith collections · Bukhārī, Muslim and the Sunan",
+  description:
+    "Browse the hadith collections book by book, with the Arabic and the authenticity grading shown on every narration.",
+  alternates: { canonical: "/hadith" },
+  openGraph: {
+    title: "Hadith collections · Bukhārī, Muslim and the Sunan",
+    description: "Browse book by book, with the Arabic and the grading shown on every narration.",
+    url: "/hadith", type: "website", images: [OG_IMAGE] },
+};
 
 function Section({
   title, note, keys,

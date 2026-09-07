@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import { clampDescription, OG_IMAGE } from "@/lib/site";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { collections, COLLECTION_ORDER, readBook, getBook } from "@/lib/hadith";
@@ -15,11 +17,24 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: { params: Promise<{ collection: string; book: string }> }) {
+}: { params: Promise<{ collection: string; book: string }> }): Promise<Metadata> {
   const { collection, book } = await params;
   const c = collections[collection];
   const b = getBook(collection, Number(book));
-  return c && b ? { title: `${b.title} · ${c.name}` } : { title: "Not found" };
+  if (!c || !b) return { title: "Not found", robots: { index: false, follow: false } };
+
+  const title = `${b.title} · ${c.name}`;
+  const description = clampDescription(
+    `${b.title}, book ${b.n} of ${c.name}, ${b.count} narrations. Arabic and English with the authenticity grading on each one.`,
+  );
+  const path = `/hadith/${collection}/${b.n}`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: { title, description, url: path, type: "article", images: [OG_IMAGE] },
+  };
 }
 
 export default async function BookPage({

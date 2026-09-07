@@ -1,18 +1,36 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { situations, sitById, entriesFor, categories } from "@/lib/search";
+import { SITE_URL, clampDescription, OG_IMAGE } from "@/lib/site";
 import { EntryCard, EntryRow } from "@/components/Cards";
 
 export function generateStaticParams() {
   return situations.map((s) => ({ id: s.id }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const s = sitById.get(id);
-  return s
-    ? { title: `${s.label} · One Minute Iman`, description: s.blurb }
-    : { title: "Not found" };
+  if (!s) return { title: "Not found", robots: { index: false, follow: false } };
+
+  const n = entriesFor(s.id).length;
+  const label = s.label.replace(/\s*&\s*/g, " and ").toLowerCase();
+  // people search "dua for anxiety", not "anxiety & worry"
+  const title = `Duʿā for ${label}`;
+  const description = clampDescription(
+    `${n} duʿās, Qurʾan verses and authentic hadith for ${label}. ${s.blurb}. Every one shows its source and authenticity grading.`,
+  );
+  const path = `/s/${s.id}`;
+
+  return {
+    title,
+    description,
+    keywords: [...(s.feelings || []).slice(0, 12), `dua for ${label}`, `islamic dua ${label}`],
+    alternates: { canonical: path },
+    openGraph: { title, description, url: path, type: "website", images: [OG_IMAGE] },
+    twitter: { card: "summary_large_image", title, description, images: [OG_IMAGE] },
+  };
 }
 
 export default async function SituationPage({
@@ -27,7 +45,46 @@ export default async function SituationPage({
   const rest = all.filter((r) => r.x === 0);
   const [catLabel] = categories[sit.cat] ?? ["", ""];
 
+
+  const label = sit.label.replace(/\s*&\s*/g, " and ").toLowerCase();
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${SITE_URL}/s/${sit.id}#page`,
+        name: `Duʿā for ${label}`,
+        description: sit.blurb,
+        url: `${SITE_URL}/s/${sit.id}`,
+        isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
+      },
+      {
+        "@type": "ItemList",
+        numberOfItems: all.length,
+        itemListElement: all.slice(0, 25).map((r, n) => ({
+          "@type": "ListItem",
+          position: n + 1,
+          name: r.t,
+          url: `${SITE_URL}/d/${r.id}`,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Browse", item: `${SITE_URL}/browse` },
+          { "@type": "ListItem", position: 3, name: sit.label, item: `${SITE_URL}/s/${sit.id}` },
+        ],
+      },
+    ],
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     <div className="mx-auto max-w-5xl px-6 pt-10 sm:pt-14">
       <Link
         href="/browse"
@@ -76,5 +133,6 @@ export default async function SituationPage({
         </section>
       )}
     </div>
+    </>
   );
 }

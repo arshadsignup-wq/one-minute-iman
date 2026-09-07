@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import { clampDescription, OG_IMAGE } from "@/lib/site";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { surahs, getSurah } from "@/lib/quran";
@@ -9,12 +11,25 @@ export function generateStaticParams() {
   return surahs.map((s) => ({ surah: String(s.n) }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ surah: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ surah: string }> }): Promise<Metadata> {
   const { surah } = await params;
   const s = getSurah(Number(surah));
-  return s
-    ? { title: `${s.name} · The Qur'an · One Minute Iman`, description: s.translated }
-    : { title: "Not found" };
+  if (!s) return { title: "Not found", robots: { index: false, follow: false } };
+
+  const title = `Surah ${s.name} (${s.translated}) · Arabic, translation and tafsir`;
+  const description = clampDescription(
+    `Surah ${s.name}, chapter ${s.n} of the Qurʾan, ${s.count} verses revealed in ${s.revelation === "makkah" ? "Makkah" : "Madinah"}. Arabic with three English translations, transliteration, recitation and Ibn Kathīr's tafsir.`,
+  );
+  const path = `/quran/${s.n}`;
+
+  return {
+    title,
+    description,
+    keywords: [`surah ${s.name}`, `surah ${s.name} translation`, `surah ${s.name} tafsir`, s.translated, `chapter ${s.n} quran`],
+    alternates: { canonical: path },
+    openGraph: { title, description, url: path, type: "article", images: [OG_IMAGE] },
+    twitter: { card: "summary_large_image", title, description, images: [OG_IMAGE] },
+  };
 }
 
 export default async function SurahPage({ params }: { params: Promise<{ surah: string }> }) {

@@ -1,7 +1,18 @@
+import { OG_IMAGE } from "@/lib/site";
+import type { Metadata } from "next";
 import notEstablished from "@/data/not-established.json";
 import { TOTAL, CURATED } from "@/lib/search";
 
-export const metadata = { title: "How we verify · One Minute Iman" };
+export const metadata: Metadata = {
+  title: "How every entry is verified",
+  description:
+    "The method: every Arabic span must match a primary source word for word, and every hadith must pass a grading rule before it reaches the page. Including what we refused.",
+  alternates: { canonical: "/authenticity" },
+  openGraph: {
+    title: "How every entry on One Minute Iman is verified",
+    description: "Every Arabic span matched to a primary source, every hadith grade-checked. Including what we refused.",
+    url: "/authenticity", type: "article", images: [OG_IMAGE] },
+};
 
 const steps = [
   {

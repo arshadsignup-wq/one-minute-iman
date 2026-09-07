@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Cormorant_Garamond, Inter, Amiri } from "next/font/google";
 import "./globals.css";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 const display = Cormorant_Garamond({
   subsets: ["latin"],
@@ -22,9 +23,68 @@ const arabic = Amiri({
 });
 
 export const metadata: Metadata = {
-  title: "One Minute Iman · a verified du'ā for what you're carrying",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "One Minute Iman · find a duʿā for how you feel",
+    template: "%s · One Minute Iman",
+  },
   description:
-    "Tell it how you feel and find a du'ā, verse or teaching for that moment. Every entry is traced to the Qur'an or an authenticated hadith, with its grading shown.",
+    "Say how you feel and get the duʿā, verse or hadith for that moment. Every entry is traced to the Qurʾan or an authenticated hadith and shows its grading.",
+  applicationName: SITE_NAME,
+  keywords: [
+    "dua", "duas", "supplication", "islamic dua for anxiety", "dua for sadness",
+    "authentic hadith", "sahih hadith", "quran translation", "dua for forgiveness",
+    "morning and evening adhkar", "dua for difficulty", "islamic supplications",
+  ],
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    locale: "en_GB",
+    url: SITE_URL,
+    title: "One Minute Iman · find a duʿā for how you feel",
+    description:
+      "Say how you feel and get the duʿā, verse or hadith for that moment, with its source and authenticity grading shown.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "One Minute Iman",
+    description:
+      "Say how you feel and get the duʿā, verse or hadith for that moment, every one traced to a primary source.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
+  },
+  category: "religion",
+};
+
+/** Site-level structured data: identifies the site and exposes the search box. */
+const siteSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: SITE_NAME,
+      description:
+        "Verified duʿās, Qurʾan verses and authenticated hadith, searchable by how you feel.",
+      inLanguage: "en",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/browse?q={search_term_string}` },
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#org`,
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+  ],
 };
 
 function Header() {
@@ -110,6 +170,12 @@ export function Star({ className = "" }: { className?: string }) {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
+        />
+      </head>
       <body
         className={`${display.variable} ${body.variable} ${arabic.variable}`}
         suppressHydrationWarning
