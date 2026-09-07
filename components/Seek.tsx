@@ -64,7 +64,7 @@ export default function Seek() {
             <button
               key={p}
               onClick={() => setQ(p)}
-              className="rounded-full border border-[var(--line)] bg-[var(--card)]/70 px-3.5 py-1.5 text-[13px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:bg-[var(--card)] hover:text-[var(--green)]"
+              className="inline-flex min-h-[44px] items-center rounded-full border border-[var(--line)] bg-[var(--card)]/70 px-3.5 text-[13px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:bg-[var(--card)] hover:text-[var(--green)] sm:min-h-0 sm:py-1.5"
             >
               {p}
             </button>
@@ -106,7 +106,7 @@ export default function Seek() {
                       </div>
                       <Link
                         href={`/s/${sit.id}`}
-                        className="shrink-0 rounded-full bg-[var(--green)] px-4 py-2 text-[13px] font-medium text-white transition-all hover:bg-[var(--green-deep)]"
+                        className="inline-flex min-h-[44px] shrink-0 items-center rounded-full bg-[var(--green)] px-4 text-[13px] font-medium text-white transition-all hover:bg-[var(--green-deep)] sm:min-h-0 sm:py-2"
                       >
                         All {sit.count}
                       </Link>
@@ -130,7 +130,7 @@ export default function Seek() {
                       <Link
                         key={sit.id}
                         href={`/s/${sit.id}`}
-                        className="group rounded-full border border-[var(--line)] bg-[var(--card)] px-4 py-2 text-[13.5px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:text-[var(--green)]"
+                        className="group inline-flex min-h-[44px] items-center rounded-full border border-[var(--line)] bg-[var(--card)] px-4 text-[13.5px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:text-[var(--green)] sm:min-h-0 sm:py-2"
                       >
                         {sit.label}
                         <span className="ml-2 text-[12px] text-[var(--ink-faint)]">{sit.count}</span>

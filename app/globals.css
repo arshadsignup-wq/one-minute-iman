@@ -135,3 +135,14 @@ input:focus-visible { outline: none; }
   .rise { animation: none; }
   html { scroll-behavior: auto; }
 }
+
+/* Mobile safety. A single unbroken string (a long reference, a URL, a run of
+   Arabic without spaces) would otherwise push the whole page sideways. */
+html {
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+}

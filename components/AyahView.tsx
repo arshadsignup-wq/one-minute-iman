@@ -20,7 +20,7 @@ export default function AyahView({ verses }: { verses: Ayah[] }) {
           <button
             key={key}
             onClick={() => setWhich(key)}
-            className={`rounded-full px-3.5 py-1.5 text-[12.5px] transition-all ${
+            className={`inline-flex min-h-[44px] items-center rounded-full px-3.5 text-[12.5px] transition-all sm:min-h-0 sm:py-1.5 ${
               which === key
                 ? "bg-[var(--green)] text-white"
                 : "border border-[var(--line)] text-[var(--ink-soft)] hover:border-[var(--sage)] hover:text-[var(--green)]"
@@ -31,7 +31,7 @@ export default function AyahView({ verses }: { verses: Ayah[] }) {
         ))}
         <button
           onClick={() => setShowTr((v) => !v)}
-          className="ml-auto rounded-full border border-[var(--line)] px-3.5 py-1.5 text-[12.5px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:text-[var(--green)]"
+          className="ml-auto inline-flex min-h-[44px] items-center rounded-full border border-[var(--line)] px-3.5 text-[12.5px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:text-[var(--green)] sm:min-h-0 sm:py-1.5"
         >
           {showTr ? "Hide" : "Show"} transliteration
         </button>

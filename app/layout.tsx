@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { Cormorant_Garamond, Inter, Amiri } from "next/font/google";
 import "./globals.css";
@@ -21,6 +21,16 @@ const arabic = Amiri({
   variable: "--font-arabic",
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#FCFAF4" },
+    { media: "(prefers-color-scheme: dark)", color: "#0B5730" },
+  ],
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -100,39 +110,41 @@ const siteSchema = {
 };
 
 function Header() {
+  // The wordmark is 170px and the four links are 327px. With padding that needs
+  // 545px, so it overflowed every phone. Below sm the wordmark is dropped to the
+  // star alone, the padding tightens, and the links keep a 44px tap height.
+  const link =
+    "flex min-h-[44px] items-center rounded-full px-2.5 sm:px-3 " +
+    "text-[var(--ink-soft)] transition-colors hover:bg-[var(--paper-2)] hover:text-[var(--green)]";
   return (
     <header className="sticky top-0 z-30 border-b border-[var(--line-soft)] bg-[var(--paper)]/85 backdrop-blur-md">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <Link href="/" className="group flex items-center gap-2.5">
+      <nav className="mx-auto flex max-w-5xl items-center justify-between gap-2 px-4 py-2 sm:px-6 sm:py-4">
+        <Link
+          href="/"
+          aria-label="One Minute Iman, home"
+          className="group flex min-h-[44px] shrink-0 items-center gap-2.5"
+        >
           <Star className="h-[26px] w-[26px] text-[var(--green)] transition-transform duration-700 group-hover:rotate-45" />
-          <span className="display text-[15.5px] tracking-[0.15em] text-[var(--green)] uppercase">
+          <span className="display hidden text-[15.5px] tracking-[0.15em] text-[var(--green)] uppercase sm:inline">
             One Minute Iman
           </span>
         </Link>
-        <div className="flex items-center gap-1 text-[13.5px]">
-          <Link
-            href="/quran"
-            className="rounded-full px-3 py-1.5 text-[var(--ink-soft)] transition-colors hover:bg-[var(--paper-2)] hover:text-[var(--green)]"
-          >
+        <div className="flex items-center gap-0.5 text-[13.5px] sm:gap-1">
+          <Link href="/quran" className={link}>
             Qur&apos;an
           </Link>
-          <Link
-            href="/hadith"
-            className="rounded-full px-3 py-1.5 text-[var(--ink-soft)] transition-colors hover:bg-[var(--paper-2)] hover:text-[var(--green)]"
-          >
+          <Link href="/hadith" className={link}>
             Hadith
           </Link>
-          <Link
-            href="/browse"
-            className="rounded-full px-3 py-1.5 text-[var(--ink-soft)] transition-colors hover:bg-[var(--paper-2)] hover:text-[var(--green)]"
-          >
+          <Link href="/browse" className={link}>
             Du&apos;ās
           </Link>
           <Link
             href="/authenticity"
-            className="ml-1 rounded-full border border-[var(--line)] px-3 py-1.5 text-[var(--green)] transition-all hover:border-[var(--sage)] hover:bg-[var(--card)]"
+            className="ml-0.5 flex min-h-[44px] shrink-0 items-center rounded-full border border-[var(--line)] px-2.5 text-[var(--green)] transition-all hover:border-[var(--sage)] hover:bg-[var(--card)] sm:ml-1 sm:px-3"
           >
-            How we verify
+            <span className="sm:hidden">Verify</span>
+            <span className="hidden sm:inline">How we verify</span>
           </Link>
         </div>
       </nav>
