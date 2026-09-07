@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+/* ── One Minute Iman ──────────────────────────────────────────────────────
+   Green for Jannah, gold for light, cream for paper. Warm, not austere.   */
+:root {
+  --paper:      #FCFAF4;
+  --paper-2:    #F4EEE0;
+  --paper-3:    #EDE5D2;
+  --card:       #FFFFFF;
+
+  --ink:        #14201A;
+  --ink-soft:   #47554D;
+  --ink-faint:  #78857C;
+
+  --green:      #0B5730;
+  --green-deep: #06381F;
+  --green-mid:  #146B3C;
+  --sage:       #478A63;
+  --pale:       #C6E0D1;
+
+  --gold:       #9C7420;
+  --gold-mid:   #C9A24A;
+  --gold-pale:  #EFE0B8;
+  --gold-bg:    #FAF2DE;
+
+  --line:       rgba(11, 87, 48, 0.14);
+  --line-soft:  rgba(11, 87, 48, 0.075);
+  --shadow:     rgba(14, 52, 33, 0.30);
+  --glow:       rgba(11, 87, 48, 0.055);
+  --pattern:    rgba(11, 87, 48, 0.055);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:      #0C1310;
+    --paper-2:    #111A15;
+    --paper-3:    #16211B;
+    --card:       #16211B;
+
+    --ink:        #E9EFEA;
+    --ink-soft:   #A2B0A7;
+    --ink-faint:  #718077;
+
+    --green:      #74C293;
+    --green-deep: #A9DCBD;
+    --green-mid:  #4E9E6C;
+    --sage:       #5FA87C;
+    --pale:       #244032;
+
+    --gold:       #D9BE7A;
+    --gold-mid:   #C9A24A;
+    --gold-pale:  #4A3D1E;
+    --gold-bg:    #241F12;
+
+    --line:       rgba(168, 206, 183, 0.17);
+    --line-soft:  rgba(168, 206, 183, 0.085);
+    --shadow:     rgba(0, 0, 0, 0.65);
+    --glow:       rgba(116, 194, 147, 0.06);
+    --pattern:    rgba(168, 206, 183, 0.05);
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-paper-3: var(--paper-3);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-green: var(--green);
+  --color-green-deep: var(--green-deep);
+  --color-green-mid: var(--green-mid);
+  --color-sage: var(--sage);
+  --color-pale: var(--pale);
+  --color-gold: var(--gold);
+  --color-gold-mid: var(--gold-mid);
+  --font-display: var(--font-display), Georgia, serif;
+  --font-body: var(--font-body), system-ui, sans-serif;
+  --font-arabic: var(--font-arabic), serif;
+}
+
+* { border-color: var(--line); }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Display type carries weight now; the old light serif read as timid. */
+.display {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.018em;
+}
+.display-light { font-weight: 400; }
+
+.arabic {
+  font-family: var(--font-arabic), serif;
+  direction: rtl;
+  line-height: 2.05;
+}
+
+/* An eight-point star drawn from the logo, tiled very faintly. */
+.pattern {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%230B5730' stroke-opacity='0.38' stroke-width='1'%3E%3Crect x='22' y='22' width='28' height='28'/%3E%3Crect x='22' y='22' width='28' height='28' transform='rotate(45 36 36)'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 78px 78px;
+  opacity: 0.42;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .pattern { opacity: 0.28; filter: invert(1) hue-rotate(180deg); }
+}
+
+.gold-rule {
+  background: linear-gradient(90deg, transparent, var(--gold-mid), transparent);
+}
+
+::selection { background: var(--pale); color: var(--green-deep); }
+
+a:focus-visible,
+button:focus-visible { outline: 2px solid var(--sage); outline-offset: 3px; border-radius: 4px; }
+input:focus-visible { outline: none; }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+.rise { animation: rise 0.55s cubic-bezier(0.22, 0.61, 0.36, 1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .rise { animation: none; }
+  html { scroll-behavior: auto; }
+}
