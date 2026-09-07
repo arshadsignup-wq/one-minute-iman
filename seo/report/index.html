@@ -1,0 +1,398 @@
+<title>Why One Minute Iman Is Invisible</title>
+<style>
+:root{
+  --ground:#FBFAF7; --raise:#F4F2EC; --ink:#131714; --body:#3A403B;
+  --muted:#6E7370; --rule:#D8D4C8; --hair:#E6E3DA;
+  --verified:#0B5730; --gap:#8C3A1E; --gold:#9C7420;
+  --chip:#EFEDE4;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#111412; --raise:#181C19; --ink:#F0EEE7; --body:#C3C7C1;
+    --muted:#8B918B; --rule:#2A2F2B; --hair:#232823;
+    --verified:#5FBF8C; --gap:#D98A6A; --gold:#C9A24E;
+    --chip:#1E231F;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#111412; --raise:#181C19; --ink:#F0EEE7; --body:#C3C7C1;
+  --muted:#8B918B; --rule:#2A2F2B; --hair:#232823;
+  --verified:#5FBF8C; --gap:#D98A6A; --gold:#C9A24E;
+  --chip:#1E231F;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--ground); color:var(--body);
+  font:400 16.5px/1.68 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-feature-settings:"kern";
+}
+.wrap{max-width:920px;margin:0 auto;padding:0 28px 120px}
+h1,h2,h3,.disp{
+  font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+  color:var(--ink); text-wrap:balance; font-weight:400;
+}
+h1{font-size:clamp(38px,6.4vw,60px);line-height:1.04;letter-spacing:-.014em;margin:0}
+h2{font-size:clamp(25px,3.4vw,33px);line-height:1.16;margin:0 0 6px}
+h3{font-size:19px;line-height:1.3;margin:0 0 6px}
+p{margin:0 0 15px;max-width:66ch}
+a{color:var(--verified)}
+.mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,monospace}
+.tnum{font-variant-numeric:tabular-nums}
+
+/* cover */
+.cover{padding:92px 0 54px;border-bottom:2px solid var(--ink)}
+.kicker{font-size:11px;letter-spacing:.20em;text-transform:uppercase;color:var(--gold);
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin:0 0 26px}
+.verdict{font-family:Georgia,serif;font-size:clamp(19px,2.5vw,23px);line-height:1.5;
+  color:var(--body);max-width:60ch;margin:26px 0 0}
+.meta{display:flex;flex-wrap:wrap;gap:34px;margin-top:40px;
+  font-size:12.5px;color:var(--muted);font-family:ui-monospace,Menlo,monospace}
+.meta b{display:block;color:var(--ink);font-weight:400;font-size:14px;margin-top:3px}
+.blank{color:var(--gap);border-bottom:1px dashed var(--gap);padding-bottom:1px}
+
+/* sections */
+section{padding:56px 0;border-bottom:1px solid var(--hair)}
+.sechead{display:grid;grid-template-columns:52px 1fr;gap:20px;align-items:start;margin-bottom:26px}
+.num{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--gold);
+  padding-top:9px;letter-spacing:.06em}
+.lede{color:var(--muted);font-size:15px;margin:0}
+
+/* gap ledger */
+.cause{border-top:1px solid var(--hair);padding:26px 0}
+.cause:first-of-type{border-top:0}
+.causetop{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;margin-bottom:12px}
+.pct{font-family:ui-monospace,Menlo,monospace;font-size:30px;color:var(--gap);
+  font-variant-numeric:tabular-nums;line-height:1}
+.bar{height:5px;background:var(--chip);border-radius:0;margin:14px 0 16px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--gap)}
+.ev{background:var(--raise);border-left:2px solid var(--rule);padding:14px 18px;margin:14px 0 0}
+.ev p{margin:0 0 7px;font-size:14.5px}
+.ev p:last-child{margin:0}
+
+/* chips */
+.chip{display:inline-block;font-family:ui-monospace,Menlo,monospace;font-size:10.5px;
+  letter-spacing:.09em;text-transform:uppercase;padding:3px 8px;background:var(--chip);
+  color:var(--muted);vertical-align:2px}
+.chip.v{color:var(--verified)}
+.chip.e{color:var(--gold)}
+.chip.u{color:var(--gap)}
+
+/* tables */
+.tw{overflow-x:auto;margin:20px 0}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
+th{text-align:left;font-weight:400;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--muted);border-bottom:1px solid var(--rule);padding:0 14px 8px 0;
+  font-family:ui-monospace,Menlo,monospace}
+td{padding:11px 14px 11px 0;border-bottom:1px solid var(--hair);vertical-align:top}
+td.n{font-family:ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+.good{color:var(--verified)}
+.bad{color:var(--gap)}
+.strike{color:var(--muted);text-decoration:line-through;text-decoration-thickness:1px}
+
+/* scorecard */
+.score{display:grid;gap:0;margin-top:8px}
+.row{display:grid;grid-template-columns:150px 74px 1fr;gap:16px;align-items:center;
+  padding:13px 0;border-bottom:1px solid var(--hair);font-size:14.5px}
+.dot{height:8px;width:100%;max-width:60px}
+.reason{color:var(--muted);font-size:14px}
+
+/* callout */
+.call{background:var(--raise);border-top:2px solid var(--gold);padding:22px 24px;margin:26px 0}
+.call h3{margin-bottom:8px}
+.call p{margin:0;max-width:62ch}
+
+/* roadmap */
+.phase{display:grid;grid-template-columns:112px 1fr;gap:22px;padding:20px 0;
+  border-bottom:1px solid var(--hair)}
+.when{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--gold);
+  letter-spacing:.05em;padding-top:3px}
+ul{margin:0;padding-left:19px}
+li{margin-bottom:7px;max-width:62ch}
+li::marker{color:var(--rule)}
+.owner{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:var(--muted);
+  letter-spacing:.06em}
+@media (max-width:640px){
+  .sechead{grid-template-columns:1fr;gap:4px}
+  .num{padding-top:0}
+  .row{grid-template-columns:1fr;gap:5px}
+  .dot{max-width:100%}
+  .phase{grid-template-columns:1fr;gap:8px}
+}
+</style>
+
+<div class="wrap">
+
+<header class="cover">
+  <p class="kicker">SEO turnaround / 07 September 2026</p>
+  <h1>Why One Minute Iman<br>is invisible</h1>
+  <p class="verdict">The site is not ranking because it is three days old and Google has
+  not indexed a single page of it. Underneath that sit two problems that would stop it
+  ranking even once indexed: the pages built to answer "dua for anxiety" are card grids
+  carrying twelve words of prose, and nothing on the site says who is behind it.</p>
+  <div class="meta">
+    <div>Site<b>www.oneminuteiman.xyz</b></div>
+    <div>Pages audited<b class="tnum">4,137</b></div>
+    <div>Mode<b>Direct implementation</b></div>
+    <div>Prepared by<b class="blank">name to be supplied</b></div>
+  </div>
+</header>
+
+<section>
+  <div class="sechead"><div class="num">01</div><div>
+    <h2>What you should do first</h2>
+    <p class="lede">Everything below is already built and deployed. One thing is not, and cannot be, done by me.</p>
+  </div></div>
+
+  <div class="call">
+    <h3>Verify Search Console and submit the sitemap</h3>
+    <p>Go to Google Search Console, verify <span class="mono">www.oneminuteiman.xyz</span>,
+    and submit <span class="mono">/sitemap.xml</span>. Until that happens, none of the work
+    in this report can produce a single visit. It needs your Google account, so it is the
+    one action I could not take for you.</p>
+  </div>
+
+  <p>Three root causes were found. All three have been addressed in code and deployed,
+  except the parts that require facts only you hold. The site went from having no sitemap,
+  no robots file, no canonical tags, no social cards and no structured data, to having all
+  of them, plus 43 rebuilt landing pages and an About page.</p>
+</section>
+
+<section>
+  <div class="sechead"><div class="num">02</div><div>
+    <h2>Scorecard</h2>
+    <p class="lede">Where the site stands after this engagement.</p>
+  </div></div>
+  <div class="score">
+    <div class="row"><div>Technical</div><div class="dot" style="background:var(--verified)"></div><div class="reason">Static, fast, clean canonical host, valid sitemap of 4,131 URLs.</div></div>
+    <div class="row"><div>Indexation</div><div class="dot" style="background:var(--gap)"></div><div class="reason">Zero pages indexed. Domain three days old. Blocked on Search Console.</div></div>
+    <div class="row"><div>Content depth</div><div class="dot" style="background:var(--verified)"></div><div class="reason">3,371 verified entries. No competitor in this niche matches it.</div></div>
+    <div class="row"><div>Content format</div><div class="dot" style="background:var(--gold)"></div><div class="reason">Hubs now carry a direct answer and FAQ. Was a bare card grid.</div></div>
+    <div class="row"><div>Architecture</div><div class="dot" style="background:var(--verified)"></div><div class="reason">Hub and spoke already correct. One duplicate hub pair resolved.</div></div>
+    <div class="row"><div>Entity and trust</div><div class="dot" style="background:var(--gold)"></div><div class="reason">About page built. Still names no person and no contact route.</div></div>
+    <div class="row"><div>Off page</div><div class="dot" style="background:var(--gap)"></div><div class="reason">No referring domains observed. Plan written, not yet executed.</div></div>
+  </div>
+  <p style="margin-top:22px"><span class="chip u">Unavailable</span> No Search Console,
+  analytics or backlink export was provided, so indexation and link figures are observations
+  from public search and WHOIS, not measurements.</p>
+</section>
+
+<section>
+  <div class="sechead"><div class="num">03</div><div>
+    <h2>How the site was investigated</h2>
+    <p class="lede">So you can judge the weight of what follows.</p>
+  </div></div>
+  <p>Every page type was read: the home page, browse, the Qurʾan and hadith browsers, the
+  authenticity page, a sample of entry pages, and all 43 situation hubs, crawled individually
+  for title, description, canonical, heading structure, word count and structured data.
+  Indexation was checked with a <span class="mono">site:</span> query. The pages that
+  currently rank for the site's core query were fetched and read in full.</p>
+  <p><span class="chip u">Unavailable</span> Search Console, analytics, and any backlink
+  tool. Every figure describing demand, competition or share of gap in this report is
+  labelled as judgment, because without those exports it cannot be anything else.</p>
+</section>
+
+<section>
+  <div class="sechead"><div class="num">04</div><div>
+    <h2>Diagnosis</h2>
+    <p class="lede">Three causes, ranked by how much of the gap each one explains.
+    Shares are judgment, not measurement.</p>
+  </div></div>
+
+  <div class="cause">
+    <div class="causetop"><span class="pct tnum">70%</span><h3>Nothing is indexed</h3>
+      <span class="chip e">Estimated share</span></div>
+    <div class="bar"><i style="width:70%"></i></div>
+    <p>Not a content problem. A visibility problem that no amount of writing fixes.</p>
+    <div class="ev">
+      <p><span class="chip v">Verified</span> <span class="mono">site:oneminuteiman.xyz</span> returns zero pages from the domain.</p>
+      <p><span class="chip v">Verified</span> WHOIS creation date 04 September 2026. The domain is three days old.</p>
+      <p><span class="chip v">Verified</span> <span class="mono">/sitemap.xml</span> and <span class="mono">/robots.txt</span> both returned 404 before this engagement. Google had no URL list for 4,131 pages.</p>
+    </div>
+  </div>
+
+  <div class="cause">
+    <div class="causetop"><span class="pct tnum">20%</span><h3>The money pages were the wrong shape</h3>
+      <span class="chip e">Estimated share</span></div>
+    <div class="bar"><i style="width:20%"></i></div>
+    <p>The page measured 2,812 words, which is why this was nearly missed. Reading it showed
+    the editorial prose was twelve words. Everything else was entry cards.</p>
+    <div class="ev">
+      <p><span class="chip v">Verified</span> <span class="mono">/s/anxiety</span> was an H1 reading "Anxiety &amp; worry", a one line blurb, then roughly 100 cards. No introduction, no recommendation, no questions answered.</p>
+      <p><span class="chip v">Verified</span> Every page winning that query is a written article. The one that owns it is a 1,200 to 1,400 word numbered list of thirteen supplications.</p>
+    </div>
+  </div>
+
+  <div class="cause">
+    <div class="causetop"><span class="pct tnum">10%</span><h3>Nobody knows who runs it</h3>
+      <span class="chip e">Estimated share, rising</span></div>
+    <div class="bar"><i style="width:10%"></i></div>
+    <p>For religious guidance, which search engines treat as trust sensitive, this is the
+    weakest position a site can hold.</p>
+    <div class="ev">
+      <p><span class="chip v">Verified</span> <span class="mono">/about</span>, <span class="mono">/contact</span> and <span class="mono">/author</span> all returned 404.</p>
+      <p><span class="chip v">Verified</span> Organization structured data carried a name and a URL and nothing else.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sechead"><div class="num">05</div><div>
+    <h2>The competitive picture</h2>
+    <p class="lede">And the advantage that was sitting unused.</p>
+  </div></div>
+  <div class="tw"><table>
+    <thead><tr><th>Page</th><th>Format</th><th>Sources cited</th><th>Gradings shown</th></tr></thead>
+    <tbody>
+      <tr><td>Amaliah, 13 Duas for Anxiety</td><td>Numbered article, 1,200 to 1,400 words</td><td>1 of 13</td><td class="bad">None</td></tr>
+      <tr><td>IslamQA</td><td>Question and answer</td><td>Yes</td><td>Partial</td></tr>
+      <tr><td>Daily Hadith Online</td><td>Single hadith pages</td><td>Yes</td><td>Partial</td></tr>
+      <tr><td>App and therapy blogs</td><td>Short listicles</td><td class="bad">Rarely</td><td class="bad">None</td></tr>
+      <tr><td><b>One Minute Iman</b></td><td>Was a card grid, now article plus grid</td><td class="good">Every entry</td><td class="good">Every entry</td></tr>
+    </tbody>
+  </table></div>
+  <div class="call">
+    <h3>The differentiator was invisible</h3>
+    <p>The page currently winning this query shows no authenticity gradings at all and cites
+    a source on one of its thirteen supplications. This site grades all 3,371 of its entries.
+    That is a real and defensible advantage, and until this engagement it appeared nowhere a
+    search engine could read it. The rebuilt hub pages now state it in the first sentence.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sechead"><div class="num">06</div><div>
+    <h2>What was done</h2>
+    <p class="lede">Built, verified and deployed to production.</p>
+  </div></div>
+
+  <h3 style="margin-top:8px">The 43 situation hubs, rebuilt</h3>
+  <p>Each now opens with a keyword bearing heading, a direct answer naming a specific
+  supplication with its source and grading, and three questions with answers, all visible
+  on the page and mirrored in structured data. That is 43 answers and 129 questions,
+  written individually rather than templated.</p>
+
+  <div class="tw"><table>
+    <thead><tr><th>Element</th><th>Before</th><th>After</th></tr></thead>
+    <tbody>
+      <tr><td>Heading</td><td class="strike">Anxiety &amp; worry</td><td class="good">Duʿā for anxiety and worry</td></tr>
+      <tr><td>Title tag</td><td class="strike">Anxiety &amp; worry, One Minute Iman</td><td class="good">Duʿā for anxiety and worry</td></tr>
+      <tr><td>Editorial prose</td><td class="strike">12 words</td><td class="good">Direct answer plus 3 questions</td></tr>
+      <tr><td>Structured data</td><td class="strike">None</td><td class="good">7 types including FAQPage</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3 style="margin-top:30px">Site wide</h3>
+  <div class="tw"><table>
+    <thead><tr><th>Item</th><th>Before</th><th>After</th></tr></thead>
+    <tbody>
+      <tr><td>Sitemap</td><td class="bad">404</td><td class="good tnum">4,131 URLs, priority weighted</td></tr>
+      <tr><td>robots.txt</td><td class="bad">404</td><td class="good">Present, nothing blocked</td></tr>
+      <tr><td>Canonical tags</td><td class="bad">None on any page</td><td class="good">Every page</td></tr>
+      <tr><td>Social cards</td><td class="bad">None</td><td class="good">All page types, generated image</td></tr>
+      <tr><td>Structured data</td><td class="bad">None</td><td class="good">8 schema types</td></tr>
+      <tr><td>Titles over 60 chars</td><td class="bad tnum">85 of 120 crawled</td><td class="good tnum">0</td></tr>
+      <tr><td>About page</td><td class="bad">404</td><td class="good">Built from checkable facts</td></tr>
+      <tr><td>llms.txt</td><td class="bad">Absent</td><td class="good">Present</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="call">
+    <h3>The copy was verified, not asserted</h3>
+    <p>The hub text names 116 hadith references and 30 Qurʾan references. Every one was
+    checked against the site's own data: all 116 hadith exist with the collection and number
+    cited, all 4 explicit grading claims match the grade the site shows, and no Qurʾan
+    reference is outside its surah length. Zero discrepancies.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sechead"><div class="num">07</div><div>
+    <h2>Roadmap</h2>
+    <p class="lede">What is done, what is next, and who has to do it.</p>
+  </div></div>
+
+  <div class="phase"><div class="when">Done</div><div>
+    <ul>
+      <li>Sitemap, robots, canonicals, social cards, structured data <span class="owner">/ complete</span></li>
+      <li>43 hubs rebuilt with direct answers and questions <span class="owner">/ complete</span></li>
+      <li>About page and enriched Organization data <span class="owner">/ complete</span></li>
+      <li>Every title under 60 characters, every description under 155 <span class="owner">/ complete</span></li>
+    </ul>
+  </div></div>
+
+  <div class="phase"><div class="when">This week</div><div>
+    <ul>
+      <li>Verify Search Console and submit the sitemap <span class="owner">/ owner, high impact, low effort</span></li>
+      <li>Add Bing Webmaster Tools, imports from Search Console in one click <span class="owner">/ owner, low effort</span></li>
+      <li>Supply a name, a short biography and a contact route for the About page <span class="owner">/ owner</span></li>
+    </ul>
+  </div></div>
+
+  <div class="phase"><div class="when">Month 1</div><div>
+    <ul>
+      <li>Write the two trust articles: what the gradings mean, and which widely shared supplications fail them <span class="owner">/ high impact, medium effort</span></li>
+      <li>Add real profile links to the Organization data once they exist <span class="owner">/ low effort</span></li>
+      <li>Begin the outreach list in the off page plan <span class="owner">/ medium effort</span></li>
+    </ul>
+  </div></div>
+
+  <div class="phase"><div class="when">Month 2 to 3</div><div>
+    <ul>
+      <li>Work through the twelve article plan, one per week, only for queries the hubs cannot serve <span class="owner">/ medium impact</span></li>
+      <li>Expand any hub that reaches positions 5 to 20 with impressions <span class="owner">/ high impact</span></li>
+    </ul>
+  </div></div>
+</section>
+
+<section>
+  <div class="sechead"><div class="num">08</div><div>
+    <h2>What to measure</h2>
+    <p class="lede">Expectations, not forecasts. A domain this young has no track record to project from.</p>
+  </div></div>
+  <div class="tw"><table>
+    <thead><tr><th>When</th><th>What would count as working</th><th>What it means if not</th></tr></thead>
+    <tbody>
+      <tr><td class="n">30 days</td><td>Indexed page count above zero and climbing. Impressions on brand and long tail queries.</td><td>Still zero indexed means something is blocking it. Investigate that, not content.</td></tr>
+      <tr><td class="n">60 days</td><td>Hubs appearing in the top 50 for their target queries. Entry pages catching reference number searches.</td><td>Indexed but invisible points to authority, which is the off page plan.</td></tr>
+      <tr><td class="n">90 days</td><td>Any hub inside the top 20 on a winnable query.</td><td>Reassess target selection before writing more.</td></tr>
+    </tbody>
+  </table></div>
+  <p>No ranking is promised anywhere in this document. These change the probability, over
+  months, and the largest single variable is outside the site: whether anyone else ever
+  links to it.</p>
+</section>
+
+<section>
+  <div class="sechead"><div class="num">09</div><div>
+    <h2>What still needs you</h2>
+    <p class="lede">Three things I could not do, and one I would not.</p>
+  </div></div>
+  <div class="tw"><table>
+    <thead><tr><th>Item</th><th>Why it is yours</th></tr></thead>
+    <tbody>
+      <tr><td>Search Console and sitemap submission</td><td>Needs your Google account. Highest value action remaining.</td></tr>
+      <tr><td>A named person on the About page</td><td>I will not invent an author, a credential or a biography. The page currently states the method honestly and names nobody, which is accurate but weak.</td></tr>
+      <tr><td>Scholarly review</td><td>The translations and commentary are the site's own work. The About page says so plainly. A named reviewer would change what the site is entitled to claim.</td></tr>
+      <tr><td>Rotate the deployment token</td><td>It was shared in chat and should be replaced.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section style="border-bottom:0">
+  <div class="sechead"><div class="num">10</div><div>
+    <h2>Appendix: what the review changed</h2>
+    <p class="lede">Two critique passes were run against this work before delivery.</p>
+  </div></div>
+  <ul>
+    <li><b>Pass 1</b> flagged that 116 hadith citations had been written but not checked. All were then verified against the site's data. Zero were wrong.</li>
+    <li><b>Pass 2</b> overturned a call made in pass 1. Two hubs, feeling overwhelmed and severe distress, had been judged as separate intents sharing a source. The evidence said otherwise: identical headline supplication, identical top entries, near identical descriptions. That is a duplicate. The overwhelmed hub was rewritten to lead with Qurʾan 2:286, which is tagged to that hub alone.</li>
+    <li>Four of my own errors were caught by the automated pass: two titles over 60 characters, one description over 155, and a dash surviving in the refused entries data.</li>
+  </ul>
+  <p style="margin-top:26px;color:var(--muted);font-size:14px">Working files are in
+  <span class="mono">seo/</span>: diagnosis, strategy, critique passes, content calendar,
+  off page and tracking plans. Code changes are summarised in
+  <span class="mono">SEO-CHANGELOG.md</span>.</p>
+</section>
+
+</div>
