@@ -1,7 +1,18 @@
+import { OG_IMAGE } from "@/lib/site";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { categories, situationsInCategory, TOTAL } from "@/lib/search";
 
-export const metadata = { title: "Browse by situation · One Minute Iman" };
+export const metadata: Metadata = {
+  title: "Browse every duʿā, verse and hadith by feeling",
+  description:
+    "Every duʿā, Qurʾan verse and authenticated hadith on the site, grouped by the situation it speaks to: anxiety, grief, debt, illness, forgiveness, travel and more.",
+  alternates: { canonical: "/browse" },
+  openGraph: {
+    title: "Browse every duʿā, verse and hadith by feeling",
+    description: "Grouped by the situation it speaks to: anxiety, grief, debt, illness, forgiveness and more.",
+    url: "/browse", type: "website", images: [OG_IMAGE] },
+};
 
 export default function Browse() {
   return (

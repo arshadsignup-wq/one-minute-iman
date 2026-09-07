@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { entries, getEntry } from "@/lib/entries";
+import type { Metadata } from "next";
+import { entries, getEntry, type Entry } from "@/lib/entries";
+import { SITE_URL, clampDescription, OG_IMAGE } from "@/lib/site";
 import { sitById } from "@/lib/search";
 import Prose from "@/components/Prose";
 import { Grade } from "@/components/Cards";
@@ -9,12 +11,63 @@ export function generateStaticParams() {
   return entries.map((e) => ({ id: e.id }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const e = getEntry(id);
-  return e
-    ? { title: `${e.title} · One Minute Iman`, description: e.lede || e.trans.slice(0, 150) }
-    : { title: "Not found · One Minute Iman" };
+  if (!e) return { title: "Not found", robots: { index: false, follow: false } };
+
+  const src =
+    e.source.kind === "quran"
+      ? `Qur'an ${e.source.reference}`
+      : `${e.source.collection} ${e.source.number}`;
+  // lead with the meaning, then the reference and grading, which is what people scan for
+  const description = clampDescription(
+    [e.trans || e.lede, `${src}, graded ${e.source.grade}.`].filter(Boolean).join(" "),
+  );
+  const path = `/d/${e.id}`;
+
+  return {
+    title: e.title,
+    description,
+    alternates: { canonical: path },
+    openGraph: { title: e.title, description, url: path, type: "article", images: [OG_IMAGE] },
+    twitter: { card: "summary_large_image", title: e.title, description, images: [OG_IMAGE] },
+  };
+}
+
+/** Marks the page up as a quotation with its source, so the grading can surface. */
+function entrySchema(e: Entry) {
+  const src =
+    e.source.kind === "quran"
+      ? `Qur'an ${e.source.reference}`
+      : `${e.source.collection} ${e.source.number}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Quotation",
+    "@id": `${SITE_URL}/d/${e.id}#quote`,
+    name: e.title,
+    text: e.trans || e.arabic,
+    inLanguage: "en",
+    spokenByCharacter: e.source.kind === "hadith" ? "Prophet Muhammad" : undefined,
+    isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
+    citation: src,
+    url: `${SITE_URL}/d/${e.id}`,
+    ...(e.story || e.note
+      ? { description: clampDescription(e.story || e.note || "", 300) }
+      : {}),
+  };
+}
+
+function breadcrumb(e: Entry) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Browse", item: `${SITE_URL}/browse` },
+      { "@type": "ListItem", position: 3, name: e.title, item: `${SITE_URL}/d/${e.id}` },
+    ],
+  };
 }
 
 function Rule() {
@@ -43,7 +96,17 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
   const alreadyQuoted = /["“”']\s*$/.test(d.trans || "") || /^\s*["“”']/.test(d.trans || "");
   const isLibrary = d.tier === "library";
 
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(entrySchema(d)) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb(d)) }}
+      />
     <article className="mx-auto max-w-2xl px-6 pt-8 sm:pt-12">
       <Link
         href={sits[0] ? `/s/${sits[0]!.id}` : "/browse"}
@@ -194,5 +257,6 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
         </section>
       )}
     </article>
+    </>
   );
 }

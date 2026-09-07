@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import { clampDescription, OG_IMAGE } from "@/lib/site";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { collections, COLLECTION_ORDER } from "@/lib/hadith";
@@ -8,10 +10,23 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: { params: Promise<{ collection: string }> }) {
+}: { params: Promise<{ collection: string }> }): Promise<Metadata> {
   const { collection } = await params;
   const c = collections[collection];
-  return c ? { title: `${c.name} · One Minute Iman` } : { title: "Not found" };
+  if (!c) return { title: "Not found", robots: { index: false, follow: false } };
+
+  const title = `${c.name} · all books and narrations`;
+  const description = clampDescription(
+    `${c.name}, ${c.count.toLocaleString()} narrations across ${c.books.length} books. Read the Arabic with the authenticity grading shown on every hadith.`,
+  );
+  const path = `/hadith/${collection}`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: { title, description, url: path, type: "website", images: [OG_IMAGE] },
+  };
 }
 
 export default async function CollectionPage({

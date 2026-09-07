@@ -1,8 +1,19 @@
+import { OG_IMAGE } from "@/lib/site";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { surahs, AYAT_TOTAL } from "@/lib/quran";
 import QuranSearch from "@/components/QuranSearch";
 
-export const metadata = { title: "The Qur'an · One Minute Iman" };
+export const metadata: Metadata = {
+  title: "The Qurʾan · all 114 surahs with translation and tafsir",
+  description:
+    "Read all 114 surahs with the Arabic, three English translations, transliteration, recitation and Ibn Kathīr's tafsir on every one of the 6,236 verses.",
+  alternates: { canonical: "/quran" },
+  openGraph: {
+    title: "The Qurʾan · all 114 surahs with translation and tafsir",
+    description: "Arabic, three translations, transliteration, recitation and tafsir on all 6,236 verses.",
+    url: "/quran", type: "website", images: [OG_IMAGE] },
+};
 
 export default function QuranIndex() {
   return (
