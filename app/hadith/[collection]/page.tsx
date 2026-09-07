@@ -17,7 +17,7 @@ export async function generateMetadata({
 
   const title = `${c.name} · all books and narrations`;
   const description = clampDescription(
-    `${c.name}, ${c.count.toLocaleString()} narrations across ${c.books.length} books. Read the Arabic with the authenticity grading shown on every hadith.`,
+    `${c.name}: ${c.count.toLocaleString()} narrations across ${c.books.length} books, with the grading shown on each.`,
   );
   const path = `/hadith/${collection}`;
 

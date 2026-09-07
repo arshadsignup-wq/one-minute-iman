@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: url("/quran"), lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: url("/hadith"), lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: url("/authenticity"), lastModified: now, changeFrequency: "yearly", priority: 0.7 },
+    { url: url("/about"), lastModified: now, changeFrequency: "yearly", priority: 0.7 },
   ];
 
   // situation hubs are the pages that answer a searched feeling, so they rank highest

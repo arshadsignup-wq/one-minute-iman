@@ -6,7 +6,7 @@ import {
 } from "@/lib/hadith";
 
 export const metadata: Metadata = {
-  title: "Hadith collections · Bukhārī, Muslim and the Sunan",
+  title: "Hadith: Bukhārī, Muslim and the Sunan",
   description:
     "Browse the hadith collections book by book, with the Arabic and the authenticity grading shown on every narration.",
   alternates: { canonical: "/hadith" },

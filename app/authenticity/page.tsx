@@ -6,7 +6,7 @@ import { TOTAL, CURATED } from "@/lib/search";
 export const metadata: Metadata = {
   title: "How every entry is verified",
   description:
-    "The method: every Arabic span must match a primary source word for word, and every hadith must pass a grading rule before it reaches the page. Including what we refused.",
+    "Every Arabic span is matched to a primary source word for word and every hadith is grade-checked before it reaches the page.",
   alternates: { canonical: "/authenticity" },
   openGraph: {
     title: "How every entry on One Minute Iman is verified",

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Find a duʿā for how you feel · verified from Qurʾan and hadith",
+  title: "Duʿā for how you feel, verified from Qurʾan and hadith",
   description:
-    "Type how you feel and get the duʿā, Qurʾan verse or authentic hadith for that moment. Anxiety, grief, debt, illness, forgiveness. Every entry shows its source and grading.",
+    "Type how you feel and get the duʿā, verse or authentic hadith for that moment. Every one shows its source and authenticity grading.",
   alternates: { canonical: "/" },
 };
 

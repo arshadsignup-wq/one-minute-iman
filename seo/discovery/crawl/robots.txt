@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://www.oneminuteiman.xyz
+Sitemap: https://www.oneminuteiman.xyz/sitemap.xml

@@ -16,9 +16,9 @@ export async function generateMetadata({ params }: { params: Promise<{ surah: st
   const s = getSurah(Number(surah));
   if (!s) return { title: "Not found", robots: { index: false, follow: false } };
 
-  const title = `Surah ${s.name} (${s.translated}) · Arabic, translation and tafsir`;
+  const title = `Surah ${s.name}: translation and tafsir`;
   const description = clampDescription(
-    `Surah ${s.name}, chapter ${s.n} of the Qurʾan, ${s.count} verses revealed in ${s.revelation === "makkah" ? "Makkah" : "Madinah"}. Arabic with three English translations, transliteration, recitation and Ibn Kathīr's tafsir.`,
+    `Surah ${s.name}, chapter ${s.n}, ${s.count} verses. Arabic with three translations, transliteration, recitation and Ibn Kathīr's tafsir.`,
   );
   const path = `/quran/${s.n}`;
 

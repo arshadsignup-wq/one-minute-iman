@@ -83,6 +83,18 @@ const siteSchema = {
       "@id": `${SITE_URL}/#org`,
       name: SITE_NAME,
       url: SITE_URL,
+      logo: `${SITE_URL}/opengraph-image`,
+      description:
+        "Verified duʿās, Qurʾan verses and authenticated hadith, searchable by how you feel. Every Arabic text is matched word for word to a primary source and shows its authenticity grading.",
+      knowsAbout: ["Duʿā", "Qurʾan", "Hadith", "Islamic supplications", "Hadith authentication"],
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/about#page`,
+      url: `${SITE_URL}/about`,
+      name: "About One Minute Iman",
+      isPartOf: { "@id": `${SITE_URL}/#website` },
+      about: { "@id": `${SITE_URL}/#org` },
     },
   ],
 };
@@ -137,6 +149,10 @@ function Footer() {
           collection, and shows its grading.{" "}
           <Link href="/authenticity" className="text-[var(--sage)] underline underline-offset-4">
             Read the method
+          </Link>
+          {" or "}
+          <Link href="/about" className="text-[var(--sage)] underline underline-offset-4">
+            about this site
           </Link>
           . This site is a starting point for reflection, not a substitute for a
           qualified teacher.

@@ -22,7 +22,7 @@ export default async function OGImage() {
           Tell it how you feel.
         </div>
         <div style={{ fontSize: 31, color: "#4A4A42", marginTop: 30, maxWidth: 900, lineHeight: 1.4 }}>
-          A duʿā, verse or hadith for that moment — each one traced to its source
+          A duʿā, verse or hadith for that moment, each one traced to its source
           and shown with its authenticity grading.
         </div>
         <div style={{ display: "flex", marginTop: 46, gap: 18, alignItems: "center" }}>

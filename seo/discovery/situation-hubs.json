@@ -1,0 +1,604 @@
+[
+ {
+  "id": "sadness",
+  "title": "Duʿā for sadness · One Minute Iman",
+  "title_len": 34,
+  "meta": "116 duʿās, Qurʾan verses and authentic hadith for sadness. Grief, low spirits, a heaviness you can&#x27;t name. Every one shows its source and authenticity…",
+  "meta_len": 156,
+  "h1": [
+   "Sadness"
+  ],
+  "h2s": 1,
+  "words": 3576,
+  "internal_links": 130,
+  "ldjson": 4
+ },
+ {
+  "id": "anxiety",
+  "title": "Duʿā for anxiety and worry · One Minute Iman",
+  "title_len": 44,
+  "meta": "122 duʿās, Qurʾan verses and authentic hadith for anxiety and worry. Racing thoughts, dread, the mind that won&#x27;t settle. Every one shows its source and…",
+  "meta_len": 157,
+  "h1": [
+   "Anxiety &amp; worry"
+  ],
+  "h2s": 1,
+  "words": 3757,
+  "internal_links": 136,
+  "ldjson": 4
+ },
+ {
+  "id": "fear",
+  "title": "Duʿā for fear · One Minute Iman",
+  "title_len": 31,
+  "meta": "139 duʿās, Qurʾan verses and authentic hadith for fear. When you are frightened of something or someone. Every one shows its source and authenticity grading.",
+  "meta_len": 157,
+  "h1": [
+   "Fear"
+  ],
+  "h2s": 1,
+  "words": 4360,
+  "internal_links": 153,
+  "ldjson": 4
+ },
+ {
+  "id": "anger",
+  "title": "Duʿā for anger · One Minute Iman",
+  "title_len": 32,
+  "meta": "62 duʿās, Qurʾan verses and authentic hadith for anger. Rage, resentment, the urge to lash out. Every one shows its source and authenticity grading.",
+  "meta_len": 148,
+  "h1": [
+   "Anger"
+  ],
+  "h2s": 1,
+  "words": 1970,
+  "internal_links": 76,
+  "ldjson": 4
+ },
+ {
+  "id": "loneliness",
+  "title": "Duʿā for loneliness · One Minute Iman",
+  "title_len": 37,
+  "meta": "87 duʿās, Qurʾan verses and authentic hadith for loneliness. Feeling unseen, unaccompanied, far from everyone. Every one shows its source and authenticity…",
+  "meta_len": 155,
+  "h1": [
+   "Loneliness"
+  ],
+  "h2s": 1,
+  "words": 2732,
+  "internal_links": 101,
+  "ldjson": 4
+ },
+ {
+  "id": "despair",
+  "title": "Duʿā for hopelessness · One Minute Iman",
+  "title_len": 39,
+  "meta": "76 duʿās, Qurʾan verses and authentic hadith for hopelessness. When you cannot see a way forward at all. Every one shows its source and authenticity grading.",
+  "meta_len": 157,
+  "h1": [
+   "Hopelessness"
+  ],
+  "h2s": 0,
+  "words": 2596,
+  "internal_links": 90,
+  "ldjson": 4
+ },
+ {
+  "id": "overwhelm",
+  "title": "Duʿā for feeling overwhelmed · One Minute Iman",
+  "title_len": 46,
+  "meta": "66 duʿās, Qurʾan verses and authentic hadith for feeling overwhelmed. Carrying more than you think you can hold. Every one shows its source and authenticity…",
+  "meta_len": 157,
+  "h1": [
+   "Feeling overwhelmed"
+  ],
+  "h2s": 1,
+  "words": 2203,
+  "internal_links": 80,
+  "ldjson": 4
+ },
+ {
+  "id": "gratitude",
+  "title": "Duʿā for joy and gratitude · One Minute Iman",
+  "title_len": 44,
+  "meta": "210 duʿās, Qurʾan verses and authentic hadith for joy and gratitude. When something good has happened. Every one shows its source and authenticity grading.",
+  "meta_len": 155,
+  "h1": [
+   "Joy &amp; gratitude"
+  ],
+  "h2s": 1,
+  "words": 5926,
+  "internal_links": 224,
+  "ldjson": 4
+ },
+ {
+  "id": "envy",
+  "title": "Duʿā for envy and comparison · One Minute Iman",
+  "title_len": 46,
+  "meta": "44 duʿās, Qurʾan verses and authentic hadith for envy and comparison. When someone else has what you wanted. Every one shows its source and authenticity…",
+  "meta_len": 153,
+  "h1": [
+   "Envy &amp; comparison"
+  ],
+  "h2s": 1,
+  "words": 1425,
+  "internal_links": 58,
+  "ldjson": 4
+ },
+ {
+  "id": "shame",
+  "title": "Duʿā for shame and guilt · One Minute Iman",
+  "title_len": 42,
+  "meta": "103 duʿās, Qurʾan verses and authentic hadith for shame and guilt. When you cannot forgive yourself. Every one shows its source and authenticity grading.",
+  "meta_len": 153,
+  "h1": [
+   "Shame &amp; guilt"
+  ],
+  "h2s": 1,
+  "words": 3410,
+  "internal_links": 117,
+  "ldjson": 4
+ },
+ {
+  "id": "distress",
+  "title": "Duʿā for severe distress · One Minute Iman",
+  "title_len": 42,
+  "meta": "67 duʿās, Qurʾan verses and authentic hadith for severe distress. The moment when everything presses in at once. Every one shows its source and authenticity…",
+  "meta_len": 157,
+  "h1": [
+   "Severe distress"
+  ],
+  "h2s": 1,
+  "words": 2135,
+  "internal_links": 81,
+  "ldjson": 4
+ },
+ {
+  "id": "illness",
+  "title": "Duʿā for being ill · One Minute Iman",
+  "title_len": 36,
+  "meta": "113 duʿās, Qurʾan verses and authentic hadith for being ill. Sickness, pain, waiting on a diagnosis. Every one shows its source and authenticity grading.",
+  "meta_len": 153,
+  "h1": [
+   "Being ill"
+  ],
+  "h2s": 1,
+  "words": 3207,
+  "internal_links": 127,
+  "ldjson": 4
+ },
+ {
+  "id": "someone-ill",
+  "title": "Duʿā for someone you love is ill · One Minute Iman",
+  "title_len": 50,
+  "meta": "21 duʿās, Qurʾan verses and authentic hadith for someone you love is ill. Sitting beside the sick. Every one shows its source and authenticity grading.",
+  "meta_len": 151,
+  "h1": [
+   "Someone you love is ill"
+  ],
+  "h2s": 1,
+  "words": 642,
+  "internal_links": 35,
+  "ldjson": 4
+ },
+ {
+  "id": "death",
+  "title": "Duʿā for losing someone · One Minute Iman",
+  "title_len": 41,
+  "meta": "169 duʿās, Qurʾan verses and authentic hadith for losing someone. Death, funerals, and the days after. Every one shows its source and authenticity grading.",
+  "meta_len": 155,
+  "h1": [
+   "Losing someone"
+  ],
+  "h2s": 1,
+  "words": 4752,
+  "internal_links": 183,
+  "ldjson": 4
+ },
+ {
+  "id": "debt",
+  "title": "Duʿā for debt · One Minute Iman",
+  "title_len": 31,
+  "meta": "38 duʿās, Qurʾan verses and authentic hadith for debt. When you owe more than you can pay. Every one shows its source and authenticity grading.",
+  "meta_len": 143,
+  "h1": [
+   "Debt"
+  ],
+  "h2s": 1,
+  "words": 1148,
+  "internal_links": 52,
+  "ldjson": 4
+ },
+ {
+  "id": "poverty",
+  "title": "Duʿā for money and provision · One Minute Iman",
+  "title_len": 46,
+  "meta": "156 duʿās, Qurʾan verses and authentic hadith for money and provision. When income is tight or uncertain. Every one shows its source and authenticity grading.",
+  "meta_len": 158,
+  "h1": [
+   "Money &amp; provision"
+  ],
+  "h2s": 1,
+  "words": 4429,
+  "internal_links": 170,
+  "ldjson": 4
+ },
+ {
+  "id": "oppression",
+  "title": "Duʿā for being wronged · One Minute Iman",
+  "title_len": 40,
+  "meta": "74 duʿās, Qurʾan verses and authentic hadith for being wronged. Injustice, betrayal, harm from others. Every one shows its source and authenticity grading.",
+  "meta_len": 155,
+  "h1": [
+   "Being wronged"
+  ],
+  "h2s": 1,
+  "words": 2259,
+  "internal_links": 88,
+  "ldjson": 4
+ },
+ {
+  "id": "enemy",
+  "title": "Duʿā for someone means you harm · One Minute Iman",
+  "title_len": 49,
+  "meta": "62 duʿās, Qurʾan verses and authentic hadith for someone means you harm. Facing hostility or an enemy. Every one shows its source and authenticity grading.",
+  "meta_len": 155,
+  "h1": [
+   "Someone means you harm"
+  ],
+  "h2s": 1,
+  "words": 2066,
+  "internal_links": 76,
+  "ldjson": 4
+ },
+ {
+  "id": "failure",
+  "title": "Duʿā for when it did not work out · One Minute Iman",
+  "title_len": 51,
+  "meta": "27 duʿās, Qurʾan verses and authentic hadith for when it did not work out. Rejection, failure, plans that collapsed. Every one shows its source and…",
+  "meta_len": 148,
+  "h1": [
+   "When it did not work out"
+  ],
+  "h2s": 1,
+  "words": 955,
+  "internal_links": 41,
+  "ldjson": 4
+ },
+ {
+  "id": "marriage",
+  "title": "Duʿā for marriage and spouse · One Minute Iman",
+  "title_len": 46,
+  "meta": "179 duʿās, Qurʾan verses and authentic hadith for marriage and spouse. Looking for, or living with, a partner. Every one shows its source and authenticity…",
+  "meta_len": 155,
+  "h1": [
+   "Marriage &amp; spouse"
+  ],
+  "h2s": 1,
+  "words": 4387,
+  "internal_links": 193,
+  "ldjson": 4
+ },
+ {
+  "id": "children",
+  "title": "Duʿā for children · One Minute Iman",
+  "title_len": 35,
+  "meta": "187 duʿās, Qurʾan verses and authentic hadith for children. Hoping for them, raising them, worrying about them. Every one shows its source and authenticity…",
+  "meta_len": 156,
+  "h1": [
+   "Children"
+  ],
+  "h2s": 1,
+  "words": 4860,
+  "internal_links": 201,
+  "ldjson": 4
+ },
+ {
+  "id": "parents",
+  "title": "Duʿā for parents and family · One Minute Iman",
+  "title_len": 45,
+  "meta": "139 duʿās, Qurʾan verses and authentic hadith for parents and family. Mothers, fathers, and those who raised you. Every one shows its source and authenticity…",
+  "meta_len": 158,
+  "h1": [
+   "Parents &amp; family"
+  ],
+  "h2s": 1,
+  "words": 4028,
+  "internal_links": 153,
+  "ldjson": 4
+ },
+ {
+  "id": "reconcile",
+  "title": "Duʿā for conflict with someone · One Minute Iman",
+  "title_len": 48,
+  "meta": "85 duʿās, Qurʾan verses and authentic hadith for conflict with someone. Broken relationships and hard conversations. Every one shows its source and…",
+  "meta_len": 148,
+  "h1": [
+   "Conflict with someone"
+  ],
+  "h2s": 1,
+  "words": 2658,
+  "internal_links": 99,
+  "ldjson": 4
+ },
+ {
+  "id": "knowledge",
+  "title": "Duʿā for study and exams · One Minute Iman",
+  "title_len": 42,
+  "meta": "91 duʿās, Qurʾan verses and authentic hadith for study and exams. Learning, memorising, being tested. Every one shows its source and authenticity grading.",
+  "meta_len": 154,
+  "h1": [
+   "Study &amp; exams"
+  ],
+  "h2s": 1,
+  "words": 2745,
+  "internal_links": 105,
+  "ldjson": 4
+ },
+ {
+  "id": "work",
+  "title": "Duʿā for work · One Minute Iman",
+  "title_len": 31,
+  "meta": "76 duʿās, Qurʾan verses and authentic hadith for work. Jobs, colleagues, and the daily grind. Every one shows its source and authenticity grading.",
+  "meta_len": 146,
+  "h1": [
+   "Work"
+  ],
+  "h2s": 1,
+  "words": 2529,
+  "internal_links": 90,
+  "ldjson": 4
+ },
+ {
+  "id": "decision",
+  "title": "Duʿā for a decision to make · One Minute Iman",
+  "title_len": 45,
+  "meta": "47 duʿās, Qurʾan verses and authentic hadith for a decision to make. When you genuinely do not know which way. Every one shows its source and authenticity…",
+  "meta_len": 155,
+  "h1": [
+   "A decision to make"
+  ],
+  "h2s": 1,
+  "words": 1588,
+  "internal_links": 61,
+  "ldjson": 4
+ },
+ {
+  "id": "travel",
+  "title": "Duʿā for travelling · One Minute Iman",
+  "title_len": 37,
+  "meta": "67 duʿās, Qurʾan verses and authentic hadith for travelling. Setting out, and coming home. Every one shows its source and authenticity grading.",
+  "meta_len": 143,
+  "h1": [
+   "Travelling"
+  ],
+  "h2s": 1,
+  "words": 2091,
+  "internal_links": 81,
+  "ldjson": 4
+ },
+ {
+  "id": "forgiveness",
+  "title": "Duʿā for seeking forgiveness · One Minute Iman",
+  "title_len": 46,
+  "meta": "271 duʿās, Qurʾan verses and authentic hadith for seeking forgiveness. Turning back after sin. Every one shows its source and authenticity grading.",
+  "meta_len": 147,
+  "h1": [
+   "Seeking forgiveness"
+  ],
+  "h2s": 1,
+  "words": 6828,
+  "internal_links": 285,
+  "ldjson": 4
+ },
+ {
+  "id": "weak-iman",
+  "title": "Duʿā for faith feeling weak · One Minute Iman",
+  "title_len": 45,
+  "meta": "140 duʿās, Qurʾan verses and authentic hadith for faith feeling weak. Distance, dryness, doubt. Every one shows its source and authenticity grading.",
+  "meta_len": 148,
+  "h1": [
+   "Faith feeling weak"
+  ],
+  "h2s": 1,
+  "words": 3907,
+  "internal_links": 154,
+  "ldjson": 4
+ },
+ {
+  "id": "waswas",
+  "title": "Duʿā for intrusive thoughts · One Minute Iman",
+  "title_len": 45,
+  "meta": "66 duʿās, Qurʾan verses and authentic hadith for intrusive thoughts. Whispers you would never choose to think. Every one shows its source and authenticity…",
+  "meta_len": 155,
+  "h1": [
+   "Intrusive thoughts"
+  ],
+  "h2s": 1,
+  "words": 1681,
+  "internal_links": 80,
+  "ldjson": 4
+ },
+ {
+  "id": "steadfastness",
+  "title": "Duʿā for staying firm · One Minute Iman",
+  "title_len": 39,
+  "meta": "103 duʿās, Qurʾan verses and authentic hadith for staying firm. Patience, endurance, keeping going. Every one shows its source and authenticity grading.",
+  "meta_len": 152,
+  "h1": [
+   "Staying firm"
+  ],
+  "h2s": 1,
+  "words": 3259,
+  "internal_links": 117,
+  "ldjson": 4
+ },
+ {
+  "id": "death-remembrance",
+  "title": "Duʿā for thinking about death · One Minute Iman",
+  "title_len": 47,
+  "meta": "506 duʿās, Qurʾan verses and authentic hadith for thinking about death. The hereafter, the grave, what comes after. Every one shows its source and…",
+  "meta_len": 147,
+  "h1": [
+   "Thinking about death"
+  ],
+  "h2s": 1,
+  "words": 12518,
+  "internal_links": 520,
+  "ldjson": 4
+ },
+ {
+  "id": "refuge",
+  "title": "Duʿā for seeking refuge · One Minute Iman",
+  "title_len": 41,
+  "meta": "241 duʿās, Qurʾan verses and authentic hadith for seeking refuge. Asking to be shielded from harm. Every one shows its source and authenticity grading.",
+  "meta_len": 151,
+  "h1": [
+   "Seeking refuge"
+  ],
+  "h2s": 1,
+  "words": 6492,
+  "internal_links": 255,
+  "ldjson": 4
+ },
+ {
+  "id": "evil-eye",
+  "title": "Duʿā for evil eye and envy of others · One Minute Iman",
+  "title_len": 54,
+  "meta": "44 duʿās, Qurʾan verses and authentic hadith for evil eye and envy of others. Nazar, ḥasad, and the harm of ill will. Every one shows its source and…",
+  "meta_len": 149,
+  "h1": [
+   "Evil eye &amp; envy of others"
+  ],
+  "h2s": 1,
+  "words": 1391,
+  "internal_links": 58,
+  "ldjson": 4
+ },
+ {
+  "id": "home",
+  "title": "Duʿā for home and household · One Minute Iman",
+  "title_len": 45,
+  "meta": "42 duʿās, Qurʾan verses and authentic hadith for home and household. Entering, leaving, and being kept in it. Every one shows its source and authenticity…",
+  "meta_len": 154,
+  "h1": [
+   "Home &amp; household"
+  ],
+  "h2s": 1,
+  "words": 1271,
+  "internal_links": 56,
+  "ldjson": 4
+ },
+ {
+  "id": "morning-evening",
+  "title": "Duʿā for morning and evening · One Minute Iman",
+  "title_len": 46,
+  "meta": "135 duʿās, Qurʾan verses and authentic hadith for morning and evening. How to begin and end a day. Every one shows its source and authenticity grading.",
+  "meta_len": 151,
+  "h1": [
+   "Morning &amp; evening"
+  ],
+  "h2s": 1,
+  "words": 3937,
+  "internal_links": 149,
+  "ldjson": 4
+ },
+ {
+  "id": "sleep",
+  "title": "Duʿā for sleep and the night · One Minute Iman",
+  "title_len": 46,
+  "meta": "177 duʿās, Qurʾan verses and authentic hadith for sleep and the night. Lying down, waking, and bad dreams. Every one shows its source and authenticity…",
+  "meta_len": 151,
+  "h1": [
+   "Sleep &amp; the night"
+  ],
+  "h2s": 1,
+  "words": 4734,
+  "internal_links": 191,
+  "ldjson": 4
+ },
+ {
+  "id": "eating",
+  "title": "Duʿā for food and drink · One Minute Iman",
+  "title_len": 41,
+  "meta": "104 duʿās, Qurʾan verses and authentic hadith for food and drink. Before and after eating. Every one shows its source and authenticity grading.",
+  "meta_len": 143,
+  "h1": [
+   "Food &amp; drink"
+  ],
+  "h2s": 1,
+  "words": 2812,
+  "internal_links": 118,
+  "ldjson": 4
+ },
+ {
+  "id": "prayer",
+  "title": "Duʿā for in prayer · One Minute Iman",
+  "title_len": 36,
+  "meta": "270 duʿās, Qurʾan verses and authentic hadith for in prayer. What is said within the ṣalāh. Every one shows its source and authenticity grading.",
+  "meta_len": 144,
+  "h1": [
+   "In prayer"
+  ],
+  "h2s": 1,
+  "words": 7219,
+  "internal_links": 284,
+  "ldjson": 4
+ },
+ {
+  "id": "mosque",
+  "title": "Duʿā for the masjid · One Minute Iman",
+  "title_len": 37,
+  "meta": "58 duʿās, Qurʾan verses and authentic hadith for the masjid. Going to and being in the house of Allah. Every one shows its source and authenticity grading.",
+  "meta_len": 155,
+  "h1": [
+   "The masjid"
+  ],
+  "h2s": 1,
+  "words": 1791,
+  "internal_links": 72,
+  "ldjson": 4
+ },
+ {
+  "id": "rain-weather",
+  "title": "Duʿā for rain, wind and sky · One Minute Iman",
+  "title_len": 45,
+  "meta": "53 duʿās, Qurʾan verses and authentic hadith for rain, wind and sky. When the weather turns. Every one shows its source and authenticity grading.",
+  "meta_len": 145,
+  "h1": [
+   "Rain, wind &amp; sky"
+  ],
+  "h2s": 1,
+  "words": 1437,
+  "internal_links": 67,
+  "ldjson": 4
+ },
+ {
+  "id": "dhikr",
+  "title": "Duʿā for remembrance and praise · One Minute Iman",
+  "title_len": 49,
+  "meta": "145 duʿās, Qurʾan verses and authentic hadith for remembrance and praise. Words of praise, glorification and testifying to Allah. Every one shows its source…",
+  "meta_len": 157,
+  "h1": [
+   "Remembrance &amp; praise"
+  ],
+  "h2s": 1,
+  "words": 3749,
+  "internal_links": 159,
+  "ldjson": 4
+ },
+ {
+  "id": "misc",
+  "title": "Duʿā for further supplications · One Minute Iman",
+  "title_len": 48,
+  "meta": "825 duʿās, Qurʾan verses and authentic hadith for further supplications. Verified supplications that don&#x27;t sit under a single heading. Every one shows its…",
+  "meta_len": 160,
+  "h1": [
+   "Further supplications"
+  ],
+  "h2s": 1,
+  "words": 18008,
+  "internal_links": 839,
+  "ldjson": 4
+ }
+]

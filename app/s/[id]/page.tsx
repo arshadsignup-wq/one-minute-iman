@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 import { situations, sitById, entriesFor, categories } from "@/lib/search";
 import { SITE_URL, clampDescription, OG_IMAGE } from "@/lib/site";
 import { EntryCard, EntryRow } from "@/components/Cards";
+import hubCopy from "@/data/hub-copy.json";
+
+type HubCopy = { answer: string; faq: string[][] };
 
 export function generateStaticParams() {
   return situations.map((s) => ({ id: s.id }));
@@ -19,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   // people search "dua for anxiety", not "anxiety & worry"
   const title = `Duʿā for ${label}`;
   const description = clampDescription(
-    `${n} duʿās, Qurʾan verses and authentic hadith for ${label}. ${s.blurb}. Every one shows its source and authenticity grading.`,
+    `${n} duʿās, verses and authentic hadith for ${label}, each with its source and authenticity grading shown.`,
   );
   const path = `/s/${s.id}`;
 
@@ -47,6 +50,7 @@ export default async function SituationPage({
 
 
   const label = sit.label.replace(/\s*&\s*/g, " and ").toLowerCase();
+  const copy = (hubCopy as unknown as Record<string, HubCopy | undefined>)[sit.id];
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -68,6 +72,18 @@ export default async function SituationPage({
           url: `${SITE_URL}/d/${r.id}`,
         })),
       },
+      // FAQPage is only emitted when the questions are visibly on the page
+      ...(copy && copy.faq.length
+        ? [{
+            "@type": "FAQPage",
+            "@id": `${SITE_URL}/s/${sit.id}#faq`,
+            mainEntity: copy.faq.map(([q, a]) => ({
+              "@type": "Question",
+              name: q,
+              acceptedAnswer: { "@type": "Answer", text: a },
+            })),
+          }]
+        : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -95,7 +111,7 @@ export default async function SituationPage({
 
       <header className="mt-6 border-b border-[var(--line)] pb-8">
         <h1 className="display text-[40px] leading-tight text-[var(--ink)] sm:text-[50px]">
-          {sit.label}
+          {`Du\u02BFā for ${label}`}
         </h1>
         <p className="mt-3 max-w-xl text-[16px] leading-relaxed text-[var(--ink-soft)]">
           {sit.blurb}
@@ -105,6 +121,19 @@ export default async function SituationPage({
           {featured.length > 0 && ` · ${featured.length} written out in full`}
         </p>
       </header>
+
+      {/* The direct answer. First thing a reader or an answer engine sees, and the
+          only prose on the page that names a specific supplication and its grading. */}
+      {copy && (
+        <section className="mt-8 border-l-2 border-[var(--gold)] pl-5">
+          <h2 className="text-[11px] tracking-[0.16em] text-[var(--ink-faint)] uppercase">
+            The short answer
+          </h2>
+          <p className="mt-3 max-w-2xl text-[17px] leading-[1.7] text-[var(--ink)]">
+            {copy.answer}
+          </p>
+        </section>
+      )}
 
       {featured.length > 0 && (
         <section className="mt-10">
@@ -130,6 +159,22 @@ export default async function SituationPage({
               <EntryRow key={r.id} row={r} />
             ))}
           </div>
+        </section>
+      )}
+
+      {copy && copy.faq.length > 0 && (
+        <section className="mt-16 border-t border-[var(--line)] pt-10">
+          <h2 className="display text-[30px] leading-tight text-[var(--ink)]">
+            Common questions
+          </h2>
+          <dl className="mt-6 max-w-2xl space-y-7">
+            {copy.faq.map(([q, a]) => (
+              <div key={q}>
+                <dt className="text-[17px] leading-snug text-[var(--ink)]">{q}</dt>
+                <dd className="mt-2 text-[15.5px] leading-[1.75] text-[var(--ink-soft)]">{a}</dd>
+              </div>
+            ))}
+          </dl>
         </section>
       )}
     </div>

@@ -5,7 +5,7 @@ import { surahs, AYAT_TOTAL } from "@/lib/quran";
 import QuranSearch from "@/components/QuranSearch";
 
 export const metadata: Metadata = {
-  title: "The Qurʾan · all 114 surahs with translation and tafsir",
+  title: "The Qurʾan: translation, tafsir and audio",
   description:
     "Read all 114 surahs with the Arabic, three English translations, transliteration, recitation and Ibn Kathīr's tafsir on every one of the 6,236 verses.",
   alternates: { canonical: "/quran" },

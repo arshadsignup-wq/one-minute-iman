@@ -23,7 +23,7 @@ export default function Tafsir({
             <summary className="cursor-pointer list-none text-[14px] text-[var(--green)] transition-colors hover:text-[var(--sage)]">
               {b.from === b.to
                 ? `Āyah ${surah}:${b.from}`
-                : `Āyāt ${surah}:${b.from}–${b.to}`}
+                : `Āyāt ${surah}:${b.from} to ${b.to}`}
             </summary>
             <div className="mt-4 space-y-3 border-t border-[var(--line-soft)] pt-4">
               {b.text.split("\n\n").map((para, i) => (

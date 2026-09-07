@@ -1,0 +1,1249 @@
+{
+ "sadness": {
+  "label": "Sadness",
+  "blurb": "Grief, low spirits, a heaviness you can't name",
+  "n": 116,
+  "ncur": 84,
+  "top": [
+   {
+    "id": "anxiety-grief",
+    "title": "When worry and sadness sit on your chest",
+    "trans": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserline",
+    "src": "Ṣaḥīḥ al-Bukhārī 6369",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "loss-death",
+    "title": "When you have lost someone",
+    "trans": "Who, when disaster strikes them, say, \"Indeed we belong to Allāh, and indeed to Him we will return.\" Those are",
+    "src": "Qur'an 2:156-157",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "steadfast-heart",
+    "title": "When your faith feels unsteady",
+    "trans": "O Turner of hearts, make my heart firm upon Your religion.",
+    "src": "Jāmiʿ at-Tirmidhī 3522",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "anxiety": {
+  "label": "Anxiety & worry",
+  "blurb": "Racing thoughts, dread, the mind that won't settle",
+  "n": 122,
+  "ncur": 88,
+  "top": [
+   {
+    "id": "distress-karb",
+    "title": "When distress presses on you",
+    "trans": "There is no god but Allah, the Magnificent, the Forbearing. There is no god but Allah, Lord of the heavens and",
+    "src": "Ṣaḥīḥ al-Bukhārī 6345",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "anxiety-grief",
+    "title": "When worry and sadness sit on your chest",
+    "trans": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserline",
+    "src": "Ṣaḥīḥ al-Bukhārī 6369",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "knowledge",
+    "title": "When you are studying or sitting an exam",
+    "trans": "So high [above all] is Allāh, the Sovereign,1 the Truth.2 And, [O Muḥammad], do not hasten with [recitation of",
+    "src": "Qur'an 20:114",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "fear": {
+  "label": "Fear",
+  "blurb": "When you are frightened of something or someone",
+  "n": 139,
+  "ncur": 103,
+  "top": [
+   {
+    "id": "hasbunallah",
+    "title": "When you have done all you can",
+    "trans": "Those to whom people [i.e., hypocrites] said, \"Indeed, the people have gathered against you, so fear them.\" Bu",
+    "src": "Qur'an 3:173",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "fear-of-people",
+    "title": "When you are afraid of someone",
+    "trans": "O Allah, we place You before them, and we seek refuge in You from their evil.",
+    "src": "Sunan Abī Dāwūd 1537",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "nightmare",
+    "title": "When a dream frightens you",
+    "trans": "If one of you sees a dream he dislikes, let him spit lightly to his left three times, seek refuge in Allah fro",
+    "src": "Ṣaḥīḥ Muslim 5904",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "anger": {
+  "label": "Anger",
+  "blurb": "Rage, resentment, the urge to lash out",
+  "n": 62,
+  "ncur": 49,
+  "top": [
+   {
+    "id": "anger",
+    "title": "When anger rises in you",
+    "trans": "I seek refuge in Allah from Satan.",
+    "src": "Ṣaḥīḥ al-Bukhārī 3282",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "envy-nas",
+    "title": "When you cannot shake a bad feeling",
+    "trans": "Say, \"I seek refuge in the Lord of mankind, The Sovereign of mankind, The God of mankind, From the evil of the",
+    "src": "Qur'an 114:1-6",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "wrongdoers-not-unseen",
+    "title": "When the one who wronged you walked away from it",
+    "trans": "And never think that Allāh is unaware of what the wrongdoers do. He only delays them [i.e., their account] for",
+    "src": "Qur'an 14:42",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "loneliness": {
+  "label": "Loneliness",
+  "blurb": "Feeling unseen, unaccompanied, far from everyone",
+  "n": 87,
+  "ncur": 74,
+  "top": [
+   {
+    "id": "hasbunallah",
+    "title": "When you have done all you can",
+    "trans": "Those to whom people [i.e., hypocrites] said, \"Indeed, the people have gathered against you, so fear them.\" Bu",
+    "src": "Qur'an 3:173",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "spouse-family",
+    "title": "When you long for a family",
+    "trans": "And those who say, \"Our Lord, grant us from among our wives and offspring comfort to our eyes1 and make us a l",
+    "src": "Qur'an 25:74",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "musa-need",
+    "title": "When you have nothing and no one",
+    "trans": "So he watered [their flocks] for them; then he went back to the shade and said, \"My Lord, indeed I am, for wha",
+    "src": "Qur'an 28:24",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "despair": {
+  "label": "Hopelessness",
+  "blurb": "When you cannot see a way forward at all",
+  "n": 76,
+  "ncur": 76,
+  "top": [
+   {
+    "id": "distress-karb",
+    "title": "When distress presses on you",
+    "trans": "There is no god but Allah, the Magnificent, the Forbearing. There is no god but Allah, Lord of the heavens and",
+    "src": "Ṣaḥīḥ al-Bukhārī 6345",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "dua-yunus",
+    "title": "When you feel trapped with no way out",
+    "trans": "There is no god but You. Glory be to You. Truly, I have been among the wrongdoers.",
+    "src": "Jāmiʿ at-Tirmidhī 3505",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "never-despair",
+    "title": "When you think you have gone too far",
+    "trans": "Say, \"O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allā",
+    "src": "Qur'an 39:53",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "overwhelm": {
+  "label": "Feeling overwhelmed",
+  "blurb": "Carrying more than you think you can hold",
+  "n": 66,
+  "ncur": 65,
+  "top": [
+   {
+    "id": "distress-karb",
+    "title": "When distress presses on you",
+    "trans": "There is no god but Allah, the Magnificent, the Forbearing. There is no god but Allah, Lord of the heavens and",
+    "src": "Ṣaḥīḥ al-Bukhārī 6345",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "dua-yunus",
+    "title": "When you feel trapped with no way out",
+    "trans": "There is no god but You. Glory be to You. Truly, I have been among the wrongdoers.",
+    "src": "Jāmiʿ at-Tirmidhī 3505",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "ease-after-hardship",
+    "title": "When you cannot see the end of it",
+    "trans": "For indeed, with hardship [will be] ease [i.e., relief]. Indeed, with hardship [will be] ease.",
+    "src": "Qur'an 94:5-6",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "gratitude": {
+  "label": "Joy & gratitude",
+  "blurb": "When something good has happened",
+  "n": 210,
+  "ncur": 132,
+  "top": [
+   {
+    "id": "ease-after-hardship",
+    "title": "When you cannot see the end of it",
+    "trans": "For indeed, with hardship [will be] ease [i.e., relief]. Indeed, with hardship [will be] ease.",
+    "src": "Qur'an 94:5-6",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "gratitude",
+    "title": "When something good happens",
+    "trans": "And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if ",
+    "src": "Qur'an 14:7",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "ya-hayyu",
+    "title": "When something is wearing you down",
+    "trans": "O Living, O Sustainer, by Your mercy I seek relief.",
+    "src": "Jāmiʿ at-Tirmidhī 3524",
+    "grade": "Ḥasan"
+   }
+  ]
+ },
+ "envy": {
+  "label": "Envy & comparison",
+  "blurb": "When someone else has what you wanted",
+  "n": 44,
+  "ncur": 38,
+  "top": [
+   {
+    "id": "evil-eye-falaq",
+    "title": "When you feel someone's ill will",
+    "trans": "Say, \"I seek refuge in the Lord of daybreak From the evil of that which He created And from the evil of darkne",
+    "src": "Qur'an 113:1-5",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "envy-nas",
+    "title": "When you cannot shake a bad feeling",
+    "trans": "Say, \"I seek refuge in the Lord of mankind, The Sovereign of mankind, The God of mankind, From the evil of the",
+    "src": "Qur'an 114:1-6",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "huda-tuqa",
+    "title": "The four things worth asking for",
+    "trans": "O Allah, I ask You for guidance, God-consciousness, restraint and contentment.",
+    "src": "Ṣaḥīḥ Muslim 6904",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "shame": {
+  "label": "Shame & guilt",
+  "blurb": "When you cannot forgive yourself",
+  "n": 103,
+  "ncur": 96,
+  "top": [
+   {
+    "id": "dua-yunus",
+    "title": "When you feel trapped with no way out",
+    "trans": "There is no god but You. Glory be to You. Truly, I have been among the wrongdoers.",
+    "src": "Jāmiʿ at-Tirmidhī 3505",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "sayyidul-istighfar",
+    "title": "When you carry guilt",
+    "trans": "O Allah, You are my Lord. There is no god but You. You created me and I am Your servant, and I hold to Your co",
+    "src": "Ṣaḥīḥ al-Bukhārī 6306",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "never-despair",
+    "title": "When you think you have gone too far",
+    "trans": "Say, \"O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allā",
+    "src": "Qur'an 39:53",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "distress": {
+  "label": "Severe distress",
+  "blurb": "The moment when everything presses in at once",
+  "n": 67,
+  "ncur": 52,
+  "top": [
+   {
+    "id": "distress-karb",
+    "title": "When distress presses on you",
+    "trans": "There is no god but Allah, the Magnificent, the Forbearing. There is no god but Allah, Lord of the heavens and",
+    "src": "Ṣaḥīḥ al-Bukhārī 6345",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "dua-yunus",
+    "title": "When you feel trapped with no way out",
+    "trans": "There is no god but You. Glory be to You. Truly, I have been among the wrongdoers.",
+    "src": "Jāmiʿ at-Tirmidhī 3505",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "never-give-up-hope",
+    "title": "When you have almost given up",
+    "trans": "O my sons, go and find out about Joseph and his brother and despair not of relief from Allāh. Indeed, no one d",
+    "src": "Qur'an 12:87",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "illness": {
+  "label": "Being ill",
+  "blurb": "Sickness, pain, waiting on a diagnosis",
+  "n": 113,
+  "ncur": 63,
+  "top": [
+   {
+    "id": "own-pain",
+    "title": "When your body hurts",
+    "trans": "Place your hand where the pain is. Say 'In the name of Allah' three times, then seven times: 'I seek refuge in",
+    "src": "Ṣaḥīḥ Muslim 5737",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "visiting-sick",
+    "title": "When someone you love is ill",
+    "trans": "I ask Allah the Magnificent, Lord of the Magnificent Throne, to cure you.",
+    "src": "Jāmiʿ at-Tirmidhī 2083",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "visiting-sick-2",
+    "title": "When you sit with someone who is ill",
+    "trans": "No harm, it is a cleansing, if Allah wills.",
+    "src": "Ṣaḥīḥ al-Bukhārī 3616",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "someone-ill": {
+  "label": "Someone you love is ill",
+  "blurb": "Sitting beside the sick",
+  "n": 21,
+  "ncur": 11,
+  "top": [
+   {
+    "id": "visiting-sick",
+    "title": "When someone you love is ill",
+    "trans": "I ask Allah the Magnificent, Lord of the Magnificent Throne, to cure you.",
+    "src": "Jāmiʿ at-Tirmidhī 2083",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "visiting-sick-2",
+    "title": "When you sit with someone who is ill",
+    "trans": "No harm, it is a cleansing, if Allah wills.",
+    "src": "Ṣaḥīḥ al-Bukhārī 3616",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "healing",
+    "title": "Asking for someone to be healed",
+    "trans": "O Allah, Lord of mankind, remove the harm. Cure, for You are the Curer. There is no cure but Yours, a cure tha",
+    "src": "Ṣaḥīḥ al-Bukhārī 5743",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "death": {
+  "label": "Losing someone",
+  "blurb": "Death, funerals, and the days after",
+  "n": 169,
+  "ncur": 90,
+  "top": [
+   {
+    "id": "loss-death",
+    "title": "When you have lost someone",
+    "trans": "Who, when disaster strikes them, say, \"Indeed we belong to Allāh, and indeed to Him we will return.\" Those are",
+    "src": "Qur'an 2:156-157",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "qadar",
+    "title": "When something you did not want happened",
+    "trans": "It is the decree of Allah, and He does what He wills.",
+    "src": "Ṣaḥīḥ Muslim 6774",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "graves",
+    "title": "Standing at a grave",
+    "trans": "Peace be upon you, people of these dwellings, believers and Muslims. We will, if Allah wills, be joining you.",
+    "src": "Sunan an-Nasā'ī 2040",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "debt": {
+  "label": "Debt",
+  "blurb": "When you owe more than you can pay",
+  "n": 38,
+  "ncur": 25,
+  "top": [
+   {
+    "id": "debt",
+    "title": "When debt is crushing you",
+    "trans": "O Allah, suffice me with what You have made lawful against what You have forbidden, and make me independent by",
+    "src": "Jāmiʿ at-Tirmidhī 3563",
+    "grade": "Ḥasan"
+   },
+   {
+    "id": "way-out",
+    "title": "When there seems to be no way out",
+    "trans": "And when they have [nearly] fulfilled their term, either retain them according to acceptable terms or part wit",
+    "src": "Qur'an 65:2-3",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "seven-heavens",
+    "title": "At the end of the day, before sleep",
+    "trans": "O Allah, Lord of the seven heavens and Lord of the Magnificent Throne… settle our debt for us and free us from",
+    "src": "Ṣaḥīḥ Muslim 6891",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "poverty": {
+  "label": "Money & provision",
+  "blurb": "When income is tight or uncertain",
+  "n": 156,
+  "ncur": 94,
+  "top": [
+   {
+    "id": "debt",
+    "title": "When debt is crushing you",
+    "trans": "O Allah, suffice me with what You have made lawful against what You have forbidden, and make me independent by",
+    "src": "Jāmiʿ at-Tirmidhī 3563",
+    "grade": "Ḥasan"
+   },
+   {
+    "id": "provision",
+    "title": "When provision is tight",
+    "trans": "…Settle our debt for us, and free us from poverty.",
+    "src": "Ṣaḥīḥ Muslim 6889",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "after-eating",
+    "title": "When you have eaten",
+    "trans": "All praise is for Allah, who fed me this and provided it for me, with no power or strength from myself.",
+    "src": "Sunan Abī Dāwūd 4023",
+    "grade": "Ḥasan"
+   }
+  ]
+ },
+ "oppression": {
+  "label": "Being wronged",
+  "blurb": "Injustice, betrayal, harm from others",
+  "n": 74,
+  "ncur": 49,
+  "top": [
+   {
+    "id": "oppressed",
+    "title": "When someone has wronged you",
+    "trans": "Beware the supplication of the one who has been wronged, for there is no veil between it and Allah.",
+    "src": "Ṣaḥīḥ al-Bukhārī 2448",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "wrongdoers-not-unseen",
+    "title": "When the one who wronged you walked away from it",
+    "trans": "And never think that Allāh is unaware of what the wrongdoers do. He only delays them [i.e., their account] for",
+    "src": "Qur'an 14:42",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "forgive-my-people",
+    "title": "When you could ask for them to be punished",
+    "trans": "O Allah, forgive my people, for they do not know.",
+    "src": "Ṣaḥīḥ al-Bukhārī 3477",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "enemy": {
+  "label": "Someone means you harm",
+  "blurb": "Facing hostility or an enemy",
+  "n": 62,
+  "ncur": 57,
+  "top": [
+   {
+    "id": "hasbunallah",
+    "title": "When you have done all you can",
+    "trans": "Those to whom people [i.e., hypocrites] said, \"Indeed, the people have gathered against you, so fear them.\" Bu",
+    "src": "Qur'an 3:173",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "fear-of-people",
+    "title": "When you are afraid of someone",
+    "trans": "O Allah, we place You before them, and we seek refuge in You from their evil.",
+    "src": "Sunan Abī Dāwūd 1537",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "reconcile",
+    "title": "When there is bad feeling between people",
+    "trans": "O Allah, join our hearts, set right what is between us, and guide us to the paths of peace.",
+    "src": "Sunan Abī Dāwūd 969",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "failure": {
+  "label": "When it did not work out",
+  "blurb": "Rejection, failure, plans that collapsed",
+  "n": 27,
+  "ncur": 25,
+  "top": [
+   {
+    "id": "qadar",
+    "title": "When something you did not want happened",
+    "trans": "It is the decree of Allah, and He does what He wills.",
+    "src": "Ṣaḥīḥ Muslim 6774",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "hated-thing",
+    "title": "When you did not get what you wanted",
+    "trans": "Battle has been enjoined upon you while it is hateful to you. But perhaps you hate a thing and it is good for ",
+    "src": "Qur'an 2:216",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "only-what-is-written",
+    "title": "When you are frightened of what might happen",
+    "trans": "Say, \"Never will we be struck except by what Allāh has decreed for us; He is our protector.\" And upon Allāh le",
+    "src": "Qur'an 9:51",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "marriage": {
+  "label": "Marriage & spouse",
+  "blurb": "Looking for, or living with, a partner",
+  "n": 179,
+  "ncur": 51,
+  "top": [
+   {
+    "id": "istikhara",
+    "title": "When you cannot decide",
+    "trans": "O Allah, I seek Your guidance by Your knowledge, and Your power by Your might, and I ask You of Your immense g",
+    "src": "Ṣaḥīḥ al-Bukhārī 6382",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "spouse-family",
+    "title": "When you long for a family",
+    "trans": "And those who say, \"Our Lord, grant us from among our wives and offspring comfort to our eyes1 and make us a l",
+    "src": "Qur'an 25:74",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "wedding",
+    "title": "Congratulating someone on their marriage",
+    "trans": "May Allah bless you, and send blessings upon you, and join you both in good.",
+    "src": "Sunan Abī Dāwūd 2130",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "children": {
+  "label": "Children",
+  "blurb": "Hoping for them, raising them, worrying about them",
+  "n": 187,
+  "ncur": 72,
+  "top": [
+   {
+    "id": "children",
+    "title": "When you are hoping for a child",
+    "trans": "At that, Zechariah called upon his Lord, saying, \"My Lord, grant me from Yourself a good offspring. Indeed, Yo",
+    "src": "Qur'an 3:38",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "protect-children",
+    "title": "When you want to protect your children",
+    "trans": "I seek protection for you both in the perfect words of Allah, from every devil and every poisonous creature, a",
+    "src": "Sunan Abī Dāwūd 4737",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "righteous-children",
+    "title": "Asking for a righteous child",
+    "trans": "My Lord, grant me [a child] from among the righteous.\"",
+    "src": "Qur'an 37:100",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "parents": {
+  "label": "Parents & family",
+  "blurb": "Mothers, fathers, and those who raised you",
+  "n": 139,
+  "ncur": 91,
+  "top": [
+   {
+    "id": "visiting-sick",
+    "title": "When someone you love is ill",
+    "trans": "I ask Allah the Magnificent, Lord of the Magnificent Throne, to cure you.",
+    "src": "Jāmiʿ at-Tirmidhī 2083",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "spouse-family",
+    "title": "When you long for a family",
+    "trans": "And those who say, \"Our Lord, grant us from among our wives and offspring comfort to our eyes1 and make us a l",
+    "src": "Qur'an 25:74",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "household",
+    "title": "For everyone under your roof",
+    "trans": "My Lord, forgive me and my parents and whoever enters my house a believer and the believing men and believing ",
+    "src": "Qur'an 71:28",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "reconcile": {
+  "label": "Conflict with someone",
+  "blurb": "Broken relationships and hard conversations",
+  "n": 85,
+  "ncur": 62,
+  "top": [
+   {
+    "id": "speaking",
+    "title": "When you have to speak and you are afraid",
+    "trans": "[Moses] said, \"My Lord, expand [i.e., relax] for me my breast [with assurance] And ease for me my task And unt",
+    "src": "Qur'an 20:25-28",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "reconcile",
+    "title": "When there is bad feeling between people",
+    "trans": "O Allah, join our hearts, set right what is between us, and guide us to the paths of peace.",
+    "src": "Sunan Abī Dāwūd 969",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "anger-sit",
+    "title": "When anger has you on your feet",
+    "trans": "If one of you becomes angry while standing, let him sit down. If the anger leaves him, well and good; otherwis",
+    "src": "Sunan Abī Dāwūd 4782",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "knowledge": {
+  "label": "Study & exams",
+  "blurb": "Learning, memorising, being tested",
+  "n": 91,
+  "ncur": 61,
+  "top": [
+   {
+    "id": "knowledge",
+    "title": "When you are studying or sitting an exam",
+    "trans": "So high [above all] is Allāh, the Sovereign,1 the Truth.2 And, [O Muḥammad], do not hasten with [recitation of",
+    "src": "Qur'an 20:114",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "speaking",
+    "title": "When you have to speak and you are afraid",
+    "trans": "[Moses] said, \"My Lord, expand [i.e., relax] for me my breast [with assurance] And ease for me my task And unt",
+    "src": "Qur'an 20:25-28",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "ayyub",
+    "title": "When you have been unwell a long time",
+    "trans": "And [mention] Job, when he called to his Lord, \"Indeed, adversity has touched me, and You are the most mercifu",
+    "src": "Qur'an 21:83",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "work": {
+  "label": "Work",
+  "blurb": "Jobs, colleagues, and the daily grind",
+  "n": 76,
+  "ncur": 74,
+  "top": [
+   {
+    "id": "provision",
+    "title": "When provision is tight",
+    "trans": "…Settle our debt for us, and free us from poverty.",
+    "src": "Ṣaḥīḥ Muslim 6889",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "knowledge",
+    "title": "When you are studying or sitting an exam",
+    "trans": "So high [above all] is Allāh, the Sovereign,1 the Truth.2 And, [O Muḥammad], do not hasten with [recitation of",
+    "src": "Qur'an 20:114",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "speaking",
+    "title": "When you have to speak and you are afraid",
+    "trans": "[Moses] said, \"My Lord, expand [i.e., relax] for me my breast [with assurance] And ease for me my task And unt",
+    "src": "Qur'an 20:25-28",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "decision": {
+  "label": "A decision to make",
+  "blurb": "When you genuinely do not know which way",
+  "n": 47,
+  "ncur": 42,
+  "top": [
+   {
+    "id": "istikhara",
+    "title": "When you cannot decide",
+    "trans": "O Allah, I seek Your guidance by Your knowledge, and Your power by Your might, and I ask You of Your immense g",
+    "src": "Ṣaḥīḥ al-Bukhārī 6382",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "hated-thing",
+    "title": "When you did not get what you wanted",
+    "trans": "Battle has been enjoined upon you while it is hateful to you. But perhaps you hate a thing and it is good for ",
+    "src": "Qur'an 2:216",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "firm-heart",
+    "title": "When you are afraid your heart will turn",
+    "trans": "[Who say], \"Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. In",
+    "src": "Qur'an 3:8",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "travel": {
+  "label": "Travelling",
+  "blurb": "Setting out, and coming home",
+  "n": 67,
+  "ncur": 50,
+  "top": [
+   {
+    "id": "leaving-home",
+    "title": "When you step out the door",
+    "trans": "In the name of Allah, I place my trust in Allah, and there is no power and no strength except with Allah.",
+    "src": "Sunan Abī Dāwūd 5095",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "travel",
+    "title": "When you set out on a journey",
+    "trans": "Glory be to the One who has made this subject to us, when we could never have done it ourselves. And to our Lo",
+    "src": "Ṣaḥīḥ Muslim 3275",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "tasbih-100",
+    "title": "A hundred words that weigh more than they look",
+    "trans": "Glory be to Allah, and praise Him.",
+    "src": "Ṣaḥīḥ al-Bukhārī 6405",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "forgiveness": {
+  "label": "Seeking forgiveness",
+  "blurb": "Turning back after sin",
+  "n": 271,
+  "ncur": 88,
+  "top": [
+   {
+    "id": "sayyidul-istighfar",
+    "title": "When you carry guilt",
+    "trans": "O Allah, You are my Lord. There is no god but You. You created me and I am Your servant, and I hold to Your co",
+    "src": "Ṣaḥīḥ al-Bukhārī 6306",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "never-despair",
+    "title": "When you think you have gone too far",
+    "trans": "Say, \"O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allā",
+    "src": "Qur'an 39:53",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "between-sujood",
+    "title": "Sitting between the two prostrations",
+    "trans": "My Lord, forgive me.",
+    "src": "Ṣaḥīḥ al-Bukhārī 6398",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "weak-iman": {
+  "label": "Faith feeling weak",
+  "blurb": "Distance, dryness, doubt",
+  "n": 140,
+  "ncur": 70,
+  "top": [
+   {
+    "id": "steadfast-heart",
+    "title": "When your faith feels unsteady",
+    "trans": "O Turner of hearts, make my heart firm upon Your religion.",
+    "src": "Jāmiʿ at-Tirmidhī 3522",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "waswas",
+    "title": "When intrusive thoughts attack your faith",
+    "trans": "That is clear faith.",
+    "src": "Ṣaḥīḥ Muslim 340",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "hearts-at-rest",
+    "title": "When your heart will not settle",
+    "trans": "Those who have believed and whose hearts are assured by the remembrance of Allāh. Unquestionably, by the remem",
+    "src": "Qur'an 13:28",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "waswas": {
+  "label": "Intrusive thoughts",
+  "blurb": "Whispers you would never choose to think",
+  "n": 66,
+  "ncur": 15,
+  "top": [
+   {
+    "id": "waswas",
+    "title": "When intrusive thoughts attack your faith",
+    "trans": "That is clear faith.",
+    "src": "Ṣaḥīḥ Muslim 340",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "envy-nas",
+    "title": "When you cannot shake a bad feeling",
+    "trans": "Say, \"I seek refuge in the Lord of mankind, The Sovereign of mankind, The God of mankind, From the evil of the",
+    "src": "Qur'an 114:1-6",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "whispers",
+    "title": "When the whispering will not stop",
+    "trans": "And say, \"My Lord, I seek refuge in You from the incitements of the devils, And I seek refuge in You, my Lord,",
+    "src": "Qur'an 23:97-98",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "steadfastness": {
+  "label": "Staying firm",
+  "blurb": "Patience, endurance, keeping going",
+  "n": 103,
+  "ncur": 89,
+  "top": [
+   {
+    "id": "ease-after-hardship",
+    "title": "When you cannot see the end of it",
+    "trans": "For indeed, with hardship [will be] ease [i.e., relief]. Indeed, with hardship [will be] ease.",
+    "src": "Qur'an 94:5-6",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "children",
+    "title": "When you are hoping for a child",
+    "trans": "At that, Zechariah called upon his Lord, saying, \"My Lord, grant me from Yourself a good offspring. Indeed, Yo",
+    "src": "Qur'an 3:38",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "patience",
+    "title": "When you are told to be patient and it is hard",
+    "trans": "O you who have believed, seek help through patience and prayer. Indeed, Allāh is with the patient.",
+    "src": "Qur'an 2:153",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "death-remembrance": {
+  "label": "Thinking about death",
+  "blurb": "The hereafter, the grave, what comes after",
+  "n": 506,
+  "ncur": 93,
+  "top": [
+   {
+    "id": "loss-death",
+    "title": "When you have lost someone",
+    "trans": "Who, when disaster strikes them, say, \"Indeed we belong to Allāh, and indeed to Him we will return.\" Those are",
+    "src": "Qur'an 2:156-157",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "graves",
+    "title": "Standing at a grave",
+    "trans": "Peace be upon you, people of these dwellings, believers and Muslims. We will, if Allah wills, be joining you.",
+    "src": "Sunan an-Nasā'ī 2040",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "janazah",
+    "title": "Praying over someone who has died",
+    "trans": "O Allah, forgive him and have mercy on him, keep him safe and pardon him.",
+    "src": "Ṣaḥīḥ Muslim 2232",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "refuge": {
+  "label": "Seeking refuge",
+  "blurb": "Asking to be shielded from harm",
+  "n": 241,
+  "ncur": 99,
+  "top": [
+   {
+    "id": "fear-of-people",
+    "title": "When you are afraid of someone",
+    "trans": "O Allah, we place You before them, and we seek refuge in You from their evil.",
+    "src": "Sunan Abī Dāwūd 1537",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "protect-children",
+    "title": "When you want to protect your children",
+    "trans": "I seek protection for you both in the perfect words of Allah, from every devil and every poisonous creature, a",
+    "src": "Sunan Abī Dāwūd 4737",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "leaving-home",
+    "title": "When you step out the door",
+    "trans": "In the name of Allah, I place my trust in Allah, and there is no power and no strength except with Allah.",
+    "src": "Sunan Abī Dāwūd 5095",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "evil-eye": {
+  "label": "Evil eye & envy of others",
+  "blurb": "Nazar, ḥasad, and the harm of ill will",
+  "n": 44,
+  "ncur": 30,
+  "top": [
+   {
+    "id": "protect-children",
+    "title": "When you want to protect your children",
+    "trans": "I seek protection for you both in the perfect words of Allah, from every devil and every poisonous creature, a",
+    "src": "Sunan Abī Dāwūd 4737",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "evening-protection",
+    "title": "When you want to be kept safe",
+    "trans": "In the name of Allah, with whose name nothing on earth or in heaven can cause harm, and He is the All-Hearing,",
+    "src": "Jāmiʿ at-Tirmidhī 3388",
+    "grade": "Ḥasan"
+   },
+   {
+    "id": "evil-eye-falaq",
+    "title": "When you feel someone's ill will",
+    "trans": "Say, \"I seek refuge in the Lord of daybreak From the evil of that which He created And from the evil of darkne",
+    "src": "Qur'an 113:1-5",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "home": {
+  "label": "Home & household",
+  "blurb": "Entering, leaving, and being kept in it",
+  "n": 42,
+  "ncur": 24,
+  "top": [
+   {
+    "id": "ayat-al-kursi",
+    "title": "When you want to be kept safe",
+    "trans": "Allāh - there is no deity except Him, the Ever-Living,1 the Self-Sustaining.2 Neither drowsiness overtakes Him",
+    "src": "Qur'an 2:255",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "household",
+    "title": "For everyone under your roof",
+    "trans": "My Lord, forgive me and my parents and whoever enters my house a believer and the believing men and believing ",
+    "src": "Qur'an 71:28",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "barakah-in-the-city",
+    "title": "Blessing in what your household measures out",
+    "trans": "O Allah, bless our ṣāʿ and our mudd.",
+    "src": "Ṣaḥīḥ al-Bukhārī 2889",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "morning-evening": {
+  "label": "Morning & evening",
+  "blurb": "How to begin and end a day",
+  "n": 135,
+  "ncur": 88,
+  "top": [
+   {
+    "id": "leaving-home",
+    "title": "When you step out the door",
+    "trans": "In the name of Allah, I place my trust in Allah, and there is no power and no strength except with Allah.",
+    "src": "Sunan Abī Dāwūd 5095",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "sleep",
+    "title": "When you lie down to sleep",
+    "trans": "In Your name, O Allah, I die and I live.",
+    "src": "Ṣaḥīḥ al-Bukhārī 6324",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "nightmare",
+    "title": "When a dream frightens you",
+    "trans": "If one of you sees a dream he dislikes, let him spit lightly to his left three times, seek refuge in Allah fro",
+    "src": "Ṣaḥīḥ Muslim 5904",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "sleep": {
+  "label": "Sleep & the night",
+  "blurb": "Lying down, waking, and bad dreams",
+  "n": 177,
+  "ncur": 88,
+  "top": [
+   {
+    "id": "anxiety-grief",
+    "title": "When worry and sadness sit on your chest",
+    "trans": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserline",
+    "src": "Ṣaḥīḥ al-Bukhārī 6369",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "ease-after-hardship",
+    "title": "When you cannot see the end of it",
+    "trans": "For indeed, with hardship [will be] ease [i.e., relief]. Indeed, with hardship [will be] ease.",
+    "src": "Qur'an 94:5-6",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "sleep",
+    "title": "When you lie down to sleep",
+    "trans": "In Your name, O Allah, I die and I live.",
+    "src": "Ṣaḥīḥ al-Bukhārī 6324",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "eating": {
+  "label": "Food & drink",
+  "blurb": "Before and after eating",
+  "n": 104,
+  "ncur": 42,
+  "top": [
+   {
+    "id": "after-eating",
+    "title": "When you have eaten",
+    "trans": "All praise is for Allah, who fed me this and provided it for me, with no power or strength from myself.",
+    "src": "Sunan Abī Dāwūd 4023",
+    "grade": "Ḥasan"
+   },
+   {
+    "id": "iftar",
+    "title": "Breaking your fast",
+    "trans": "The thirst has gone, the veins are moistened, and the reward is certain, if Allah wills.",
+    "src": "Sunan Abī Dāwūd 2357",
+    "grade": "Ḥasan"
+   },
+   {
+    "id": "rain-drought",
+    "title": "When the land is dry and you need rain",
+    "trans": "O Allah, send us relief.",
+    "src": "Ṣaḥīḥ al-Bukhārī 1014",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "prayer": {
+  "label": "In prayer",
+  "blurb": "What is said within the ṣalāh",
+  "n": 270,
+  "ncur": 118,
+  "top": [
+   {
+    "id": "morning",
+    "title": "When you wake and the day begins",
+    "trans": "We have entered the morning and the dominion belongs to Allah, and all praise is for Allah. There is no god bu",
+    "src": "Ṣaḥīḥ Muslim 6908",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "after-wudu",
+    "title": "After you make wuḍū'",
+    "trans": "I bear witness that there is no god but Allah alone, with no partner, and I bear witness that Muhammad is His ",
+    "src": "Ṣaḥīḥ Muslim 140",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "enter-masjid",
+    "title": "Stepping into the masjid",
+    "trans": "O Allah, open for me the doors of Your mercy.",
+    "src": "Ṣaḥīḥ Muslim 1652",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "mosque": {
+  "label": "The masjid",
+  "blurb": "Going to and being in the house of Allah",
+  "n": 58,
+  "ncur": 35,
+  "top": [
+   {
+    "id": "enter-masjid",
+    "title": "Stepping into the masjid",
+    "trans": "O Allah, open for me the doors of Your mercy.",
+    "src": "Ṣaḥīḥ Muslim 1652",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "leaving-masjid",
+    "title": "Leaving the masjid",
+    "trans": "O Allah, I ask You of Your bounty.",
+    "src": "Ṣaḥīḥ Muslim 1652",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "salawat",
+    "title": "Sending prayers upon the Prophet ﷺ",
+    "trans": "O Allah, send prayers upon Muhammad and upon the family of Muhammad, as You sent prayers upon Ibrāhīm. Indeed ",
+    "src": "Sunan Abī Dāwūd 978",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "rain-weather": {
+  "label": "Rain, wind & sky",
+  "blurb": "When the weather turns",
+  "n": 53,
+  "ncur": 23,
+  "top": [
+   {
+    "id": "rain",
+    "title": "When it rains",
+    "trans": "O Allah, make it a rain that brings good.",
+    "src": "Ṣaḥīḥ al-Bukhārī 1032",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "wind",
+    "title": "When the wind picks up",
+    "trans": "O Allah, I ask You for its good, the good within it and the good it was sent with; and I seek refuge in You fr",
+    "src": "Ṣaḥīḥ Muslim 2085",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "rain-drought",
+    "title": "When the land is dry and you need rain",
+    "trans": "O Allah, send us relief.",
+    "src": "Ṣaḥīḥ al-Bukhārī 1014",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ },
+ "dhikr": {
+  "label": "Remembrance & praise",
+  "blurb": "Words of praise, glorification and testifying to Allah",
+  "n": 145,
+  "ncur": 53,
+  "top": [
+   {
+    "id": "gratitude",
+    "title": "When something good happens",
+    "trans": "And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if ",
+    "src": "Qur'an 14:7",
+    "grade": "Qur'an"
+   },
+   {
+    "id": "after-salam",
+    "title": "When the prayer ends",
+    "trans": "O Allah, You are Peace, and from You comes peace. Blessed are You, Owner of Majesty and Honour.",
+    "src": "Ṣaḥīḥ Muslim 1334",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "hearts-at-rest",
+    "title": "When your heart will not settle",
+    "trans": "Those who have believed and whose hearts are assured by the remembrance of Allāh. Unquestionably, by the remem",
+    "src": "Qur'an 13:28",
+    "grade": "Qur'an"
+   }
+  ]
+ },
+ "misc": {
+  "label": "Further supplications",
+  "blurb": "Verified supplications that don't sit under a single heading",
+  "n": 825,
+  "ncur": 11,
+  "top": [
+   {
+    "id": "five-fold",
+    "title": "Five things at once, when you do not know where to start",
+    "trans": "O Allah, forgive me, have mercy on me, guide me, keep me well, and provide for me.",
+    "src": "Ṣaḥīḥ Muslim 6850",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "hasanah",
+    "title": "The supplication he ﷺ said most often",
+    "trans": "Our Lord, give us good in this world and good in the next, and protect us from the punishment of the Fire.",
+    "src": "Ṣaḥīḥ al-Bukhārī 6389",
+    "grade": "Ṣaḥīḥ"
+   },
+   {
+    "id": "every-good",
+    "title": "When you do not know what to ask for",
+    "trans": "O Allah, I ask You for every good, now and later, what I know of it and what I do not know.",
+    "src": "Sunan Ibn Mājah 3846",
+    "grade": "Ṣaḥīḥ"
+   }
+  ]
+ }
+}

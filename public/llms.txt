@@ -1,0 +1,58 @@
+# One Minute Iman
+
+> Verified duʿās, Qurʾan verses and authenticated hadith, searchable by how you feel.
+> Every entry is matched word for word to a primary source and shows its authenticity grading.
+
+## Key pages
+
+- [Home](https://www.oneminuteiman.xyz/): search by feeling and get a duʿā, verse or hadith for that moment.
+- [How every entry is verified](https://www.oneminuteiman.xyz/authenticity): the grading rule, the verification pipeline, and what was refused.
+- [Browse by situation](https://www.oneminuteiman.xyz/browse): all 43 situations, from anxiety to travel.
+- [The Qurʾan](https://www.oneminuteiman.xyz/quran): 114 surahs, 6,236 verses, three translations, transliteration, recitation and Ibn Kathīr's tafsir.
+- [Hadith collections](https://www.oneminuteiman.xyz/hadith): Bukhārī, Muslim and the Sunan, book by book, graded.
+
+## Situations
+
+- [Duʿā for a decision to make](https://www.oneminuteiman.xyz/s/decision): When you genuinely do not know which way.
+- [Duʿā for anger](https://www.oneminuteiman.xyz/s/anger): Rage, resentment, the urge to lash out.
+- [Duʿā for anxiety and worry](https://www.oneminuteiman.xyz/s/anxiety): Racing thoughts, dread, the mind that won't settle.
+- [Duʿā for being ill](https://www.oneminuteiman.xyz/s/illness): Sickness, pain, waiting on a diagnosis.
+- [Duʿā for being wronged](https://www.oneminuteiman.xyz/s/oppression): Injustice, betrayal, harm from others.
+- [Duʿā for children](https://www.oneminuteiman.xyz/s/children): Hoping for them, raising them, worrying about them.
+- [Duʿā for conflict with someone](https://www.oneminuteiman.xyz/s/reconcile): Broken relationships and hard conversations.
+- [Duʿā for debt](https://www.oneminuteiman.xyz/s/debt): When you owe more than you can pay.
+- [Duʿā for envy and comparison](https://www.oneminuteiman.xyz/s/envy): When someone else has what you wanted.
+- [Duʿā for evil eye and envy of others](https://www.oneminuteiman.xyz/s/evil-eye): Nazar, ḥasad, and the harm of ill will.
+- [Duʿā for faith feeling weak](https://www.oneminuteiman.xyz/s/weak-iman): Distance, dryness, doubt.
+- [Duʿā for fear](https://www.oneminuteiman.xyz/s/fear): When you are frightened of something or someone.
+- [Duʿā for feeling overwhelmed](https://www.oneminuteiman.xyz/s/overwhelm): Carrying more than you think you can hold.
+- [Duʿā for food and drink](https://www.oneminuteiman.xyz/s/eating): Before and after eating.
+- [Duʿā for further supplications](https://www.oneminuteiman.xyz/s/misc): Verified supplications that don't sit under a single heading.
+- [Duʿā for home and household](https://www.oneminuteiman.xyz/s/home): Entering, leaving, and being kept in it.
+- [Duʿā for hopelessness](https://www.oneminuteiman.xyz/s/despair): When you cannot see a way forward at all.
+- [Duʿā for in prayer](https://www.oneminuteiman.xyz/s/prayer): What is said within the ṣalāh.
+- [Duʿā for intrusive thoughts](https://www.oneminuteiman.xyz/s/waswas): Whispers you would never choose to think.
+- [Duʿā for joy and gratitude](https://www.oneminuteiman.xyz/s/gratitude): When something good has happened.
+- [Duʿā for loneliness](https://www.oneminuteiman.xyz/s/loneliness): Feeling unseen, unaccompanied, far from everyone.
+- [Duʿā for losing someone](https://www.oneminuteiman.xyz/s/death): Death, funerals, and the days after.
+- [Duʿā for marriage and spouse](https://www.oneminuteiman.xyz/s/marriage): Looking for, or living with, a partner.
+- [Duʿā for money and provision](https://www.oneminuteiman.xyz/s/poverty): When income is tight or uncertain.
+- [Duʿā for morning and evening](https://www.oneminuteiman.xyz/s/morning-evening): How to begin and end a day.
+- [Duʿā for parents and family](https://www.oneminuteiman.xyz/s/parents): Mothers, fathers, and those who raised you.
+- [Duʿā for rain, wind and sky](https://www.oneminuteiman.xyz/s/rain-weather): When the weather turns.
+- [Duʿā for remembrance and praise](https://www.oneminuteiman.xyz/s/dhikr): Words of praise, glorification and testifying to Allah.
+- [Duʿā for sadness](https://www.oneminuteiman.xyz/s/sadness): Grief, low spirits, a heaviness you can't name.
+- [Duʿā for seeking forgiveness](https://www.oneminuteiman.xyz/s/forgiveness): Turning back after sin.
+- [Duʿā for seeking refuge](https://www.oneminuteiman.xyz/s/refuge): Asking to be shielded from harm.
+- [Duʿā for severe distress](https://www.oneminuteiman.xyz/s/distress): The moment when everything presses in at once.
+- [Duʿā for shame and guilt](https://www.oneminuteiman.xyz/s/shame): When you cannot forgive yourself.
+- [Duʿā for sleep and the night](https://www.oneminuteiman.xyz/s/sleep): Lying down, waking, and bad dreams.
+- [Duʿā for someone means you harm](https://www.oneminuteiman.xyz/s/enemy): Facing hostility or an enemy.
+- [Duʿā for someone you love is ill](https://www.oneminuteiman.xyz/s/someone-ill): Sitting beside the sick.
+- [Duʿā for staying firm](https://www.oneminuteiman.xyz/s/steadfastness): Patience, endurance, keeping going.
+- [Duʿā for study and exams](https://www.oneminuteiman.xyz/s/knowledge): Learning, memorising, being tested.
+- [Duʿā for the masjid](https://www.oneminuteiman.xyz/s/mosque): Going to and being in the house of Allah.
+- [Duʿā for thinking about death](https://www.oneminuteiman.xyz/s/death-remembrance): The hereafter, the grave, what comes after.
+- [Duʿā for travelling](https://www.oneminuteiman.xyz/s/travel): Setting out, and coming home.
+- [Duʿā for when it did not work out](https://www.oneminuteiman.xyz/s/failure): Rejection, failure, plans that collapsed.
+- [Duʿā for work](https://www.oneminuteiman.xyz/s/work): Jobs, colleagues, and the daily grind.
