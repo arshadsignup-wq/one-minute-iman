@@ -2,12 +2,13 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { matchSituations, entriesFor, neighboursOf, EXAMPLES } from "@/lib/search";
+import { matchSituations, entriesFor, neighboursOf, isCrisis, EXAMPLES } from "@/lib/search";
 import { EntryCard } from "@/components/Cards";
 
 export default function Seek() {
   const [q, setQ] = useState("");
   const asked = q.trim().length > 1;
+  const crisis = asked && isCrisis(q);
 
   const { primary, related } = useMemo(() => {
     const all = matchSituations(q);
@@ -72,9 +73,43 @@ export default function Seek() {
         </div>
       )}
 
+      {crisis && (
+        <div className="rise mt-12 rounded-2xl border border-[var(--gold)] bg-[var(--card)] p-7 sm:p-9">
+          <p className="display text-[24px] leading-snug text-[var(--ink)] sm:text-[27px]">
+            Please talk to someone tonight.
+          </p>
+          <p className="mt-4 max-w-xl text-[16px] leading-[1.75] text-[var(--ink-soft)]">
+            What you have just typed matters more than anything this page can hand you.
+            You are not a burden for feeling it, and you are not far from Allah for
+            feeling it. But a website is not enough right now, and you deserve more
+            than a website.
+          </p>
+          <p className="mt-4 max-w-xl text-[16px] leading-[1.75] text-[var(--ink-soft)]">
+            Tell one person who is actually near you. If there is nobody, there are
+            people whose whole job is to pick up, free, at any hour, in almost every
+            country:{" "}
+            <a
+              href="https://findahelpline.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--green)] underline underline-offset-4"
+            >
+              findahelpline.com
+            </a>
+            . If you are in immediate danger, call your local emergency number.
+          </p>
+          <p className="mt-5 max-w-xl text-[15px] leading-[1.7] text-[var(--ink-faint)]">
+            There is a man in Ṣaḥīḥ al-Bukhārī who was so certain he was beyond
+            forgiving that he asked to be burnt and scattered so that Allah could not
+            find him. He was forgiven, for the fear itself. Despair about yourself has
+            never been the same thing as the truth about you.
+          </p>
+        </div>
+      )}
+
       {asked && (
         <div className="mt-12">
-          {primary.length === 0 ? (
+          {primary.length === 0 && !crisis ? (
             <div className="rise rounded-2xl border border-[var(--line)] bg-[var(--card)] p-8 text-center">
               <p className="display text-[24px] text-[var(--ink)]">
                 Nothing matched those words.

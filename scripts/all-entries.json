@@ -914,6 +914,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "home",
    "morning-evening",
    "refuge",
    "travel",
@@ -1236,7 +1237,8 @@
   },
   "tier": "curated",
   "situations": [
-   "overwhelm"
+   "overwhelm",
+   "work"
   ]
  },
  {
@@ -2922,7 +2924,8 @@
   "tier": "curated",
   "situations": [
    "loneliness",
-   "parents"
+   "parents",
+   "reconcile"
   ]
  },
  {
@@ -3059,7 +3062,9 @@
   "situations": [
    "decision",
    "loneliness",
-   "parents"
+   "parents",
+   "reconcile",
+   "weak-iman"
   ]
  },
  {
@@ -4449,6 +4454,7 @@
   "tier": "curated",
   "situations": [
    "children",
+   "death-remembrance",
    "gratitude",
    "parents"
   ]
@@ -4956,6 +4962,7 @@
   "situations": [
    "distress",
    "enemy",
+   "oppression",
    "overwhelm"
   ]
  },
@@ -5128,7 +5135,8 @@
   "situations": [
    "failure",
    "forgiveness",
-   "shame"
+   "shame",
+   "steadfastness"
   ]
  },
  {
@@ -5305,6 +5313,7 @@
   "situations": [
    "anxiety",
    "children",
+   "death-remembrance",
    "loneliness"
   ]
  },
@@ -5436,6 +5445,7 @@
   "tier": "curated",
   "situations": [
    "oppression",
+   "poverty",
    "shame",
    "work"
   ]
@@ -5477,6 +5487,7 @@
   },
   "tier": "curated",
   "situations": [
+   "death-remembrance",
    "despair",
    "rain-weather",
    "sadness"
@@ -5953,7 +5964,9 @@
    ]
   },
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "death-remembrance"
+  ]
  },
  {
   "id": "hasbiyallah",
@@ -6499,6 +6512,7 @@
    "enemy",
    "fear",
    "home",
+   "oppression",
    "refuge"
   ]
  },
@@ -6543,7 +6557,8 @@
   "situations": [
    "despair",
    "forgiveness",
-   "shame"
+   "shame",
+   "steadfastness"
   ]
  },
  {
@@ -6758,6 +6773,7 @@
   "situations": [
    "enemy",
    "home",
+   "oppression",
    "travel"
   ]
  },
@@ -7534,7 +7550,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "gratitude"
+   "gratitude",
+   "weak-iman"
   ]
  },
  {
@@ -7613,6 +7630,7 @@
   "situations": [
    "anxiety",
    "children",
+   "death-remembrance",
    "parents"
   ]
  },
@@ -7693,7 +7711,8 @@
   },
   "tier": "curated",
   "situations": [
-   "decision"
+   "decision",
+   "weak-iman"
   ]
  },
  {
@@ -7737,7 +7756,8 @@
   "tier": "curated",
   "situations": [
    "anxiety",
-   "forgiveness"
+   "forgiveness",
+   "shame"
   ]
  },
  {
@@ -8127,7 +8147,8 @@
   },
   "tier": "curated",
   "situations": [
-   "forgiveness"
+   "forgiveness",
+   "steadfastness"
   ]
  },
  {
@@ -9073,6 +9094,7 @@
   "situations": [
    "enemy",
    "oppression",
+   "poverty",
    "reconcile"
   ]
  },
@@ -9526,7 +9548,8 @@
   },
   "tier": "curated",
   "situations": [
-   "death"
+   "death",
+   "steadfastness"
   ]
  },
  {
@@ -9953,7 +9976,8 @@
   "situations": [
    "forgiveness",
    "prayer",
-   "shame"
+   "shame",
+   "steadfastness"
   ]
  },
  {
@@ -10161,6 +10185,7 @@
   },
   "tier": "curated",
   "situations": [
+   "loneliness",
    "oppression",
    "poverty",
    "shame"
@@ -10546,6 +10571,7 @@
   "tier": "curated",
   "situations": [
    "children",
+   "death-remembrance",
    "fear",
    "loneliness"
   ]
@@ -10630,6 +10656,7 @@
   "tier": "curated",
   "situations": [
    "children",
+   "death-remembrance",
    "decision"
   ]
  },
@@ -10713,6 +10740,7 @@
   },
   "tier": "curated",
   "situations": [
+   "death-remembrance",
    "decision",
    "sadness"
   ]
@@ -11645,7 +11673,8 @@
   "situations": [
    "forgiveness",
    "overwhelm",
-   "shame"
+   "shame",
+   "work"
   ]
  },
  {
@@ -12272,7 +12301,8 @@
   },
   "tier": "curated",
   "situations": [
-   "forgiveness"
+   "forgiveness",
+   "shame"
   ]
  },
  {
@@ -12486,7 +12516,8 @@
   "tier": "curated",
   "situations": [
    "morning-evening",
-   "sadness"
+   "sadness",
+   "steadfastness"
   ]
  },
  {
@@ -13408,7 +13439,9 @@
   "english_full": "Narrated `Ikrima:Ibn `Abbas said: \"Allah's Messenger (ﷺ) delivered a sermon on the Day of Nahr, and said, 'O people! (Tell me) what is the day today?' The people replied, 'It is the forbidden (sacred) day.' He asked again, 'What town is this?' They replied, 'It is the forbidden (Sacred) town.' He asked, 'Which month is this?' They replied, 'It is the forbidden (Sacred) month.' He said, 'No doubt! Your blood, your properties, and your honor are sacred to one another like the sanctity of this day of yours, in this (sacred) town (Mecca) of yours, in this month of yours.' The Prophet (ﷺ) repeated his statement again and again. After that he raised his head and said, 'O Allah! Haven't conveyed (Your Message) to them'. Haven't I conveyed Your Message to them?' \" Ibn `Abbas added, \"By Him in Whose Hand my soul is, the following was his will (Prophet's will) to his followers:--It is incumbent upon those who are present to convey this information to those who are absent Beware don't renegade (as) disbelievers (turn into infidels) after me, Striking the necks (cutting the throats) of one another",
   "mode": "dua",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "death-remembrance"
+  ]
  },
  {
   "id": "barakah-for-madinah",
@@ -13704,6 +13737,7 @@
   "tier": "curated",
   "situations": [
    "gratitude",
+   "home",
    "travel"
   ]
  },
@@ -14346,6 +14380,7 @@
   "situations": [
    "anxiety",
    "children",
+   "death-remembrance",
    "parents",
    "reconcile"
   ]
@@ -16311,7 +16346,9 @@
   "tier": "curated",
   "situations": [
    "overwhelm",
-   "steadfastness"
+   "steadfastness",
+   "weak-iman",
+   "work"
   ]
  },
  {
@@ -16753,6 +16790,7 @@
   "tier": "curated",
   "situations": [
    "children",
+   "death-remembrance",
    "envy",
    "gratitude",
    "parents"
@@ -16916,6 +16954,7 @@
   },
   "tier": "curated",
   "situations": [
+   "despair",
    "knowledge",
    "sadness"
   ]
@@ -17672,6 +17711,7 @@
   },
   "tier": "curated",
   "situations": [
+   "despair",
    "sadness",
    "weak-iman"
   ]
@@ -19595,7 +19635,8 @@
   },
   "tier": "curated",
   "situations": [
-   "overwhelm"
+   "overwhelm",
+   "work"
   ]
  },
  {
@@ -19949,6 +19990,7 @@
   "tier": "curated",
   "situations": [
    "decision",
+   "steadfastness",
    "work"
   ]
  },
@@ -20841,7 +20883,8 @@
   },
   "tier": "curated",
   "situations": [
-   "enemy"
+   "enemy",
+   "oppression"
   ]
  },
  {
@@ -21525,7 +21568,8 @@
   "tier": "curated",
   "situations": [
    "illness",
-   "shame"
+   "shame",
+   "steadfastness"
   ]
  },
  {
@@ -21926,7 +21970,8 @@
   "situations": [
    "forgiveness",
    "reconcile",
-   "shame"
+   "shame",
+   "steadfastness"
   ]
  },
  {
@@ -22111,7 +22156,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "children"
+   "children",
+   "weak-iman"
   ]
  },
  {
@@ -22152,7 +22198,8 @@
    "forgiveness",
    "morning-evening",
    "overwhelm",
-   "steadfastness"
+   "steadfastness",
+   "work"
   ]
  },
  {
@@ -22314,6 +22361,7 @@
    "forgiveness",
    "loneliness",
    "mosque",
+   "steadfastness",
    "travel"
   ]
  },
@@ -22395,7 +22443,8 @@
   "tier": "curated",
   "situations": [
    "decision",
-   "forgiveness"
+   "forgiveness",
+   "shame"
   ]
  },
  {
@@ -22990,7 +23039,8 @@
   "tier": "curated",
   "situations": [
    "despair",
-   "overwhelm"
+   "overwhelm",
+   "work"
   ]
  },
  {
@@ -23101,7 +23151,8 @@
   },
   "tier": "curated",
   "situations": [
-   "forgiveness"
+   "forgiveness",
+   "steadfastness"
   ]
  },
  {
@@ -24718,6 +24769,7 @@
    "enemy",
    "fear",
    "illness",
+   "oppression",
    "refuge"
   ]
  },
@@ -24832,7 +24884,9 @@
    ]
   },
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "death-remembrance"
+  ]
  },
  {
   "id": "do-not-be-of-the-heedless",
@@ -26607,7 +26661,8 @@
    "gratitude",
    "loneliness",
    "mosque",
-   "parents"
+   "parents",
+   "weak-iman"
   ]
  },
  {
@@ -26916,7 +26971,9 @@
    ]
   },
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "steadfastness"
+  ]
  },
  {
   "id": "he-answers-the-call",
@@ -27032,6 +27089,7 @@
   },
   "tier": "curated",
   "situations": [
+   "despair",
    "knowledge",
    "sadness"
   ]
@@ -27310,6 +27368,7 @@
   "tier": "curated",
   "situations": [
    "gratitude",
+   "home",
    "travel"
   ]
  },
@@ -27497,6 +27556,7 @@
   "english_full": "Yazid b. Hayyan reported, I went along with Husain b. Sabra and 'Umar b. Muslim to Zaid b. Arqam and, as we sat by his side, Husain said to him:Zaid. you have been able to acquire a great virtue that you saw Allah's Messenger (ﷺ) listened to his talk, fought by his side in (different) battles, offered prayer behind me. Zaid, you have in fact earned a great virtue. Zaid, narrate to us what you heard from Allah's Messenger (ﷺ). He said: I have grown old and have almost spent my age and I have forgotten some of the things which I remembered in connection with Allah's Messenger (ﷺ), so accept whatever I narrate to you, and which I do not narrate do not compel me to do that. He then said: One day Allah's Messenger (ﷺ) stood up to deliver sermon at a watering place known as Khumm situated between Mecca and Medina. He praised Allah, extolled Him and delivered the sermon and. exhorted (us) and said: Now to our purpose. O people, I am a human being. I am about to receive a messenger (the angel of death) from my Lord and I, in response to Allah's call, (would bid good-bye to you), but I am leaving among you two weighty things: the one being the Book of Allah in which there is right guidance and light, so hold fast to the Book of Allah and adhere to it. He exhorted (us) (to hold fast) to the Book of Allah and then said: The second are the members of my household I remind you (of your duties) to the members of my family. He (Husain) said to Zaid: Who are the members of his household? Aren't his wives the members of his family? Thereupon he said: His wives are the members of his family (but here) the members of his family are those for whom acceptance of Zakat is forbidden. And he said: Who are they? Thereupon he said: 'Ali and the offspring of 'Ali, 'Aqil and the offspring of 'Aqil and the offspring of Ja'far and the offspring of 'Abbas. Husain said: These are those for whom the acceptance of Zakat is forbidden. Zaid said: Yes",
   "tier": "curated",
   "situations": [
+   "death-remembrance",
    "decision"
   ]
  },
@@ -27964,6 +28024,7 @@
   },
   "tier": "curated",
   "situations": [
+   "death-remembrance",
    "envy"
   ]
  },
@@ -28401,7 +28462,8 @@
   "english_full": "Narrated `Abdullah:Allah's Messenger (ﷺ) said, \"The person who will be the last one to enter Paradise and the last to come out of Hell (Fire) will be a man who will come out crawling, and his Lord will say to him, 'Enter Paradise.' He will reply, 'O Lord, Paradise is full.' Allah will give him the same order thrice, and each time the man will give Him the same reply, i.e., 'Paradise is full.' Thereupon Allah will say (to him), 'Ten times of the world is for you",
   "tier": "curated",
   "situations": [
-   "despair"
+   "despair",
+   "loneliness"
   ]
  },
  {
@@ -33094,6 +33156,7 @@
   "tier": "curated",
   "situations": [
    "anxiety",
+   "death-remembrance",
    "poverty"
   ]
  },
@@ -36220,7 +36283,8 @@
    "debt",
    "forgiveness",
    "poverty",
-   "shame"
+   "shame",
+   "steadfastness"
   ]
  },
  {
@@ -37660,6 +37724,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "home",
    "refuge",
    "weak-iman",
    "work"
@@ -39655,7 +39720,8 @@
   "situations": [
    "overwhelm",
    "sleep",
-   "steadfastness"
+   "steadfastness",
+   "work"
   ]
  },
  {
@@ -40334,7 +40400,9 @@
   "english_full": "Narrated Abu Sa'id Al Khudri:Allah's Messenger (ﷺ) said, \"If a person embraces Islam sincerely, then Allah shall forgive all his past sins, and after that starts the settlement of accounts, the reward of his good deeds will be ten times to seven hundred times for each good deed and one evil deed will be recorded as it is unless Allah forgives it",
   "mode": "dua",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "weak-iman"
+  ]
  },
  {
   "id": "take-this-cloak-away",
@@ -41765,9 +41833,11 @@
   "english_full": "Narrated Abu Huraira:I heard Allah's Messenger (ﷺ) saying, \"Who ever is pleased that he be granted more wealth and that his lease of life be pro longed, then he should keep good relations with his Kith and kin",
   "tier": "curated",
   "situations": [
+   "death-remembrance",
    "loneliness",
    "parents",
    "poverty",
+   "reconcile",
    "weak-iman"
   ]
  },
@@ -41811,6 +41881,7 @@
    "loneliness",
    "oppression",
    "parents",
+   "reconcile",
    "weak-iman"
   ]
  },
@@ -41853,6 +41924,7 @@
   "situations": [
    "loneliness",
    "parents",
+   "reconcile",
    "refuge"
   ]
  },
@@ -42063,7 +42135,7 @@
   "english_full": "Narrated Anas bin Malik:The Prophet (ﷺ) said, \"If any Muslim plants any plant and a human being or an animal eats of it, he will be rewarded as if he had given that much in charity",
   "tier": "curated",
   "situations": [
-   "eating"
+   "death-remembrance"
   ]
  },
  {
@@ -43643,7 +43715,8 @@
   "tier": "curated",
   "situations": [
    "overwhelm",
-   "sleep"
+   "sleep",
+   "work"
   ]
  },
  {
@@ -44061,6 +44134,7 @@
   "english_full": "Narrated Jabir bin `Abdullah:While we were returning from a Ghazwa (Holy Battle) with the Prophet, I started driving my camel fast, as it was a lazy camel A rider came behind me and pricked my camel with a spear he had with him, and then my camel started running as fast as the best camel you may see. Behold! The rider was the Prophet (ﷺ) himself. He said, 'What makes you in such a hurry?\" I replied, I am newly married \" He said, \"Did you marry a virgin or a matron? I replied, \"A matron.\" He said, \"Why didn't you marry a young girl so that you may play with her and she with you?\" When we were about to enter (Medina), the Prophet (ﷺ) said, \"Wait so that you may enter (Medina) at night so that the lady of unkempt hair may comb her hair and the one whose husband has been absent may shave her pubic region",
   "tier": "curated",
   "situations": [
+   "home",
    "marriage",
    "travel"
   ]

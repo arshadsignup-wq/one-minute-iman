@@ -37,6 +37,38 @@ function toks(s: string) {
 }
 
 /** Query → the situations a person is describing, best first. */
+
+/** Phrasings that mean someone may be in danger.
+ *
+ *  The site answers a feeling with a supplication. That is the wrong and
+ *  frankly careless response to this one, and the empty state ("try a plainer
+ *  word") was worse. When these match, the page leads with a human answer and
+ *  a route to real help, and offers the material on hope underneath rather
+ *  than instead.
+ */
+const CRISIS = new RegExp(
+  [
+    "kill(ing)? (myself|me)", "end(ing)? (it|my life|things)", "take my (own )?life",
+    "want(ing)? to die", "wanna die", "wish i (was|were) dead", "better off dead",
+    "better off without me", "dont want to (live|be here|exist)",
+    "no reason to live", "nothing to live for", "cant go on", "cant do this anymore",
+    "suicid", "self harm", "harm(ing)? myself", "hurt(ing)? myself",
+    "cut(ting)? myself", "overdose",
+  ].join("|"),
+  "i",
+);
+
+/** Everyday accidents that use the same words. Kept deliberately short: the
+ *  cost of showing this panel to someone who nicked themselves shaving is a
+ *  moment of confusion, and the cost of missing someone who meant it is not
+ *  comparable. When in doubt this errs toward showing it. */
+const NOT_CRISIS = /(shaving|shave|cooking|chopping|on (a )?(knife|glass|paper)|paper cut|by accident)/i;
+
+export function isCrisis(query: string) {
+  const q = normalise(query);
+  return CRISIS.test(q) && !NOT_CRISIS.test(q);
+}
+
 export function matchSituations(query: string) {
   const q = normalise(query);
   const qt = toks(query);

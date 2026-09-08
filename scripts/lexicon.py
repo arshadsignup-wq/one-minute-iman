@@ -77,11 +77,11 @@ dict(id="anger", cat="heart", label="Anger", blurb="Rage, resentment, the urge t
 
 dict(id="loneliness", cat="heart", label="Loneliness", blurb="Feeling unseen, unaccompanied, far from everyone",
      match=r"\b(alone|lonely|loneliness|solitude)\b",
-     feelings=["alone","lonely","loneliness","i feel alone","so alone","no one","nobody","no one cares","no one understands","isolated","isolation","abandoned","left out","forgotten","invisible","unseen","unwanted","no friends","far from home","homesick","estranged","cut off","by myself","single","unloved","nobody loves me"]),
+     feelings=["alone","lonely","loneliness","i feel alone","so alone","no one","nobody","no one cares","no one understands","isolated","isolation","abandoned","left out","forgotten","invisible","unseen","unwanted","no friends","far from home","homesick","estranged","cut off","by myself","single","unloved","nobody loves me", "nobody understands me", "feel invisible", "no one checks on me", "excluded", "nobody cares"]),
 
 dict(id="despair", cat="heart", label="Hopelessness", blurb="When you cannot see a way forward at all",
      match=r"\b(despair|hopeless|give up|gave up|no hope)\b",
-     feelings=["hopeless","hopelessness","despair","no hope","given up","want to give up","gave up","whats the point","pointless","no way out","trapped","stuck","cornered","dead end","cant go on","cant do this anymore","end of my rope","breaking point","at my limit","defeated","lost everything","nothing left","rock bottom","worthless","useless","failure","im a failure"]),
+     feelings=["hopeless","hopelessness","despair","no hope","given up","want to give up","gave up","whats the point","pointless","no way out","trapped","stuck","cornered","dead end","cant go on","cant do this anymore","end of my rope","breaking point","at my limit","defeated","lost everything","nothing left","rock bottom","worthless","useless","failure","im a failure", "i want to end it", "want to end it", "end it all", "i cant take it anymore", "cant take it", "no reason to live", "nothing to live for", "want to die", "wish i was dead", "better off dead", "better off without me", "dont want to live", "dont want to be here", "suicidal", "kill myself", "hurt myself", "self harm", "tired of living", "tired of everything", "done with life", "empty inside", "i feel numb", "dont feel anything", "feel nothing"]),
 
 dict(id="overwhelm", cat="heart", label="Feeling overwhelmed", blurb="Carrying more than you think you can hold",
      match=r"\b(burden|overburden|beyond .{0,12}capacity|too much for)\b",
@@ -89,15 +89,15 @@ dict(id="overwhelm", cat="heart", label="Feeling overwhelmed", blurb="Carrying m
 
 dict(id="gratitude", cat="heart", label="Joy & gratitude", blurb="When something good has happened",
      match=r"\b(thank(s|ful|fulness)?|gratitude|grateful|praise be|good news|rejoic)",
-     feelings=["happy","happiness","joy","joyful","grateful","gratitude","thankful","thank you","blessed","blessing","good news","great news","celebrate","celebrating","alhamdulillah","relieved","relief","it worked out","i got it","passed","succeeded","success","won","accepted","answered","prayers answered","excited","delighted","content","contentment","peaceful","at peace"]),
+     feelings=["happy","happiness","joy","joyful","grateful","gratitude","thankful","thank you","blessed","blessing","good news","great news","celebrate","celebrating","alhamdulillah","relieved","relief","it worked out","i got it","passed","succeeded","success","won","accepted","answered","prayers answered","excited","delighted","content","contentment","peaceful","at peace", "something good happened", "i got the job", "got accepted", "she said yes", "my baby was born"]),
 
 dict(id="envy", cat="heart", label="Envy & comparison", blurb="When someone else has what you wanted",
      match=r"\b(envy|envious|jealous|hasad)\b",
-     feelings=["jealous","jealousy","envy","envious","comparing","comparison","why not me","everyone else","they have everything","bitter about","resent their success","social media","feel behind","left behind","everyone is ahead"]),
+     feelings=["jealous","jealousy","envy","envious","comparing","comparison","why not me","everyone else","they have everything","bitter about","resent their success","social media","feel behind","left behind","everyone is ahead", "compare myself", "comparing myself", "everyone else has", "behind everyone", "social media makes me", "seeing everyone succeed"]),
 
 dict(id="shame", cat="heart", label="Shame & guilt", blurb="When you cannot forgive yourself",
      match=r"\b(shame|ashamed|regret|remorse)\b",
-     feelings=["guilty","guilt","ashamed","shame","embarrassed","humiliated","regret","regretful","remorse","i messed up","i ruined it","my fault","blame myself","cant forgive myself","disgusted with myself","hate myself","dirty","unworthy","not good enough","let everyone down","disappointed in myself"]),
+     feelings=["guilty","guilt","ashamed","shame","embarrassed","humiliated","regret","regretful","remorse","i messed up","i ruined it","my fault","blame myself","cant forgive myself","disgusted with myself","hate myself","dirty","unworthy","not good enough","let everyone down","disappointed in myself", "i relapsed", "relapsed again", "i keep relapsing", "addicted", "addiction", "im addicted", "cant stop", "porn", "pornography", "gambling", "drinking", "alcohol", "drugs", "smoking", "bad habit", "keep going back", "slipped again", "did it again", "cant quit"]),
 
 # ── HARDSHIP ──────────────────────────────────────────────────────────────
 dict(id="distress", cat="hardship", label="Severe distress", blurb="The moment when everything presses in at once",
@@ -127,11 +127,11 @@ dict(id="debt", cat="provision", label="Debt", blurb="When you owe more than you
 
 dict(id="poverty", cat="provision", label="Money & provision", blurb="When income is tight or uncertain",
      match=r"\b(poverty|poor\b|provision|rizq|sustenance|wealth|need\b|destitute)",
-     feelings=["poor","poverty","broke","no money","skint","cant afford","struggling financially","rizq","provision","sustenance","barely surviving","paycheck","rent","cant pay rent","food","feed my family","income","need money","tight month","expenses","cost of living"]),
+     feelings=["poor","poverty","broke","no money","skint","cant afford","struggling financially","rizq","provision","sustenance","barely surviving","paycheck","rent","cant pay rent","food","feed my family","income","need money","tight month","expenses","cost of living", "evicted", "eviction", "landlord", "cant pay the bills", "bills", "no money for food", "behind on rent", "homeless", "losing my home", "repossession", "cant afford it", "struggling to pay"]),
 
 dict(id="oppression", cat="hardship", label="Being wronged", blurb="Injustice, betrayal, harm from others",
      match=r"\b(oppress|wronged|injustice|unjust|tyrann|transgress)",
-     feelings=["wronged","injustice","unfair","unjust","oppressed","oppression","betrayed","betrayal","cheated","stolen","robbed","lied to","backstabbed","abused","mistreated","harassed","discriminated","racism","exploited","taken advantage of","no one believes me","powerless","cant defend myself","they got away with it"]),
+     feelings=["wronged","injustice","unfair","unjust","oppressed","oppression","betrayed","betrayal","cheated","stolen","robbed","lied to","backstabbed","abused","mistreated","harassed","discriminated","racism","exploited","taken advantage of","no one believes me","powerless","cant defend myself","they got away with it", "war", "genocide", "the news", "saw the news", "innocent people", "children dying", "bombing", "occupation", "cant watch the news", "helpless watching"]),
 
 dict(id="enemy", cat="protection", label="Someone means you harm", blurb="Facing hostility or an enemy",
      match=r"\b(enem(y|ies)|adversar|against him|plot(s|ted|ting)?)\b",
@@ -156,7 +156,7 @@ dict(id="parents", cat="people", label="Parents & family", blurb="Mothers, fathe
 
 dict(id="reconcile", cat="people", label="Conflict with someone", blurb="Broken relationships and hard conversations",
      match=r"\b(reconcil|dispute|quarrel|argu(e|ment)|between them|brother)\b",
-     feelings=["argument","fight","fighting","fell out","not speaking","conflict","dispute","tension","awkward","apologise","apologize","forgive them","cant forgive","misunderstanding","difficult conversation","confront","make up","reconcile","friendship ended","lost a friend"]),
+     feelings=["argument","fight","fighting","fell out","not speaking","conflict","dispute","tension","awkward","apologise","apologize","forgive them","cant forgive","misunderstanding","difficult conversation","confront","make up","reconcile","friendship ended","lost a friend", "people gossip about me", "talking behind my back", "want to apologise", "how do i make peace", "estranged"]),
 
 # ── PROVISION / WORK ──────────────────────────────────────────────────────
 dict(id="knowledge", cat="provision", label="Study & exams", blurb="Learning, memorising, being tested",
@@ -165,7 +165,7 @@ dict(id="knowledge", cat="provision", label="Study & exams", blurb="Learning, me
 
 dict(id="work", cat="provision", label="Work", blurb="Jobs, colleagues, and the daily grind",
      match=r"\b(work|labour|earn|trade|business|market|employ)\b",
-     feelings=["work","job","my job","career","unemployed","job hunting","applying","interview","promotion","boss","colleague","workplace","business","my business","clients","customers","startup","project","deadline","hate my job","stressed at work","overworked","looking for work"]),
+     feelings=["work","job","my job","career","unemployed","job hunting","applying","interview","promotion","boss","colleague","workplace","business","my business","clients","customers","startup","project","deadline","hate my job","stressed at work","overworked","looking for work", "burnt out", "burnout", "toxic workplace", "my boss", "bullied at work", "made redundant", "laid off", "interview tomorrow", "cant find work"]),
 
 dict(id="decision", cat="provision", label="A decision to make", blurb="When you genuinely do not know which way",
      match=r"\b(istikhara|seek(ing)? .{0,12}(guidance|good)|decide|decision)\b",
@@ -182,19 +182,19 @@ dict(id="forgiveness", cat="faith", label="Seeking forgiveness", blurb="Turning 
 
 dict(id="weak-iman", cat="faith", label="Faith feeling weak", blurb="Distance, dryness, doubt",
      match=r"\b(steadfast|firm(ness)?|turner of hearts|guide|guidance|astray|iman|faith)\b",
-     feelings=["weak iman","low iman","faith","losing faith","doubt","doubts","doubting","far from allah","distant","disconnected","empty prayers","cant pray","stopped praying","dont feel anything","spiritually dry","hypocrite","going through the motions","want to feel close","reconnect","lost my way","astray","need guidance"]),
+     feelings=["weak iman","low iman","faith","losing faith","doubt","doubts","doubting","far from allah","distant","disconnected","empty prayers","cant pray","stopped praying","dont feel anything","spiritually dry","hypocrite","going through the motions","want to feel close","reconnect","lost my way","astray","need guidance", "new muslim", "just converted", "i converted", "reverted", "new to islam", "just became muslim", "family rejected me", "disowned me", "learning to pray", "dont know how to pray", "where do i start"]),
 
 dict(id="waswas", cat="faith", label="Intrusive thoughts", blurb="Whispers you would never choose to think",
      match=r"\b(whisper|waswas|satan|shaytan|devil|clear faith)\b",
-     feelings=["waswas","whispers","intrusive thoughts","bad thoughts","blasphemous thoughts","scared of my own thoughts","ocd","obsessive","cant stop thinking","doubting my wudu","doubting my prayer","repeating","scrupulosity","terrible thoughts","am i a kafir"]),
+     feelings=["waswas","whispers","intrusive thoughts","bad thoughts","blasphemous thoughts","scared of my own thoughts","ocd","obsessive","cant stop thinking","doubting my wudu","doubting my prayer","repeating","scrupulosity","terrible thoughts","am i a kafir", "horrible thoughts", "thoughts about allah"]),
 
 dict(id="steadfastness", cat="faith", label="Staying firm", blurb="Patience, endurance, keeping going",
      match=r"\b(patien(ce|t)|sabr|persever|endur|steadfast)\b",
-     feelings=["patience","sabr","be patient","hard to be patient","waiting","still waiting","how long","enduring","persevere","keep going","dont give up","strength","need strength","tired of trying","consistency","istiqamah","discipline"]),
+     feelings=["patience","sabr","be patient","hard to be patient","waiting","still waiting","how long","enduring","persevere","keep going","dont give up","strength","need strength","tired of trying","consistency","istiqamah","discipline", "procrastinating", "procrastination", "keep putting it off", "cant start", "no discipline", "no willpower", "keep failing at it", "trying again", "start again", "cant keep it up", "fall off"]),
 
 dict(id="death-remembrance", cat="faith", label="Thinking about death", blurb="The hereafter, the grave, what comes after",
      match=r"\b(hereafter|akhirah|grave|resurrect|paradise|jannah|hell|fire\b|judgment)\b",
-     feelings=["death","dying","afraid of death","the grave","hereafter","akhirah","jannah","paradise","hellfire","jahannam","judgment day","qiyamah","afterlife","am i ready","what happens after","meeting allah","accountability","my deeds"]),
+     feelings=["death","dying","afraid of death","the grave","hereafter","akhirah","jannah","paradise","hellfire","jahannam","judgment day","qiyamah","afterlife","am i ready","what happens after","meeting allah","accountability","my deeds", "will anyone remember me", "what happens after i die", "legacy", "leave behind", "after im gone", "meaning of life", "why am i here"]),
 
 # ── PROTECTION ────────────────────────────────────────────────────────────
 dict(id="refuge", cat="protection", label="Seeking refuge", blurb="Asking to be shielded from harm",
@@ -207,7 +207,7 @@ dict(id="evil-eye", cat="protection", label="Evil eye & envy of others", blurb="
 
 dict(id="home", cat="protection", label="Home & household", blurb="Entering, leaving, and being kept in it",
      match=r"\b(enter(s|ing|ed)? .{0,12}(house|home)|leav(es|ing) .{0,12}(house|home)|household)\b",
-     feelings=["home","my house","entering home","leaving home","household","family home","moving house","new home","safety at home","alone at home","noises","cant sleep at home"]),
+     feelings=["home","my house","entering home","leaving home","household","family home","moving house","new home","safety at home","alone at home","noises","cant sleep at home", "leaving the house", "going out", "coming home", "entering my house", "new house"]),
 
 # ── DAILY ─────────────────────────────────────────────────────────────────
 dict(id="morning-evening", cat="daily", label="Morning & evening", blurb="How to begin and end a day",
@@ -216,11 +216,11 @@ dict(id="morning-evening", cat="daily", label="Morning & evening", blurb="How to
 
 dict(id="sleep", cat="daily", label="Sleep & the night", blurb="Lying down, waking, and bad dreams",
      match=r"\b(sleep|slept|bed\b|night|dream|awoke|wakes)\b",
-     feelings=["sleep","cant sleep","insomnia","going to bed","bedtime","night","late at night","3am","awake","tired","nightmare","bad dream","dream","scared at night","waking up","restless night","sleep paralysis"]),
+     feelings=["sleep","cant sleep","insomnia","going to bed","bedtime","night","late at night","3am","awake","tired","nightmare","bad dream","dream","scared at night","waking up","restless night","sleep paralysis", "wake up terrified", "night terrors", "cant fall asleep"]),
 
 dict(id="eating", cat="daily", label="Food & drink", blurb="Before and after eating",
      match=r"\b(eat(s|ing|en)?|food|meal|drink|drank|ate)\b",
-     feelings=["eating","food","meal","before eating","after eating","drinking","water","hungry","fasting","iftar","suhoor","breaking fast","bismillah before food","gratitude for food"]),
+     feelings=["eating","food","meal","before eating","after eating","drinking","water","hungry","fasting","iftar","suhoor","breaking fast","bismillah before food","gratitude for food", "about to eat", "having a meal"]),
 
 dict(id="prayer", cat="daily", label="In prayer", blurb="What is said within the ṣalāh",
      match=r"\b(rak(a|')ah|prostrat|sujud|ruku|bow(ing|ed)?|prayer|salat|salah|qunut|tashahhud)\b",

@@ -236,9 +236,14 @@
     "by myself",
     "single",
     "unloved",
-    "nobody loves me"
+    "nobody loves me",
+    "nobody understands me",
+    "feel invisible",
+    "no one checks on me",
+    "excluded",
+    "nobody cares"
    ],
-   "count": 87
+   "count": 89
   },
   {
    "id": "despair",
@@ -272,9 +277,33 @@
     "worthless",
     "useless",
     "failure",
-    "im a failure"
+    "im a failure",
+    "i want to end it",
+    "want to end it",
+    "end it all",
+    "i cant take it anymore",
+    "cant take it",
+    "no reason to live",
+    "nothing to live for",
+    "want to die",
+    "wish i was dead",
+    "better off dead",
+    "better off without me",
+    "dont want to live",
+    "dont want to be here",
+    "suicidal",
+    "kill myself",
+    "hurt myself",
+    "self harm",
+    "tired of living",
+    "tired of everything",
+    "done with life",
+    "empty inside",
+    "i feel numb",
+    "dont feel anything",
+    "feel nothing"
    ],
-   "count": 76
+   "count": 79
   },
   {
    "id": "overwhelm",
@@ -346,7 +375,12 @@
     "content",
     "contentment",
     "peaceful",
-    "at peace"
+    "at peace",
+    "something good happened",
+    "i got the job",
+    "got accepted",
+    "she said yes",
+    "my baby was born"
    ],
    "count": 210
   },
@@ -370,7 +404,13 @@
     "social media",
     "feel behind",
     "left behind",
-    "everyone is ahead"
+    "everyone is ahead",
+    "compare myself",
+    "comparing myself",
+    "everyone else has",
+    "behind everyone",
+    "social media makes me",
+    "seeing everyone succeed"
    ],
    "count": 44
   },
@@ -400,9 +440,28 @@
     "unworthy",
     "not good enough",
     "let everyone down",
-    "disappointed in myself"
+    "disappointed in myself",
+    "i relapsed",
+    "relapsed again",
+    "i keep relapsing",
+    "addicted",
+    "addiction",
+    "im addicted",
+    "cant stop",
+    "porn",
+    "pornography",
+    "gambling",
+    "drinking",
+    "alcohol",
+    "drugs",
+    "smoking",
+    "bad habit",
+    "keep going back",
+    "slipped again",
+    "did it again",
+    "cant quit"
    ],
-   "count": 103
+   "count": 106
   },
   {
    "id": "distress",
@@ -608,9 +667,21 @@
     "need money",
     "tight month",
     "expenses",
-    "cost of living"
+    "cost of living",
+    "evicted",
+    "eviction",
+    "landlord",
+    "cant pay the bills",
+    "bills",
+    "no money for food",
+    "behind on rent",
+    "homeless",
+    "losing my home",
+    "repossession",
+    "cant afford it",
+    "struggling to pay"
    ],
-   "count": 156
+   "count": 158
   },
   {
    "id": "oppression",
@@ -641,9 +712,19 @@
     "no one believes me",
     "powerless",
     "cant defend myself",
-    "they got away with it"
+    "they got away with it",
+    "war",
+    "genocide",
+    "the news",
+    "saw the news",
+    "innocent people",
+    "children dying",
+    "bombing",
+    "occupation",
+    "cant watch the news",
+    "helpless watching"
    ],
-   "count": 74
+   "count": 79
   },
   {
    "id": "enemy",
@@ -821,9 +902,14 @@
     "make up",
     "reconcile",
     "friendship ended",
-    "lost a friend"
+    "lost a friend",
+    "people gossip about me",
+    "talking behind my back",
+    "want to apologise",
+    "how do i make peace",
+    "estranged"
    ],
-   "count": 85
+   "count": 90
   },
   {
    "id": "knowledge",
@@ -888,9 +974,18 @@
     "hate my job",
     "stressed at work",
     "overworked",
-    "looking for work"
+    "looking for work",
+    "burnt out",
+    "burnout",
+    "toxic workplace",
+    "my boss",
+    "bullied at work",
+    "made redundant",
+    "laid off",
+    "interview tomorrow",
+    "cant find work"
    ],
-   "count": 76
+   "count": 84
   },
   {
    "id": "decision",
@@ -1012,9 +1107,20 @@
     "reconnect",
     "lost my way",
     "astray",
-    "need guidance"
+    "need guidance",
+    "new muslim",
+    "just converted",
+    "i converted",
+    "reverted",
+    "new to islam",
+    "just became muslim",
+    "family rejected me",
+    "disowned me",
+    "learning to pray",
+    "dont know how to pray",
+    "where do i start"
    ],
-   "count": 140
+   "count": 147
   },
   {
    "id": "waswas",
@@ -1036,7 +1142,9 @@
     "repeating",
     "scrupulosity",
     "terrible thoughts",
-    "am i a kafir"
+    "am i a kafir",
+    "horrible thoughts",
+    "thoughts about allah"
    ],
    "count": 66
   },
@@ -1062,9 +1170,20 @@
     "tired of trying",
     "consistency",
     "istiqamah",
-    "discipline"
+    "discipline",
+    "procrastinating",
+    "procrastination",
+    "keep putting it off",
+    "cant start",
+    "no discipline",
+    "no willpower",
+    "keep failing at it",
+    "trying again",
+    "start again",
+    "cant keep it up",
+    "fall off"
    ],
-   "count": 103
+   "count": 116
   },
   {
    "id": "death-remembrance",
@@ -1089,9 +1208,16 @@
     "what happens after",
     "meeting allah",
     "accountability",
-    "my deeds"
+    "my deeds",
+    "will anyone remember me",
+    "what happens after i die",
+    "legacy",
+    "leave behind",
+    "after im gone",
+    "meaning of life",
+    "why am i here"
    ],
-   "count": 506
+   "count": 523
   },
   {
    "id": "refuge",
@@ -1162,9 +1288,14 @@
     "safety at home",
     "alone at home",
     "noises",
-    "cant sleep at home"
+    "cant sleep at home",
+    "leaving the house",
+    "going out",
+    "coming home",
+    "entering my house",
+    "new house"
    ],
-   "count": 42
+   "count": 47
   },
   {
    "id": "morning-evening",
@@ -1212,7 +1343,10 @@
     "scared at night",
     "waking up",
     "restless night",
-    "sleep paralysis"
+    "sleep paralysis",
+    "wake up terrified",
+    "night terrors",
+    "cant fall asleep"
    ],
    "count": 177
   },
@@ -1235,9 +1369,11 @@
     "suhoor",
     "breaking fast",
     "bismillah before food",
-    "gratitude for food"
+    "gratitude for food",
+    "about to eat",
+    "having a meal"
    ],
-   "count": 104
+   "count": 103
   },
   {
    "id": "prayer",
