@@ -84,7 +84,20 @@
     "cant feel happy",
     "nothing makes me happy",
     "lost my spark",
-    "feel like crying"
+    "feel like crying",
+    "im not okay",
+    "not ok",
+    "im not ok",
+    "gutted",
+    "devastated",
+    "shattered",
+    "heart broken",
+    "my heart is heavy",
+    "down bad",
+    "hurting",
+    "in pain emotionally",
+    "teary",
+    "crying a lot"
    ],
    "count": 116
   },
@@ -130,9 +143,24 @@
     "insomnia",
     "cant sleep from worry",
     "spiralling",
-    "spiraling"
+    "spiraling",
+    "my head is a mess",
+    "im a mess",
+    "losing it",
+    "going crazy",
+    "losing my mind",
+    "my chest is tight",
+    "tight chest",
+    "cant breathe",
+    "no peace of mind",
+    "my mind is not calm",
+    "i want peace",
+    "peace of mind",
+    "sakinah",
+    "tension",
+    "in tension"
    ],
-   "count": 122
+   "count": 125
   },
   {
    "id": "fear",
@@ -241,9 +269,14 @@
     "feel invisible",
     "no one checks on me",
     "excluded",
-    "nobody cares"
+    "nobody cares",
+    "i feel replaced",
+    "replaced",
+    "overlooked",
+    "feel unwanted",
+    "nobody near me"
    ],
-   "count": 89
+   "count": 99
   },
   {
    "id": "despair",
@@ -301,7 +334,15 @@
     "empty inside",
     "i feel numb",
     "dont feel anything",
-    "feel nothing"
+    "feel nothing",
+    "i feel like giving up",
+    "nothing is working",
+    "nothing works",
+    "whats the use",
+    "no point trying",
+    "at rock bottom",
+    "lowest point",
+    "cant see a way"
    ],
    "count": 79
   },
@@ -334,9 +375,25 @@
     "breaking",
     "cracking",
     "at capacity",
-    "carrying too much"
+    "carrying too much",
+    "im done",
+    "so done",
+    "over it",
+    "cant deal",
+    "had enough",
+    "fed up",
+    "life is difficult",
+    "life is hard",
+    "too much problem",
+    "too many problems",
+    "i am struggling",
+    "struggling",
+    "helpless",
+    "no energy",
+    "cant keep going",
+    "spread too thin"
    ],
-   "count": 66
+   "count": 89
   },
   {
    "id": "gratitude",
@@ -380,9 +437,23 @@
     "i got the job",
     "got accepted",
     "she said yes",
-    "my baby was born"
+    "my baby was born",
+    "shukr",
+    "barakah",
+    "barakat",
+    "blessings",
+    "eid",
+    "eid mubarak",
+    "graduating",
+    "graduated",
+    "passed my exam",
+    "got engaged",
+    "engagement",
+    "good things",
+    "counting blessings",
+    "dunya"
    ],
-   "count": 210
+   "count": 223
   },
   {
    "id": "envy",
@@ -459,9 +530,22 @@
     "keep going back",
     "slipped again",
     "did it again",
-    "cant quit"
+    "cant quit",
+    "riya",
+    "showing off",
+    "show off",
+    "pride",
+    "arrogance",
+    "arrogant",
+    "ego",
+    "vanity",
+    "two faced",
+    "hypocrite",
+    "feel like a hypocrite",
+    "munafiq",
+    "insincere"
    ],
-   "count": 106
+   "count": 137
   },
   {
    "id": "distress",
@@ -528,9 +612,23 @@
     "test results",
     "health",
     "my health",
-    "body hurts"
+    "body hurts",
+    "chemo",
+    "chemotherapy",
+    "therapy",
+    "counselling",
+    "migraine",
+    "headache",
+    "ruqyah",
+    "shifa",
+    "healing",
+    "poorly",
+    "mental health",
+    "depression",
+    "anxiety disorder",
+    "medication"
    ],
-   "count": 113
+   "count": 119
   },
   {
    "id": "someone-ill",
@@ -679,9 +777,15 @@
     "losing my home",
     "repossession",
     "cant afford it",
-    "struggling to pay"
+    "struggling to pay",
+    "barakah in money",
+    "payday",
+    "salary",
+    "expensive",
+    "short on money",
+    "tight this month"
    ],
-   "count": 158
+   "count": 159
   },
   {
    "id": "oppression",
@@ -722,9 +826,41 @@
     "bombing",
     "occupation",
     "cant watch the news",
-    "helpless watching"
+    "helpless watching",
+    "slandered",
+    "someone slandered me",
+    "false accusation",
+    "accused me",
+    "lied about me",
+    "defamed",
+    "islamophobia",
+    "racist",
+    "discrimination",
+    "prejudice",
+    "treated unfairly",
+    "abuse",
+    "abusive",
+    "domestic",
+    "domestic abuse",
+    "domestic violence",
+    "he hits me",
+    "she hits me",
+    "my husband hits me",
+    "my dad hits me",
+    "being abused",
+    "abusive husband",
+    "abusive wife",
+    "abusive marriage",
+    "abusive relationship",
+    "abusive parent",
+    "not safe at home",
+    "afraid to go home",
+    "scared of my husband",
+    "forced marriage",
+    "coerced",
+    "controlling"
    ],
-   "count": 79
+   "count": 82
   },
   {
    "id": "enemy",
@@ -749,9 +885,12 @@
     "legal trouble",
     "confrontation",
     "war",
-    "conflict"
+    "conflict",
+    "islamophobia",
+    "someone is after me",
+    "being targeted"
    ],
-   "count": 62
+   "count": 63
   },
   {
    "id": "failure",
@@ -779,9 +918,24 @@
     "wasted",
     "started over",
     "back to square one",
-    "disappointed"
+    "disappointed",
+    "nothing is working",
+    "it didnt work",
+    "messed up",
+    "i failed",
+    "let everyone down",
+    "not good enough",
+    "i feel like a failure",
+    "feel worthless",
+    "worthless",
+    "useless",
+    "qadr",
+    "qadar",
+    "decree",
+    "meant to be",
+    "wasnt meant for me"
    ],
-   "count": 27
+   "count": 43
   },
   {
    "id": "marriage",
@@ -812,7 +966,11 @@
     "love",
     "heartbreak",
     "breakup",
-    "rejected proposal"
+    "rejected proposal",
+    "got engaged",
+    "engagement",
+    "my nikah",
+    "wedding tomorrow"
    ],
    "count": 179
   },
@@ -845,7 +1003,19 @@
     "parenting",
     "raising children",
     "teenager",
-    "protect my children"
+    "protect my children",
+    "newborn",
+    "new baby",
+    "adoption",
+    "adopted",
+    "custody",
+    "my kids",
+    "raising kids",
+    "single parent",
+    "single mum",
+    "single dad",
+    "my teenager",
+    "toddler"
    ],
    "count": 187
   },
@@ -873,7 +1043,16 @@
     "siblings",
     "brother",
     "sister",
-    "in laws"
+    "in laws",
+    "absent father",
+    "absent parent",
+    "estranged parent",
+    "my mum",
+    "my dad",
+    "looking after my parents",
+    "caring for my mum",
+    "caring for my dad",
+    "elderly parents"
    ],
    "count": 139
   },
@@ -907,7 +1086,13 @@
     "talking behind my back",
     "want to apologise",
     "how do i make peace",
-    "estranged"
+    "estranged",
+    "in laws",
+    "my brother doesnt speak to me",
+    "my sister doesnt speak to me",
+    "family feud",
+    "toxic family",
+    "fell out with family"
    ],
    "count": 90
   },
@@ -942,7 +1127,14 @@
     "interview",
     "learning",
     "understand",
-    "knowledge"
+    "knowledge",
+    "graduating",
+    "started university",
+    "dua for exms",
+    "cant memorise",
+    "memorising quran",
+    "learning arabic",
+    "seeking knowledge"
    ],
    "count": 91
   },
@@ -983,9 +1175,19 @@
     "made redundant",
     "laid off",
     "interview tomorrow",
-    "cant find work"
+    "cant find work",
+    "redundancy",
+    "salary",
+    "payday",
+    "pay rise",
+    "job interview",
+    "first day",
+    "new job",
+    "retiring",
+    "retirement",
+    "workload"
    ],
-   "count": 84
+   "count": 90
   },
   {
    "id": "decision",
@@ -1013,9 +1215,14 @@
     "what should i do",
     "big decision",
     "move abroad",
-    "accept the offer"
+    "accept the offer",
+    "lost",
+    "feel lost",
+    "which path",
+    "cant choose",
+    "is this right for me"
    ],
-   "count": 47
+   "count": 54
   },
   {
    "id": "travel",
@@ -1043,9 +1250,14 @@
     "going home",
     "arriving",
     "safe travels",
-    "long drive"
+    "long drive",
+    "going for hajj",
+    "going for umrah",
+    "moving house",
+    "moving country",
+    "long journey"
    ],
-   "count": 67
+   "count": 68
   },
   {
    "id": "forgiveness",
@@ -1076,9 +1288,17 @@
     "gone too far",
     "unforgivable",
     "start again",
-    "clean slate"
+    "clean slate",
+    "taubah",
+    "tawba",
+    "turn back",
+    "ramadan",
+    "ramadan starting",
+    "laylatul qadr",
+    "last ten nights",
+    "seeking pardon"
    ],
-   "count": 271
+   "count": 283
   },
   {
    "id": "weak-iman",
@@ -1118,9 +1338,22 @@
     "disowned me",
     "learning to pray",
     "dont know how to pray",
-    "where do i start"
+    "where do i start",
+    "questioning islam",
+    "questioning my faith",
+    "doubts about islam",
+    "losing my faith",
+    "lost my faith",
+    "dont feel anything in salah",
+    "no khushu",
+    "khushu",
+    "hard to pray",
+    "missed fajr",
+    "cant wake for fajr",
+    "struggling to pray",
+    "far from deen"
    ],
-   "count": 147
+   "count": 154
   },
   {
    "id": "waswas",
@@ -1181,9 +1414,24 @@
     "trying again",
     "start again",
     "cant keep it up",
-    "fall off"
+    "fall off",
+    "tawakkul",
+    "reliance",
+    "trust in allah",
+    "hold on",
+    "stay strong",
+    "give me strength",
+    "fitna",
+    "trials",
+    "tested",
+    "being tested",
+    "hardship",
+    "disabled",
+    "disability",
+    "long illness",
+    "chronic"
    ],
-   "count": 116
+   "count": 155
   },
   {
    "id": "death-remembrance",
@@ -1242,7 +1490,7 @@
     "at night",
     "dark"
    ],
-   "count": 241
+   "count": 240
   },
   {
    "id": "evil-eye",
@@ -1267,7 +1515,10 @@
     "possessed",
     "jinn",
     "protection from people",
-    "they wish me harm"
+    "they wish me harm",
+    "buri nazar",
+    "someone jealous of me",
+    "ill wish"
    ],
    "count": 44
   },
@@ -1346,9 +1597,14 @@
     "sleep paralysis",
     "wake up terrified",
     "night terrors",
-    "cant fall asleep"
+    "cant fall asleep",
+    "before sleeping",
+    "before bed",
+    "at night",
+    "awake all night",
+    "up all night"
    ],
-   "count": 177
+   "count": 178
   },
   {
    "id": "eating",

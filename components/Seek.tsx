@@ -2,13 +2,14 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { matchSituations, entriesFor, neighboursOf, isCrisis, EXAMPLES } from "@/lib/search";
+import { matchSituations, entriesFor, neighboursOf, isCrisis, isHarm, EXAMPLES } from "@/lib/search";
 import { EntryCard } from "@/components/Cards";
 
 export default function Seek() {
   const [q, setQ] = useState("");
   const asked = q.trim().length > 1;
   const crisis = asked && isCrisis(q);
+  const harm = asked && !crisis && isHarm(q);
 
   const { primary, related } = useMemo(() => {
     const all = matchSituations(q);
@@ -107,9 +108,41 @@ export default function Seek() {
         </div>
       )}
 
+      {harm && (
+        <div className="rise mt-12 rounded-2xl border border-[var(--gold)] bg-[var(--card)] p-7 sm:p-9">
+          <p className="display text-[24px] leading-snug text-[var(--ink)] sm:text-[27px]">
+            You are not required to endure this.
+          </p>
+          <p className="mt-4 max-w-xl text-[16px] leading-[1.75] text-[var(--ink-soft)]">
+            Being hurt by someone in your own home is not a test you are failing,
+            and patience does not mean staying where you are being harmed. Nothing
+            in what follows asks you to.
+          </p>
+          <p className="mt-4 max-w-xl text-[16px] leading-[1.75] text-[var(--ink-soft)]">
+            Tell someone you trust, today. If you are in immediate danger, call your
+            local emergency number. Trained people will talk it through with you
+            confidentially, free, wherever you are:{" "}
+            <a
+              href="https://findahelpline.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--green)] underline underline-offset-4"
+            >
+              findahelpline.com
+            </a>
+            .
+          </p>
+          <p className="mt-5 max-w-xl text-[15px] leading-[1.7] text-[var(--ink-faint)]">
+            The Prophet warned to beware the supplication of the one who has been
+            wronged, because there is no veil between it and Allah. Your position
+            in this is not the weak one.
+          </p>
+        </div>
+      )}
+
       {asked && (
         <div className="mt-12">
-          {primary.length === 0 && !crisis ? (
+          {primary.length === 0 && !crisis && !harm ? (
             <div className="rise rounded-2xl border border-[var(--line)] bg-[var(--card)] p-8 text-center">
               <p className="display text-[24px] text-[var(--ink)]">
                 Nothing matched those words.

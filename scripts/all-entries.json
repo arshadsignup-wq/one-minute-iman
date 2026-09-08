@@ -176,7 +176,9 @@
   "situations": [
    "enemy",
    "fear",
-   "loneliness"
+   "loneliness",
+   "overwhelm",
+   "steadfastness"
   ]
  },
  {
@@ -259,6 +261,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "failure",
    "forgiveness",
    "shame"
   ]
@@ -298,7 +301,9 @@
   },
   "tier": "curated",
   "situations": [
+   "decision",
    "despair",
+   "failure",
    "forgiveness",
    "shame"
   ]
@@ -463,6 +468,7 @@
   "tier": "curated",
   "situations": [
    "debt",
+   "overwhelm",
    "poverty"
   ]
  },
@@ -543,7 +549,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "illness"
+   "illness",
+   "steadfastness"
   ]
  },
  {
@@ -1525,7 +1532,8 @@
   "situations": [
    "fear",
    "home",
-   "refuge"
+   "refuge",
+   "sleep"
   ]
  },
  {
@@ -1881,7 +1889,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "prayer"
+   "prayer",
+   "weak-iman"
   ]
  },
  {
@@ -2031,7 +2040,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "eating"
+   "eating",
+   "forgiveness"
   ]
  },
  {
@@ -2198,7 +2208,8 @@
   "tier": "curated",
   "situations": [
    "gratitude",
-   "poverty"
+   "poverty",
+   "steadfastness"
   ]
  },
  {
@@ -2396,6 +2407,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "anxiety",
    "enemy",
    "reconcile"
   ]
@@ -2701,7 +2713,8 @@
   "tier": "curated",
   "situations": [
    "home",
-   "parents"
+   "parents",
+   "travel"
   ]
  },
  {
@@ -2790,7 +2803,8 @@
   "situations": [
    "distress",
    "illness",
-   "knowledge"
+   "knowledge",
+   "steadfastness"
   ]
  },
  {
@@ -2966,6 +2980,7 @@
   "tier": "curated",
   "situations": [
    "decision",
+   "steadfastness",
    "weak-iman"
   ]
  },
@@ -3231,7 +3246,8 @@
    "anxiety",
    "failure",
    "fear",
-   "knowledge"
+   "knowledge",
+   "steadfastness"
   ]
  },
  {
@@ -3528,6 +3544,7 @@
   "tier": "curated",
   "situations": [
    "anger",
+   "anxiety",
    "reconcile"
   ]
  },
@@ -3799,7 +3816,8 @@
   "situations": [
    "dhikr",
    "overwhelm",
-   "sleep"
+   "sleep",
+   "steadfastness"
   ]
  },
  {
@@ -4211,7 +4229,9 @@
   "english_full": "Narrated Anas:Um Sulaim said to the Prophet (ﷺ) \"Anas is your servant.\" The Prophet (ﷺ) said, \"O Allah! increase his wealth and offspring, and bless (for him) what ever you give him",
   "mode": "dua",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "gratitude"
+  ]
  },
  {
   "id": "closest-in-sujud",
@@ -4582,7 +4602,9 @@
   "tier": "curated",
   "situations": [
    "anxiety",
-   "fear"
+   "enemy",
+   "fear",
+   "oppression"
   ]
  },
  {
@@ -4620,7 +4642,9 @@
    ]
   },
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "steadfastness"
+  ]
  },
  {
   "id": "wisdom-and-company",
@@ -4963,7 +4987,8 @@
    "distress",
    "enemy",
    "oppression",
-   "overwhelm"
+   "overwhelm",
+   "steadfastness"
   ]
  },
  {
@@ -5047,6 +5072,7 @@
   "situations": [
    "eating",
    "prayer",
+   "shame",
    "weak-iman"
   ]
  },
@@ -5488,6 +5514,7 @@
   "tier": "curated",
   "situations": [
    "death-remembrance",
+   "decision",
    "despair",
    "rain-weather",
    "sadness"
@@ -5572,6 +5599,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "gratitude",
    "morning-evening",
    "prayer",
    "travel",
@@ -5879,6 +5907,7 @@
   "tier": "curated",
   "situations": [
    "death",
+   "illness",
    "loneliness",
    "sadness"
   ]
@@ -6129,6 +6158,7 @@
   "situations": [
    "debt",
    "eating",
+   "gratitude",
    "home",
    "poverty"
   ]
@@ -6643,7 +6673,8 @@
   "tier": "curated",
   "situations": [
    "anger",
-   "despair"
+   "despair",
+   "overwhelm"
   ]
  },
  {
@@ -6772,6 +6803,7 @@
   "tier": "curated",
   "situations": [
    "enemy",
+   "gratitude",
    "home",
    "oppression",
    "travel"
@@ -6866,6 +6898,7 @@
   "tier": "curated",
   "situations": [
    "knowledge",
+   "shame",
    "weak-iman"
   ]
  },
@@ -6956,7 +6989,8 @@
   "situations": [
    "gratitude",
    "illness",
-   "poverty"
+   "poverty",
+   "steadfastness"
   ]
  },
  {
@@ -7299,7 +7333,8 @@
    "children",
    "death",
    "death-remembrance",
-   "sadness"
+   "sadness",
+   "shame"
   ]
  },
  {
@@ -7385,6 +7420,7 @@
   "situations": [
    "anxiety",
    "evil-eye",
+   "illness",
    "overwhelm",
    "sadness",
    "someone-ill"
@@ -7430,6 +7466,7 @@
   "tier": "curated",
   "situations": [
    "evil-eye",
+   "illness",
    "refuge"
   ]
  },
@@ -7511,7 +7548,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "prayer"
+   "prayer",
+   "weak-iman"
   ]
  },
  {
@@ -7800,7 +7838,8 @@
   "tier": "curated",
   "situations": [
    "illness",
-   "sleep"
+   "sleep",
+   "work"
   ]
  },
  {
@@ -8329,7 +8368,8 @@
    "anxiety",
    "distress",
    "enemy",
-   "shame"
+   "shame",
+   "steadfastness"
   ]
  },
  {
@@ -8708,6 +8748,7 @@
   },
   "tier": "curated",
   "situations": [
+   "decision",
    "loneliness",
    "travel"
   ]
@@ -8752,6 +8793,7 @@
   "situations": [
    "death",
    "distress",
+   "failure",
    "knowledge",
    "oppression"
   ]
@@ -8795,6 +8837,7 @@
   "tier": "curated",
   "situations": [
    "knowledge",
+   "overwhelm",
    "steadfastness"
   ]
  },
@@ -8966,6 +9009,7 @@
   "tier": "curated",
   "situations": [
    "gratitude",
+   "shame",
    "work"
   ]
  },
@@ -9010,6 +9054,7 @@
    "gratitude",
    "illness",
    "parents",
+   "shame",
    "weak-iman"
   ]
  },
@@ -9180,7 +9225,8 @@
   "tier": "curated",
   "situations": [
    "anger",
-   "oppression"
+   "oppression",
+   "overwhelm"
   ]
  },
  {
@@ -9221,7 +9267,8 @@
   "tier": "curated",
   "situations": [
    "home",
-   "travel"
+   "travel",
+   "work"
   ]
  },
  {
@@ -9716,6 +9763,7 @@
   },
   "tier": "curated",
   "situations": [
+   "decision",
    "failure",
    "shame",
    "steadfastness"
@@ -10020,6 +10068,8 @@
    "envy",
    "knowledge",
    "oppression",
+   "overwhelm",
+   "steadfastness",
    "weak-iman"
   ]
  },
@@ -10102,7 +10152,9 @@
    ]
   },
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "loneliness"
+  ]
  },
  {
   "id": "only-what-you-strove",
@@ -10142,6 +10194,7 @@
   "tier": "curated",
   "situations": [
    "envy",
+   "loneliness",
    "oppression",
    "steadfastness"
   ]
@@ -10185,6 +10238,7 @@
   },
   "tier": "curated",
   "situations": [
+   "failure",
    "loneliness",
    "oppression",
    "poverty",
@@ -10529,7 +10583,8 @@
    "anxiety",
    "knowledge",
    "morning-evening",
-   "overwhelm"
+   "overwhelm",
+   "work"
   ]
  },
  {
@@ -10700,7 +10755,8 @@
    "distress",
    "forgiveness",
    "knowledge",
-   "shame"
+   "shame",
+   "steadfastness"
   ]
  },
  {
@@ -10783,7 +10839,8 @@
   "tier": "curated",
   "situations": [
    "despair",
-   "loneliness"
+   "loneliness",
+   "overwhelm"
   ]
  },
  {
@@ -10826,7 +10883,8 @@
   "tier": "curated",
   "situations": [
    "illness",
-   "someone-ill"
+   "someone-ill",
+   "steadfastness"
   ]
  },
  {
@@ -10997,7 +11055,8 @@
   },
   "tier": "curated",
   "situations": [
-   "gratitude"
+   "gratitude",
+   "overwhelm"
   ]
  },
  {
@@ -11671,6 +11730,7 @@
   },
   "tier": "curated",
   "situations": [
+   "failure",
    "forgiveness",
    "overwhelm",
    "shame",
@@ -12052,6 +12112,7 @@
   },
   "tier": "curated",
   "situations": [
+   "overwhelm",
    "prayer",
    "steadfastness"
   ]
@@ -12179,7 +12240,8 @@
   },
   "tier": "curated",
   "situations": [
-   "poverty"
+   "poverty",
+   "shame"
   ]
  },
  {
@@ -12474,6 +12536,7 @@
    "death-remembrance",
    "fear",
    "illness",
+   "overwhelm",
    "sadness"
   ]
  },
@@ -13019,6 +13082,7 @@
   "situations": [
    "death",
    "prayer",
+   "shame",
    "weak-iman"
   ]
  },
@@ -13319,6 +13383,7 @@
   "tier": "curated",
   "situations": [
    "morning-evening",
+   "overwhelm",
    "prayer",
    "steadfastness",
    "work"
@@ -13399,7 +13464,8 @@
   "tier": "curated",
   "situations": [
    "death-remembrance",
-   "knowledge"
+   "knowledge",
+   "steadfastness"
   ]
  },
  {
@@ -13522,6 +13588,7 @@
   "tier": "curated",
   "situations": [
    "eating",
+   "gratitude",
    "parents",
    "poverty"
   ]
@@ -14081,7 +14148,8 @@
    "death",
    "death-remembrance",
    "forgiveness",
-   "gratitude"
+   "gratitude",
+   "work"
   ]
  },
  {
@@ -14211,6 +14279,7 @@
   "situations": [
    "dhikr",
    "gratitude",
+   "shame",
    "weak-iman"
   ]
  },
@@ -14338,7 +14407,8 @@
   "situations": [
    "children",
    "illness",
-   "prayer"
+   "prayer",
+   "steadfastness"
   ]
  },
  {
@@ -14466,6 +14536,7 @@
   "tier": "curated",
   "situations": [
    "death-remembrance",
+   "failure",
    "shame",
    "weak-iman"
   ]
@@ -14508,6 +14579,7 @@
   "english_full": "Narrated Abu Huraira:The Prophet (ﷺ) came across me in one of the streets of Medina and at that time I was Junub. So I slipped away from him and went to take a bath. On my return the Prophet (ﷺ) said, \"O Abu Huraira! Where have you been?\" I replied, \"I was Junub, so I disliked to sit in your company.\" The Prophet (ﷺ) said, \"Subhan Allah! A believer never becomes impure",
   "tier": "curated",
   "situations": [
+   "failure",
    "forgiveness",
    "shame",
    "waswas",
@@ -14649,7 +14721,8 @@
    "children",
    "envy",
    "evil-eye",
-   "refuge"
+   "refuge",
+   "shame"
   ]
  },
  {
@@ -14783,7 +14856,8 @@
   "tier": "curated",
   "situations": [
    "mosque",
-   "reconcile"
+   "reconcile",
+   "shame"
   ]
  },
  {
@@ -15127,6 +15201,7 @@
   "situations": [
    "forgiveness",
    "oppression",
+   "overwhelm",
    "shame",
    "work"
   ]
@@ -15333,6 +15408,7 @@
    "death-remembrance",
    "despair",
    "dhikr",
+   "failure",
    "fear",
    "shame"
   ]
@@ -15623,7 +15699,8 @@
    "anxiety",
    "knowledge",
    "prayer",
-   "waswas"
+   "waswas",
+   "weak-iman"
   ]
  },
  {
@@ -15940,7 +16017,9 @@
    ]
   },
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "shame"
+  ]
  },
  {
   "id": "avoid-suspicion",
@@ -16018,7 +16097,8 @@
   },
   "tier": "curated",
   "situations": [
-   "gratitude"
+   "gratitude",
+   "shame"
   ]
  },
  {
@@ -16060,7 +16140,8 @@
   "situations": [
    "mosque",
    "parents",
-   "reconcile"
+   "reconcile",
+   "steadfastness"
   ]
  },
  {
@@ -16229,6 +16310,7 @@
   "situations": [
    "death-remembrance",
    "illness",
+   "overwhelm",
    "parents",
    "sadness"
   ]
@@ -16345,6 +16427,7 @@
   "english_full": "Narrated Abu Huraira:The Prophet (ﷺ) said twice, \"(O you people) Be cautious! Do not practice Al-Wisal.\" The people said to him, \"But you practice Al-Wisal?\" The Prophet (ﷺ) replied, \"My Lord gives me food and drink during my sleep. Do that much of deeds which is within your ability",
   "tier": "curated",
   "situations": [
+   "forgiveness",
    "overwhelm",
    "steadfastness",
    "weak-iman",
@@ -16431,7 +16514,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "dhikr"
+   "dhikr",
+   "shame"
   ]
  },
  {
@@ -16671,7 +16755,8 @@
   "situations": [
    "distress",
    "loneliness",
-   "sadness"
+   "sadness",
+   "shame"
   ]
  },
  {
@@ -16709,6 +16794,7 @@
   },
   "tier": "curated",
   "situations": [
+   "loneliness",
    "steadfastness"
   ]
  },
@@ -16749,6 +16835,7 @@
   "tier": "curated",
   "situations": [
    "anxiety",
+   "illness",
    "overwhelm",
    "sadness"
   ]
@@ -16834,7 +16921,8 @@
   "tier": "curated",
   "situations": [
    "gratitude",
-   "prayer"
+   "prayer",
+   "weak-iman"
   ]
  },
  {
@@ -16874,6 +16962,7 @@
   },
   "tier": "curated",
   "situations": [
+   "oppression",
    "steadfastness"
   ]
  },
@@ -17394,7 +17483,9 @@
   "english_full": "Abu Huraira (Allah be pleased with him) reported Allah's Messenger (ﷺ) as saying:Every (good) deed of the son of Adam would be multiplied, a good deed receiving a tenfold to seven hundredfold reward. Allah, the Exalted and Majestic, has said: With the exception of fasting, for it is done for Me and I will give a reward for it, for one abandons his passion and food for My sake. There are two occasions of joy for one who fasts, joy when he breaks it, and joy when he meets his Lord, and the breath (of an observer of fast) is sweeter to Allah than the fragrance of musk",
   "tier": "curated",
   "situations": [
-   "eating"
+   "eating",
+   "forgiveness",
+   "overwhelm"
   ]
  },
  {
@@ -17556,6 +17647,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "gratitude",
    "poverty",
    "work"
   ]
@@ -17874,7 +17966,8 @@
   },
   "tier": "curated",
   "situations": [
-   "envy"
+   "envy",
+   "shame"
   ]
  },
  {
@@ -18078,6 +18171,7 @@
    "failure",
    "overwhelm",
    "sleep",
+   "steadfastness",
    "travel"
   ]
  },
@@ -18202,7 +18296,7 @@
   "english_full": "Jundub reported that Allah's Messenger (ﷺ) stated that a person said:Allah would not forgive such and such (person). Thereupon Allah the Exalted and Glorious, said: Who is he who adjures about Me that I would not grant pardon to so and so; I have granted pardon to so and so and blotted out his deeds (who took an oath that I would not grant pardon to him)",
   "tier": "curated",
   "situations": [
-   "forgiveness"
+   "shame"
   ]
  },
  {
@@ -18316,6 +18410,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "gratitude",
    "home",
    "poverty"
   ]
@@ -18434,7 +18529,8 @@
   "english_full": "Narrated `Abdullah bin Qais:Allah's Messenger (ﷺ) said, \"Two gardens, the utensils and the contents of which are of silver, and two other gardens, the utensils and contents of which are of gold. And nothing will prevent the people who will be in the Garden of Eden from seeing their Lord except the curtain of Majesty over His Face",
   "tier": "curated",
   "situations": [
-   "death-remembrance"
+   "death-remembrance",
+   "shame"
   ]
  },
  {
@@ -18515,6 +18611,7 @@
   "situations": [
    "eating",
    "gratitude",
+   "illness",
    "poverty"
   ]
  },
@@ -18555,7 +18652,8 @@
   "situations": [
    "death-remembrance",
    "loneliness",
-   "poverty"
+   "poverty",
+   "shame"
   ]
  },
  {
@@ -18803,7 +18901,8 @@
   "tier": "curated",
   "situations": [
    "death",
-   "death-remembrance"
+   "death-remembrance",
+   "gratitude"
   ]
  },
  {
@@ -19795,6 +19894,7 @@
   },
   "tier": "curated",
   "situations": [
+   "gratitude",
    "knowledge"
   ]
  },
@@ -19835,6 +19935,7 @@
   "situations": [
    "distress",
    "knowledge",
+   "overwhelm",
    "steadfastness"
   ]
  },
@@ -20805,6 +20906,7 @@
   "situations": [
    "despair",
    "failure",
+   "loneliness",
    "steadfastness"
   ]
  },
@@ -21246,6 +21348,7 @@
   "situations": [
    "knowledge",
    "loneliness",
+   "steadfastness",
    "work"
   ]
  },
@@ -21450,7 +21553,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "gratitude"
+   "gratitude",
+   "shame"
   ]
  },
  {
@@ -21606,6 +21710,7 @@
   "english_full": "Abu Dharr reported:Allah's Apostle (ﷺ) said to me: Don't consider anything insignificant out of good things even if it is that you meet your brother with a cheerful countenance",
   "tier": "curated",
   "situations": [
+   "loneliness",
    "poverty",
    "sleep"
   ]
@@ -21723,7 +21828,8 @@
   "tier": "curated",
   "situations": [
    "debt",
-   "distress"
+   "distress",
+   "overwhelm"
   ]
  },
  {
@@ -21841,7 +21947,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "illness"
+   "illness",
+   "steadfastness"
   ]
  },
  {
@@ -22686,6 +22793,7 @@
   "situations": [
    "enemy",
    "reconcile",
+   "shame",
    "steadfastness"
   ]
  },
@@ -22805,6 +22913,7 @@
   "situations": [
    "death-remembrance",
    "illness",
+   "overwhelm",
    "parents",
    "sadness"
   ]
@@ -22883,6 +22992,7 @@
   "english_full": "Narrated Abu Huraira:Allah's Messenger (ﷺ) came across me and I was Junub. He took my hand and I went along with him till he sat down I slipped away, went home and took a bath. When I came back, he was still sitting there. He then said to me, \"O Abu Huraira! Where have you been?' I told him about it. The Prophet (ﷺ) said, \"Subhan Allah! O Abu Huraira! A believer never becomes impure",
   "tier": "curated",
   "situations": [
+   "failure",
    "shame",
    "waswas"
   ]
@@ -23039,6 +23149,7 @@
   "tier": "curated",
   "situations": [
    "despair",
+   "forgiveness",
    "overwhelm",
    "work"
   ]
@@ -23391,6 +23502,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "gratitude",
    "travel"
   ]
  },
@@ -23866,7 +23978,8 @@
   },
   "tier": "curated",
   "situations": [
-   "poverty"
+   "poverty",
+   "shame"
   ]
  },
  {
@@ -24121,6 +24234,8 @@
   "english_full": "Narrated Abu Huraira:Allah's Messenger (ﷺ) said, \"The poor person is not the one who goes round the people and ask them for a mouthful or two (of meals) or a date or two but the poor is that who has not enough (money) to satisfy his needs and whose condition is not known to others, that others may give him something in charity, and who does not beg of people",
   "tier": "curated",
   "situations": [
+   "loneliness",
+   "overwhelm",
    "poverty"
   ]
  },
@@ -25400,7 +25515,8 @@
   "situations": [
    "morning-evening",
    "prayer",
-   "sleep"
+   "sleep",
+   "weak-iman"
   ]
  },
  {
@@ -26187,6 +26303,7 @@
   },
   "tier": "curated",
   "situations": [
+   "forgiveness",
    "morning-evening",
    "mosque",
    "sleep"
@@ -26383,7 +26500,8 @@
   "tier": "curated",
   "situations": [
    "dhikr",
-   "envy"
+   "envy",
+   "shame"
   ]
  },
  {
@@ -26425,7 +26543,8 @@
    "death",
    "death-remembrance",
    "fear",
-   "refuge"
+   "refuge",
+   "steadfastness"
   ]
  },
  {
@@ -26738,7 +26857,8 @@
   "english_full": "Narrated Al-Harith bin Suwaid:`Abdullah bin Mas`ud related to us two narrations: One from the Prophet (ﷺ) and the other from himself, saying: A believer sees his sins as if he were sitting under a mountain which, he is afraid, may fall on him; whereas the wicked person considers his sins as flies passing over his nose and he just drives them away like this.\" Abu Shihab (the sub-narrator) moved his hand over his nose in illustration. (Ibn Mas`ud added): Allah's Messenger (ﷺ) said, \"Allah is more pleased with the repentance of His slave than a man who encamps at a place where his life is jeopardized, but he has his riding beast carrying his food and water. He then rests his head and sleeps for a short while and wakes to find his riding beast gone. (He starts looking for it) and suffers from severe heat and thirst or what Allah wished (him to suffer from). He then says, 'I will go back to my place.' He returns and sleeps again, and then (getting up), he raises his head to find his riding beast standing beside him",
   "tier": "curated",
   "situations": [
-   "poverty"
+   "poverty",
+   "shame"
   ]
  },
  {
@@ -27012,6 +27132,7 @@
   "tier": "curated",
   "situations": [
    "eating",
+   "forgiveness",
    "loneliness"
   ]
  },
@@ -27051,6 +27172,7 @@
   "tier": "curated",
   "situations": [
    "anxiety",
+   "decision",
    "failure",
    "shame"
   ]
@@ -27406,6 +27528,7 @@
   "tier": "curated",
   "situations": [
    "despair",
+   "failure",
    "shame"
   ]
  },
@@ -27557,7 +27680,8 @@
   "tier": "curated",
   "situations": [
    "death-remembrance",
-   "decision"
+   "decision",
+   "steadfastness"
   ]
  },
  {
@@ -27867,6 +27991,7 @@
   "situations": [
    "knowledge",
    "sadness",
+   "shame",
    "weak-iman"
   ]
  },
@@ -27905,6 +28030,7 @@
   },
   "tier": "curated",
   "situations": [
+   "loneliness",
    "oppression"
   ]
  },
@@ -28307,7 +28433,8 @@
   "situations": [
    "illness",
    "loneliness",
-   "travel"
+   "travel",
+   "work"
   ]
  },
  {
@@ -28346,7 +28473,8 @@
   "situations": [
    "morning-evening",
    "prayer",
-   "sleep"
+   "sleep",
+   "weak-iman"
   ]
  },
  {
@@ -28689,7 +28817,9 @@
   "arabic": "إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى لَيْسَ بِأَعْوَرَ أَلاَ إِنَّ الْمَسِيحَ الدَّجَّالَ أَعْوَرُ عَيْنِ الْيُمْنَى كَأَنَّ عَيْنَهُ عِنَبَةٌ طَافِيَةٌ",
   "english_full": "It is narrated on the authority of 'Abdulldh b. Umar that one day the Messenger of Allah (ﷺ) mentioned in the presence of people about al-Masih al-Dajjal. He said:Verily Allah (hallowed be He and High) is not blind of one eye. Behold, but the Masih al-Dajjal is blind of right eye as if his eye is like a swollen grape, and the Messenger of Allah (ﷺ) said: I was shown in a dream in the night that near the Ka'bah there was a man fair-complexioned, fine amongst the white-complexioned men that you ever saw, his locks of hair were falling on his shoulders. He was a man whose hair were neither too curly nor too straight, and water trickled down from his head. He was placing his bands on the shoulders of two persons and amidst them was making a circuit around the Ka'bah. I said: Who is he? They replied: Al-Masih son of Mary. And I saw behind him a man with intensely curly hair, blind of right eye. Amongst the persons I have ever seen Ibn Qatan has the greatest resemblance with him. He was making a circuit around the Ka'bah by placing both his hands on the shoulders of two persons. I said: Who is he? They said; It is al-Masih al-Dajjal",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "steadfastness"
+  ]
  },
  {
   "id": "against-a-tyrant",
@@ -28769,6 +28899,7 @@
   "tier": "curated",
   "situations": [
    "fear",
+   "oppression",
    "parents",
    "shame",
    "steadfastness"
@@ -28916,7 +29047,8 @@
   "english_full": "Narrated Abu Sa`id:I heard the Prophet (ﷺ) saying, \"Our Lord Allah will lay bare His Shin, and then all the Believers, men and women, will prostrate themselves before Him, but there will remain those who used to prostrate in the world for showing off and for gaining good reputation. Such people will try to prostrate (on the Day of Judgment) but their back swill be as stiff as if it is one bone (a single vertebra)",
   "tier": "curated",
   "situations": [
-   "prayer"
+   "prayer",
+   "shame"
   ]
  },
  {
@@ -29031,7 +29163,8 @@
    "anxiety",
    "illness",
    "sadness",
-   "sleep"
+   "sleep",
+   "steadfastness"
   ]
  },
  {
@@ -29069,6 +29202,7 @@
   },
   "tier": "curated",
   "situations": [
+   "steadfastness",
    "weak-iman"
   ]
  },
@@ -29231,6 +29365,7 @@
   "situations": [
    "anxiety",
    "children",
+   "failure",
    "poverty"
   ]
  },
@@ -29719,7 +29854,7 @@
   "english_full": "Umair al-'Adawi reported:'Utba b. Ghazwan delivered us a sermon and he praised Allah and lauded Him, then said: Now coming to the point, verily the world has been given the news of its end and that too quite early. Nothing would be left out of it but only water left in the utensil which its owner leaves, and you are going to shift to an abode which knows no end, and you should shift with the good before you, for we have been told that a stone would be thrown at one side of the Hell and it would go down even for seventy years but would not be able to reach its bottom. By Allah, it would be fully packed. Do you find it something strange, and it has been mentioned that there yawns a distance which one would be able to cover in forty years from one end to another of Paradise, and a day would come when it would be fully packed and you must be knowing that I was the seventh amongst seven who had been with Allah's Messenger (ﷺ) and we had nothing to eat but the leaves of the tree until the corners of the mouth were injured. We found a sheet which we tore in two and divided between myself and Sa'd b. Malik. I made the lower garment with halt of it and so did Sa'd make the lower garment with half of it and today there is none amongst us who has not become the governor of a city from amongst the cities (of the Islamic Commonwealth) and I seek refuge with Allah that I should consider myself great whereas I am insignificant in the eye of Allah. Prophethood does not remain for ever and its impact fades with the result that it changes eventually into kingship, and you would soon come to know and experience those rulers who would come after us and see (how far they are from religion)",
   "tier": "curated",
   "situations": [
-   "refuge"
+   "shame"
   ]
  },
  {
@@ -29794,6 +29929,7 @@
   "english_full": "A'isha reported:I heard Allah's Messenger (ﷺ) as saying: The (system) of night and day would not end until the people have taken to the worship of Lat and 'Uzza. I said: Allah's Messenger, I think when Allah has revealed this verse:\" He it is Who has sent His Messenger with right guidance, and true religion, so that He may cause it to prevail upon all religions, though the polytheists are averse (to it)\" (ix. 33), it implies that (this promise) is going to be fulfilled. Thereupon he (Allah's Apostle) said: It would happen as Allah would like. Then Allah would send the sweet fragrant air by which everyone who has even a mustard grain of faith in Him would die and those only would survive who would have no goodness in them. And they would revert to the religion of their forefathers",
   "tier": "curated",
   "situations": [
+   "steadfastness",
    "weak-iman"
   ]
  },
@@ -30108,6 +30244,7 @@
   "situations": [
    "dhikr",
    "gratitude",
+   "overwhelm",
    "prayer",
    "steadfastness"
   ]
@@ -30200,7 +30337,8 @@
   "situations": [
    "anxiety",
    "fear",
-   "overwhelm"
+   "overwhelm",
+   "steadfastness"
   ]
  },
  {
@@ -30244,6 +30382,7 @@
   "tier": "curated",
   "situations": [
    "oppression",
+   "steadfastness",
    "work"
   ]
  },
@@ -30286,6 +30425,7 @@
   "tier": "curated",
   "situations": [
    "eating",
+   "forgiveness",
    "steadfastness"
   ]
  },
@@ -30373,7 +30513,9 @@
   "english_full": "Usamah bin Zaid said:\"I said: 'O Messenger of Allah, I do not see you fasting any month as much as Shaban.' He said: 'That is a month to which people do not pay much attention, between Rajab and Ramadan. It is a month in which the deeds are taken up to the Lord of the worlds, and I like that my deeds be taken up when I am fasting",
   "tier": "curated",
   "situations": [
-   "eating"
+   "eating",
+   "forgiveness",
+   "loneliness"
   ]
  },
  {
@@ -31065,6 +31207,7 @@
   "english_full": "It was nanated that Anas bin Malik said:\"Prices rose during the time of the Messenger of Allah (ﷺ), and they said: 'O Messenger of Allah, prices have risen, so fix the prices for us.' He said: 'Indeed Allah is the Musa'ir, [1] the Qabid, (Restrainer) the Basit,[2] the Razzaq (Provider). And I am hopeful that I meet my Lord and none of you are seeking (recompense from) me for an injustice involving blood or wealth",
   "tier": "curated",
   "situations": [
+   "overwhelm",
    "poverty"
   ]
  },
@@ -31278,6 +31421,7 @@
   "tier": "curated",
   "situations": [
    "children",
+   "failure",
    "poverty"
   ]
  },
@@ -31396,7 +31540,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "knowledge"
+   "knowledge",
+   "overwhelm"
   ]
  },
  {
@@ -32036,7 +32181,8 @@
   "tier": "curated",
   "situations": [
    "mosque",
-   "sleep"
+   "sleep",
+   "steadfastness"
   ]
  },
  {
@@ -32297,7 +32443,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "despair"
+   "despair",
+   "steadfastness"
   ]
  },
  {
@@ -32644,6 +32791,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "gratitude",
    "loneliness",
    "poverty"
   ]
@@ -32729,6 +32877,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "overwhelm",
    "poverty"
   ]
  },
@@ -33157,6 +33306,7 @@
   "situations": [
    "anxiety",
    "death-remembrance",
+   "failure",
    "poverty"
   ]
  },
@@ -33322,6 +33472,7 @@
   "situations": [
    "anxiety",
    "children",
+   "gratitude",
    "parents",
    "poverty"
   ]
@@ -34242,6 +34393,7 @@
   "tier": "curated",
   "situations": [
    "eating",
+   "forgiveness",
    "gratitude"
   ]
  },
@@ -34450,6 +34602,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "overwhelm",
    "weak-iman"
   ]
  },
@@ -35086,6 +35239,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "forgiveness",
    "morning-evening",
    "rain-weather"
   ]
@@ -35813,6 +35967,7 @@
   "tier": "curated",
   "situations": [
    "anxiety",
+   "steadfastness",
    "weak-iman"
   ]
  },
@@ -36660,7 +36815,8 @@
   "situations": [
    "decision",
    "enemy",
-   "reconcile"
+   "reconcile",
+   "steadfastness"
   ]
  },
  {
@@ -36785,7 +36941,8 @@
   "tier": "curated",
   "situations": [
    "illness",
-   "overwhelm"
+   "overwhelm",
+   "steadfastness"
   ]
  },
  {
@@ -36871,6 +37028,7 @@
   "tier": "curated",
   "situations": [
    "decision",
+   "failure",
    "illness",
    "morning-evening",
    "prayer",
@@ -37058,6 +37216,7 @@
   "tier": "curated",
   "situations": [
    "despair",
+   "failure",
    "knowledge",
    "sadness"
   ]
@@ -37104,6 +37263,7 @@
    "anger",
    "prayer",
    "refuge",
+   "shame",
    "waswas"
   ]
  },
@@ -37502,7 +37662,8 @@
    "fear",
    "illness",
    "loneliness",
-   "refuge"
+   "refuge",
+   "steadfastness"
   ]
  },
  {
@@ -37907,7 +38068,8 @@
    "distress",
    "marriage",
    "poverty",
-   "sleep"
+   "sleep",
+   "steadfastness"
   ]
  },
  {
@@ -38086,6 +38248,7 @@
   "tier": "curated",
   "situations": [
    "decision",
+   "illness",
    "steadfastness"
   ]
  },
@@ -38472,7 +38635,8 @@
    "home",
    "morning-evening",
    "parents",
-   "sleep"
+   "sleep",
+   "steadfastness"
   ]
  },
  {
@@ -39218,7 +39382,9 @@
   "arabic": "الْكِبْرِيَاءُ رِدَائِي وَالْعَظَمَةُ إِزَارِي مَنْ نَازَعَنِي وَاحِدًا مِنْهُمَا أَلْقَيْتُهُ فِي جَهَنَّمَ",
   "english_full": "It was narrated from Abu Hurairah that the Messenger of Allah (ﷺ) said:“Allah, the Glorified, says: ‘Pride is My cloak and greatness My robe, and whoever competes with Me with regard to either of them, I shall throw him into Hell.’”",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "shame"
+  ]
  },
  {
   "id": "go-and-enter",
@@ -39389,6 +39555,7 @@
   "tier": "curated",
   "situations": [
    "dhikr",
+   "failure",
    "gratitude"
   ]
  },
@@ -39596,6 +39763,7 @@
   "situations": [
    "envy",
    "evil-eye",
+   "loneliness",
    "oppression",
    "steadfastness"
   ]
@@ -39839,6 +40007,8 @@
   "english_full": "Narrated 'Ubada bin As-Samit:\"Allah's Messenger (ﷺ) went out to inform the people about the (date of the) night of decree (Al-Qadr) but there happened a quarrel between two Muslim men. The Prophet (ﷺ) said, \"I came out to inform you about (the date of) the night of Al-Qadr, but as so and so and so and so quarrelled, its knowledge was taken away (I forgot it) and maybe it was better for you. Now look for it in the 7th, the 9th and the 5th (of the last 10 nights of the month of Ramadan)",
   "tier": "curated",
   "situations": [
+   "decision",
+   "forgiveness",
    "reconcile"
   ]
  },
@@ -40203,7 +40373,9 @@
   "arabic": "يُوشِكُ أَنْ يَكُونَ خَيْرَ مَالِ الْمُسْلِمِ غَنَمٌ يَتْبَعُ بِهَا شَعَفَ الْجِبَالِ وَمَوَاقِعَ الْقَطْرِ، يَفِرُّ بِدِينِهِ مِنَ الْفِتَنِ",
   "english_full": "Narrated Abu Said Al-Khudri: Allah's Messenger (ﷺ) said, \"A time will soon come when the best property of a Muslim will be sheep which he will take on the top of mountains and the places of rainfall (valleys) so as to flee with his religion from afflictions",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "steadfastness"
+  ]
  },
  {
   "id": "two-rewards",
@@ -40281,7 +40453,9 @@
   "arabic": "اعْرِفْ وِكَاءَهَا ـ أَوْ قَالَ وِعَاءَهَا ـ وَعِفَاصَهَا، ثُمَّ عَرِّفْهَا سَنَةً، ثُمَّ اسْتَمْتِعْ بِهَا، فَإِنْ جَاءَ رَبُّهَا فَأَدِّهَا إِلَيْهِ",
   "english_full": "Narrated Zaid bin Khalid Al-Juhani:A man asked the Prophet (ﷺ) about the picking up of a \"Luqata\" (fallen lost thing). The Prophet (ﷺ) replied, \"Recognize and remember its tying material and its container, and make public announcement (about it) for one year, then utilize it but give it to its owner if he comes.\" Then the person asked about the lost camel. On that, the Prophet (ﷺ) got angry and his cheeks or his Face became red and he said, \"You have no concern with it as it has its water container, and its feet and it will reach water, and eat (the leaves) of trees till its owner finds it.\" The man then asked about the lost sheep. The Prophet (ﷺ) replied, \"It is either for you, for your brother (another person) or for the wolf",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "decision"
+  ]
  },
  {
   "id": "whoever-stands-that-night",
@@ -40320,6 +40494,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "forgiveness",
    "morning-evening",
    "sleep"
   ]
@@ -40441,7 +40616,8 @@
   "english_full": "Narrated `Aisha:the Prophet (ﷺ) prayed in a Khamisa (a square garment) having marks. During the prayer, he looked at its marks. So when he finished the prayer he said, \"Take this Khamisa of mine to Abu Jahm and get me his Inbijaniya (a woolen garment without marks) as it (the Khamisa) has diverted my attention from the prayer.\" Narrated `Aisha: The Prophet (ﷺ) said, 'I was looking at its (Khamisa's) marks during the prayers and I was afraid that it may put me in trial (by taking away my attention)",
   "tier": "curated",
   "situations": [
-   "prayer"
+   "prayer",
+   "weak-iman"
   ]
  },
  {
@@ -41264,6 +41440,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "gratitude",
    "loneliness",
    "poverty"
   ]
@@ -41347,7 +41524,8 @@
   "tier": "curated",
   "situations": [
    "enemy",
-   "reconcile"
+   "reconcile",
+   "steadfastness"
   ]
  },
  {
@@ -41476,6 +41654,7 @@
   "tier": "curated",
   "situations": [
    "anger",
+   "anxiety",
    "reconcile",
    "refuge"
   ]
@@ -42214,7 +42393,9 @@
   "arabic": "بِئْسَ أَخُو الْعَشِيرَةِ، وَبِئْسَ ابْنُ الْعَشِيرَةِ",
   "english_full": "Narrated 'Aisha: A man asked permission to enter upon the Prophet. When the Prophet (ﷺ) saw him, he said, \"What an evil brother of his tribe! And what an evil son of his tribe!\" When that man sat down, the Prophet (ﷺ) behaved with him in a nice and polite manner and was completely at ease with him. When that person had left, 'Aisha said (to the Prophet). \"O Allah's Apostle! When you saw that man, you said so-and-so about him, then you showed him a kind and polite behavior, and you enjoyed his company?\" Allah's Messenger (ﷺ) said, \"O 'Aisha! Have you ever seen me speaking a bad and dirty language? (Remember that) the worst people in Allah's sight on the Day of Resurrection will be those whom the people leave (undisturbed) to be away from their evil (deeds)",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "shame"
+  ]
  },
  {
   "id": "when-allah-loves-someone",
@@ -42371,7 +42552,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "death"
+   "death",
+   "loneliness"
   ]
  },
  {
@@ -42411,7 +42593,8 @@
   "tier": "curated",
   "situations": [
    "despair",
-   "eating"
+   "eating",
+   "forgiveness"
   ]
  },
  {
@@ -42450,7 +42633,9 @@
   "arabic": "تَجِدُ مِنْ شَرِّ النَّاسِ يَوْمَ الْقِيَامَةِ عِنْدَ اللَّهِ ذَا الْوَجْهَيْنِ، الَّذِي يَأْتِي هَؤُلاَءِ بِوَجْهٍ",
   "english_full": "Narrated Abu Huraira:The Prophet (ﷺ) said, \"The worst people in the Sight of Allah on the Day of Resurrection will be the double faced people who appear to some people with one face and to other people with another face",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "shame"
+  ]
  },
  {
   "id": "you-cut-his-neck",
@@ -42490,7 +42675,8 @@
   "tier": "curated",
   "situations": [
    "dhikr",
-   "refuge"
+   "refuge",
+   "shame"
   ]
  },
  {
@@ -42737,7 +42923,9 @@
   "arabic": "يَتَقَارَبُ الزَّمَانُ وَيَنْقُصُ الْعَمَلُ، وَيُلْقَى الشُّحُّ وَيَكْثُرُ الْهَرْجُ",
   "english_full": "Narrated Abu Huraira:Allah's Messenger (ﷺ) said, \"Time will pass rapidly, good deeds will decrease, and miserliness will be thrown (in the hearts of the people), and the Harj (will increase).\" They asked, \"What is the Harj?\" He replied, \"(It is) killing (murdering), (it is) murdering (killing)",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "steadfastness"
+  ]
  },
  {
   "id": "what-was-forbidden-to-you",
@@ -43226,7 +43414,9 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "gratitude"
+   "gratitude",
+   "poverty",
+   "work"
   ]
  },
  {
