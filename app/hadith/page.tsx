@@ -67,18 +67,18 @@ export default function HadithIndex() {
   return (
     <div className="mx-auto max-w-4xl px-6 pt-12 pb-10 sm:pt-16">
       <p className="mb-2 text-[11.5px] tracking-[0.16em] text-[var(--gold)] uppercase">
-        The six books
+        The six books, and Muwaṭṭa&apos; Mālik
       </p>
       <h1 className="display text-[40px] leading-tight text-[var(--ink)] sm:text-[50px]">
         Hadith
       </h1>
       <p className="mt-4 max-w-2xl text-[16px] leading-relaxed text-[var(--ink-soft)]">
-        {HADITH_TOTAL.toLocaleString()} narrations from the primary collections, every one
-        of them authenticated. Where a narration sits outside al-Bukhārī and Muslim, the
-        verdicts of the scholars on that exact chain are printed with it. Narrations the
-        graders declared weak are not shown. A further {COMPILATION_TOTAL} come from the
-        classic Forty collections, which our source carries without chain gradings; those
-        are marked so you know the difference.
+        {HADITH_TOTAL.toLocaleString()} narrations from the six books and Muwaṭṭa&apos;
+        Mālik. Where a narration sits outside al-Bukhārī and Muslim, the verdicts of the
+        scholars on that exact chain are printed with it, and narrations the graders
+        declared weak are not shown. A further {COMPILATION_TOTAL} come from later
+        compilations and the classic Forty collections, which our source carries without
+        chain gradings; those are marked so you know the difference.
       </p>
 
       <Section

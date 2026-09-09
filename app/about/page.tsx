@@ -77,6 +77,18 @@ export default function About() {
         </Link>
         , including examples of what was refused.
       </p>
+      <p className="mt-4 text-[16px] leading-[1.75] text-[var(--ink-soft)]">
+        The rule has a blind spot worth naming. Checking that a passage appears in a
+        source does not check that it is the <em>right</em> passage. One entry here was
+        published against a narration that opened with the same five words as the
+        supplication it was meant to show, and the check passed. It was found, corrected,
+        and the pipeline now guards against it, but that is the kind of mistake software
+        cannot be relied on to catch. If you spot one,{" "}
+        <Link href="/corrections" className="text-[var(--sage)] underline underline-offset-4">
+          please report it
+        </Link>
+        .
+      </p>
 
       <h2 className="display mt-12 text-[28px] text-[var(--ink)]">What this site is not</h2>
       <p className="mt-4 text-[16px] leading-[1.75] text-[var(--ink-soft)]">

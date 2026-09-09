@@ -144,7 +144,7 @@ export default function Home() {
               Hadith
             </h3>
             <p className="relative mt-2.5 max-w-sm text-[14px] leading-relaxed text-[var(--ink-soft)]">
-              The six primary collections, filtered to what the graders authenticated, each
+              The six books and Muwaṭṭa&apos; Mālik, filtered to what the graders authenticated, each
               narration carrying its verdicts.
             </p>
             <p className="relative mt-6 text-[11.5px] tracking-wide text-[var(--gold)]">
@@ -162,8 +162,8 @@ export default function Home() {
             Why you can trust what you read here
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-[15.5px] leading-relaxed text-[var(--ink-soft)]">
-            Most “duʿā for anxiety” content online has no authenticated chain behind it.
-            Everything here had to earn its place.
+            Every entry carries the source it came from and the gradings recorded for it,
+            so you can check it rather than take our word for it.
           </p>
         </div>
 
@@ -171,7 +171,7 @@ export default function Home() {
           {[
             ["Nothing was copied", "Every Arabic word is cut straight from the primary source text and machine-checked against it, never retyped from memory."],
             ["Every grading is shown", "You see the verdicts of the scholars on that exact narration. Where they disagree, we print the disagreement."],
-            ["Weak material is refused", "273 narrations were rejected by the grading rule while this was built. The best-known ones are listed publicly."],
+            ["The limits are published too", "What these checks cannot establish is set out in full, along with what was refused and how to report a mistake."],
           ].map(([h, p], i) => (
             <div key={h} className="text-center sm:text-left">
               <span className="display mb-3 block text-[15px] text-[var(--gold-mid)]">
@@ -191,7 +191,7 @@ export default function Home() {
             Read the full method
           </Link>
           <p className="mt-5 text-[13px] text-[var(--ink-faint)]">
-            {CURATED} written out in full · {(TOTAL - CURATED).toLocaleString()} shown with
+            {CURATED.toLocaleString()} written out in full · {(TOTAL - CURATED).toLocaleString()} shown with
             their source narration
           </p>
         </div>

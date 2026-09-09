@@ -26,7 +26,7 @@ def verdict(coll, h):
             "Most of these narrations are drawn from al-Bukhārī and Muslim, but verify "
             "any individual narration before relying on it."], []
     if coll in SAHIHAYN:
-        return "Ṣaḥīḥ", ["Agreed upon as authentic (al-Bukhārī / Muslim)"], []
+        return "Ṣaḥīḥ", ["Recorded in %s, whose narrations are accepted as authentic" % PRETTY[coll]], []
     weak = [g for g in gs if WEAK.search(g.get("grade", ""))]
     strong = [g for g in gs if STRONG.search(g.get("grade", ""))]
     if not strong or len(weak) >= len(strong):

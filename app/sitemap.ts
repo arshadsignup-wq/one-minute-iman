@@ -4,8 +4,12 @@ import { situations } from "@/lib/search";
 import { surahs } from "@/lib/quran";
 import { collections, COLLECTION_ORDER } from "@/lib/hadith";
 import { SITE_URL } from "@/lib/site";
+import stamp from "@/data/content-updated.json";
 
-const now = new Date();
+// The date the content last actually changed, not the time of this build.
+// Rebuilding without a content change used to restamp every URL, which claims
+// four thousand pages were revised when none were.
+const now = new Date((stamp as { updated: string }).updated);
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const url = (p: string) => `${SITE_URL}${p}`;
@@ -17,6 +21,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: url("/hadith"), lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: url("/authenticity"), lastModified: now, changeFrequency: "yearly", priority: 0.7 },
     { url: url("/about"), lastModified: now, changeFrequency: "yearly", priority: 0.7 },
+    { url: url("/privacy"), lastModified: now, changeFrequency: "yearly", priority: 0.5 },
+    { url: url("/corrections"), lastModified: now, changeFrequency: "yearly", priority: 0.5 },
+    // /saved is different for every reader and carries noindex, so it is not listed.
+    // /s/<id>/<n> are continuations of a list, also noindex, and reachable by
+    // crawlable links from the hub they continue.
   ];
 
   // situation hubs are the pages that answer a searched feeling, so they rank highest

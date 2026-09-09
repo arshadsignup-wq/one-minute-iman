@@ -2,10 +2,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { entries, getEntry, type Entry } from "@/lib/entries";
-import { SITE_URL, clampDescription, OG_IMAGE } from "@/lib/site";
+import { SITE_URL, clampDescription, OG_IMAGE, correctionLink } from "@/lib/site";
 import { sitById } from "@/lib/search";
 import Prose from "@/components/Prose";
 import { Grade } from "@/components/Cards";
+import EntryActions from "@/components/EntryActions";
 
 export function generateStaticParams() {
   return entries.map((e) => ({ id: e.id }));
@@ -48,7 +49,10 @@ function entrySchema(e: Entry) {
     name: e.title,
     text: e.trans || e.arabic,
     inLanguage: "en",
-    spokenByCharacter: e.source.kind === "hadith" ? "Prophet Muhammad" : undefined,
+    // No speaker is asserted. A supplication reported in a hadith may be the
+    // Prophet's own words or words he was narrating from someone else, as with
+    // the supplication of Yunus, and nothing in the data separates the two.
+    // Marking every hadith entry as spoken by him was wrong for those.
     isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
     citation: src,
     url: `${SITE_URL}/d/${e.id}`,
@@ -142,15 +146,27 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
       <Rule />
 
       <section className="rise">
-        <p className="arabic text-center text-[28px] text-[var(--ink)] sm:text-[34px]">
+        {/* The three blocks are read as one unit, so the page says plainly what
+            each one covers rather than letting the stacking imply a word for
+            word match that is not always there. */}
+        <h2 className="text-center text-[11px] tracking-[0.16em] text-[var(--ink-faint)] uppercase">
+          {isTeaching ? "The words" : d.recites === "part" ? "The opening words" : "Say this"}
+        </h2>
+
+        <p className="arabic mt-5 text-center text-[28px] text-[var(--ink)] sm:text-[34px]">
           {d.arabic}
         </p>
 
         {d.translit && (
           <div className="mt-8 text-center">
-            <p className="text-[15px] leading-relaxed text-[var(--sage)] italic">
+            <p className="translit text-[15px] leading-relaxed text-[var(--sage)]">
               {d.translit}
             </p>
+            {d.recites === "part" && (
+              <p className="mt-2 text-[11px] text-[var(--ink-faint)]">
+                The pronunciation above covers the opening of this passage, not all of it
+              </p>
+            )}
             {(d as { translit_auto?: boolean }).translit_auto && (
               <p className="mt-2 text-[11px] text-[var(--ink-faint)]">
                 Transliteration generated from the Arabic vowel marks
@@ -168,7 +184,45 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
             {isTeaching || alreadyQuoted ? d.trans : `“${d.trans}”`}
           </p>
         )}
+
+        <EntryActions
+          id={d.id}
+          title={d.title}
+          arabic={d.arabic}
+          translit={d.translit}
+          trans={d.trans}
+          reference={
+            d.source.kind === "quran"
+              ? `Qur'an ${d.source.reference}`
+              : `${d.source.collection} ${d.source.number}`
+          }
+          grade={d.source.grade}
+          url={`${SITE_URL}/d/${d.id}`}
+          audio={d.audio}
+          audioCredit={d.audio_credit}
+        />
+        {d.audio_credit && (
+          <p className="mt-3 text-[11px] text-[var(--ink-faint)]">{d.audio_credit}</p>
+        )}
       </section>
+
+      {/* Where the recited words are an excerpt, the passage they sit inside is
+          kept, separately and labelled, so the context is not lost. */}
+      {d.passage_ar && (
+        <section className="mt-14">
+          <h2 className="text-[11px] tracking-[0.16em] text-[var(--ink-faint)] uppercase">
+            {d.source.kind === "quran" ? "The full verse" : "The full passage"}
+          </h2>
+          <p className="arabic mt-4 text-right text-[21px] leading-[2] text-[var(--ink-soft)]">
+            {d.passage_ar}
+          </p>
+          {d.passage_trans && (
+            <p className="mt-4 text-[15px] leading-[1.8] text-[var(--ink-soft)]">
+              {d.passage_trans}
+            </p>
+          )}
+        </section>
+      )}
 
       {d.note && (
         <Prose
@@ -228,14 +282,25 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
           <p className="mt-4 text-[13px] leading-relaxed text-[var(--ink-faint)]">{d.parallel}</p>
         )}
 
-        <a
-          href={d.source.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-6 inline-block text-[13px] text-[var(--sage)] underline underline-offset-4 transition-colors hover:text-[var(--green)]"
-        >
-          Read it at the source ↗
-        </a>
+        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2">
+          <a
+            href={d.source.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-[44px] items-center text-[13px] text-[var(--sage)] underline underline-offset-4 transition-colors hover:text-[var(--green)] sm:min-h-0"
+          >
+            Read it at the source ↗
+          </a>
+          {/* Every correction is traceable to the entry it concerns. */}
+          <a
+            href={correctionLink(d.id, d.title)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-[44px] items-center text-[13px] text-[var(--ink-faint)] underline underline-offset-4 transition-colors hover:text-[var(--ink-soft)] sm:min-h-0"
+          >
+            Report a mistake on this page
+          </a>
+        </div>
       </section>
 
       {sits.length > 0 && (

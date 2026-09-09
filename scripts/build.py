@@ -2,6 +2,7 @@
 import json, re, os, sys, urllib.request, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from manifest import ENTRIES
+import refs
 
 # Two entries sharing an id silently collapse into one static page and the
 # other becomes unreachable. Catch it here rather than in the rendered site.
@@ -79,7 +80,7 @@ def qfetch(url):
 
 out, problems = [], []
 for e in ENTRIES:
-    src = e["src"]; rec = dict(e); rec.pop("src")
+    src = e["src"]; rec = dict(e); rec.pop("src"); rec.pop("recite_trans", None)
     if src["kind"] == "hadith":
         coll, num = src["coll"], src["num"]
         ar = find(coll, num, "ara"); en = find(coll, num, "eng")
@@ -92,6 +93,8 @@ for e in ENTRIES:
         # Narrow to the du'a itself. The span must be a real substring of the source.
         span = src.get("span"); span_from = src.get("span_from")
         if span:
+            if len(span.split()) < 2:
+                problems.append((e["id"], "SPAN TOO SHORT", f"{coll}:{num} :: {span!r}")); continue
             if norm(span) not in norm(ar["text"]):
                 problems.append((e["id"], "SPAN NOT IN SOURCE", f"{coll}:{num} :: {span}")); continue
             seg = span
@@ -108,7 +111,10 @@ for e in ENTRIES:
         grades = en.get("grades") or []
         vs = classify(grades)
         if coll in SAHIHAYN:
-            grade_label = "Ṣaḥīḥ"; grade_detail = ["Agreed upon as authentic (al-Bukhārī / Muslim)"]
+            # Saying "al-Bukhari / Muslim" reads as a claim that both collections
+            # carry it. Only the one being cited has been checked.
+            grade_label = "Ṣaḥīḥ"
+            grade_detail = ["Recorded in %s, whose narrations are accepted as authentic" % PRETTY[coll]]
         else:
             weak = [g for k,g in vs if k=="weak"]; strong=[g for k,g in vs if k=="strong"]
             grade_detail = [f"{g.get('name')}: {g.get('grade')}" for g in grades]
@@ -121,11 +127,27 @@ for e in ENTRIES:
                 rec["dissent"] = ("Scholars differ on this chain. "
                     + "; ".join(f"{g.get('name')} grades it {g.get('grade')}" for g in weak)
                     + f". The majority ({len(strong)} of {len(grades)}) authenticate it.")
-        rec["source"] = dict(kind="hadith", collection=PRETTY[coll], slug=coll, number=num,
-                             url=f"https://sunnah.com/{coll}:{num}",
+        ref = refs.resolve(coll, num)
+        # number is the printed citation; record_id is the dataset row the
+        # verification actually ran against. They differ for Sahih Muslim.
+        rec["source"] = dict(kind="hadith", collection=PRETTY[coll], slug=coll,
+                             number=ref["citation"], record_id=ref["record_id"],
+                             book=ref["book"], in_book=ref["hadith"],
+                             url=ref["url"],
                              grade=grade_label, gradings=grade_detail)
         rec["arabic"] = seg or ""
         if not seg: problems.append((e["id"], "NO QUOTED SEGMENT (using narrative)", f"{coll}:{num}"))
+        recite = src.get("recite")
+        if recite:
+            # The words a reader actually says, shown as the recitation, with the
+            # surrounding passage kept as labelled context. Verified the same way
+            # as every other span: it must be verbatim in the source.
+            if len(recite.split()) < 2:
+                problems.append((e["id"], "RECITE SPAN TOO SHORT", f"{coll}:{num} :: {recite!r}")); continue
+            if norm(recite) not in norm(ar["text"]):
+                problems.append((e["id"], "RECITE NOT IN SOURCE", f"{coll}:{num} :: {recite}")); continue
+            rec["passage_ar"] = rec["arabic"]
+            rec["arabic"] = recite
         rec["english_full"] = en["text"]
         rec.setdefault("mode","dua")
     else:
@@ -140,6 +162,16 @@ for e in ENTRIES:
             time.sleep(0.15)
         rec["arabic"] = " ".join(ars)
         rec["trans"] = " ".join(trs)
+        recite = src.get("recite")
+        if recite:
+            if len(recite.split()) < 2:
+                problems.append((e["id"], "RECITE SPAN TOO SHORT", f"{s}:{a}-{b} :: {recite!r}")); continue
+            if norm(recite) not in norm(rec["arabic"]):
+                problems.append((e["id"], "RECITE NOT IN VERSE", f"{s}:{a}-{b} :: {recite}")); continue
+            rec["passage_ar"] = rec["arabic"]
+            rec["passage_trans"] = rec["trans"]
+            rec["arabic"] = recite
+            rec["trans"] = e.get("recite_trans") or rec["trans"]
         ref = f"{s}:{a}" if a==b else f"{s}:{a}-{b}"
         rec["source"] = dict(kind="quran", collection="The Qur'an", surah=s, ayah_start=a, ayah_end=b,
                              reference=ref, url=f"https://quran.com/{s}/{a}",

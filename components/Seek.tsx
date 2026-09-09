@@ -1,15 +1,39 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { matchSituations, entriesFor, neighboursOf, isCrisis, isHarm, EXAMPLES } from "@/lib/search";
+import {
+  matchSituations, entriesFor, neighboursOf, isCrisis, isHarm, isOtherLanguage, EXAMPLES,
+} from "@/lib/search";
 import { EntryCard } from "@/components/Cards";
 
-export default function Seek() {
+/** Offered when nothing matched, so the visitor is not sent away empty. */
+const FALLBACK: [string, string][] = [
+  ["anxiety", "Worry"],
+  ["sadness", "Sadness"],
+  ["gratitude", "Something good happened"],
+  ["forgiveness", "Seeking forgiveness"],
+  ["illness", "Being ill"],
+  ["death", "Losing someone"],
+  ["poverty", "Money"],
+];
+
+export default function Seek(
+  { readQueryFromUrl = false }: { readQueryFromUrl?: boolean } = {},
+) {
   const [q, setQ] = useState("");
+
+  // Read ?q= after mount rather than on the server, so the page it sits on can
+  // still be statically generated.
+  useEffect(() => {
+    if (!readQueryFromUrl) return;
+    const v = new URLSearchParams(window.location.search).get("q");
+    if (v) setQ(v.slice(0, 120));
+  }, [readQueryFromUrl]);
   const asked = q.trim().length > 1;
   const crisis = asked && isCrisis(q);
   const harm = asked && !crisis && isHarm(q);
+  const otherLanguage = asked && !crisis && !harm && isOtherLanguage(q);
 
   const { primary, related } = useMemo(() => {
     const all = matchSituations(q);
@@ -77,7 +101,7 @@ export default function Seek() {
       {crisis && (
         <div className="rise mt-12 rounded-2xl border border-[var(--gold)] bg-[var(--card)] p-7 sm:p-9">
           <p className="display text-[24px] leading-snug text-[var(--ink)] sm:text-[27px]">
-            Please talk to someone tonight.
+            Please talk to someone now.
           </p>
           <p className="mt-4 max-w-xl text-[16px] leading-[1.75] text-[var(--ink-soft)]">
             What you have just typed matters more than anything this page can hand you.
@@ -100,10 +124,17 @@ export default function Seek() {
             . If you are in immediate danger, call your local emergency number.
           </p>
           <p className="mt-5 max-w-xl text-[15px] leading-[1.7] text-[var(--ink-faint)]">
-            There is a man in Ṣaḥīḥ al-Bukhārī who was so certain he was beyond
-            forgiving that he asked to be burnt and scattered so that Allah could not
-            find him. He was forgiven, for the fear itself. Despair about yourself has
-            never been the same thing as the truth about you.
+            There is a man in Ṣaḥīḥ Muslim who was so certain he was beyond forgiving
+            that he asked to be burnt and scattered so that Allah could not find him. He
+            was forgiven, for the fear itself. Despair about yourself has never been the
+            same thing as the truth about you.{" "}
+            <Link
+              href="/d/never-did-good"
+              className="text-[var(--green)] underline underline-offset-4"
+            >
+              Ṣaḥīḥ Muslim 2756a
+            </Link>
+            .
           </p>
         </div>
       )}
@@ -133,27 +164,58 @@ export default function Seek() {
             .
           </p>
           <p className="mt-5 max-w-xl text-[15px] leading-[1.7] text-[var(--ink-faint)]">
-            The Prophet warned to beware the supplication of the one who has been
-            wronged, because there is no veil between it and Allah. Your position
-            in this is not the weak one.
+            The Prophet ﷺ warned to beware the supplication of the one who has been
+            wronged, because there is no veil between it and Allah. Your position in this
+            is not the weak one.{" "}
+            <Link href="/d/oppressed" className="text-[var(--green)] underline underline-offset-4">
+              Ṣaḥīḥ al-Bukhārī 2448
+            </Link>
+            .
           </p>
         </div>
+      )}
+
+      {/* The query was understood, but nothing here has been translated. Saying
+          so is better than returning English as though it were an answer in
+          the language it was asked in. */}
+      {otherLanguage && (
+        <p className="rise mt-10 rounded-xl border border-[var(--line)] bg-[var(--paper-2)] px-5 py-4 text-[14px] leading-relaxed text-[var(--ink-soft)]">
+          We understood what you asked for, but the entries themselves are in Arabic and
+          English. Nothing on this site has been translated into Bengali yet.
+        </p>
       )}
 
       {asked && (
         <div className="mt-12">
           {primary.length === 0 && !crisis && !harm ? (
-            <div className="rise rounded-2xl border border-[var(--line)] bg-[var(--card)] p-8 text-center">
+            /* The failure here is the site's, not the visitor's. Saying "try a
+               plainer word" hands them the problem; offering somewhere to go
+               does not. */
+            <div className="rise rounded-2xl border border-[var(--line)] bg-[var(--card)] p-8">
               <p className="display text-[24px] text-[var(--ink)]">
-                Nothing matched those words.
+                We could not find that one.
               </p>
-              <p className="mx-auto mt-2 max-w-md text-[14.5px] leading-relaxed text-[var(--ink-soft)]">
-                Try a plainer word like <em>sad</em>, <em>afraid</em>, <em>debt</em>,{" "}
-                <em>alone</em> or <em>sick</em>. You can also{" "}
+              <p className="mt-2 max-w-md text-[14.5px] leading-relaxed text-[var(--ink-soft)]">
+                That is a gap on our side, not a mistake on yours. Here is what people
+                most often come here for:
+              </p>
+              <div className="mt-5 flex flex-wrap gap-2">
+                {FALLBACK.map(([id, label]) => (
+                  <Link
+                    key={id}
+                    href={`/s/${id}`}
+                    className="inline-flex min-h-[44px] items-center rounded-full border border-[var(--line)] px-4 text-[14px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:text-[var(--green)] sm:min-h-0 sm:py-2"
+                  >
+                    {label}
+                  </Link>
+                ))}
+              </div>
+              <p className="mt-5 text-[13.5px] leading-relaxed text-[var(--ink-faint)]">
+                Or{" "}
                 <Link href="/browse" className="text-[var(--sage)] underline underline-offset-4">
                   browse every situation
                 </Link>
-                .
+                . The site reads English, and understands some Bengali and Banglish.
               </p>
             </div>
           ) : (

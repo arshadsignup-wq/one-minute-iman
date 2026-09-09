@@ -5,6 +5,7 @@ The Arabic is always cut out of the source text itself, never retyped, and the
 grade rule is identical to the one used for the curated entries.
 """
 import json, re, os
+import refs
 
 BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hadith")
 COLLS = ["bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah", "malik"]
@@ -115,7 +116,7 @@ def clean(s):
 def grade_of(coll, h):
     gs = h.get("grades") or []
     if coll in ("bukhari", "muslim"):
-        return "Ṣaḥīḥ", ["Agreed upon as authentic (al-Bukhārī / Muslim)"], []
+        return "Ṣaḥīḥ", ["Recorded in %s, whose narrations are accepted as authentic" % PRETTY[coll]], []
     weak = [g for g in gs if WEAK.search(g.get("grade", ""))]
     strong = [g for g in gs if STRONG.search(g.get("grade", ""))]
     if not strong or len(weak) >= len(strong):
@@ -201,7 +202,10 @@ def run():
     out = list(found.values())
     for r in out:
         r["collection"] = PRETTY[r["coll"]]
-        r["url"] = f"https://sunnah.com/{r['coll']}:{r['number']}"
+        _ref = refs.resolve(r["coll"], r["number"])
+        r["record_id"] = _ref["record_id"]
+        r["number"] = _ref["citation"]
+        r["url"] = _ref["url"]
         r["parallels"] = sorted(set(r.get("parallels", [])))[:6]
     out.sort(key=lambda r: (RANK[r["coll"]], r["number"]))
     json.dump(out, open(f"{os.path.dirname(os.path.abspath(__file__))}/harvested.json", "w"),

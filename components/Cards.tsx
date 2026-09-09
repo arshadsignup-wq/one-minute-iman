@@ -118,7 +118,7 @@ export function CategoryCard({
         ))}
       </div>
       <p className="relative mt-auto pt-5 text-[11.5px] tracking-wide text-[var(--gold)]">
-        {count.toLocaleString()} supplications
+        {count.toLocaleString()} entries
       </p>
     </Link>
   );

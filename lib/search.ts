@@ -124,10 +124,110 @@ export function isHarm(query: string) {
   return HARM.test(normalise(query));
 }
 
+/** Clauses the writer is denying: "I am not sad, I am grateful".
+ *
+ *  Matching every emotion word in a sentence means the denial counts for as
+ *  much as the statement, so the site answers "not sad" with material on
+ *  sadness. Clauses are split on commas and on "but", because that is where
+ *  people turn a sentence around, and a clause carrying a negator has its
+ *  words withheld from scoring.
+ */
+/** Only denials. "I can't stop crying" and "I can't breathe" are not denials:
+ *  they are distress stated in the negative, and treating them as denials
+ *  silences the very feelings people most often type. */
+const NEGATOR = /^(not|never|isnt|arent|wasnt|werent|neither|nor)$/;
+
+function negatedWords(query: string) {
+  const out = new Set<string>();
+  // split before normalising: normalise strips the punctuation that marks
+  // where one clause ends and the next begins
+  for (const raw of query.split(/[,;.]|\bbut\b|\bhowever\b|\byet\b|\brather\b/i)) {
+    const words = normalise(raw).split(" ").filter(Boolean);
+    for (let i = 0; i < words.length; i++) {
+      const isNoLonger = words[i] === "no" && words[i + 1] === "longer";
+      if (!NEGATOR.test(words[i]) && !isNoLonger) continue;
+      // only what is actually being denied: the next couple of content words
+      let taken = 0;
+      for (let j = i + (isNoLonger ? 2 : 1); j < words.length && taken < 2; j++) {
+        if (STOP.has(words[j])) continue;
+        out.add(words[j]);
+        taken++;
+      }
+    }
+  }
+  return out;
+}
+
+/** What happened, as distinct from what it is about.
+ *
+ *  "I failed my exam" and "I passed my exam" share every topic word, so topic
+ *  matching alone sends both to the same page. The outcome is the thing that
+ *  decides which answer is wanted, so it is scored separately and heavily.
+ */
+const INTENT: [RegExp, string[], number][] = [
+  [/\b(failed|flunked|didnt pass|did not pass|messed up|screwed up|didnt get|did not get|rejected|turned down|didnt work out|fell through)\b/,
+    ["failure"], 22],
+  [/\b(passed|aced|got in|got the job|accepted|succeeded|graduated|good news|it worked out|alhamdulillah)\b/,
+    ["gratitude"], 22],
+  // A named person plus an illness word is someone else being ill, which is a
+  // different need from being ill yourself and from having lost them.
+  [/\b(mother|mum|mom|father|dad|wife|husband|son|daughter|brother|sister|friend|child|baby|parent|grandmother|grandfather|nan|granddad)\b[\s\S]{0,24}\b(is |has |been |got )?(sick|ill|unwell|hospital|hospitalised|cancer|diagnosed|diagnosis|surgery|operation|dying|in pain)\b/,
+    ["someone-ill"], 24],
+  [/\b(sick|ill|unwell|hospital|cancer|diagnosed|surgery|operation)\b[\s\S]{0,20}\b(mother|mum|mom|father|dad|wife|husband|son|daughter|brother|sister|friend|child|baby|parent)\b/,
+    ["someone-ill"], 24],
+  // Bereavement wording, so a lost parent does not read as a sick parent.
+  [/\b(lost|died|passed away|passed on|funeral|janazah|buried|burial|no longer with us)\b/,
+    ["death"], 18],
+];
+
+/** Phrasings in Bengali and in Banglish, the romanised form people type.
+ *
+ *  These route the visitor to the English entries that fit. Nothing on this
+ *  site has been translated into Bengali, and the results are not presented as
+ *  though it had been.
+ */
+const OTHER_LANGUAGE: [RegExp, string[]][] = [
+  [/মন খারাপ|মনখারাপ|বিষণ্ণ|কষ্ট পাচ্ছি|দুঃখ/, ["sadness"]],
+  [/\b(mon kharap|mon-kharap|monkharap|mon kharab|kosto|koshto|dukkho|dukho)\b/, ["sadness"]],
+  [/দুশ্চিন্তা|চিন্তা হচ্ছে|ভয় লাগছে/, ["anxiety"]],
+  [/\b(chinta|dushchinta|tension lagche|voy lagche|bhoy lagche)\b/, ["anxiety"]],
+  [/একা লাগছে|একাকীত্ব/, ["loneliness"]],
+  [/\b(eka lagche|একা|eka lagse)\b/, ["loneliness"]],
+  [/ঋণ|দেনা/, ["debt"]],
+  [/\b(rin|dena|taka nei)\b/, ["debt"]],
+  [/অসুস্থ|অসুখ/, ["illness"]],
+  [/\b(osukh|osustho)\b/, ["illness"]],
+  [/ক্ষমা|তওবা/, ["forgiveness"]],
+  [/\b(khoma|toba|tawba)\b/, ["forgiveness"]],
+  [/শুকরিয়া|কৃতজ্ঞ|আলহামদুলিল্লাহ/, ["gratitude"]],
+  [/\b(shukriya|kritoggo|alhamdulillah)\b/, ["gratitude"]],
+];
+
+/** True when the query used a language the site has no translated content in. */
+export function isOtherLanguage(query: string) {
+  const raw = query.toLowerCase();
+  const n = normalise(query);
+  return OTHER_LANGUAGE.some(([rx]) => rx.test(raw) || rx.test(n));
+}
+
+function intentBoosts(query: string) {
+  const raw = query.toLowerCase();
+  const n = normalise(query);
+  const boosts = new Map<string, number>();
+  const add = (ids: string[], w: number) => {
+    for (const id of ids) boosts.set(id, Math.max(boosts.get(id) ?? 0, w));
+  };
+  for (const [rx, ids, w] of INTENT) if (rx.test(n)) add(ids, w);
+  for (const [rx, ids] of OTHER_LANGUAGE) if (rx.test(raw) || rx.test(n)) add(ids, 20);
+  return boosts;
+}
+
 export function matchSituations(query: string) {
   const q = normalise(query);
   const qt = toks(query);
-  if (!q || !qt.length) return [] as { sit: Situation; score: number }[];
+  const negated = negatedWords(query);
+  const boosts = intentBoosts(query);
+  if ((!q || !qt.length) && !boosts.size) return [] as { sit: Situation; score: number }[];
 
   const scored: { sit: Situation; score: number }[] = [];
   for (const sit of situations) {
@@ -136,10 +236,13 @@ export function matchSituations(query: string) {
       const nf = normalise(f);
       if (!nf) continue;
       if (nf.includes(" ")) {
+        // An exact phrase from the lexicon wins over the negation heuristic:
+        // "im not okay" is written there deliberately and means what it says.
         if (q.includes(nf)) score += 14 + nf.length / 5;
         continue;
       }
       for (const t of qt) {
+        if (negated.has(t)) continue;
         if (t === nf) score += 10;
         else if (
           t.length >= 4 && (nf.startsWith(t) || t.startsWith(nf)) &&
@@ -151,8 +254,12 @@ export function matchSituations(query: string) {
       }
     }
     for (const t of qt) {
+      if (negated.has(t)) continue;
       if (t.length >= 4 && normalise(sit.label).includes(t)) score += 3;
     }
+    // what happened outranks what it is about
+    const boost = boosts.get(sit.id);
+    if (boost) score += boost;
     if (score > 0) scored.push({ sit, score });
   }
   scored.sort((a, b) => b.score - a.score || b.sit.count - a.sit.count);
@@ -181,8 +288,11 @@ export function neighboursOf(sitId: string, exclude: string[], take = 4) {
     .slice(0, take);
 }
 
+/** The first five are the ones shown as chips. They led with grief, debt and
+ *  sin alone, which tells a visitor this is a place for bad days only. */
 export const EXAMPLES = [
-  "I feel alone", "I can't stop worrying", "I'm in debt", "I lost my mother",
-  "I keep sinning", "I can't decide", "I'm angry", "I have an exam",
-  "someone wronged me", "I can't sleep", "I feel far from Allah", "I'm travelling",
+  "I feel alone", "I can't stop worrying", "Something good happened", "I'm in debt",
+  "I lost my mother", "I keep sinning", "I can't decide", "I'm angry",
+  "I have an exam", "someone wronged me", "I can't sleep", "I feel far from Allah",
+  "I'm travelling",
 ];

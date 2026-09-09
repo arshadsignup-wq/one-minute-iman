@@ -98,14 +98,6 @@ const siteSchema = {
         "Verified duʿās, Qurʾan verses and authenticated hadith, searchable by how you feel. Every Arabic text is matched word for word to a primary source and shows its authenticity grading.",
       knowsAbout: ["Duʿā", "Qurʾan", "Hadith", "Islamic supplications", "Hadith authentication"],
     },
-    {
-      "@type": "WebPage",
-      "@id": `${SITE_URL}/about#page`,
-      url: `${SITE_URL}/about`,
-      name: "About One Minute Iman",
-      isPartOf: { "@id": `${SITE_URL}/#website` },
-      about: { "@id": `${SITE_URL}/#org` },
-    },
   ],
 };
 
@@ -139,6 +131,24 @@ function Header() {
           <Link href="/browse" className={link}>
             Du&apos;ās
           </Link>
+          {/* Icon only on small screens: with the word spelled out the header
+              measured exactly 360px, which leaves nothing in hand on the
+              narrowest phones still in common use. */}
+          <Link href="/saved" className={link} aria-label="Saved">
+            <svg
+              viewBox="0 0 24 24"
+              className="h-[15px] w-[15px] sm:hidden"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M6 3h12a1 1 0 0 1 1 1v16l-7-4-7 4V4a1 1 0 0 1 1-1z" />
+            </svg>
+            <span className="hidden sm:inline">Saved</span>
+          </Link>
           <Link
             href="/authenticity"
             className="ml-0.5 flex min-h-[44px] shrink-0 items-center rounded-full border border-[var(--line)] px-2.5 text-[var(--green)] transition-all hover:border-[var(--sage)] hover:bg-[var(--card)] sm:ml-1 sm:px-3"
@@ -162,9 +172,17 @@ function Footer() {
           <Link href="/authenticity" className="text-[var(--sage)] underline underline-offset-4">
             Read the method
           </Link>
-          {" or "}
+          {", "}
           <Link href="/about" className="text-[var(--sage)] underline underline-offset-4">
             about this site
+          </Link>
+          {", "}
+          <Link href="/privacy" className="text-[var(--sage)] underline underline-offset-4">
+            what happens to what you type
+          </Link>
+          {", or "}
+          <Link href="/corrections" className="text-[var(--sage)] underline underline-offset-4">
+            report a mistake
           </Link>
           . This site is a starting point for reflection, not a substitute for a
           qualified teacher.

@@ -2,6 +2,7 @@ import { OG_IMAGE } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { categories, situationsInCategory, TOTAL } from "@/lib/search";
+import Seek from "@/components/Seek";
 
 export const metadata: Metadata = {
   title: "Browse duʿās, verses and hadith by feeling",
@@ -21,9 +22,16 @@ export default function Browse() {
         Browse by situation
       </h1>
       <p className="mt-4 max-w-xl text-[16px] leading-relaxed text-[var(--ink-soft)]">
-        {TOTAL.toLocaleString()} verified supplications, sorted by what a person is
+        {TOTAL.toLocaleString()} verified entries, sorted by what a person is
         actually going through.
       </p>
+
+      {/* The site's SearchAction advertises /browse?q=, so the query has to do
+          something here; it previously landed on the unfiltered directory. The
+          value is read in the browser so this page stays static. */}
+      <div className="mt-8">
+        <Seek readQueryFromUrl />
+      </div>
 
       <div className="mt-14 space-y-16">
         {Object.entries(categories).map(([key, [label, blurb]]) => {

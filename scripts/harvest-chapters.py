@@ -9,6 +9,7 @@ import json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from chapters import SCOPE, graded, k, QUOTE
+import refs
 
 BASE = os.path.join(HERE, "hadith")
 PRETTY = {"malik": "Muwaṭṭa' Mālik", "bukhari": "Ṣaḥīḥ al-Bukhārī", "muslim": "Ṣaḥīḥ Muslim",
@@ -66,14 +67,16 @@ def main():
                     continue
                 seen.add(key)
                 label, gs = grade_label(coll, a)
+                _ref = refs.resolve(coll, n)
                 out.append({
                     "arabic": seg,
                     "coll": coll,
-                    "number": n,
+                    "number": _ref["citation"],
+                    "record_id": _ref["record_id"],
                     "collection": PRETTY[coll],
                     "book": sections.get(str(b), ""),
                     "english": h.get("text") or "",
-                    "url": URL[coll] % n,
+                    "url": _ref["url"],
                     "grade": label,
                     "gradings": gs,
                 })

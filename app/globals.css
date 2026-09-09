@@ -146,3 +146,17 @@ body {
   overflow-x: hidden;
   overflow-wrap: break-word;
 }
+
+/* Reader-controlled size for the recitation blocks only.
+   Beginners read the pronunciation letter by letter, so it has to be able to
+   get bigger without the rest of the page reflowing around it. */
+/* Absolute sizes, not em: the Arabic already carries its own font-size, and an
+   em here would resolve against the parent and shrink it instead. */
+html[data-recitation-size="1"] .arabic { font-size: 40px; line-height: 1.9; }
+html[data-recitation-size="2"] .arabic { font-size: 52px; line-height: 1.85; }
+html[data-recitation-size="1"] .translit { font-size: 18px; }
+html[data-recitation-size="2"] .translit { font-size: 22px; }
+@media (max-width: 640px) {
+  html[data-recitation-size="1"] .arabic { font-size: 34px; }
+  html[data-recitation-size="2"] .arabic { font-size: 42px; }
+}

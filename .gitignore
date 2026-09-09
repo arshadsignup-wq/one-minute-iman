@@ -41,3 +41,6 @@ yarn-error.log*
 next-env.d.ts
 scripts/hadith/
 scripts/verified.json
+
+# generated when the search tests run
+scripts/searchtest/.build/

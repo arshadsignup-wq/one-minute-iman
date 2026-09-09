@@ -36,6 +36,10 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   };
 }
 
+/** The wider collection is paged so a hub does not ship hundreds of rows at
+ *  once. /s/misc carried 825 of them and weighed 1.6MB. */
+const PER_PAGE = 60;
+
 export default async function SituationPage({
   params,
 }: { params: Promise<{ id: string }> }) {
@@ -45,7 +49,13 @@ export default async function SituationPage({
 
   const all = entriesFor(sit.id);
   const featured = all.filter((r) => r.x === 1);
-  const rest = all.filter((r) => r.x === 0);
+  const everyRest = all.filter((r) => r.x === 0);
+
+  // Paging is by path, not query string: reading searchParams here would make
+  // all 43 hubs render on demand instead of being generated at build time.
+  const pageCount = Math.max(1, Math.ceil(everyRest.length / PER_PAGE));
+  const page = 1;
+  const rest = everyRest.slice(0, PER_PAGE);
   const [catLabel] = categories[sit.cat] ?? ["", ""];
 
 
@@ -117,7 +127,7 @@ export default async function SituationPage({
           {sit.blurb}
         </p>
         <p className="mt-5 text-[13px] text-[var(--ink-faint)]">
-          {all.length} verified {all.length === 1 ? "supplication" : "supplications"}
+          {all.length} verified {all.length === 1 ? "entry" : "entries"}
           {featured.length > 0 && ` · ${featured.length} written out in full`}
         </p>
       </header>
@@ -159,6 +169,31 @@ export default async function SituationPage({
               <EntryRow key={r.id} row={r} />
             ))}
           </div>
+
+          {pageCount > 1 && (
+            <nav
+              className="mt-8 flex flex-wrap items-center gap-2"
+              aria-label="More from the wider collections"
+            >
+              {Array.from({ length: pageCount }, (_, i) => i + 1).map((n) => (
+                <Link
+                  key={n}
+                  href={n === 1 ? `/s/${sit.id}` : `/s/${sit.id}/${n}`}
+                  aria-current={n === page ? "page" : undefined}
+                  className={`inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full border px-3 text-[13.5px] transition-all ${
+                    n === page
+                      ? "border-[var(--sage)] bg-[var(--card)] text-[var(--green)]"
+                      : "border-[var(--line)] text-[var(--ink-soft)] hover:border-[var(--sage)] hover:text-[var(--green)]"
+                  }`}
+                >
+                  {n}
+                </Link>
+              ))}
+              <span className="ml-2 text-[13px] text-[var(--ink-faint)]">
+                {everyRest.length.toLocaleString()} in total
+              </span>
+            </nav>
+          )}
         </section>
       )}
 
