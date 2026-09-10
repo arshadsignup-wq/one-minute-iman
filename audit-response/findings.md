@@ -143,17 +143,104 @@ Pagination was first built on `searchParams`, which silently turned all 43 hub
 pages and `/browse` from static into server-rendered. That was caught in the
 build output and rewritten as path-based paging. All 4,176 pages are static.
 
+## Second pass: the limitations from the first pass
+
+Three of the four were fixable. Working through them turned up a defect the
+first pass had missed entirely.
+
+### Eleven duplicate pairs, found because the first duplicate check was wrong
+
+The first pass compared **hadith** sources only, so it never looked at Qur'anic
+entries. Comparing the normalised Arabic of every curated entry found **11 pairs
+showing the identical verse**, with the same Arabic and the same translation,
+differing only in framing: 22 pages competing for the same intent, which is the
+problem the audit's SEO section warned about.
+
+Each pair was merged into the stronger page, tags and situations merged, the
+note from the retired entry kept where the survivor had none, and a 308 added.
+
+| Retired | Kept |
+|---|---|
+| `/d/hardship-with-ease` | `/d/ease-after-hardship` |
+| `/d/do-not-despair-of-mercy` | `/d/never-despair` |
+| `/d/say-my-lord-increase-me` | `/d/knowledge` |
+| `/d/if-you-are-grateful` | `/d/gratitude` |
+| `/d/lightened-after` | `/d/burden` |
+| `/d/do-not-despair-of-relief` | `/d/never-give-up-hope` |
+| `/d/reward-without-measure` | `/d/patience-reward` |
+| `/d/he-answers-the-call` | `/d/i-am-near` |
+| `/d/softened-toward-them` | `/d/once-decided` |
+| `/d/hold-to-forgiveness` | `/d/repel-with-better` |
+| `/d/a-goodly-life-for-both` | `/d/a-good-life` |
+
+Curated entries: 1,067 to 1,056.
+
+### `/d/own-pain`
+
+Its transliteration read "Bismillāh (×3), then: ... (×7)" over Arabic that showed
+neither the Bismillāh nor the counts, and its "translation" was instructional
+prose rather than a translation. Muslim 2202 supports all of it, so the span was
+widened to the whole instruction, the recited words are shown as the recitation,
+and the instruction moved to a note.
+
+### The 18 unverifiable Muslim citations
+
+The count was wrong. For library entries the earlier scan read the printed
+citation as though it were the dataset's row id, which produced false matches.
+The real set was **five curated entries and two library ones**.
+
+sunnah.com blocked scripted requests, but a browser reaches it, so each was
+resolved by fetching candidate pages and matching the narration text word for
+word. Interpolating from neighbouring records was not safe on its own: the
+records around these are not always in order, and one plausible guess for
+`janazah` gave `962f`, which does not exist.
+
+| Entry | Was | Now | Confirmed by |
+|---|---|---|---|
+| `janazah` | muslim:2232 (dead) | **muslim:963a** | the funeral prayer, 'Awf b. Malik |
+| `refuge-at-a-stop`, `the-perfect-words` | muslim:6879 (dead) | **muslim:2708b** | the perfect words, Khawla bint Hakim |
+| `a-covenant-i-made` | muslim:6625 (dead) | **muslim:2602c** | "I am a human being", Jabir |
+| `a-word-carried` | muslim:7017 (dead) | **muslim:2769a** | the expedition to Tabuk |
+
+Two library entries (records 5971 and 7512) have no standard number and no page
+on sunnah.com under any candidate tried. They no longer carry a deep link that
+404s: they link to the collection and the page says why. 14 links sampled at
+random across all collections were checked and all resolve.
+
+### The alignment checker's false positives
+
+All 20 were read by hand and none was a content error. The matcher was failing on
+its own terms: hand transliterations hyphenate clitics (`li-ḥayyinā`,
+`bi-ḥamdih`) and it treated each hyphenated string as one token, and it could not
+equate `-ah` with `-atan` on a tāʾ marbūṭa.
+
+It was rewritten, and a second, order-free check added: transliteration words with
+no counterpart *anywhere* in the Arabic. That is the signal that catches text a
+page claims but never shows.
+
+Validated against the actual defects from the first pass rather than assumed:
+
+| Defect | Caught |
+|---|---|
+| `afflicted` against the wrong hadith | yes |
+| `greet-the-house` with "and His blessings" | yes |
+| `morning` with the Arabic truncated | yes |
+| `throne-of-honour` with one clause of three | yes |
+| two correctly aligned controls | clean |
+
+False positives fell from 20 to **32 of 866 entries at a stricter threshold**,
+each one or two tokens. It now runs on every build as a warning, not a gate,
+because the comparison is approximate and a handful of correct entries surface.
+
 ## Known limitations, not fixed
 
-- **18 entries carry a Ṣaḥīḥ Muslim number that has no standard equivalent** in
-  the dataset (`arabicnumber` is null for 344 Muslim records, mostly the
-  introduction). Their citation falls back to the sequential id, and those
-  sunnah.com links may not resolve. Verifying them needs access to sunnah.com,
-  which returned HTTP 403 to every request from this machine.
-- **The alignment checker still flags about 20 entries** whose transliteration
-  appears to read words the Arabic does not show. Each was read by hand and they
-  are limits of the matcher, not content errors, but the checker cannot yet tell
-  the difference on its own.
+
+- **Two library entries have no resolvable source reference** (Muslim records
+  5971 and 7512). They link to the collection rather than to a dead page, and
+  say so.
+- **The alignment checker reports 32 entries** it cannot clear automatically.
+  All were read and none is a content error, but the comparison is approximate
+  and it stays a warning rather than a gate.
 - **Nothing here has had scholarly review.** That is stated on the site and is
   not something this work could change.
 - **No mobile device testing.** Layout was measured in a real browser, but the

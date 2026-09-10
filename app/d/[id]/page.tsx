@@ -278,18 +278,30 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
             {d.dissent}
           </p>
         )}
+        {d.source.resolved === false && (
+          <p className="mt-4 text-[13px] leading-relaxed text-[var(--ink-faint)]">
+            This narration has no standard reference number in the edition we check
+            against, so the number shown is the one our source uses and it does not
+            open a page on sunnah.com.
+          </p>
+        )}
         {d.parallel && (
           <p className="mt-4 text-[13px] leading-relaxed text-[var(--ink-faint)]">{d.parallel}</p>
         )}
 
         <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2">
+          {/* A handful of Sahih Muslim records have no standard number and no
+              page on sunnah.com. Sending a reader to a dead link is worse than
+              telling them the collection and letting them look. */}
           <a
             href={d.source.url}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex min-h-[44px] items-center text-[13px] text-[var(--sage)] underline underline-offset-4 transition-colors hover:text-[var(--green)] sm:min-h-0"
           >
-            Read it at the source ↗
+            {d.source.resolved === false
+              ? "Browse the collection at the source ↗"
+              : "Read it at the source ↗"}
           </a>
           {/* Every correction is traceable to the entry it concerns. */}
           <a

@@ -18,18 +18,40 @@ from translit import translit
 
 # Latin consonant skeleton. Vowels and length carry the least information and
 # the most disagreement between romanisation schemes.
-_DROP = str.maketrans("", "", "aeiouāīūáéíóúʿʾ'`-–—.,;:!?…\"“”()[]")
+_DROP = str.maketrans("", "", "aeiouāīūáéíóúʿʾ'`.,;:!?…\"“”()[]×")
 def skel(tok):
     t = tok.lower().translate(_DROP)
     t = (t.replace("ṣ","s").replace("ḍ","d").replace("ṭ","t").replace("ẓ","z")
            .replace("ḥ","h").replace("ḵ","kh").replace("š","sh").replace("ġ","gh")
            .replace("ṯ","th").replace("ḏ","dh").replace("ñ","n").replace("ṇ","n"))
-    t = re.sub(r"(.)\1+", r"\1", t)          # shadda / gemination
+    t = re.sub(r"(.)\1+", r"\1", t)          # shadda on a single letter
+    t = re.sub(r"(dh|kh|sh|th|gh)\1+", r"\1", t)  # and on a digraph: dhdh -> dh
     t = re.sub(r"^(al|l|el)(?=.)", "", t)    # article, however attached
+    # Tanwin: the engine writes -atan / -un / -in where a hand transliteration
+    # usually writes -ah or nothing. The case ending is not evidence either way.
+    t = re.sub(r"tn$", "t", t)               # tanwin on ta' marbuta
+    if len(t) > 2:
+        t = re.sub(r"[nh]$", "", t)          # case ending, and -ah for -at
+        t = re.sub(r"t$", "", t)             # ta' marbuta, however voweled
     return t
 
+# Clitics that a hand transliteration hyphenates onto the next word and the
+# engine emits joined: wa-, bi-, li-, la-, fa-, ka-, ta-. Splitting on the
+# hyphen and dropping a bare clitic makes the two sides comparable.
+_CLITIC = {"w", "b", "l", "f", "k", "t", "wl", "bl", "ll", "fl", "kl"}
+
+# "(x100 morning, x100 evening)" and "then:" are the editor speaking, not words
+# to be said, so they are not held against the Arabic.
+_ASIDE = re.compile(r"\([^)]*\)|\bthen\b|\btimes\b|\bmorning\b|\bevening\b", re.I)
+
 def toks(s):
-    return [w for w in re.split(r"[\s…]+", (s or "").strip()) if skel(w)]
+    out = []
+    for chunk in re.split(r"[\s…]+", _ASIDE.sub(" ", s or "").strip()):
+        for piece in chunk.split("-"):
+            k = skel(piece)
+            if k and k not in _CLITIC:
+                out.append(k)
+    return out
 
 def arabic_words(ar):
     return [w for w in re.split(r"\s+", (ar or "").strip()) if w]
@@ -53,10 +75,9 @@ def align(arabic, manual):
     also fuse two Arabic words ("wa-l-hamdu"), which the pair pass handles.
     """
     aw = arabic_words(arabic)
-    auto = [skel(translit(w)) for w in aw]
+    auto = ["".join(toks(translit(w))) or skel(translit(w)) for w in aw]
     pair = ["".join(auto[j:j+2]) for j in range(len(auto))]
-    man = [skel(w) for w in toks(manual)]
-    man = [m for m in man if m and not m.startswith("×")]
+    man = toks(manual)
 
     # candidate Arabic positions per manual token, singles then fused pairs
     cand = []
@@ -103,6 +124,28 @@ def align(arabic, manual):
     span = (path[0][1], path[-1][1]) if path else (0, -1)
     unused = [aw[k] for k in range(len(aw)) if k not in matched_ar]
     return aw, unused, unread, span, matched_ar
+
+def orphans(arabic, manual):
+    """Manual tokens with no counterpart anywhere in the Arabic.
+
+    Order-free, so a failure of the sequence alignment cannot produce one. This
+    is the signal that catches text the page claims but never shows, such as a
+    translation ending "and His blessings" over Arabic that stops at "and the
+    mercy of Allah".
+    """
+    aw = arabic_words(arabic)
+    auto = []
+    for w in aw:
+        auto.extend(toks(translit(w)) or [skel(translit(w))])
+    pool = [a for a in auto if a]
+    out = []
+    for m in toks(manual):
+        if len(m) < 3:
+            continue
+        if any(m == a or (len(m) > 2 and m in a) or (len(a) > 2 and a in m) for a in pool):
+            continue
+        out.append(m)
+    return out
 
 def classify(e):
     ar, tr = e.get("arabic",""), e.get("translit","")

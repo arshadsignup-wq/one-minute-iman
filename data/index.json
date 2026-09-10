@@ -385,7 +385,8 @@
   "t": "When something good happens",
   "s": [
    "dhikr",
-   "gratitude"
+   "gratitude",
+   "poverty"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -412,7 +413,9 @@
   "id": "burden",
   "t": "When you feel you cannot carry it",
   "s": [
+   "gratitude",
    "overwhelm",
+   "sadness",
    "work"
   ],
   "x": 1,
@@ -544,8 +547,10 @@
   "id": "never-give-up-hope",
   "t": "When you have almost given up",
   "s": [
+   "death",
    "despair",
    "distress",
+   "gratitude",
    "overwhelm",
    "steadfastness"
   ],
@@ -717,7 +722,7 @@
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 2232",
+  "r": "Ṣaḥīḥ Muslim 963a",
   "l": "Asked for the one who can no longer ask for themselves.",
   "a": "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ وَأَكْرِمْ نُزُلَهُ وَوَسِّعْ …"
  },
@@ -830,6 +835,8 @@
   "id": "patience-reward",
   "t": "When patience is costing you something",
   "s": [
+   "oppression",
+   "sleep",
    "steadfastness"
   ],
   "x": 1,
@@ -1032,6 +1039,8 @@
   "id": "i-am-near",
   "t": "When He feels far away",
   "s": [
+   "eating",
+   "forgiveness",
    "loneliness",
    "weak-iman"
   ],
@@ -3210,6 +3219,7 @@
   "t": "Consult, then decide, then stop deliberating",
   "s": [
    "anxiety",
+   "children",
    "decision",
    "weak-iman"
   ],
@@ -3257,6 +3267,7 @@
    "fear",
    "parents",
    "reconcile",
+   "steadfastness",
    "work"
   ],
   "x": 1,
@@ -5361,21 +5372,6 @@
   "a": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ ٱلْقِيَـٰمَة …"
  },
  {
-  "id": "do-not-despair-of-relief",
-  "t": "When you have been waiting a very long time",
-  "s": [
-   "death",
-   "despair",
-   "gratitude",
-   "steadfastness"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 12:87",
-  "l": "Said by Yaʿqūb after decades, sending his sons back out to look again.",
-  "a": "يَـٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْ …"
- },
- {
   "id": "give-us-rain",
   "t": "A man stood up mid-sermon and asked",
   "s": [
@@ -6042,20 +6038,6 @@
   "r": "Qur'an 2:284",
   "l": "A verse that covers the inside as well as the outside.",
   "a": "لِّلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَإِن تُبْدُوا۟ مَا فِىٓ أَنفُسِكُمْ …"
- },
- {
-  "id": "lightened-after",
-  "t": "The verse that came to lighten the one before it",
-  "s": [
-   "gratitude",
-   "overwhelm",
-   "sadness"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 2:286",
-  "l": "They said they could not bear it, and were answered.",
-  "a": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَس …"
  },
  {
   "id": "who-swears-on-my-behalf",
@@ -6958,18 +6940,6 @@
   "a": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن …"
  },
  {
-  "id": "softened-toward-them",
-  "t": "On why people stayed around him",
-  "s": [
-   "children"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 3:159",
-  "l": "A verse that names the reason, and warns what would have happened otherwise.",
-  "a": "فَبِمَا رَحْمَةٍ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَ …"
- },
- {
   "id": "whoever-saves-a-life",
   "t": "On the weight of a single person",
   "s": [
@@ -7036,20 +7006,6 @@
   "a": "وَإِذَا رَأَيْتَ ٱلَّذِينَ يَخُوضُونَ فِىٓ ءَايَـٰتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ يَخُوض …"
  },
  {
-  "id": "reward-without-measure",
-  "t": "How the patient are paid",
-  "s": [
-   "oppression",
-   "sleep",
-   "steadfastness"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 39:10",
-  "l": "The only reward in the Qur'an given without a stated limit.",
-  "a": "قُلْ يَـٰعِبَادِ ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ رَبَّكُمْ ۚ لِلَّذِينَ أَحْسَنُوا۟ فِى هَـ …"
- },
- {
   "id": "wide-earth",
   "t": "When where you are is making it impossible",
   "s": [
@@ -7061,20 +7017,6 @@
   "r": "Qur'an 4:97",
   "l": "An answer given to people who said they were oppressed and stuck.",
   "a": "إِنَّ ٱلَّذِينَ تَوَفَّىٰهُمُ ٱلْمَلَـٰٓئِكَةُ ظَالِمِىٓ أَنفُسِهِمْ قَالُوا۟ فِيمَ كُنتُم …"
- },
- {
-  "id": "hardship-with-ease",
-  "t": "The word used is with, not after",
-  "s": [
-   "gratitude",
-   "sleep",
-   "steadfastness"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 94:5-6",
-  "l": "Ibn ʿAbbās said one hardship will never overcome two eases.",
-  "a": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا"
  },
  {
   "id": "he-loves-them",
@@ -7501,7 +7443,7 @@
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 6879",
+  "r": "Ṣaḥīḥ Muslim 2708b",
   "l": "Khawla heard him give it as a general instruction for any place you stay.",
   "a": "إِذَا نَزَلَ أَحَدُكُمْ مَنْزِلاً فَلْيَقُلْ أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ …"
  },
@@ -8437,20 +8379,6 @@
   "a": "وَمَثَلُ كَلِمَةٍ خَبِيثَةٍ كَشَجَرَةٍ خَبِيثَةٍ ٱجْتُثَّتْ مِن فَوْقِ ٱلْأَرْضِ مَا لَهَا …"
  },
  {
-  "id": "hold-to-forgiveness",
-  "t": "Three instructions in five words",
-  "s": [
-   "enemy",
-   "reconcile",
-   "steadfastness"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 41:34",
-  "l": "Said to be among the most complete verses on dealing with people.",
-  "a": "وَلَا تَسْتَوِى ٱلْحَسَنَةُ وَلَا ٱلسَّيِّئَةُ ۚ ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ فَإِذَا ٱ …"
- },
- {
   "id": "allah-suffices",
   "t": "What was said by people told to be afraid",
   "s": [
@@ -8590,7 +8518,7 @@
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 6625",
+  "r": "Ṣaḥīḥ Muslim 2602c",
   "l": "He made an agreement with his Lord about anything he said in anger.",
   "a": "إِنَّمَا أَنَا بَشَرٌ وَإِنِّي اشْتَرَطْتُ عَلَى رَبِّي عَزَّ وَجَلَّ أَىُّ عَبْدٍ مِنَ ال …"
  },
@@ -8700,20 +8628,6 @@
   "r": "Qur'an 21:78-79",
   "l": "A ruling about people who try and get it wrong.",
   "a": "وَدَاوُۥدَ وَسُلَيْمَـٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَو …"
- },
- {
-  "id": "if-you-are-grateful",
-  "t": "A conditional with a consequence attached",
-  "s": [
-   "dhikr",
-   "gratitude",
-   "poverty"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 14:7",
-  "l": "Both halves of the sentence are stated.",
-  "a": "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَ …"
  },
  {
   "id": "he-created-you-in-stages",
@@ -9026,20 +8940,6 @@
   "a": "إِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَـٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعَف …"
  },
  {
-  "id": "do-not-despair-of-mercy",
-  "t": "Addressed to those who went furthest",
-  "s": [
-   "despair",
-   "forgiveness",
-   "shame"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 39:53",
-  "l": "The address used for them is the tenderest in the Qur'an.",
-  "a": "۞ قُلْ يَـٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَ …"
- },
- {
   "id": "a-reminder-benefits",
   "t": "On repeating things people already know",
   "s": [
@@ -9073,20 +8973,6 @@
   "r": "Qur'an 8:24",
   "l": "Placed at the end of a passage on trials.",
   "a": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَجِيبُوا۟ لِلَّهِ وَلِلرَّسُولِ إِذَا دَعَاكُمْ لِم …"
- },
- {
-  "id": "he-answers-the-call",
-  "t": "A promise placed inside a verse about fasting",
-  "s": [
-   "eating",
-   "forgiveness",
-   "loneliness"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 2:186",
-  "l": "It interrupts a passage about Ramadan without explanation.",
-  "a": "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَان …"
  },
  {
   "id": "do-not-say-if",
@@ -9443,18 +9329,6 @@
   "a": "أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَالَتْ أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ ٱلسَّيْلُ زَ …"
  },
  {
-  "id": "say-my-lord-increase-me",
-  "t": "The only increase commanded to be asked for",
-  "s": [
-   "knowledge"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 20:114",
-  "l": "Placed at the end of an instruction about not hurrying.",
-  "a": "فَتَعَـٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۗ وَلَا تَعْجَلْ بِٱلْقُرْءَانِ مِن قَبْلِ أَن يُقْ …"
- },
- {
   "id": "the-record-will-be-read",
   "t": "Told to read your own account",
   "s": [
@@ -9716,7 +9590,7 @@
   "s": [],
   "x": 1,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 7017",
+  "r": "Ṣaḥīḥ Muslim 2769a",
   "l": "Reported through Ibn Shihāb about an expedition.",
   "a": ". فَقَالَتْ إِنَّهُ وَاللَّهِ مَا بِهِ حَرَكَةٌ إِلَى شَىْءٍ وَوَاللَّهِ مَا زَالَ يَبْكِي …"
  },
@@ -10079,18 +9953,6 @@
   "r": "Qur'an 28:60",
   "l": "Two clauses, and the second is a comparison.",
   "a": "وَمَآ أُوتِيتُم مِّن شَىْءٍ فَمَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا وَزِينَتُهَا ۚ وَمَا عِندَ …"
- },
- {
-  "id": "a-goodly-life-for-both",
-  "t": "Righteous work tied to a promise about now",
-  "s": [
-   "gratitude"
-  ],
-  "x": 1,
-  "g": "Qur'an",
-  "r": "Qur'an 16:97",
-  "l": "It specifies male or female, which was not obvious at the time.",
-  "a": "مَنْ عَمِلَ صَـٰلِحًا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌ فَلَنُحْيِيَنَّهُۥ حَيَوٰةً …"
  },
  {
   "id": "the-earth-will-report",
@@ -10495,7 +10357,7 @@
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 6879",
+  "r": "Ṣaḥīḥ Muslim 2708b",
   "l": "A woman reported it, and a man stung by a scorpion proved it.",
   "a": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ"
  },
@@ -20807,15 +20669,15 @@
   "a": "اللَّهُمَّ اجْعَلْهُ يَوْمَ الْقِيَامَةِ فَوْقَ كَثِيرٍ مِنْ خَلْقِكَ أَوْ مِنَ النَّاسِ"
  },
  {
-  "id": "muslim-6414-617",
-  "t": "Ṣaḥīḥ Muslim 6414",
+  "id": "muslim-2506a-617",
+  "t": "Ṣaḥīḥ Muslim 2506a",
   "s": [
    "children",
    "forgiveness"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 6414",
+  "r": "Ṣaḥīḥ Muslim 2506a",
   "l": "Introduction",
   "a": "اللَّهُمَّ اغْفِرْ لِلأَنْصَارِ وَلأَبْنَاءِ الأَنْصَارِ وَأَبْنَاءِ أَبْنَاءِ الأَنْصَارِ"
  },
@@ -20907,14 +20769,14 @@
   "a": "اللَّهُمَّ إِنَّمَا مُحَمَّدٌ بَشَرٌ يَغْضَبُ كَمَا يَغْضَبُ الْبَشَرُ وَإِنِّي قَدِ اتَّخ …"
  },
  {
-  "id": "muslim-6625-628",
-  "t": "Ṣaḥīḥ Muslim 6625",
+  "id": "muslim-2602c-628",
+  "t": "Ṣaḥīḥ Muslim 2602c",
   "s": [
    "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 6625",
+  "r": "Ṣaḥīḥ Muslim 2602c",
   "l": "Introduction",
   "a": "رَبِّي عَزَّ وَجَلَّ أَىُّ عَبْدٍ مِنَ الْمُسْلِمِينَ سَبَبْتُهُ أَوْ شَتَمْتُهُ أَنْ يَكُ …"
  },
@@ -21215,26 +21077,26 @@
   "a": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ . لَمْ يَضُرُّهُ شَىْءٌ حَت …"
  },
  {
-  "id": "muslim-6879-658",
-  "t": "Ṣaḥīḥ Muslim 6879",
+  "id": "muslim-2708b-658",
+  "t": "Ṣaḥīḥ Muslim 2708b",
   "s": [
    "refuge"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 6879",
+  "r": "Ṣaḥīḥ Muslim 2708b",
   "l": "Introduction",
   "a": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ . فَإِنَّهُ لاَ يَضُرُّهُ ش …"
  },
  {
-  "id": "muslim-6879-659",
-  "t": "Ṣaḥīḥ Muslim 6879",
+  "id": "muslim-2708b-659",
+  "t": "Ṣaḥīḥ Muslim 2708b",
   "s": [
    "refuge"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 6879",
+  "r": "Ṣaḥīḥ Muslim 2708b",
   "l": "Introduction",
   "a": "أَمْسَيْتَ أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ لَمْ تَضُرُّكَ"
  },
@@ -21521,15 +21383,15 @@
   "a": "يَا رَبِّ وَأَنْتَ أَعْلَمُ . فَغَفَرَ اللَّهُ لَهُ"
  },
  {
-  "id": "muslim-6981-691",
-  "t": "Ṣaḥīḥ Muslim 6981",
+  "id": "muslim-2756b-691",
+  "t": "Ṣaḥīḥ Muslim 2756b",
   "s": [
    "death-remembrance",
    "eating"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 6981",
+  "r": "Ṣaḥīḥ Muslim 2756b",
   "l": "Introduction",
   "a": "رَبِّي لَيُعَذِّبُنِي عَذَابًا مَا عَذَّبَهُ بِهِ أَحَدًا . قَالَ فَفَعَلُوا ذَلِكَ بِهِ ف …"
  },
@@ -21558,14 +21420,14 @@
   "a": "رَبِّهِ عَزَّ وَجَلَّ حَتَّى يَضَعَ عَلَيْهِ كَنَفَهُ فَيُقَرِّرُهُ بِذُنُوبِهِ فَيَقُولُ …"
  },
  {
-  "id": "muslim-7017-694",
-  "t": "Ṣaḥīḥ Muslim 7017",
+  "id": "muslim-2769a-694",
+  "t": "Ṣaḥīḥ Muslim 2769a",
   "s": [
    "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 7017",
+  "r": "Ṣaḥīḥ Muslim 2769a",
   "l": "Introduction",
   "a": "سَلَّمْتُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ وَهُوَ يَبْرُقُ وَجْهُهُ مِنَ الس …"
  },
@@ -21790,14 +21652,14 @@
   "a": "آمَنْتُ بِاللَّهِ وَمَلاَئِكَتِهِ وَكُتُبِهِ مَا تَرَى"
  },
  {
-  "id": "muslim-7354-713",
-  "t": "Ṣaḥīḥ Muslim 7354",
+  "id": "muslim-2930a-713",
+  "t": "Ṣaḥīḥ Muslim 2930a",
   "s": [
    "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
-  "r": "Ṣaḥīḥ Muslim 7354",
+  "r": "Ṣaḥīḥ Muslim 2930a",
   "l": "Introduction",
   "a": "تَبَارَكَ وَتَعَالَى لَيْسَ بِأَعْوَرَ"
  },

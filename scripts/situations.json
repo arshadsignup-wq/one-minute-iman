@@ -276,7 +276,7 @@
     "feel unwanted",
     "nobody near me"
    ],
-   "count": 99
+   "count": 98
   },
   {
    "id": "despair",
@@ -344,7 +344,7 @@
     "lowest point",
     "cant see a way"
    ],
-   "count": 79
+   "count": 77
   },
   {
    "id": "overwhelm",
@@ -393,7 +393,7 @@
     "cant keep going",
     "spread too thin"
    ],
-   "count": 89
+   "count": 88
   },
   {
    "id": "gratitude",
@@ -453,7 +453,7 @@
     "counting blessings",
     "dunya"
    ],
-   "count": 221
+   "count": 218
   },
   {
    "id": "envy",
@@ -545,7 +545,7 @@
     "munafiq",
     "insincere"
    ],
-   "count": 137
+   "count": 136
   },
   {
    "id": "distress",
@@ -890,7 +890,7 @@
     "someone is after me",
     "being targeted"
    ],
-   "count": 63
+   "count": 62
   },
   {
    "id": "failure",
@@ -1094,7 +1094,7 @@
     "toxic family",
     "fell out with family"
    ],
-   "count": 90
+   "count": 89
   },
   {
    "id": "knowledge",
@@ -1136,7 +1136,7 @@
     "learning arabic",
     "seeking knowledge"
    ],
-   "count": 91
+   "count": 90
   },
   {
    "id": "work",
@@ -1298,7 +1298,7 @@
     "last ten nights",
     "seeking pardon"
    ],
-   "count": 283
+   "count": 282
   },
   {
    "id": "weak-iman",
@@ -1431,7 +1431,7 @@
     "long illness",
     "chronic"
    ],
-   "count": 154
+   "count": 151
   },
   {
    "id": "death-remembrance",
@@ -1604,7 +1604,7 @@
     "awake all night",
     "up all night"
    ],
-   "count": 178
+   "count": 177
   },
   {
    "id": "eating",
@@ -1726,7 +1726,7 @@
     "tasbeeh",
     "words of praise"
    ],
-   "count": 145
+   "count": 144
   },
   {
    "id": "misc",

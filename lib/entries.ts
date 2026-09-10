@@ -6,6 +6,8 @@ export type Source = {
   // own row id; record_id keeps that, and book/in_book the in-book reference.
   collection: string; slug?: string; number?: number | string;
   record_id?: number; book?: number; in_book?: number;
+  // false when no sunnah.com page exists for this record, so no deep link is offered
+  resolved?: boolean;
   surah?: number; ayah_start?: number; ayah_end?: number; reference?: string;
   url: string; grade: string; gradings: string[];
 };

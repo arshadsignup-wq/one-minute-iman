@@ -133,7 +133,7 @@ for e in ENTRIES:
         rec["source"] = dict(kind="hadith", collection=PRETTY[coll], slug=coll,
                              number=ref["citation"], record_id=ref["record_id"],
                              book=ref["book"], in_book=ref["hadith"],
-                             url=ref["url"],
+                             url=ref["url"], resolved=ref["resolved"],
                              grade=grade_label, gradings=grade_detail)
         rec["arabic"] = seg or ""
         if not seg: problems.append((e["id"], "NO QUOTED SEGMENT (using narrative)", f"{coll}:{num}"))
@@ -180,6 +180,29 @@ for e in ENTRIES:
 
 json.dump(out, open(f"{os.path.dirname(os.path.abspath(__file__))}/verified.json","w"), ensure_ascii=False, indent=1)
 print(f"✅ verified & written: {len(out)}/{len(ENTRIES)}")
+
+# Does the transliteration read words the Arabic never shows? This is the check
+# that the substring test cannot do: it caught a page that had been published
+# against a narration sharing only its opening words, and a translation ending
+# "and His blessings" over Arabic that stops before them.
+#
+# It is a warning, not a gate. The comparison is approximate, so a handful of
+# correct entries surface here and have to be read rather than trusted.
+import align as _align
+_susp = []
+for _r in out:
+    if not _r.get("arabic") or not _r.get("translit"):
+        continue
+    _o = _align.orphans(_r["arabic"], _r["translit"])
+    if _o:
+        _susp.append((_r["id"], _o))
+if _susp:
+    _susp.sort(key=lambda t: -len(t[1]))
+    print(f"\n🔎 {len(_susp)} entr(ies) whose transliteration may read unshown words:")
+    for _id, _o in _susp[:12]:
+        print(f"   {_id:<34} {' '.join(_o[:6])}")
+    if len(_susp) > 12:
+        print(f"   ... and {len(_susp) - 12} more")
 if problems:
     print(f"\n⚠️  {len(problems)} PROBLEM(S):")
     for pid, kind, detail in problems: print(f"  [{kind}] {pid}\n      {detail}")

@@ -30,6 +30,7 @@ for _r in library:
         _r["record_id"] = _ref["record_id"]
         _r["number"] = _ref["citation"]
         _r["url"] = _ref["url"]
+        _r["resolved"] = _ref["resolved"]
 
 # "Agreed upon as authentic (al-Bukhari / Muslim)" was applied to every entry in
 # either collection, which reads as a claim that both contain it. Only the
@@ -122,6 +123,7 @@ for i, h in enumerate(library):
             "slug": h["coll"],
             "number": h["number"],
             "url": h["url"],
+            "resolved": h.get("resolved", True),
             "grade": h["grade"],
             "gradings": h["gradings"],
         },
