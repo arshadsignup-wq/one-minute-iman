@@ -192,13 +192,19 @@ for _s in _quran:
 _with_audio = 0
 for _e in entries:
     _src = _e["source"]
-    if _src["kind"] != "quran" or _e.get("recites") == "part" or _e.get("passage_ar"):
+    if _src["kind"] != "quran":
         continue
     _keys = ["%s:%s" % (_src["surah"], _n)
              for _n in range(_src["ayah_start"], _src["ayah_end"] + 1)]
     _urls = [_audio[k] for k in _keys if k in _audio]
     if len(_urls) == len(_keys) and _urls:
         _e["audio"] = _urls
+        # Recitation is per ayah. Where the page shows an excerpt, the recording
+        # covers the whole verse it was taken from, which is worth hearing and
+        # worth saying so: the reader should not think the extra words are the
+        # ones in front of them.
+        _partial = _e.get("recites") == "part" or bool(_e.get("passage_ar"))
+        _e["audio_scope"] = "verse" if _partial else "exact"
         _e["audio_credit"] = "Recitation by Mishari Rashid al-Afasy, via Quran.com"
         _with_audio += 1
 
@@ -273,7 +279,8 @@ print(f"✅ {len(entries)} entries  ({sum(1 for e in entries if e['tier']=='cura
 print(f"   {tagged} carry at least one situation ({tagged*100//len(entries)}%)")
 print(f"   {sum(len(x['feelings']) for x in S)} feeling phrasings across {len(S)} situations")
 print(f"   {_cleaned} narration(s) had a cut-off cross-reference removed")
-print(f"   {_with_audio} entr(ies) carry verse recitation")
+print(f"   {_with_audio} entr(ies) carry recitation "
+      f"({sum(1 for e in entries if e.get('audio_scope') == 'verse')} of them the whole verse)")
 empty = [s["id"] for s in sit_out if s["count"] == 0]
 thin  = [(s["id"], s["count"]) for s in sit_out if 0 < s["count"] < 4]
 if empty: print("   ⚠️  situations with no entries:", empty)

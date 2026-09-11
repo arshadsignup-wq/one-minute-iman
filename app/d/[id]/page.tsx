@@ -200,9 +200,15 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
           url={`${SITE_URL}/d/${d.id}`}
           audio={d.audio}
           audioCredit={d.audio_credit}
+          audioScope={d.audio_scope}
         />
         {d.audio_credit && (
-          <p className="mt-3 text-[11px] text-[var(--ink-faint)]">{d.audio_credit}</p>
+          <p className="mt-3 text-[11px] leading-relaxed text-[var(--ink-faint)]">
+            {d.audio_scope === "verse"
+              ? "The recitation covers the whole verse these words are taken from. "
+              : ""}
+            {d.audio_credit}
+          </p>
         )}
       </section>
 

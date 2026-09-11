@@ -175,6 +175,10 @@
    "ref": "Qur'an 2:286",
    "grade": "Qur'an",
    "url": "https://quran.com/2/286",
+   "audio": [
+    "https://verses.quran.com/Alafasy/mp3/002286.mp3"
+   ],
+   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com",
    "recites": "part"
   },
   "step": "Put one thing down before you say this. Choose the thing, then say it.",
@@ -203,6 +207,10 @@
    "ref": "Qur'an 14:7",
    "grade": "Qur'an",
    "url": "https://quran.com/14/7",
+   "audio": [
+    "https://verses.quran.com/Alafasy/mp3/014007.mp3"
+   ],
+   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com",
    "recites": "part"
   },
   "step": "Say it before the feeling passes. Naming what happened is the point.",
@@ -231,6 +239,14 @@
    "ref": "Qur'an 113:1-5",
    "grade": "Qur'an",
    "url": "https://quran.com/113/1",
+   "audio": [
+    "https://verses.quran.com/Alafasy/mp3/113001.mp3",
+    "https://verses.quran.com/Alafasy/mp3/113002.mp3",
+    "https://verses.quran.com/Alafasy/mp3/113003.mp3",
+    "https://verses.quran.com/Alafasy/mp3/113004.mp3",
+    "https://verses.quran.com/Alafasy/mp3/113005.mp3"
+   ],
+   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com",
    "recites": "part"
   },
   "step": "Say it, then make one quiet duʿā for the person you are thinking of.",
@@ -362,7 +378,12 @@
    "trans": "Indeed we belong to Allah, and indeed to Him we will return.",
    "ref": "Qur'an 2:156-157",
    "grade": "Qur'an",
-   "url": "https://quran.com/2/156"
+   "url": "https://quran.com/2/156",
+   "audio": [
+    "https://verses.quran.com/Alafasy/mp3/002156.mp3",
+    "https://verses.quran.com/Alafasy/mp3/002157.mp3"
+   ],
+   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
   },
   "step": "Say it when the words will come. There is no window you have missed.",
   "know": {
@@ -581,6 +602,10 @@
    "ref": "Qur'an 17:24",
    "grade": "Qur'an",
    "url": "https://quran.com/17/24",
+   "audio": [
+    "https://verses.quran.com/Alafasy/mp3/017024.mp3"
+   ],
+   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com",
    "recites": "part"
   },
   "step": "Say it, then call them if you still can.",
@@ -637,6 +662,10 @@
    "ref": "Qur'an 20:114",
    "grade": "Qur'an",
    "url": "https://quran.com/20/114",
+   "audio": [
+    "https://verses.quran.com/Alafasy/mp3/020114.mp3"
+   ],
+   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com",
    "recites": "part"
   },
   "step": "Say it before you open the book, not instead of opening it.",

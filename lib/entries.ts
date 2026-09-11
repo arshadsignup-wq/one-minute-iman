@@ -20,7 +20,9 @@ export type Entry = {
   // the surrounding verse or narration, when the recited words are an excerpt
   passage_ar?: string; passage_trans?: string;
   // recitation, only where a recording covers exactly what the page shows
-  audio?: string[]; audio_credit?: string;
+  // "exact" when the recording is the words shown, "verse" when it is the
+  // whole ayah those words were taken from
+  audio?: string[]; audio_credit?: string; audio_scope?: "exact" | "verse";
   english_full?: string; story?: string; note?: string;
   parallel?: string; dissent?: string;
   tags: string[]; situations: string[];

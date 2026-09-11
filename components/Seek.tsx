@@ -6,6 +6,8 @@ import {
   matchSituations, neighboursOf, isCrisis, isHarm, isOtherLanguage, EXAMPLES,
 } from "@/lib/search";
 import Answer from "@/components/Answer";
+import { findEntry, loadEntry, type EntryDoc } from "@/lib/entryhits";
+import { sitById } from "@/lib/search";
 
 /** Offered when nothing matched, so the visitor is not sent away empty. */
 const FALLBACK: [string, string][] = [
@@ -38,6 +40,16 @@ export default function Seek(
   const harm = asked && !crisis && isHarm(q);
   const otherLanguage = asked && !crisis && !harm && isOtherLanguage(q);
 
+  // A query can name a particular supplication rather than describe a feeling.
+  // The keyword file and the entry are fetched only when that happens, so a
+  // plain search downloads nothing extra.
+  // Keyed by the query it was found for, so a result from a previous keystroke
+  // is never shown against the current one, and nothing has to be cleared
+  // synchronously when the query changes.
+  const [named, setNamed] = useState<{ q: string; doc: EntryDoc | null; sits: string[] }>(
+    { q: "", doc: null, sits: [] },
+  );
+
   const { primary, related } = useMemo(() => {
     const all = matchSituations(q);
     if (!all.length) return { primary: [], related: [] };
@@ -53,6 +65,27 @@ export default function Seek(
         : [...scored, ...neighboursOf(leadIds[0], [...leadIds, ...scored.map((s) => s.id)], 4)];
     return { primary: lead, related: filled.slice(0, 5) };
   }, [q]);
+
+  useEffect(() => {
+    if (!asked || crisis || harm) return;
+    let live = true;
+    const leadIds = primary.map((m) => m.sit.id);
+    findEntry(q, leadIds)
+      .then(async (hit) =>
+        hit ? { doc: await loadEntry(hit.id), sits: hit.situations } : { doc: null, sits: [] })
+      .then(({ doc, sits }) => { if (live) setNamed({ q, doc, sits }); })
+      .catch(() => { if (live) setNamed({ q, doc: null, sits: [] }); });
+    return () => { live = false; };
+  }, [q, asked, crisis, harm, primary]);
+
+  // Resolved once, because the empty state and the answer both depend on it: a
+  // query can name a supplication without matching any situation at all, and
+  // "du'a before sex" did exactly that.
+  const hit = named.q === q ? named.doc : null;
+  const owned =
+    hit && !named.sits.includes(primary[0]?.sit.id ?? "")
+      ? sitById.get(named.sits[0])
+      : primary[0]?.sit;
 
   return (
     <div>
@@ -190,7 +223,7 @@ export default function Seek(
 
       {asked && (
         <div className="mt-12">
-          {primary.length === 0 && !crisis && !harm ? (
+          {primary.length === 0 && !hit && !crisis && !harm ? (
             /* The failure here is the site's, not the visitor's. Saying "try a
                plainer word" hands them the problem; offering somewhere to go
                does not. */
@@ -227,11 +260,14 @@ export default function Seek(
                   the site read as a directory: it named a category and left
                   the visitor to pick. This responds instead, and keeps the
                   fuller list a click away. */}
-              <Answer
-                sit={primary[0].sit}
-                query={q}
-                alternatives={primary.slice(1).map((m) => m.sit)}
-              />
+              {owned && (
+                <Answer
+                  sit={owned}
+                  query={q}
+                  alternatives={primary.map((m) => m.sit).filter((x) => x.id !== owned.id)}
+                  named={hit}
+                />
+              )}
 
               {related.length > 0 && (
                 <section className="rise mt-16 border-t border-[var(--line-soft)] pt-8">

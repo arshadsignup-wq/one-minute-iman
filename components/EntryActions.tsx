@@ -15,6 +15,7 @@ type Props = {
   url: string;
   audio?: string[];
   audioCredit?: string;
+  audioScope?: "exact" | "verse";
 };
 
 /** What gets copied: the words and where they are from, and nothing else.
@@ -75,7 +76,7 @@ export default function EntryActions(props: Props) {
   return (
     <div className="mt-9 flex flex-wrap items-center gap-2.5">
       {props.audio?.length ? (
-        <Listen urls={props.audio} credit={props.audioCredit ?? ""} />
+        <Listen urls={props.audio} credit={props.audioCredit ?? ""} scope={props.audioScope} />
       ) : null}
 
       <button type="button" onClick={copy} className={btn} aria-live="polite">

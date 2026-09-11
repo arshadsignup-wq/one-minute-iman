@@ -188,3 +188,80 @@ print(f"   with recitation           : {sum(1 for v in out.values() if v['say'].
 missing = [k for k, v in out.items() if not v["step"]]
 if missing:
     print(f"   ⚠️  no next step written for: {', '.join(missing)}")
+
+# ── the entries themselves, searchable ──────────────────────────────────────
+# Matching only ran against the 43 situation lexicons, so a query naming
+# something specific found nothing: "du'a before sex" returned an empty page
+# while Sahih al-Bukhari 141 sat in the corpus under "marriage". This makes
+# every curated entry reachable by its own words.
+#
+# It is written to public/ rather than imported, so it is fetched once on the
+# first search and cached, instead of riding in the bundle of every page.
+PUBLIC = os.path.join(os.path.dirname(HERE), "public")
+
+def _stop(w):
+    return w in {"the", "a", "an", "of", "for", "and", "to", "in", "on", "at",
+                 "when", "what", "your", "you", "is", "it", "with", "from",
+                 "this", "that", "his", "her", "their", "dua", "duaa", "dua'a",
+                 "supplication", "said", "say", "says"}
+
+# Tags that describe the asking rather than the thing asked for. "dua for" and
+# "what to say" sit on a few entries and match almost any question, which is how
+# a query about travelling reached a supplication about teaching a child.
+GENERIC_TAGS = {
+    "dua", "duas", "dua for", "dua to say", "a dua", "the dua",
+    "what to say", "what to read", "what do i say", "how to",
+    "say this", "prayer for", "words for", "supplication",
+}
+
+def keywords(e):
+    words = set()
+    for t in e.get("tags") or []:
+        t = t.lower().strip()
+        if t and t not in GENERIC_TAGS:
+            words.add(t)                       # the phrase itself
+            for w in re.split(r"[^a-z0-9']+", t):
+                if len(w) > 2 and not _stop(w):
+                    words.add(w)
+    for w in re.split(r"[^a-z0-9']+", (e.get("title") or "").lower()):
+        if len(w) > 2 and not _stop(w):
+            words.add(w)
+    return sorted(words)
+
+# Two files, not one. The keywords alone are small enough to fetch before the
+# first answer is drawn; the text of an entry is only fetched for the entry that
+# actually wins. Shipping all of it up front cost 300KB gzipped before anyone
+# could read anything.
+keys, docs = [], {}
+for e in curated:
+    keys.append({"i": e["id"], "k": keywords(e), "s": e["situations"]})
+    doc = {
+        "i": e["id"],
+        "t": e["title"],
+        "a": e["arabic"],
+        "r": ref_of(e),
+        "g": e["source"]["grade"],
+    }
+    if e.get("translit"): doc["p"] = e["translit"]
+    if e.get("trans"): doc["m"] = e["trans"]
+    if e.get("audio"): doc["u"] = e["audio"]
+    if e.get("audio_scope"): doc["us"] = e["audio_scope"]
+    if e.get("audio_credit"): doc["uc"] = e["audio_credit"]
+    if e.get("recites") == "part": doc["x"] = 1
+    docs[e["id"]] = doc
+
+os.makedirs(PUBLIC, exist_ok=True)
+json.dump(keys, open(f"{PUBLIC}/entry-keywords.json", "w"),
+          ensure_ascii=False, separators=(",", ":"))
+# One file holding the text of every entry would be fetched in full to show one
+# of them, so they are written per entry and requested one at a time.
+d = os.path.join(PUBLIC, "entry")
+os.makedirs(d, exist_ok=True)
+for eid, doc in docs.items():
+    json.dump(doc, open(os.path.join(d, f"{eid}.json"), "w"),
+              ensure_ascii=False, separators=(",", ":"))
+
+kb = os.path.getsize(f"{PUBLIC}/entry-keywords.json") // 1024
+avg = sum(os.path.getsize(os.path.join(d, f)) for f in os.listdir(d)) // max(1, len(docs))
+print(f"   entry search: {len(keys)} entries, keywords {kb} KB, "
+      f"one entry ~{avg} bytes")

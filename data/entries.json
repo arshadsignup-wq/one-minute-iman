@@ -193,7 +193,12 @@
    "overwhelm",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003173.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "ease-after-hardship",
@@ -246,6 +251,7 @@
    "https://verses.quran.com/Alafasy/mp3/094005.mp3",
    "https://verses.quran.com/Alafasy/mp3/094006.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -346,7 +352,12 @@
    "forgiveness",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/039053.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "anger",
@@ -708,7 +719,13 @@
    "death",
    "death-remembrance",
    "sadness"
-  ]
+  ],
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002156.mp3",
+   "https://verses.quran.com/Alafasy/mp3/002157.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "istikhara",
@@ -801,7 +818,12 @@
    "knowledge",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/020114.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "speaking",
@@ -842,7 +864,15 @@
    "reconcile",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/020025.mp3",
+   "https://verses.quran.com/Alafasy/mp3/020026.mp3",
+   "https://verses.quran.com/Alafasy/mp3/020027.mp3",
+   "https://verses.quran.com/Alafasy/mp3/020028.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "spouse-family",
@@ -886,6 +916,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/025074.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -926,7 +957,12 @@
    "children",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003038.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "protect-children",
@@ -1292,7 +1328,12 @@
    "gratitude",
    "poverty"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/014007.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "qadar",
@@ -1389,7 +1430,12 @@
    "sadness",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002286.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "patience",
@@ -1429,6 +1475,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/002153.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -1707,7 +1754,12 @@
    "refuge",
    "sleep"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002255.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "evil-eye-falaq",
@@ -1753,7 +1805,16 @@
    "envy",
    "evil-eye"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/113001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/113002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/113003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/113004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/113005.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "envy-nas",
@@ -1798,7 +1859,17 @@
    "evil-eye",
    "waswas"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/114001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/114002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/114003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/114004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/114005.mp3",
+   "https://verses.quran.com/Alafasy/mp3/114006.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "never-give-up-hope",
@@ -1862,7 +1933,12 @@
    "overwhelm",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/012087.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "waking",
@@ -2679,6 +2755,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/037100.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -2726,7 +2803,13 @@
    "distress",
    "poverty"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/065002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/065003.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "hated-thing",
@@ -2771,7 +2854,12 @@
    "failure",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002216.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "patience-reward",
@@ -2820,7 +2908,12 @@
    "sleep",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/039010.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "hearts-at-rest",
@@ -2868,7 +2961,12 @@
    "sleep",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/013028.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "wrongdoers-not-unseen",
@@ -2915,7 +3013,12 @@
    "enemy",
    "oppression"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/014042.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "household",
@@ -2958,7 +3061,12 @@
    "parents",
    "travel"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/071028.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "salawat",
@@ -3054,7 +3162,12 @@
    "knowledge",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/021083.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "adam",
@@ -3103,6 +3216,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/007023.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -3153,7 +3267,12 @@
    "poverty",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/028024.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "ibrahim-parents",
@@ -3195,7 +3314,12 @@
    "parents",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/014041.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "firm-heart",
@@ -3241,6 +3365,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/003008.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -3293,7 +3418,12 @@
    "steadfastness",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002250.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "cave-youth",
@@ -3341,7 +3471,12 @@
    "reconcile",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/018010.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "whispers",
@@ -3386,6 +3521,7 @@
    "https://verses.quran.com/Alafasy/mp3/023097.mp3",
    "https://verses.quran.com/Alafasy/mp3/023098.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -3428,7 +3564,12 @@
    "steadfastness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/040060.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "i-am-near",
@@ -3482,7 +3623,12 @@
    "loneliness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002186.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "only-what-is-written",
@@ -3531,6 +3677,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/009051.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -4884,7 +5031,12 @@
    "gratitude",
    "parents"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/046015.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "ummah-forgive",
@@ -4926,7 +5078,12 @@
    "anger",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/059010.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "truthful-entry",
@@ -4975,6 +5132,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/017080.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -5018,7 +5176,13 @@
    "fear",
    "oppression"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/010085.mp3",
+   "https://verses.quran.com/Alafasy/mp3/010086.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "upon-you-we-rely",
@@ -5058,7 +5222,12 @@
   "situations": [
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/060004.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "wisdom-and-company",
@@ -5101,6 +5270,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/026083.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -5143,7 +5313,13 @@
    "death-remembrance",
    "fear"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/025065.mp3",
+   "https://verses.quran.com/Alafasy/mp3/025066.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "asiya",
@@ -5190,7 +5366,12 @@
    "marriage",
    "oppression"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/066011.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "enough-not-excess",
@@ -5520,7 +5701,12 @@
    "shame",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002127.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "keep-me-praying",
@@ -5568,6 +5754,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/014040.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -5614,7 +5801,12 @@
    "shame",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003147.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "yusuf-ending",
@@ -5659,7 +5851,12 @@
    "marriage",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/012101.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "mercy-of-the-merciful",
@@ -5704,7 +5901,12 @@
    "sadness",
    "sleep"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/023109.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "musa-remorse",
@@ -5750,7 +5952,12 @@
    "forgiveness",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/028016.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "zakariyya-alone",
@@ -5796,7 +6003,12 @@
    "death-remembrance",
    "loneliness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/021089.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "nuh-overpowered",
@@ -5844,6 +6056,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/054010.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -5889,7 +6102,12 @@
    "enemy",
    "fear"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/007126.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "malik-al-mulk",
@@ -5935,7 +6153,12 @@
    "shame",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003026.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "not-created-in-vain",
@@ -5980,7 +6203,12 @@
    "rain-weather",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003191.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "what-i-dont-know",
@@ -6019,7 +6247,12 @@
    "decision",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/011047.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "early-morning",
@@ -6303,7 +6536,12 @@
   "situations": [
    "parents"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/017024.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "entrust-the-matter",
@@ -6348,7 +6586,12 @@
    "steadfastness",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/040044.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "complain-to-him",
@@ -6396,7 +6639,12 @@
    "loneliness",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/012086.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "take-us-out",
@@ -6442,7 +6690,12 @@
    "fear",
    "oppression"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004075.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "my-whole-life",
@@ -6483,7 +6736,13 @@
   "situations": [
    "death-remembrance"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/006162.mp3",
+   "https://verses.quran.com/Alafasy/mp3/006163.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "hasbiyallah",
@@ -6525,7 +6784,12 @@
    "loneliness",
    "oppression"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/009129.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "kaffarat-majlis",
@@ -6849,7 +7113,12 @@
    "envy",
    "evil-eye"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/020131.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "when-it-provokes-you",
@@ -6895,6 +7164,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/007200.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -7080,7 +7350,12 @@
    "home",
    "oppression",
    "refuge"
-  ]
+  ],
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002126.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "joy-at-return",
@@ -7174,7 +7449,13 @@
    "reconcile",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/033070.mp3",
+   "https://verses.quran.com/Alafasy/mp3/033071.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "change",
@@ -7217,7 +7498,12 @@
    "despair",
    "overwhelm"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/013011.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-mock",
@@ -7260,7 +7546,13 @@
    "fear",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/049011.mp3",
+   "https://verses.quran.com/Alafasy/mp3/049012.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "expansion",
@@ -7312,6 +7604,7 @@
    "https://verses.quran.com/Alafasy/mp3/094003.mp3",
    "https://verses.quran.com/Alafasy/mp3/094004.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -7751,7 +8044,13 @@
    "refuge",
    "sleep"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002285.mp3",
+   "https://verses.quran.com/Alafasy/mp3/002286.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "believers-forgive",
@@ -7794,7 +8093,13 @@
    "prayer",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003016.mp3",
+   "https://verses.quran.com/Alafasy/mp3/003017.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "complete-our-light",
@@ -7837,7 +8142,12 @@
    "death-remembrance",
    "fear"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/066008.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "steadfast-until-certainty",
@@ -7884,6 +8194,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/015099.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -7933,7 +8244,14 @@
    "sadness",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/026087.mp3",
+   "https://verses.quran.com/Alafasy/mp3/026088.mp3",
+   "https://verses.quran.com/Alafasy/mp3/026089.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "ambition",
@@ -7976,7 +8294,12 @@
    "gratitude",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/038035.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "quran-as-healing",
@@ -8024,7 +8347,12 @@
    "sadness",
    "someone-ill"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/017082.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "ruqya-allowed",
@@ -8292,7 +8620,12 @@
    "death-remembrance",
    "parents"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002128.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "isa-table",
@@ -8334,7 +8667,12 @@
    "eating",
    "poverty"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/005114.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "we-followed",
@@ -8378,6 +8716,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/003053.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -8424,7 +8763,12 @@
    "forgiveness",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/012033.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "bones-grown-weak",
@@ -8472,6 +8816,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/019004.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -8515,7 +8860,12 @@
    "parents",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/007151.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "dedicating-a-child",
@@ -8560,7 +8910,13 @@
    "children",
    "failure"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003035.mp3",
+   "https://verses.quran.com/Alafasy/mp3/003036.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "angels-ask-for-you",
@@ -8605,7 +8961,13 @@
    "parents",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/040007.mp3",
+   "https://verses.quran.com/Alafasy/mp3/040008.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "wellbeing",
@@ -8798,6 +9160,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/023118.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -8844,6 +9207,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/006079.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -9322,7 +9686,18 @@
    "morning-evening",
    "prayer"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/001001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/001002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/001003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/001004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/001005.mp3",
+   "https://verses.quran.com/Alafasy/mp3/001006.mp3",
+   "https://verses.quran.com/Alafasy/mp3/001007.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-is-with-you",
@@ -9371,6 +9746,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/020046.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -9413,7 +9789,12 @@
    "sadness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/050016.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-is-with-you-anywhere",
@@ -9455,7 +9836,12 @@
    "loneliness",
    "travel"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/057004.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "hearts-guided",
@@ -9501,7 +9887,12 @@
    "knowledge",
    "oppression"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/064011.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "strive-and-be-guided",
@@ -9548,6 +9939,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/029069.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -9594,6 +9986,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/002152.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -9642,6 +10035,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/004110.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -9686,7 +10080,12 @@
    "gratitude",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/035034.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "my-success",
@@ -9730,7 +10129,12 @@
    "shame",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/011088.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "every-blessing",
@@ -9776,7 +10180,12 @@
    "shame",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/016053.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "subtle-with-servants",
@@ -9821,6 +10230,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/042019.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -9866,7 +10276,12 @@
    "poverty",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/007089.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "rescue-me",
@@ -9911,7 +10326,12 @@
    "oppression",
    "refuge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/028021.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "help-against-corruption",
@@ -9957,6 +10377,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/029030.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -10003,6 +10424,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/023029.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -10045,7 +10467,13 @@
    "anxiety",
    "failure"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/018023.mp3",
+   "https://verses.quran.com/Alafasy/mp3/018024.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "lift-this-from-us",
@@ -10092,6 +10520,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/044012.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -10133,7 +10562,13 @@
    "prayer",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003193.mp3",
+   "https://verses.quran.com/Alafasy/mp3/003194.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "not-with-wrongdoers",
@@ -10170,7 +10605,12 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/007047.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "gather-mankind",
@@ -10213,7 +10653,12 @@
    "oppression",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003009.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "whoever-purifies",
@@ -10260,6 +10705,7 @@
    "https://verses.quran.com/Alafasy/mp3/087014.mp3",
    "https://verses.quran.com/Alafasy/mp3/087015.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -10304,7 +10750,19 @@
    "sadness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/093001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/093002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/093003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/093004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/093005.mp3",
+   "https://verses.quran.com/Alafasy/mp3/093006.mp3",
+   "https://verses.quran.com/Alafasy/mp3/093007.mp3",
+   "https://verses.quran.com/Alafasy/mp3/093008.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "asr",
@@ -10351,6 +10809,7 @@
    "https://verses.quran.com/Alafasy/mp3/103002.mp3",
    "https://verses.quran.com/Alafasy/mp3/103003.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -10487,7 +10946,12 @@
    "refuge",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/009040.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-weaken",
@@ -10534,6 +10998,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/003139.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -10590,7 +11055,12 @@
    "decision",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003159.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "ease-after",
@@ -10631,7 +11101,12 @@
    "gratitude",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/065007.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "is-he-not-enough",
@@ -10676,7 +11151,12 @@
    "poverty",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/039036.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "repel-with-better",
@@ -10729,7 +11209,12 @@
    "steadfastness",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/041034.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "let-them-pardon",
@@ -10774,7 +11259,12 @@
    "parents",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/024022.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "good-deeds-erase",
@@ -10818,7 +11308,12 @@
    "shame",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/011114.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "did-you-think",
@@ -10864,7 +11359,13 @@
    "steadfastness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/029002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/029003.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "soul-at-rest",
@@ -10908,7 +11409,15 @@
    "gratitude",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/089027.mp3",
+   "https://verses.quran.com/Alafasy/mp3/089028.mp3",
+   "https://verses.quran.com/Alafasy/mp3/089029.mp3",
+   "https://verses.quran.com/Alafasy/mp3/089030.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "atoms-weight",
@@ -10953,6 +11462,7 @@
    "https://verses.quran.com/Alafasy/mp3/099007.mp3",
    "https://verses.quran.com/Alafasy/mp3/099008.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -11002,6 +11512,7 @@
    "https://verses.quran.com/Alafasy/mp3/053040.mp3",
    "https://verses.quran.com/Alafasy/mp3/053041.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -11049,7 +11560,12 @@
    "poverty",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/049013.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "raised-in-rank",
@@ -11091,7 +11607,12 @@
   "situations": [
    "knowledge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/058011.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "peace-for-your-patience",
@@ -11138,6 +11659,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/013024.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -11183,7 +11705,14 @@
    "refuge",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/010062.mp3",
+   "https://verses.quran.com/Alafasy/mp3/010063.mp3",
+   "https://verses.quran.com/Alafasy/mp3/010064.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "no-remover-but-him",
@@ -11225,7 +11754,12 @@
    "illness",
    "refuge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/006017.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "constricted-life",
@@ -11268,7 +11802,12 @@
    "sadness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/020124.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "seek-the-home",
@@ -11311,7 +11850,12 @@
    "gratitude",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/028077.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "play-and-amusement",
@@ -11355,7 +11899,12 @@
    "overwhelm",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/057020.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "read",
@@ -11402,7 +11951,16 @@
    "overwhelm",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/096001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/096002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/096003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/096004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/096005.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "kawthar",
@@ -11452,6 +12010,7 @@
    "https://verses.quran.com/Alafasy/mp3/108002.mp3",
    "https://verses.quran.com/Alafasy/mp3/108003.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -11496,7 +12055,12 @@
    "evil-eye",
    "oppression"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004032.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "luqman-advice",
@@ -11538,7 +12102,12 @@
    "death-remembrance",
    "decision"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/031017.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "whatever-strikes-you",
@@ -11586,6 +12155,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/042030.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -11632,6 +12202,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/051056.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -11678,6 +12249,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/047007.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -11728,6 +12300,7 @@
    "https://verses.quran.com/Alafasy/mp3/026079.mp3",
    "https://verses.quran.com/Alafasy/mp3/026080.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -11774,7 +12347,12 @@
    "sleep",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/030021.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "sins-into-good",
@@ -11818,7 +12396,12 @@
    "morning-evening",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/025070.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "love-will-be-placed",
@@ -11866,6 +12449,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/019096.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -11913,7 +12497,12 @@
    "gratitude",
    "overwhelm"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/016097.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "beautiful-patience",
@@ -11959,7 +12548,12 @@
    "sadness",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/012018.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "cannot-count",
@@ -12000,7 +12594,12 @@
    "gratitude",
    "illness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/014034.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "provision-guaranteed",
@@ -12048,7 +12647,12 @@
    "poverty",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/011006.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "created-in-hardship",
@@ -12095,6 +12699,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/090004.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -12141,6 +12746,7 @@
    "https://verses.quran.com/Alafasy/mp3/102001.mp3",
    "https://verses.quran.com/Alafasy/mp3/102002.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -12185,7 +12791,12 @@
    "sadness",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/041030.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "sakinah",
@@ -12229,7 +12840,12 @@
    "fear",
    "overwhelm"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/048004.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "verify-it",
@@ -12275,6 +12891,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/049006.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -12316,7 +12933,12 @@
    "enemy",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/049010.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "be-just-anyway",
@@ -12361,7 +12983,12 @@
    "oppression",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/005008.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "swallow-the-anger",
@@ -12403,7 +13030,12 @@
    "anger",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003134.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "take-what-is-easy",
@@ -12450,6 +13082,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/007199.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -12492,7 +13125,12 @@
    "fear",
    "poverty"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002268.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "give-what-you-love",
@@ -12530,7 +13168,12 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003092.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "disperse-and-seek",
@@ -12578,6 +13221,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/062010.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -12623,7 +13267,12 @@
    "shame",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/064016.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "hearts-go-blind",
@@ -12663,7 +13312,12 @@
   "situations": [
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/022046.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "forgot-themselves",
@@ -12705,7 +13359,12 @@
    "sadness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/059019.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "say-what-you-do",
@@ -12751,6 +13410,7 @@
    "https://verses.quran.com/Alafasy/mp3/061002.mp3",
    "https://verses.quran.com/Alafasy/mp3/061003.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -12793,7 +13453,12 @@
    "knowledge",
    "refuge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/024035.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "be-and-it-is",
@@ -12842,6 +13507,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/036082.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -12887,7 +13553,12 @@
    "oppression",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/043032.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "who-answers-the-desperate",
@@ -12932,7 +13603,12 @@
    "distress",
    "loneliness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/027062.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "cannot-guide-them",
@@ -12977,7 +13653,12 @@
    "parents",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/028056.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "prayer-restrains",
@@ -13019,7 +13700,12 @@
    "prayer",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/029045.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "creatures-without-stores",
@@ -13064,7 +13750,12 @@
    "poverty",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/029060.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "only-he-knows",
@@ -13108,7 +13799,12 @@
    "death",
    "death-remembrance"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/031034.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "you-are-the-needy",
@@ -13149,7 +13845,12 @@
    "poverty",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/035015.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "are-they-equal",
@@ -13189,7 +13890,12 @@
   "situations": [
    "knowledge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/039009.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "patient-and-forgives",
@@ -13235,6 +13941,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/042043.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -13278,7 +13985,12 @@
    "forgiveness",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/045023.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "a-right-in-wealth",
@@ -13323,6 +14035,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/051019.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -13369,7 +14082,12 @@
    "loneliness",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/052048.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "made-easy",
@@ -13415,6 +14133,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/054017.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -13461,7 +14180,14 @@
    "overwhelm",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/056083.mp3",
+   "https://verses.quran.com/Alafasy/mp3/056084.mp3",
+   "https://verses.quran.com/Alafasy/mp3/056085.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "has-the-time-not-come",
@@ -13505,7 +14231,12 @@
    "sadness",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/057016.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-is-the-fourth",
@@ -13546,7 +14277,12 @@
    "death-remembrance",
    "loneliness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/058007.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "prefer-others",
@@ -13587,7 +14323,12 @@
   "situations": [
    "poverty"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/059009.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "affection-between-you",
@@ -13632,7 +14373,12 @@
    "parents",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/060007.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "protect-your-family",
@@ -13678,7 +14424,12 @@
    "parents",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/066006.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "best-in-deed",
@@ -13722,7 +14473,12 @@
    "death-remembrance",
    "knowledge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/067002.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "great-character",
@@ -13767,6 +14523,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/068004.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -13811,7 +14568,16 @@
    "overwhelm",
    "prayer"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/070019.mp3",
+   "https://verses.quran.com/Alafasy/mp3/070020.mp3",
+   "https://verses.quran.com/Alafasy/mp3/070021.mp3",
+   "https://verses.quran.com/Alafasy/mp3/070022.mp3",
+   "https://verses.quran.com/Alafasy/mp3/070023.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "send-it-forward",
@@ -13855,7 +14621,12 @@
    "death-remembrance",
    "loneliness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/073020.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "witness-against-himself",
@@ -13896,7 +14667,13 @@
    "forgiveness",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/075014.mp3",
+   "https://verses.quran.com/Alafasy/mp3/075015.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-one-who-gives",
@@ -13938,7 +14715,17 @@
   "situations": [
    "despair"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/092005.mp3",
+   "https://verses.quran.com/Alafasy/mp3/092006.mp3",
+   "https://verses.quran.com/Alafasy/mp3/092007.mp3",
+   "https://verses.quran.com/Alafasy/mp3/092008.mp3",
+   "https://verses.quran.com/Alafasy/mp3/092009.mp3",
+   "https://verses.quran.com/Alafasy/mp3/092010.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "ungrateful",
@@ -13982,6 +14769,7 @@
    "https://verses.quran.com/Alafasy/mp3/100007.mp3",
    "https://verses.quran.com/Alafasy/mp3/100008.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -14028,7 +14816,18 @@
    "shame",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/107001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/107002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/107003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/107004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/107005.mp3",
+   "https://verses.quran.com/Alafasy/mp3/107006.mp3",
+   "https://verses.quran.com/Alafasy/mp3/107007.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "ikhlas",
@@ -14080,6 +14879,7 @@
    "https://verses.quran.com/Alafasy/mp3/112003.mp3",
    "https://verses.quran.com/Alafasy/mp3/112004.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -17034,7 +17834,13 @@
    "prayer",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002045.mp3",
+   "https://verses.quran.com/Alafasy/mp3/002046.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "persevere",
@@ -17078,6 +17884,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/003200.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -17119,7 +17926,12 @@
   "situations": [
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004086.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "tenfold",
@@ -17159,7 +17971,12 @@
   "situations": [
    "despair"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/006160.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "justice-and-excellence",
@@ -17199,7 +18016,12 @@
   "situations": [
    "parents"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/016090.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "how-you-walk",
@@ -17239,7 +18061,13 @@
   "situations": [
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/031018.mp3",
+   "https://verses.quran.com/Alafasy/mp3/031019.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "avoid-suspicion",
@@ -17281,7 +18109,12 @@
    "anxiety",
    "envy"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/049012.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-walk-proudly",
@@ -17321,7 +18154,12 @@
    "gratitude",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/017037.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "hold-to-the-rope",
@@ -17365,7 +18203,12 @@
    "reconcile",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003103.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "every-soul-tastes-death",
@@ -17408,7 +18251,12 @@
    "fear",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003185.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "give-us-rain",
@@ -17811,7 +18659,12 @@
   "situations": [
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002177.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "seed-of-grain",
@@ -17851,7 +18704,12 @@
   "situations": [
    "poverty"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002261.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "justice-against-yourself",
@@ -17893,7 +18751,12 @@
   "situations": [
    "parents"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004135.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "cooperate",
@@ -17933,7 +18796,12 @@
   "situations": [
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/005002.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "call-him-quietly",
@@ -17979,6 +18847,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/007055.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -18019,7 +18888,12 @@
    "loneliness",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/009105.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "healing-for-the-chest",
@@ -18065,6 +18939,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/010057.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -18112,6 +18987,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/018046.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -18155,7 +19031,16 @@
    "prayer",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/023001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/023002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/023003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/023004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/023005.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "walk-gently",
@@ -18200,6 +19085,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/025063.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -18246,6 +19132,7 @@
    "https://verses.quran.com/Alafasy/mp3/033041.mp3",
    "https://verses.quran.com/Alafasy/mp3/033042.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -18288,7 +19175,12 @@
    "knowledge",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/039023.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "reward-for-good",
@@ -18329,6 +19221,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/055060.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -18370,7 +19263,12 @@
    "despair",
    "fear"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/007056.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "soften-my-heart",
@@ -18412,7 +19310,13 @@
    "sadness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/057016.mp3",
+   "https://verses.quran.com/Alafasy/mp3/057017.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "patience-and-forgiveness",
@@ -18455,7 +19359,12 @@
    "reconcile",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/041035.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "not-a-burden-beyond",
@@ -18495,7 +19404,12 @@
   "situations": [
    "overwhelm"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/006152.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "spend-and-i-will-spend",
@@ -19027,7 +19941,12 @@
    "debt",
    "poverty"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002245.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "with-the-prophets",
@@ -19066,7 +19985,12 @@
   "situations": [
    "death-remembrance"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004069.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "hearts-tremble",
@@ -19107,7 +20031,12 @@
    "sadness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/008002.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "allah-has-purchased",
@@ -19145,7 +20074,12 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/009111.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "succession-promised",
@@ -19190,7 +20124,12 @@
    "oppression",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/024055.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "be-patient-promise-true",
@@ -19233,7 +20172,12 @@
    "steadfastness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/030060.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-claim-purity",
@@ -19273,7 +20217,12 @@
    "envy",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/053032.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "tuba",
@@ -19318,6 +20267,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/013029.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -19361,7 +20311,12 @@
    "gratitude",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/024031.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-lose-hope-in-yourself",
@@ -19400,7 +20355,12 @@
   "situations": [
    "despair"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/008053.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "upright-after-saying-it",
@@ -19444,6 +20404,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/046013.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -19489,7 +20450,12 @@
    "steadfastness",
    "travel"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/009120.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-knows-what-you-hide",
@@ -19533,7 +20499,12 @@
    "shame",
    "waswas"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002284.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "who-swears-on-my-behalf",
@@ -20013,7 +20984,12 @@
    "gratitude",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/012110.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "we-will-preserve-it",
@@ -20056,6 +21032,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/015009.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -20104,6 +21081,7 @@
    "https://verses.quran.com/Alafasy/mp3/020002.mp3",
    "https://verses.quran.com/Alafasy/mp3/020003.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -20147,7 +21125,12 @@
    "gratitude",
    "knowledge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/021035.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "no-hardship-in-religion",
@@ -20191,7 +21174,12 @@
    "shame",
    "waswas"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/022078.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-real-home",
@@ -20232,7 +21220,12 @@
    "death-remembrance",
    "gratitude"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/029064.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "few-are-grateful",
@@ -20271,7 +21264,12 @@
   "situations": [
    "gratitude"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/034013.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "best-in-speech",
@@ -20314,6 +21312,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/041033.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -20355,6 +21354,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/050037.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -20398,7 +21398,12 @@
    "prayer",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/063009.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "feeding-out-of-love",
@@ -20446,6 +21451,7 @@
    "https://verses.quran.com/Alafasy/mp3/076008.mp3",
    "https://verses.quran.com/Alafasy/mp3/076009.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -20490,7 +21496,12 @@
    "reconcile",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/017053.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "render-the-trusts",
@@ -20532,7 +21543,12 @@
    "debt",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004058.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "calling-to-good",
@@ -20571,7 +21587,12 @@
   "situations": [
    "mosque"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003104.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "certain-in-his-heart",
@@ -21002,7 +22023,12 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003110.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "fear-the-wombs",
@@ -21044,7 +22070,12 @@
    "parents",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004001.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "look-after-yourself",
@@ -21083,7 +22114,12 @@
   "situations": [
    "anxiety"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/005105.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "play-and-diversion",
@@ -21123,7 +22159,12 @@
    "overwhelm",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/006032.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "not-excessive",
@@ -21164,7 +22205,12 @@
    "eating",
    "poverty"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/007031.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-is-with-the-mindful",
@@ -21207,6 +22253,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/016128.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -21250,7 +22297,12 @@
    "evil-eye",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/017011.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "adornment-to-test",
@@ -21293,6 +22345,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/018007.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -21335,7 +22388,12 @@
    "overwhelm",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/047031.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "race-to-good",
@@ -21375,7 +22433,12 @@
    "envy",
    "evil-eye"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002148.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "excellent-example",
@@ -21417,6 +22480,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/033021.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -21457,7 +22521,13 @@
   "situations": [
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/061010.mp3",
+   "https://verses.quran.com/Alafasy/mp3/061011.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "you-prefer-this-life",
@@ -21502,6 +22572,7 @@
    "https://verses.quran.com/Alafasy/mp3/087016.mp3",
    "https://verses.quran.com/Alafasy/mp3/087017.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -21546,7 +22617,14 @@
    "poverty",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/089015.mp3",
+   "https://verses.quran.com/Alafasy/mp3/089016.mp3",
+   "https://verses.quran.com/Alafasy/mp3/089017.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "gives-to-purify",
@@ -21590,6 +22668,7 @@
    "https://verses.quran.com/Alafasy/mp3/092018.mp3",
    "https://verses.quran.com/Alafasy/mp3/092019.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -21632,7 +22711,12 @@
    "travel",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/067015.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "i-disown-that",
@@ -22305,6 +23389,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/042025.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -22346,7 +23431,12 @@
    "envy",
    "forgiveness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/057021.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "does-not-waste",
@@ -22388,7 +23478,13 @@
    "loneliness",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/009120.mp3",
+   "https://verses.quran.com/Alafasy/mp3/009121.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "whoever-saves-a-life",
@@ -22429,7 +23525,12 @@
    "enemy",
    "oppression"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/005032.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-seeing-and-the-blind",
@@ -22470,7 +23571,15 @@
    "knowledge",
    "refuge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/035019.mp3",
+   "https://verses.quran.com/Alafasy/mp3/035020.mp3",
+   "https://verses.quran.com/Alafasy/mp3/035021.mp3",
+   "https://verses.quran.com/Alafasy/mp3/035022.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-follow-blindly",
@@ -22510,7 +23619,12 @@
   "situations": [
    "envy"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/017036.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "softly-to-him",
@@ -22556,6 +23670,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/020044.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -22596,7 +23711,12 @@
    "despair",
    "reconcile"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/006068.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "wide-earth",
@@ -22637,7 +23757,12 @@
    "despair",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004097.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-loves-them",
@@ -22679,7 +23804,12 @@
    "shame",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/005054.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "strangers",
@@ -24793,7 +25923,12 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/013026.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "turn-in-repentance",
@@ -24835,6 +25970,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/039054.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -25625,7 +26761,12 @@
    "poverty",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002271.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "a-kind-word",
@@ -25662,7 +26803,12 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002263.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "stand-out-of-respect",
@@ -26622,7 +27768,12 @@
    "oppression",
    "refuge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003145.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-knows-the-eyes",
@@ -26664,6 +27815,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/040019.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -26704,7 +27856,12 @@
    "anxiety",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/011112.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "a-tree-of-good-word",
@@ -26743,7 +27900,13 @@
   "situations": [
    "death-remembrance"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/014024.mp3",
+   "https://verses.quran.com/Alafasy/mp3/014025.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-be-of-the-heedless",
@@ -26786,6 +27949,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/007205.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -26823,7 +27987,12 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002143.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-follow-your-desire",
@@ -26862,7 +28031,12 @@
   "situations": [
    "decision"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/038026.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-approach-it",
@@ -26906,6 +28080,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/017032.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -26948,7 +28123,12 @@
    "marriage",
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004019.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-shade-of-a-word",
@@ -26992,6 +28172,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/014026.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -27032,7 +28213,12 @@
    "enemy",
    "fear"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/003174.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "patience-is-at-the-first",
@@ -27777,7 +28963,13 @@
   "situations": [
    "decision"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/021078.mp3",
+   "https://verses.quran.com/Alafasy/mp3/021079.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-created-you-in-stages",
@@ -27820,6 +29012,7 @@
    "https://verses.quran.com/Alafasy/mp3/071013.mp3",
    "https://verses.quran.com/Alafasy/mp3/071014.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -27864,6 +29057,7 @@
    "https://verses.quran.com/Alafasy/mp3/071015.mp3",
    "https://verses.quran.com/Alafasy/mp3/071016.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -27915,6 +29109,7 @@
    "https://verses.quran.com/Alafasy/mp3/071011.mp3",
    "https://verses.quran.com/Alafasy/mp3/071012.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -27955,7 +29150,18 @@
   "situations": [
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/074001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/074002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/074003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/074004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/074005.mp3",
+   "https://verses.quran.com/Alafasy/mp3/074006.mp3",
+   "https://verses.quran.com/Alafasy/mp3/074007.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-most-truthful-word",
@@ -27995,7 +29201,12 @@
    "death-remembrance",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/028088.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "lower-your-wing",
@@ -28032,7 +29243,12 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/015088.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-night-of-decree",
@@ -28074,7 +29290,16 @@
    "mosque",
    "sleep"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/097001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/097002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/097003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/097004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/097005.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "before-intimacy",
@@ -28085,6 +29310,9 @@
   "tags": [
    "marriage",
    "intimacy",
+   "intimate",
+   "sex",
+   "before sex",
    "husband",
    "wife",
    "children",
@@ -28109,7 +29337,8 @@
     "Recorded in Ṣaḥīḥ al-Bukhārī, whose narrations are accepted as authentic"
    ]
   },
-  "arabic": "لَوْ أَنَّ أَحَدَكُمْ إِذَا أَتَى أَهْلَهُ قَالَ بِسْمِ اللَّهِ اللَّهُمَّ جَنِّبْنَا الشَّيْطَانَ وَجَنِّبِ الشَّيْطَانَ مَا رَزَقْتَنَا. فَقُضِيَ بَيْنَهُمَا وَلَدٌ، لَمْ يَضُرَّهُ",
+  "arabic": "بِسْمِ اللَّهِ اللَّهُمَّ جَنِّبْنَا الشَّيْطَانَ وَجَنِّبِ الشَّيْطَانَ مَا رَزَقْتَنَا",
+  "passage_ar": "لَوْ أَنَّ أَحَدَكُمْ إِذَا أَتَى أَهْلَهُ قَالَ بِسْمِ اللَّهِ اللَّهُمَّ جَنِّبْنَا الشَّيْطَانَ وَجَنِّبِ الشَّيْطَانَ مَا رَزَقْتَنَا. فَقُضِيَ بَيْنَهُمَا وَلَدٌ، لَمْ يَضُرَّهُ",
   "english_full": "Narrated Ibn `Abbas:The Prophet (ﷺ) said, \"If anyone of you on having sexual relations with his wife said (and he must say it before starting) 'In the name of Allah. O Allah! Protect us from Satan and also protect what you bestow upon us (i.e. the coming offspring) from Satan,' and if it is destined that they should have a child then, Satan will never be able to harm that offspring",
   "mode": "dua",
   "tier": "curated",
@@ -28117,8 +29346,7 @@
    "children",
    "marriage",
    "refuge"
-  ],
-  "recites": "part"
+  ]
  },
  {
   "id": "i-excuse-myself",
@@ -28773,6 +30001,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/057018.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -28816,6 +30045,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/051055.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -28853,7 +30083,15 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/055019.mp3",
+   "https://verses.quran.com/Alafasy/mp3/055020.mp3",
+   "https://verses.quran.com/Alafasy/mp3/055021.mp3",
+   "https://verses.quran.com/Alafasy/mp3/055022.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-heart-of-the-matter",
@@ -28893,7 +30131,12 @@
   "situations": [
    "steadfastness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/008024.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "do-not-say-if",
@@ -28935,7 +30178,13 @@
    "failure",
    "shame"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/057022.mp3",
+   "https://verses.quran.com/Alafasy/mp3/057023.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "a-mountain-would-crumble",
@@ -28975,7 +30224,12 @@
    "knowledge",
    "sadness"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/059021.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-taught-man",
@@ -29022,6 +30276,7 @@
    "https://verses.quran.com/Alafasy/mp3/055003.mp3",
    "https://verses.quran.com/Alafasy/mp3/055004.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -29064,7 +30319,13 @@
    "weak-iman",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/030023.mp3",
+   "https://verses.quran.com/Alafasy/mp3/030024.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "whoever-rules-them",
@@ -29833,7 +31094,13 @@
    "shame",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/007175.mp3",
+   "https://verses.quran.com/Alafasy/mp3/007176.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-scale-that-day",
@@ -29873,7 +31140,12 @@
    "loneliness",
    "oppression"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/021047.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "he-knows-what-you-conceal",
@@ -29915,6 +31187,7 @@
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/028069.mp3"
   ],
+  "audio_scope": "exact",
   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
@@ -29959,7 +31232,12 @@
    "illness",
    "refuge"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/010049.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-water-and-the-scum",
@@ -29999,7 +31277,12 @@
    "death-remembrance",
    "envy"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/013017.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-record-will-be-read",
@@ -30037,7 +31320,13 @@
   "situations": [
    "death-remembrance"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/017013.mp3",
+   "https://verses.quran.com/Alafasy/mp3/017014.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "a-loss-that-is-clear",
@@ -30079,7 +31368,12 @@
    "failure",
    "parents"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/039015.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "refuge-in-your-pleasure",
@@ -31115,7 +32409,12 @@
    "steadfastness",
    "weak-iman"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002256.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "complete-their-migration",
@@ -31958,7 +33257,12 @@
   },
   "tier": "curated",
   "situations": [],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/016096.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-life-of-this-world-is-a-loan",
@@ -31996,7 +33300,12 @@
   "situations": [
    "gratitude"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/028060.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "the-earth-will-report",
@@ -32034,7 +33343,16 @@
   "situations": [
    "death-remembrance"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/099001.mp3",
+   "https://verses.quran.com/Alafasy/mp3/099002.mp3",
+   "https://verses.quran.com/Alafasy/mp3/099003.mp3",
+   "https://verses.quran.com/Alafasy/mp3/099004.mp3",
+   "https://verses.quran.com/Alafasy/mp3/099005.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "a-shade-of-charity",
@@ -32074,7 +33392,12 @@
    "morning-evening",
    "sleep"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/002274.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "be-good-to-them",
@@ -32117,7 +33440,12 @@
    "poverty",
    "work"
   ],
-  "recites": "part"
+  "recites": "part",
+  "audio": [
+   "https://verses.quran.com/Alafasy/mp3/004036.mp3"
+  ],
+  "audio_scope": "verse",
+  "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
  },
  {
   "id": "closest-in-prostration",

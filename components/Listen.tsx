@@ -8,7 +8,10 @@ import { useEffect, useRef, useState } from "react";
  * Several verses play in turn from one element rather than stacking players,
  * so a two-verse passage sounds the way it reads.
  */
-export default function Listen({ urls, credit }: { urls: string[]; credit: string }) {
+export default function Listen(
+  { urls, credit, scope = "exact" }:
+  { urls: string[]; credit: string; scope?: "exact" | "verse" },
+) {
   const ref = useRef<HTMLAudioElement | null>(null);
   const [playing, setPlaying] = useState(false);
   const [at, setAt] = useState(0);
@@ -52,9 +55,15 @@ export default function Listen({ urls, credit }: { urls: string[]; credit: strin
           else { setPlaying(true); el.play().catch(() => setFailed(true)); }
         }}
         className="inline-flex min-h-[44px] items-center gap-2 rounded-full border border-[var(--line)] px-4 text-[13.5px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:text-[var(--green)]"
-        aria-label={playing ? "Pause recitation" : "Play recitation"}
+        aria-label={
+          playing
+            ? "Pause recitation"
+            : scope === "verse"
+              ? "Play the recitation of the whole verse"
+              : "Play recitation"
+        }
       >
-        {playing ? "Pause" : "Listen"}
+        {playing ? "Pause" : scope === "verse" ? "Listen to the verse" : "Listen"}
       </button>
       {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
       <audio ref={ref} src={urls[at]} preload="none" title={credit} />

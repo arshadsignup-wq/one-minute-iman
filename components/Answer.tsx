@@ -5,8 +5,10 @@ import answersRaw from "@/data/answers.json";
 import EntryActions from "@/components/EntryActions";
 import { SITE_URL } from "@/lib/site";
 import type { Situation } from "@/lib/search";
+import type { EntryDoc } from "@/lib/entryhits";
 
 type Say = {
+  audio_scope?: "exact" | "verse";
   id: string; title: string; arabic: string; translit: string; trans: string;
   ref: string; grade: string; url: string;
   audio?: string[]; audio_credit?: string; recites?: "part";
@@ -43,14 +45,30 @@ export default function Answer({
   sit,
   query,
   alternatives,
+  named,
 }: {
   sit: Situation;
   query: string;
   alternatives: Situation[];
+  /** The entry the query asked for by name, when it asked for one. */
+  named?: EntryDoc | null;
 }) {
   const a = answers[sit.id];
   if (!a) return null;
   const said = query.trim().replace(/\s+/g, " ");
+
+  // A query that names a supplication is answered with that supplication. The
+  // rest of the answer still comes from the situation it belongs to.
+  const say: Say = named
+    ? {
+        id: named.i, title: named.t, arabic: named.a,
+        translit: named.p ?? "", trans: named.m ?? "",
+        ref: named.r, grade: named.g, url: `${SITE_URL}/d/${named.i}`,
+        ...(named.u ? { audio: named.u, audio_credit: named.uc ?? "" } : {}),
+        ...(named.us ? { audio_scope: named.us } : {}),
+        ...(named.x ? { recites: "part" as const } : {}),
+      }
+    : a.say;
 
   return (
     <section className="rise">
@@ -64,7 +82,7 @@ export default function Answer({
           </p>
         )}
         <h2 className="display mt-2 text-[30px] leading-tight text-[var(--ink)] sm:text-[36px]">
-          {sit.blurb}
+          {named ? named.t : sit.blurb}
         </h2>
         <p className="mt-2 text-[13.5px] text-[var(--ink-faint)]">
           Here is one thing to say, one thing to know, and where it comes from.
@@ -73,48 +91,49 @@ export default function Answer({
 
       {/* ── say ─────────────────────────────────────────────────────────── */}
       <div className="mt-10 text-center">
-        <Label>{a.say.recites === "part" ? "The opening words" : "Say this"}</Label>
+        <Label>{say.recites === "part" ? "The opening words" : "Say this"}</Label>
         <p className="arabic mt-5 text-[27px] leading-[2] text-[var(--ink)] sm:text-[32px]">
-          {a.say.arabic}
+          {say.arabic}
         </p>
-        {a.say.translit && (
+        {say.translit && (
           <>
             <p className="translit mt-6 text-[15px] leading-relaxed text-[var(--sage)]">
-              {a.say.translit}
+              {say.translit}
             </p>
-            {a.say.recites === "part" && (
+            {say.recites === "part" && (
               <p className="mt-2 text-[11px] text-[var(--ink-faint)]">
                 This covers the opening of the passage, not all of it
               </p>
             )}
           </>
         )}
-        {a.say.trans && (
+        {say.trans && (
           <p className="display mx-auto mt-6 max-w-xl text-[20px] leading-relaxed text-[var(--ink)] sm:text-[22px]">
             {/* Qur'anic translations often arrive already quoted; wrapping them
                 again produces "​"Our Lord ...""​. */}
-            {/^\s*["“]/.test(a.say.trans) ? a.say.trans : `“${a.say.trans}”`}
+            {/^\s*["“]/.test(say.trans) ? say.trans : `“${say.trans}”`}
           </p>
         )}
       </div>
 
       <div className="mx-auto max-w-xl">
         <EntryActions
-          id={a.say.id}
-          title={a.say.title}
-          arabic={a.say.arabic}
-          translit={a.say.translit}
-          trans={a.say.trans}
-          reference={a.say.ref}
-          grade={a.say.grade}
-          url={`${SITE_URL}/d/${a.say.id}`}
-          audio={a.say.audio}
-          audioCredit={a.say.audio_credit}
+          id={say.id}
+          title={say.title}
+          arabic={say.arabic}
+          translit={say.translit}
+          trans={say.trans}
+          reference={say.ref}
+          grade={say.grade}
+          url={`${SITE_URL}/d/${say.id}`}
+          audio={say.audio}
+          audioCredit={say.audio_credit}
+          audioScope={say.audio_scope}
         />
         <p className="mt-4 text-center text-[12.5px] text-[var(--ink-faint)]">
-          {a.say.ref} · {a.say.grade} ·{" "}
+          {say.ref} · {say.grade} ·{" "}
           <Link
-            href={`/d/${a.say.id}`}
+            href={`/d/${say.id}`}
             className="text-[var(--sage)] underline underline-offset-4"
           >
             the whole entry
