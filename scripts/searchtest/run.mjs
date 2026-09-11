@@ -71,6 +71,20 @@ const CASES = [
   ["my husband hits me",          ["__harm__"],         [],                         "harm path"],
   ["cut myself shaving",          ["__not_crisis__"],   [],                         "not a crisis"],
   ["asdkjhasd",                   ["__empty__"],        [],                         "unmatched"],
+
+  // A sentence that names both a symptom and what is behind it is about the
+  // latter. Before this, money worry was answered with a bedtime supplication.
+  ["I can't sleep for worrying about money", ["poverty", "debt"], ["sleep"],  "cause outranks symptom"],
+  ["I keep thinking about my debts at night", ["debt"],           ["sleep"],  "cause outranks symptom"],
+  ["I can't sleep",               ["sleep"],            [],                         "plain symptom still works"],
+  ["I am anxious about my exam",  ["knowledge"],        [],                         "subject is the exam"],
+  ["worried about my mother",     ["parents"],          ["anxiety"],                "subject is the person"],
+  ["stressed about work",         ["work"],             [],                         "subject is work"],
+
+  // "passed" is good news; "passed away" is not. The positive-outcome rule was
+  // scoring a bereavement as a celebration and offering gratitude alongside it.
+  ["my mother passed away last week", ["death"],        ["gratitude"],              "passed away is not good news"],
+  ["my grandfather passed on",    ["death"],            ["gratitude"],              "passed on is not good news"],
 ];
 
 let pass = 0, fail = 0;
@@ -83,7 +97,9 @@ for (const [q, want, avoid, note] of CASES) {
   else if (want[0] === "__not_crisis__") ok = r.mode !== "crisis";
   else if (want[0] === "__empty__") ok = r.mode === "empty";
   else {
-    ok = want.some((w) => r.lead.includes(w)) && !avoid.some((a) => r.lead.includes(a));
+    // The page now answers with one situation and offers the rest as "not quite
+    // it?" chips, so what must not lead is the first one, not the whole set.
+    ok = want.some((w) => r.lead.includes(w)) && !avoid.includes(r.lead[0]);
   }
   if (ok) { pass++; }
   else {

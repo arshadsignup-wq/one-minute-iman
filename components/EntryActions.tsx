@@ -41,7 +41,12 @@ export default function EntryActions(props: Props) {
   const [copied, setCopied] = useState(false);
   const [size, setSize] = useState(0);
 
+  // What is saved lives in localStorage, which React cannot read while
+  // hydrating, so the first value has to be picked up after mount. That is the
+  // pattern the rule warns about and the right one here: rendering it on the
+  // server would make the markup disagree with the browser.
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSaved(isSaved(props.id));
     return onSavedChange(() => setSaved(isSaved(props.id)));
   }, [props.id]);

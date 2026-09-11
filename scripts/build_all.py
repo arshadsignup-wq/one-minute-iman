@@ -261,6 +261,12 @@ if _prev.get("digest") != _digest:
 else:
     print("   content unchanged: sitemap lastmod stamp left alone")
 
+# 7 ── the composed answers the search responds with.
+# Run here rather than by hand: they are derived from the entries above, and an
+# answers.json left behind after a content change would quote a page that no
+# longer says what it quotes.
+subprocess.run([sys.executable, os.path.join(HERE, "compose.py")], check=True)
+
 tagged = sum(1 for e in entries if e["situations"])
 print(f"✅ {len(entries)} entries  ({sum(1 for e in entries if e['tier']=='curated')} curated, "
       f"{sum(1 for e in entries if e['tier']=='library')} library)")

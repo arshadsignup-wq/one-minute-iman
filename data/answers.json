@@ -1,0 +1,1184 @@
+{
+ "sadness": {
+  "say": {
+   "id": "anxiety-grief",
+   "title": "When worry and sadness sit on your chest",
+   "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
+   "translit": "Allāhumma innī aʿūdhu bika mina-l-hammi wa-l-ḥazan, wa-l-ʿajzi wa-l-kasal, wa-l-jubni wa-l-bukhl, wa ḍalaʿi-d-dayn, wa ghalabati-r-rijāl.",
+   "trans": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from the burden of debt and from being overpowered by men.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6369",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:6369"
+  },
+  "step": "Say it once, out loud, even if your voice is flat. You are not required to feel better first.",
+  "know": {
+   "id": "complain-to-him",
+   "title": "When you cannot say it to anyone else",
+   "trans": "He said, \"I only complain of my suffering and my grief to Allāh, and I know from Allāh that which you do not know.",
+   "ref": "Qur'an 12:86",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "the-eye-weeps",
+   "title": "What he said holding his dying son",
+   "story": "Anas says he saw the child struggling for breath in front of him, and the Prophet's eyes overflowed. The sentence sets out exactly what is allowed and what is not. Tears are allowed. Grief is allowed. What is said out loud is the only thing being held.",
+   "ref": "Sunan Abī Dāwūd 3126"
+  }
+ },
+ "anxiety": {
+  "say": {
+   "id": "anxiety-grief",
+   "title": "When worry and sadness sit on your chest",
+   "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
+   "translit": "Allāhumma innī aʿūdhu bika mina-l-hammi wa-l-ḥazan, wa-l-ʿajzi wa-l-kasal, wa-l-jubni wa-l-bukhl, wa ḍalaʿi-d-dayn, wa ghalabati-r-rijāl.",
+   "trans": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from the burden of debt and from being overpowered by men.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6369",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:6369"
+  },
+  "step": "Say it slowly enough to hear the words. If your mind wanders, start the line again.",
+  "know": {
+   "id": "only-what-is-written",
+   "title": "When you are frightened of what might happen",
+   "trans": "Say, \"Never will we be struck except by what Allāh has decreed for us; He is our protector.\" And upon Allāh let the believers rely.",
+   "ref": "Qur'an 9:51",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "enough-for-us",
+   "title": "What he told them to say when the warning frightened them",
+   "story": "He said: how can I be at ease when the one with the horn has already put it to his lip, listening for the order to blow. It weighed on them visibly. So he gave them the sentence to carry the weight with.",
+   "ref": "Jāmiʿ at-Tirmidhī 2431"
+  }
+ },
+ "fear": {
+  "say": {
+   "id": "fear-of-people",
+   "title": "When you are afraid of someone",
+   "arabic": "اللَّهُمَّ إِنَّا نَجْعَلُكَ فِي نُحُورِهِمْ وَنَعُوذُ بِكَ مِنْ شُرُورِهِمْ",
+   "translit": "Allāhumma innā najʿaluka fī nuḥūrihim wa naʿūdhu bika min shurūrihim.",
+   "trans": "O Allah, we place You before them, and we seek refuge in You from their evil.",
+   "ref": "Sunan Abī Dāwūd 1537",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/abudawud:1537"
+  },
+  "step": "Say it where you are, before you move. Fear does not have to be gone for the words to be true.",
+  "know": {
+   "id": "allah-suffices",
+   "title": "What was said by people told to be afraid",
+   "trans": "So they returned with favor from Allāh and bounty, no harm having touched them. And they pursued the pleasure of Allāh, and Allāh is the possessor of great bounty.",
+   "ref": "Qur'an 3:174",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "if-one-of-you-wakes-in-fright",
+   "title": "What to say after a bad dream",
+   "story": "When one of you wakes in fright in the night, let him say it, and it will not harm him. Abdullah ibn Amr taught it to the children old enough to learn it, and for the ones too young he wrote it out and hung it on them.",
+   "ref": "Jāmiʿ at-Tirmidhī 3528"
+  }
+ },
+ "anger": {
+  "say": {
+   "id": "anger",
+   "title": "When anger rises in you",
+   "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ",
+   "translit": "Aʿūdhu bi-llāhi mina-sh-shayṭān.",
+   "trans": "I seek refuge in Allah from Satan.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 3282",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:3282"
+  },
+  "step": "Before anything else, stop talking. Say this instead, and deal with the matter later.",
+  "know": {
+   "id": "anger-sit",
+   "title": "When anger has you on your feet",
+   "trans": "If one of you becomes angry while standing, let him sit down. If the anger leaves him, well and good; otherwise let him lie down.",
+   "ref": "Sunan Abī Dāwūd 4782",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "one-word-would-have-taken-it-away",
+   "title": "What he said watching a man's face go red",
+   "story": "They turned to the man and said: do you not hear what the Prophet is saying? He said: I am not mad. He was too far into it to take the way out, and it was said in front of him anyway.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6115"
+  }
+ },
+ "loneliness": {
+  "say": {
+   "id": "spouse-family",
+   "title": "When you long for a family",
+   "arabic": "وَٱلَّذِينَ يَقُولُونَ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+   "translit": "Rabbanā hab lanā min azwājinā wa dhurriyyātinā qurrata aʿyunin wa-jʿalnā li-l-muttaqīna imāmā.",
+   "trans": "And those who say, \"Our Lord, grant us from among our wives and offspring comfort to our eyes1 and make us a leader [i.e., example] for the righteous.\"",
+   "ref": "Qur'an 25:74",
+   "grade": "Qur'an",
+   "url": "https://quran.com/25/74",
+   "audio": [
+    "https://verses.quran.com/Alafasy/mp3/025074.mp3"
+   ],
+   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
+  },
+  "step": "Say it aloud in an empty room. Then message one person, about anything.",
+  "know": {
+   "id": "give-me-a-friend",
+   "title": "Asking to be given someone to love",
+   "trans": "O Allah, grant me a beloved who is dearer to me than my own self.",
+   "ref": "Ṣaḥīḥ Muslim 1807a",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "tell-your-prophet-about-us",
+   "title": "What Asim asked for when the arrows started",
+   "story": "Two hundred archers followed their trail and found the date stones they had carried from Madinah, and said: these are the dates of Yathrib. Asim ibn Thabit knew how it would end. He did not ask to be saved. He asked that the news reach the one who had sent them.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 3045"
+  }
+ },
+ "despair": {
+  "say": {
+   "id": "dua-yunus",
+   "title": "When you feel trapped with no way out",
+   "arabic": "لاَ إِلَهَ إِلاَّ أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+   "translit": "Lā ilāha illā anta subḥānaka innī kuntu mina-ẓ-ẓālimīn.",
+   "trans": "There is no god but You. Glory be to You. Truly, I have been among the wrongdoers.",
+   "ref": "Jāmiʿ at-Tirmidhī 3505",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/tirmidhi:3505"
+  },
+  "step": "Say the first line only, if that is all you can manage. That counts.",
+  "know": {
+   "id": "never-give-up-hope",
+   "title": "When you have almost given up",
+   "trans": "O my sons, go and find out about Joseph and his brother and despair not of relief from Allāh. Indeed, no one despairs of relief from Allāh except the disbelieving people.\"",
+   "ref": "Qur'an 12:87",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "i-am-a-witness-to-that",
+   "title": "The bedouin who asked for something else",
+   "story": "He came, believed, followed, and said he would emigrate. He was put in the care of some of the companions and he looked after their animals. After a battle his share was brought to him and he asked what it was. They said the Prophet had allotted it to him. He took it to him and said he had not followed for this. He pointed to his own throat and said he had followed so that he would be struck here with an arrow and enter the Garden. He was killed, and this was said over him.",
+   "ref": "Sunan an-Nasā'ī 1953"
+  }
+ },
+ "overwhelm": {
+  "say": {
+   "id": "burden",
+   "title": "When you feel you cannot carry it",
+   "arabic": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+   "translit": "Lā yukallifu-llāhu nafsan illā wusʿahā…",
+   "trans": "Allāh does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned. \"Our Lord, do not impose blame upon us if we have forgotten or erred. Our Lord, and lay not upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us; and forgive us; and have mercy upon us. You are our protector, so give us victory over the disbelieving people.\"1",
+   "ref": "Qur'an 2:286",
+   "grade": "Qur'an",
+   "url": "https://quran.com/2/286",
+   "recites": "part"
+  },
+  "step": "Put one thing down before you say this. Choose the thing, then say it.",
+  "know": {
+   "id": "not-a-burden-beyond",
+   "title": "The verse people reach for when it is too much",
+   "trans": "And do not approach the orphan's property except in a way that is best [i.e., intending improvement] until he reaches maturity. And give full measure and weight in justice. We do not charge any soul except [with that within] its capacity. And when you speak [i.e., testify], be just, even if [it concerns] a near relative. And the covenant of Allāh fulfill. This has He instructed you that you may remember.",
+   "ref": "Qur'an 6:152",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "i-fast-and-i-break",
+   "title": "What he said to three men who had raised the bar",
+   "story": "One said he would pray all night forever. One said he would fast every day and never break it. One said he would keep away from women and never marry. He said: but I fast and I break my fast, I pray and I sleep, and I marry women. Whoever turns away from my way is not from me.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 5063"
+  }
+ },
+ "gratitude": {
+  "say": {
+   "id": "gratitude",
+   "title": "When something good happens",
+   "arabic": "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌ",
+   "translit": "La'in shakartum la-azīdannakum.",
+   "trans": "And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if you deny, indeed, My punishment is severe.'\"",
+   "ref": "Qur'an 14:7",
+   "grade": "Qur'an",
+   "url": "https://quran.com/14/7",
+   "recites": "part"
+  },
+  "step": "Say it before the feeling passes. Naming what happened is the point.",
+  "know": {
+   "id": "yusuf-ending",
+   "title": "When things have finally gone right",
+   "trans": "My Lord, You have given me [something] of sovereignty and taught me of the interpretation of dreams. Creator of the heavens and earth, You are my protector in this world and the Hereafter. Cause me to die a Muslim and join me with the righteous.\"",
+   "ref": "Qur'an 12:101",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "need-your-blessing",
+   "title": "When you are given something and it still is not enough",
+   "story": "Gold was raining down on him and he was gathering it into his garment. He was asked whether he had had enough. He said yes, and then said this: he still could not do without the blessing behind it.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 3391"
+  }
+ },
+ "envy": {
+  "say": {
+   "id": "evil-eye-falaq",
+   "title": "When you feel someone's ill will",
+   "arabic": " قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+   "translit": "Qul aʿūdhu bi-rabbi-l-falaq…",
+   "trans": "Say, \"I seek refuge in the Lord of daybreak From the evil of that which He created And from the evil of darkness when it settles And from the evil of the blowers in knots1 And from the evil of an envier when he envies.\"",
+   "ref": "Qur'an 113:1-5",
+   "grade": "Qur'an",
+   "url": "https://quran.com/113/1",
+   "recites": "part"
+  },
+  "step": "Say it, then make one quiet duʿā for the person you are thinking of.",
+  "know": {
+   "id": "do-not-strain-your-eyes",
+   "title": "When you cannot stop looking at what others have",
+   "trans": "And do not extend your eyes toward that by which We have given enjoyment to [some] categories of them, [its being but] the splendor of worldly life by which We test them. And the provision of your Lord is better and more enduring.",
+   "ref": "Qur'an 20:131",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "look-at-the-one-below",
+   "title": "A one line instruction for envy",
+   "story": "Wealth and appearance are the two named, which are the two people actually compare. The instruction is not to stop looking. It is to look in the other direction as well.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6490"
+  }
+ },
+ "shame": {
+  "say": {
+   "id": "sayyidul-istighfar",
+   "title": "When you carry guilt",
+   "arabic": "سَيِّدُ الاِسْتِغْفَارِ أَنْ تَقُولَ اللَّهُمَّ أَنْتَ رَبِّي، لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَىَّ وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+   "translit": "Allāhumma anta Rabbī, lā ilāha illā anta, khalaqtanī wa anā ʿabduk, wa anā ʿalā ʿahdika wa waʿdika ma-staṭaʿt. Aʿūdhu bika min sharri mā ṣanaʿt, abū'u laka bi-niʿmatika ʿalayya wa abū'u laka bi-dhanbī, fa-ghfir lī, fa-innahu lā yaghfiru-dh-dhunūba illā ant.",
+   "trans": "O Allah, You are my Lord. There is no god but You. You created me and I am Your servant, and I hold to Your covenant and Your promise as much as I am able. I seek refuge in You from the evil I have done. I acknowledge Your favour upon me, and I acknowledge my sin, so forgive me, for none forgives sins but You.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6306",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:6306",
+   "recites": "part"
+  },
+  "step": "Say it without adding a promise you are not sure you can keep.",
+  "know": {
+   "id": "adam",
+   "title": "When you know it was your own doing",
+   "trans": "They said, \"Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.\"",
+   "ref": "Qur'an 7:23",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "pride-is-my-cloak",
+   "title": "Two garments named as belonging to Him",
+   "story": "A ridāʾ is worn over the shoulders and an izār is wrapped at the waist, and between them they are what a man wears. Arrogance is described not as a bad habit but as taking something off somebody else.",
+   "ref": "Sunan Ibn Mājah 4174"
+  }
+ },
+ "distress": {
+  "say": {
+   "id": "distress-karb",
+   "title": "When distress presses on you",
+   "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ وَالأَرْضِ، رَبُّ الْعَرْشِ الْعَظِيمِ",
+   "translit": "Lā ilāha illā-llāhu-l-ʿAẓīmu-l-Ḥalīm, lā ilāha illā-llāhu Rabbu-s-samāwāti wa-l-arḍ, Rabbu-l-ʿarshi-l-ʿaẓīm.",
+   "trans": "There is no god but Allah, the Magnificent, the Forbearing. There is no god but Allah, Lord of the heavens and the earth, Lord of the Magnificent Throne.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6345",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:6345",
+   "recites": "part"
+  },
+  "step": "Say it as it is, without arranging your words first.",
+  "know": {
+   "id": "who-answers-the-desperate",
+   "title": "Who answers when you are at the end of it",
+   "trans": "Is He [not best] who responds to the desperate one when he calls upon Him and removes evil and makes you inheritors of the earth?1 Is there a deity with Allāh? Little do you remember.",
+   "ref": "Qur'an 27:62",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "at-badr",
+   "title": "Holding Him to a promise He made",
+   "story": "Abū Bakr took him by the hand and said: enough, you have appealed to your Lord persistently. He came out saying: the multitude will be defeated and they will turn their backs.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 3953"
+  }
+ },
+ "illness": {
+  "say": {
+   "id": "own-pain",
+   "title": "When your body hurts",
+   "arabic": "أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ",
+   "translit": "Aʿūdhu bi-llāhi wa qudratihi min sharri mā ajidu wa uḥādhir.",
+   "trans": "I seek refuge in Allah and in His power from the evil of what I feel and what I fear.",
+   "ref": "Ṣaḥīḥ Muslim 2202",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/muslim:2202"
+  },
+  "step": "Say it where you are resting. It is not instead of treatment.",
+  "know": {
+   "id": "when-i-am-ill",
+   "title": "Who does the healing",
+   "trans": "Who created me, and He [it is who] guides me. And it is He who feeds me and gives me drink. And when I am ill, it is He who cures me",
+   "ref": "Qur'an 26:78-80",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "a-cure-for-every-illness",
+   "title": "What he told the bedouins who asked whether treatment was allowed",
+   "story": "They came asking whether this or that was a sin. He told them Allah had lifted the difficulty, except from the man who takes something from his brother's honour. Then someone asked whether seeking medical treatment counted as a lack of trust. He answered with an instruction, not a permission.",
+   "ref": "Sunan Ibn Mājah 3436"
+  }
+ },
+ "someone-ill": {
+  "say": {
+   "id": "visiting-sick",
+   "title": "When someone you love is ill",
+   "arabic": "أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَكَ",
+   "translit": "As'alu-llāha-l-ʿAẓīma Rabba-l-ʿarshi-l-ʿaẓīmi an yashfiyak. (×7)",
+   "trans": "I ask Allah the Magnificent, Lord of the Magnificent Throne, to cure you.",
+   "ref": "Jāmiʿ at-Tirmidhī 2083",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/tirmidhi:2083"
+  },
+  "step": "Say it by their side if you can, quietly enough not to alarm them.",
+  "know": {
+   "id": "visiting-sick-2",
+   "title": "When you sit with someone who is ill",
+   "trans": "No harm, it is a cleansing, if Allah wills.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 3616",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  }
+ },
+ "death": {
+  "say": {
+   "id": "loss-death",
+   "title": "When you have lost someone",
+   "arabic": "إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
+   "translit": "Innā li-llāhi wa innā ilayhi rājiʿūn.",
+   "trans": "Indeed we belong to Allah, and indeed to Him we will return.",
+   "ref": "Qur'an 2:156-157",
+   "grade": "Qur'an",
+   "url": "https://quran.com/2/156"
+  },
+  "step": "Say it when the words will come. There is no window you have missed.",
+  "know": {
+   "id": "burial",
+   "title": "As someone is laid in the grave",
+   "trans": "In the name of Allah, and upon the way of the Messenger of Allah.",
+   "ref": "Sunan Ibn Mājah 1550",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "forgive-him-and-have-mercy",
+   "title": "What he said standing over a man he had just prayed for",
+   "story": "Wāthilah heard the whole prayer. It began: O Allah, so and so son of so and so is in Your protection, so guard him from the trial of the grave. Then it ended here, with the two names that answer the request built into it.",
+   "ref": "Sunan Abī Dāwūd 3202"
+  }
+ },
+ "debt": {
+  "say": {
+   "id": "debt",
+   "title": "When debt is crushing you",
+   "arabic": "قُلِ اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+   "translit": "Allāhumma-kfinī bi-ḥalālika ʿan ḥarāmik, wa aghninī bi-faḍlika ʿamman siwāk.",
+   "trans": "O Allah, suffice me with what You have made lawful against what You have forbidden, and make me independent by Your grace of everyone besides You.",
+   "ref": "Jāmiʿ at-Tirmidhī 3563",
+   "grade": "Ḥasan",
+   "url": "https://sunnah.com/tirmidhi:3563"
+  },
+  "step": "Say it, then write down what you owe. Both are part of the same turning.",
+  "know": {
+   "id": "sin-and-debt",
+   "title": "Refuge from owing, and from what leads there",
+   "trans": "O Allah, I seek refuge in You from sin and from debt.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 2397",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "the-reward-for-lending",
+   "title": "What he said when he repaid a loan",
+   "story": "The lender reported it himself. Money came in, the Prophet handed the whole amount back, and then added the sentence, which sets out what a lender is actually owed. The sum, and being thanked for it.",
+   "ref": "Sunan an-Nasā'ī 4683"
+  }
+ },
+ "poverty": {
+  "say": {
+   "id": "seven-heavens",
+   "title": "At the end of the day, before sleep",
+   "arabic": "اللَّهُمَّ رَبَّ السَّمَوَاتِ وَرَبَّ الأَرْضِ وَرَبَّ الْعَرْشِ الْعَظِيمِ رَبَّنَا وَرَبَّ كُلِّ شَىْءٍ فَالِقَ الْحَبِّ وَالنَّوَى وَمُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ وَالْفُرْقَانِ أَعُوذُ بِكَ مِنْ شَرِّ كُلِّ شَىْءٍ أَنْتَ آخِذٌ بِنَاصِيَتِهِ اللَّهُمَّ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَىْءٌ وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَىْءٌ وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَىْءٌ وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَىْءٌ اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ",
+   "translit": "Allāhumma Rabba-s-samāwāti wa Rabba-l-arḍi wa Rabba-l-ʿarshi-l-ʿaẓīm, Rabbanā wa Rabba kulli shay', fāliqa-l-ḥabbi wa-n-nawā, wa munzila-t-Tawrāti wa-l-Injīli wa-l-Furqān. Aʿūdhu bika min sharri kulli shay'in anta ākhidhun bi-nāṣiyatih. Allāhumma anta-l-Awwalu fa-laysa qablaka shay', wa anta-l-Ākhiru fa-laysa baʿdaka shay', wa anta-ẓ-Ẓāhiru fa-laysa fawqaka shay', wa anta-l-Bāṭinu fa-laysa dūnaka shay'. Iqḍi ʿanna-d-dayna wa aghninā mina-l-faqr.",
+   "trans": "O Allah, Lord of the heavens and Lord of the earth and Lord of the Magnificent Throne, our Lord and the Lord of everything, splitter of the grain and the date stone, revealer of the Torah and the Gospel and the Criterion. I seek refuge in You from the evil of every thing You hold by its forelock. O Allah, You are the First and there is nothing before You, and You are the Last and there is nothing after You, and You are the Manifest and there is nothing above You, and You are the Hidden and there is nothing beyond You. Settle our debt for us and free us from poverty.",
+   "ref": "Ṣaḥīḥ Muslim 2713a",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/muslim:2713a"
+  },
+  "step": "Say it, then do the next practical thing you had been avoiding.",
+  "know": {
+   "id": "provision",
+   "title": "When provision is tight",
+   "trans": "…Settle our debt for us, and free us from poverty.",
+   "ref": "Ṣaḥīḥ Muslim 2713a",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "live-me-poor",
+   "title": "What he asked to be kept among",
+   "story": "Abu Saʿid al-Khudri opened with an instruction of his own before quoting it: love the poor. Then he gave the reason, which is that the Prophet asked to be counted as one of them at all three points, living, dying and standing up again.",
+   "ref": "Sunan Ibn Mājah 4126"
+  }
+ },
+ "oppression": {
+  "say": {
+   "id": "oppressed",
+   "title": "When someone has wronged you",
+   "arabic": "اتَّقِ دَعْوَةَ الْمَظْلُومِ، فَإِنَّهَا لَيْسَ بَيْنَهَا وَبَيْنَ اللَّهِ حِجَابٌ",
+   "translit": "",
+   "trans": "Beware the supplication of the one who has been wronged, for there is no veil between it and Allah.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 2448",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:2448"
+  },
+  "step": "Say it. Being wronged does not oblige you to stay where you are.",
+  "know": {
+   "id": "wrongdoers-not-unseen",
+   "title": "When the one who wronged you walked away from it",
+   "trans": "And never think that Allāh is unaware of what the wrongdoers do. He only delays them [i.e., their account] for a Day when eyes will stare [in horror].",
+   "ref": "Qur'an 14:42",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "asiya",
+   "title": "When home is not safe",
+   "story": "Āsiya lived inside the palace of the man the Qur'an uses as the picture of tyranny. She asked for the neighbour first and the house second: near You, and then the house. Allah holds her up as an example for every believer, man or woman.",
+   "ref": "Qur'an 66:11"
+  }
+ },
+ "enemy": {
+  "say": {
+   "id": "fear-of-people",
+   "title": "When you are afraid of someone",
+   "arabic": "اللَّهُمَّ إِنَّا نَجْعَلُكَ فِي نُحُورِهِمْ وَنَعُوذُ بِكَ مِنْ شُرُورِهِمْ",
+   "translit": "Allāhumma innā najʿaluka fī nuḥūrihim wa naʿūdhu bika min shurūrihim.",
+   "trans": "O Allah, we place You before them, and we seek refuge in You from their evil.",
+   "ref": "Sunan Abī Dāwūd 1537",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/abudawud:1537"
+  },
+  "step": "Say it without naming them out loud, if naming them makes it worse.",
+  "know": {
+   "id": "scatter-them",
+   "title": "When people have banded together against you",
+   "trans": "O Allah, Revealer of the Book, Swift in reckoning, defeat the confederates. O Allah, defeat them and shake them.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6392",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "forgive-my-people",
+   "title": "When you could ask for them to be punished",
+   "story": "The angel of the mountains was sent to him and offered to crush the town between two hills. He said no, and asked instead that their children might one day believe.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 3477"
+  }
+ },
+ "failure": {
+  "say": {
+   "id": "qadar",
+   "title": "When something you did not want happened",
+   "arabic": "قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ",
+   "translit": "Qadaru-llāhi wa mā shā'a faʿal.",
+   "trans": "It is the decree of Allah, and He does what He wills.",
+   "ref": "Ṣaḥīḥ Muslim 2664",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/muslim:2664"
+  },
+  "step": "Say it before you explain it to anyone. The explanation can wait.",
+  "know": {
+   "id": "hated-thing",
+   "title": "When you did not get what you wanted",
+   "trans": "Battle has been enjoined upon you while it is hateful to you. But perhaps you hate a thing and it is good for you; and perhaps you love a thing and it is bad for you. And Allāh knows, while you know not.",
+   "ref": "Qur'an 2:216",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "write",
+   "title": "The first thing created, and what it was told",
+   "story": "Ubadah ibn as-Samit said to his son: you will never taste the reality of faith until you know that what reached you could not have missed you, and what missed you could not have reached you. Then he gave the hadith as his evidence.",
+   "ref": "Sunan Abī Dāwūd 4700"
+  }
+ },
+ "marriage": {
+  "say": {
+   "id": "istikhara",
+   "title": "When you cannot decide",
+   "arabic": "ُ اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلاَ أَقْدِرُ، وَتَعْلَمُ وَلاَ أَعْلَمُ، وَأَنْتَ عَلاَّمُ الْغُيُوبِ، اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي ـ أَوْ قَالَ عَاجِلِ أَمْرِي وَآجِلِهِ ـ فَاقْدُرْهُ لِي، وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي ـ أَوْ قَالَ فِي عَاجِلِ أَمْرِي وَآجِلِهِ ـ فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ، وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ، ثُمَّ رَضِّنِي بِهِ. وَيُسَمِّي حَاجَتَهُ",
+   "translit": "Allāhumma innī astakhīruka bi-ʿilmik, wa astaqdiruka bi-qudratik, wa as'aluka min faḍlika-l-ʿaẓīm…",
+   "trans": "O Allah, I seek Your guidance by Your knowledge, and Your power by Your might, and I ask You of Your immense grace… (prayed after two rakʿahs, naming your need)",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6382",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:6382",
+   "recites": "part"
+  },
+  "step": "Say it for them by name, privately, before you raise anything with them.",
+  "know": {
+   "id": "mercy-between-you",
+   "title": "What a marriage is actually built on",
+   "trans": "And of His signs is that He created for you from yourselves mates that you may find tranquility in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.",
+   "ref": "Qur'an 30:21",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "take-hold-of-the-forelock",
+   "title": "What to say over something newly yours",
+   "story": "He said: when one of you comes to have a wife, or someone who serves him, or a riding animal, let him take hold of the forelock and say it. Jubila ʿalayh is what a nature was formed on, before anybody chose anything.",
+   "ref": "Sunan Ibn Mājah 1918"
+  }
+ },
+ "children": {
+  "say": {
+   "id": "protect-children",
+   "title": "When you want to protect your children",
+   "arabic": "أُعِيذُكُمَا بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ وَمِنْ كُلِّ عَيْنٍ لاَمَّةٍ",
+   "translit": "Uʿīdhukumā bi-kalimāti-llāhi-t-tāmmah, min kulli shayṭānin wa hāmmah, wa min kulli ʿaynin lāmmah.",
+   "trans": "I seek protection for you both in the perfect words of Allah, from every devil and every poisonous creature, and from every envious eye.",
+   "ref": "Sunan Abī Dāwūd 4737",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/abudawud:4737",
+   "recites": "part"
+  },
+  "step": "Say it over them while they sleep, or from the next room.",
+  "know": {
+   "id": "righteous-children",
+   "title": "Asking for a righteous child",
+   "trans": "My Lord, grant me [a child] from among the righteous.\"",
+   "ref": "Qur'an 37:100",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "children",
+   "title": "When you are hoping for a child",
+   "story": "Zakariyyā ﷺ was old and his wife could not bear children. He did not ask quietly out of doubt. He asked because he knew who he was asking. *So the angels called to him while he stood praying in the chamber: Allah gives you good tidings of Yaḥyā.* (3:39)",
+   "ref": "Qur'an 3:38"
+  }
+ },
+ "parents": {
+  "say": {
+   "id": "mercy-on-parents",
+   "title": "The verse for your parents",
+   "arabic": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+   "translit": "…rabbi-rḥamhumā kamā rabbayānī ṣaghīrā.",
+   "trans": "And lower to them the wing of humility out of mercy and say, \"My Lord, have mercy upon them as they brought me up [when I was] small.\"",
+   "ref": "Qur'an 17:24",
+   "grade": "Qur'an",
+   "url": "https://quran.com/17/24",
+   "recites": "part"
+  },
+  "step": "Say it, then call them if you still can.",
+  "know": {
+   "id": "ibrahim-parents",
+   "title": "For your parents",
+   "trans": "Our Lord, forgive me and my parents and the believers the Day the account is established.\"",
+   "ref": "Qur'an 14:41",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "guide-my-family",
+   "title": "For someone you love who has turned away",
+   "story": "He had been inviting her for years and she refused, and one day said something about the Prophet ﷺ that made him weep. He went and asked for a du'ā instead of arguing again. He walked home and found the door shut, and heard water, and she came out and said the shahādah.",
+   "ref": "Ṣaḥīḥ Muslim 2491"
+  }
+ },
+ "reconcile": {
+  "say": {
+   "id": "reconcile",
+   "title": "When there is bad feeling between people",
+   "arabic": "اللَّهُمَّ أَلِّفْ بَيْنَ قُلُوبِنَا وَأَصْلِحْ ذَاتَ بَيْنِنَا وَاهْدِنَا سُبُلَ السَّلاَمِ وَنَجِّنَا مِنَ الظُّلُمَاتِ إِلَى النُّورِ وَجَنِّبْنَا الْفَوَاحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ وَبَارِكْ لَنَا فِي أَسْمَاعِنَا وَأَبْصَارِنَا وَقُلُوبِنَا وَأَزْوَاجِنَا وَذُرِّيَّاتِنَا وَتُبْ عَلَيْنَا إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ وَاجْعَلْنَا شَاكِرِينَ لِنِعْمَتِكَ مُثْنِينَ بِهَا قَابِلِيهَا وَأَتِمَّهَا عَلَيْنَا",
+   "translit": "Allāhumma allif bayna qulūbinā, wa aṣliḥ dhāta bayninā, wa-hdinā subula-s-salām.",
+   "trans": "O Allah, join our hearts, set right what is between us, and guide us to the paths of peace.",
+   "ref": "Sunan Abī Dāwūd 969",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/abudawud:969",
+   "recites": "part"
+  },
+  "step": "Say it, then send the shorter message rather than the fuller one.",
+  "know": {
+   "id": "me-and-my-brother",
+   "title": "After a falling out with family",
+   "trans": "[Moses] said, \"My Lord, forgive me and my brother and admit us into Your mercy, for You are the most merciful of the merciful.\"",
+   "ref": "Qur'an 7:151",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "three-days",
+   "title": "The limit on not speaking to someone",
+   "story": "It gives the person who wants to fix it a way out that does not require an apology or a conversation. Say salām. Three times. After that it is not yours any more.",
+   "ref": "Sunan Abī Dāwūd 4913"
+  }
+ },
+ "knowledge": {
+  "say": {
+   "id": "knowledge",
+   "title": "When you are studying or sitting an exam",
+   "arabic": "فَتَعَـٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۗ وَلَا تَعْجَلْ بِٱلْقُرْءَانِ مِن قَبْلِ أَن يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ ۖ وَقُل رَّبِّ زِدْنِى عِلْمًا",
+   "translit": "Rabbi zidnī ʿilmā.",
+   "trans": "So high [above all] is Allāh, the Sovereign,1 the Truth.2 And, [O Muḥammad], do not hasten with [recitation of] the Qur’ān before its revelation is completed to you, and say, \"My Lord, increase me in knowledge.\"",
+   "ref": "Qur'an 20:114",
+   "grade": "Qur'an",
+   "url": "https://quran.com/20/114",
+   "recites": "part"
+  },
+  "step": "Say it before you open the book, not instead of opening it.",
+  "know": {
+   "id": "raised-in-rank",
+   "title": "For anyone still studying",
+   "trans": "O you who have believed, when you are told, \"Space yourselves\" in assemblies, then make space; Allāh will make space for you.1 And when you are told, \"Arise,\"2 then arise; Allāh will raise those who have believed among you and those who were given knowledge, by degrees. And Allāh is Aware of what you do.",
+   "ref": "Qur'an 58:11",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "understanding-in-the-religion",
+   "title": "The sign that Allah wants good for someone",
+   "story": "Not knowledge. Fiqh, which is the understanding that lets a person work out what they have not been told. And the second clause separates the hand it comes through from the source it comes from.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 71"
+  }
+ },
+ "work": {
+  "say": {
+   "id": "provision",
+   "title": "When provision is tight",
+   "arabic": "اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ",
+   "translit": "…iqḍi ʿanna-d-dayna wa aghninā mina-l-faqr.",
+   "trans": "…Settle our debt for us, and free us from poverty.",
+   "ref": "Ṣaḥīḥ Muslim 2713a",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/muslim:2713a"
+  },
+  "step": "Say it at the start, then do the work.",
+  "know": {
+   "id": "disperse-and-seek",
+   "title": "Straight after the prayer ends",
+   "trans": "And when the prayer has been concluded, disperse within the land and seek from the bounty of Allāh, and remember Allāh often that you may succeed.",
+   "ref": "Qur'an 62:10",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "your-brothers-under-your-hand",
+   "title": "What Abu Dharr was still doing decades later",
+   "story": "Someone suggested he take his servant's cloak and make a matching suit of it. He explained: he had once insulted a man about his mother, been told there was still ignorance in him, and had been dressing the man beside him identically ever since.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6050"
+  }
+ },
+ "decision": {
+  "say": {
+   "id": "istikhara",
+   "title": "When you cannot decide",
+   "arabic": "ُ اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلاَ أَقْدِرُ، وَتَعْلَمُ وَلاَ أَعْلَمُ، وَأَنْتَ عَلاَّمُ الْغُيُوبِ، اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي ـ أَوْ قَالَ عَاجِلِ أَمْرِي وَآجِلِهِ ـ فَاقْدُرْهُ لِي، وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي ـ أَوْ قَالَ فِي عَاجِلِ أَمْرِي وَآجِلِهِ ـ فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ، وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ، ثُمَّ رَضِّنِي بِهِ. وَيُسَمِّي حَاجَتَهُ",
+   "translit": "Allāhumma innī astakhīruka bi-ʿilmik, wa astaqdiruka bi-qudratik, wa as'aluka min faḍlika-l-ʿaẓīm…",
+   "trans": "O Allah, I seek Your guidance by Your knowledge, and Your power by Your might, and I ask You of Your immense grace… (prayed after two rakʿahs, naming your need)",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6382",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:6382",
+   "recites": "part"
+  },
+  "step": "Say it, then leave the decision for one night before acting.",
+  "know": {
+   "id": "you-are-able-and-i-am-not",
+   "title": "What to say when you cannot decide",
+   "trans": "O Allah, I ask You to choose for me by Your knowledge, and I ask You to give me power by Your power, and I ask You from Your bounty. You are able and I am not. You know and I do not. You are the Knower of the unseen.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 7390",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "if-the-monks-affair",
+   "title": "The boy who tested which one was true",
+   "story": "A king's magician was training a boy, and on the road there was a monk the boy kept stopping to listen to. He could not tell which of them was right, so he designed a test with a stake in it: whichever way was true, let it clear the road. He threw, it died, the people went on. He told the monk, who said: today you are better than me.",
+   "ref": "Ṣaḥīḥ Muslim 3005"
+  }
+ },
+ "travel": {
+  "say": {
+   "id": "travel",
+   "title": "When you set out on a journey",
+   "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى وَمِنَ الْعَمَلِ مَا تَرْضَى اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ وَالْخَلِيفَةُ فِي الأَهْلِ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمَنْظَرِ وَسُوءِ الْمُنْقَلَبِ فِي الْمَالِ وَالأَهْلِ",
+   "translit": "Subḥāna-lladhī sakhkhara lanā hādhā wa mā kunnā lahu muqrinīn, wa innā ilā rabbinā la-munqalibūn.",
+   "trans": "Glory be to the One who has made this subject to us, when we could never have done it ourselves. And to our Lord we are surely returning.",
+   "ref": "Ṣaḥīḥ Muslim 1342",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/muslim:1342",
+   "recites": "part"
+  },
+  "step": "Say it as you set out, not once you have arrived.",
+  "know": {
+   "id": "returning-home",
+   "title": "Coming back from a journey",
+   "trans": "We are returning, repenting, worshipping, and praising our Lord.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 5968",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "fold-the-earth-for-him",
+   "title": "What he said after the traveller had already left",
+   "story": "A man said he was about to travel and asked for advice. He was told to hold to taqwā and say allāhu akbar at every rise in the road. Then he turned to go, and once his back was turned the Prophet said this after him.",
+   "ref": "Jāmiʿ at-Tirmidhī 3445"
+  }
+ },
+ "forgiveness": {
+  "say": {
+   "id": "the-master-of-asking-forgiveness",
+   "title": "The one he called the chief way of asking",
+   "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ خَلَقْتَنِي وَأَنَا عَبْدُكَ وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ أَبُوءُ بِنِعْمَتِكَ وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي إِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+   "translit": "Allāhumma anta rabbī lā ilāha illā ant, khalaqtanī wa anā ʿabduk, wa anā ʿalā ʿahdika wa waʿdika mā-staṭaʿt. Aʿūdhu bika min sharri mā ṣanaʿt. Abūʾu bi-niʿmatika wa abūʾu bi-dhanbī fa-ghfir lī, innahu lā yaghfiru-dh-dhunūba illā ant",
+   "trans": "O Allah, You are my Lord, there is no god but You. You created me and I am Your servant, and I am on Your covenant and Your promise as much as I am able. I seek refuge in You from the evil of what I have done. I acknowledge Your favour to me and I acknowledge my sin, so forgive me. None forgives sins but You.",
+   "ref": "Sunan Abī Dāwūd 5070",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/abudawud:5070",
+   "recites": "part"
+  },
+  "step": "Say it in your own words after, if you have words of your own.",
+  "know": {
+   "id": "adam",
+   "title": "When you know it was your own doing",
+   "trans": "They said, \"Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.\"",
+   "ref": "Qur'an 7:23",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "musa-remorse",
+   "title": "When you have done something you cannot undo",
+   "story": "He struck once, to break up a fight, and the man died. He does not explain himself or argue that he did not mean it. He says he wronged his own soul and asks to be forgiven. *So He forgave him.* In the same verse.",
+   "ref": "Qur'an 28:16"
+  }
+ },
+ "weak-iman": {
+  "say": {
+   "id": "steadfast-heart",
+   "title": "When your faith feels unsteady",
+   "arabic": "يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
+   "translit": "Yā muqalliba-l-qulūb, thabbit qalbī ʿalā dīnik.",
+   "trans": "O Turner of hearts, make my heart firm upon Your religion.",
+   "ref": "Jāmiʿ at-Tirmidhī 3522",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/tirmidhi:3522"
+  },
+  "step": "Say it on a day you do not feel like it. Those are the days it is for.",
+  "know": {
+   "id": "i-am-near",
+   "title": "When He feels far away",
+   "trans": "And when My servants ask you, [O Muḥammad], concerning Me - indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided.",
+   "ref": "Qur'an 2:186",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "undertaken-for-the-one-who-goes-out",
+   "title": "What was guaranteed for the one who leaves",
+   "story": "Or that He will admit him to the Garden. The clause in the middle is the qualifier: driven out by nothing but. It rules out every other reason a person might have had for going.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 36"
+  }
+ },
+ "waswas": {
+  "say": {
+   "id": "waswas",
+   "title": "When intrusive thoughts attack your faith",
+   "arabic": "ذَاكَ صَرِيحُ الإِيمَانِ",
+   "translit": "",
+   "trans": "That is clear faith.",
+   "ref": "Ṣaḥīḥ Muslim 132a",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/muslim:132a"
+  },
+  "step": "Say it once and move. Repeating it to feel certain is the thing itself.",
+  "know": {
+   "id": "whispers",
+   "title": "When the whispering will not stop",
+   "trans": "And say, \"My Lord, I seek refuge in You from the incitements of the devils, And I seek refuge in You, my Lord, lest they be present with me.\"",
+   "ref": "Qur'an 23:97-98",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "i-seek-refuge-in-allah-from-you",
+   "title": "What they heard him say in the middle of a prayer",
+   "story": "Abu ad-Darda says he stood to pray and they heard him say it, then curse three times, and stretch out his hand as though taking hold of something. Afterwards they asked. He said the enemy of Allah had come with a torch of fire to throw in his face, and that had he not remembered a prayer of Sulayman he would have tied him to a pillar of the mosque for the children of Madinah to play with.",
+   "ref": "Ṣaḥīḥ Muslim 542"
+  }
+ },
+ "steadfastness": {
+  "say": {
+   "id": "ease-after-hardship",
+   "title": "When you cannot see the end of it",
+   "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+   "translit": "Fa-inna maʿa-l-ʿusri yusrā. Inna maʿa-l-ʿusri yusrā.",
+   "trans": "For indeed, with hardship [will be] ease [i.e., relief]. Indeed, with hardship [will be] ease.",
+   "ref": "Qur'an 94:5-6",
+   "grade": "Qur'an",
+   "url": "https://quran.com/94/5",
+   "audio": [
+    "https://verses.quran.com/Alafasy/mp3/094005.mp3",
+    "https://verses.quran.com/Alafasy/mp3/094006.mp3"
+   ],
+   "audio_credit": "Recitation by Mishari Rashid al-Afasy, via Quran.com"
+  },
+  "step": "Say it, then do the smallest version of the thing you keep abandoning.",
+  "know": {
+   "id": "patience-reward",
+   "title": "When patience is costing you something",
+   "trans": "Say,1 \"O My servants who have believed, fear your Lord. For those who do good in this world is good, and the earth of Allāh is spacious. Indeed, the patient will be given their reward without account [i.e., limit].\"",
+   "ref": "Qur'an 39:10",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "never-give-up-hope",
+   "title": "When you have almost given up",
+   "story": "Yaʿqūb ﷺ had lost Yūsuf decades earlier, then lost Binyāmīn too, and had wept until his sight was gone. This is what he told his sons: go back and keep looking. Despair was the one thing he would not permit.",
+   "ref": "Qur'an 12:87"
+  }
+ },
+ "death-remembrance": {
+  "say": {
+   "id": "graves",
+   "title": "Standing at a grave",
+   "arabic": "السَّلاَمُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللَّهُ بِكُمْ لاَحِقُونَ، أَنْتُمْ لَنَا فَرَطٌ وَنَحْنُ لَكُمْ تَبَعٌ، أَسْأَلُ اللَّهَ الْعَافِيَةَ لَنَا وَلَكُمْ",
+   "translit": "As-salāmu ʿalaykum ahla-d-diyāri mina-l-mu'minīna wa-l-muslimīn, wa innā in shā' Allāhu bikum lāḥiqūn.",
+   "trans": "Peace be upon you, people of these dwellings, believers and Muslims. We will, if Allah wills, be joining you.",
+   "ref": "Sunan an-Nasā'ī 2040",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/nasai:2040",
+   "recites": "part"
+  },
+  "step": "Say it, then settle one thing you have been leaving unsettled.",
+  "know": {
+   "id": "turn-away-hell",
+   "title": "When the thought of the Fire frightens you",
+   "trans": "And those who say, \"Our Lord, avert from us the punishment of Hell. Indeed, its punishment is ever adhering; Indeed, it is evil as a settlement and residence.\"",
+   "ref": "Qur'an 25:65-66",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "the-veil-of-pride",
+   "title": "The only thing between people and seeing their Lord",
+   "story": "Two gardens of silver, their vessels and everything in them. Two of gold, the same. Then the description stops listing objects and names the only remaining obstacle, and it is not distance and it is not a wall.",
+   "ref": "Sunan Ibn Mājah 186"
+  }
+ },
+ "refuge": {
+  "say": {
+   "id": "anxiety-grief",
+   "title": "When worry and sadness sit on your chest",
+   "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
+   "translit": "Allāhumma innī aʿūdhu bika mina-l-hammi wa-l-ḥazan, wa-l-ʿajzi wa-l-kasal, wa-l-jubni wa-l-bukhl, wa ḍalaʿi-d-dayn, wa ghalabati-r-rijāl.",
+   "trans": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from the burden of debt and from being overpowered by men.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6369",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:6369"
+  },
+  "step": "Say it before you need it, so it is there when you do.",
+  "know": {
+   "id": "ayat-al-kursi",
+   "title": "When you want to be kept safe",
+   "trans": "Allāh - there is no deity except Him, the Ever-Living,1 the Self-Sustaining.2 Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them,3 and they encompass not a thing of His knowledge except for what He wills. His Kursī4 extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High,5 the Most Great.6",
+   "ref": "Qur'an 2:255",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "refuge-from-the-darkness",
+   "title": "What he told Aisha while they were looking at the moon",
+   "story": "They were looking at the moon. He pointed at it and identified it as the ghāsiq of Surah al-Falaq, the darkness when it gathers in. It is one of the few places where he named what a verse was pointing to.",
+   "ref": "Jāmiʿ at-Tirmidhī 3366"
+  }
+ },
+ "evil-eye": {
+  "say": {
+   "id": "what-ibrahim-said-over-his-sons",
+   "title": "The words he used over Hasan and Husayn",
+   "arabic": "إِنَّ أَبَاكُمَا كَانَ يُعَوِّذُ بِهَا إِسْمَاعِيلَ وَإِسْحَاقَ، أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ، وَمِنْ كُلِّ عَيْنٍ لاَمَّةٍ",
+   "translit": "Aʿūdhu bi-kalimāti-Llāhi-t-tāmmati min kulli shayṭānin wa hāmmah, wa min kulli ʿaynin lāmmah",
+   "trans": "I seek refuge in the perfect words of Allah from every devil and every crawling thing, and from every eye that harms.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 3371",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:3371",
+   "recites": "part"
+  },
+  "step": "Say it, then leave it. Watching for signs is its own harm.",
+  "know": {
+   "id": "evil-eye-falaq",
+   "title": "When you feel someone's ill will",
+   "trans": "Say, \"I seek refuge in the Lord of daybreak From the evil of that which He created And from the evil of darkness when it settles And from the evil of the blowers in knots1 And from the evil of an envier when he envies.\"",
+   "ref": "Qur'an 113:1-5",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "look-at-the-one-below",
+   "title": "A one line instruction for envy",
+   "story": "Wealth and appearance are the two named, which are the two people actually compare. The instruction is not to stop looking. It is to look in the other direction as well.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6490"
+  }
+ },
+ "home": {
+  "say": {
+   "id": "leaving-home",
+   "title": "When you step out the door",
+   "arabic": "إِذَا خَرَجَ الرَّجُلُ مِنْ بَيْتِهِ فَقَالَ بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+   "translit": "Bismillāh, tawakkaltu ʿala-llāh, wa lā ḥawla wa lā quwwata illā bi-llāh.",
+   "trans": "In the name of Allah, I place my trust in Allah, and there is no power and no strength except with Allah.",
+   "ref": "Sunan Abī Dāwūd 5095",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/abudawud:5095",
+   "recites": "part"
+  },
+  "step": "Say it as you come through the door, before you say anything else.",
+  "know": {
+   "id": "greet-the-house",
+   "title": "Coming in through your own front door",
+   "trans": "Peace be upon you, people of the house, and the mercy of Allah.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 4793",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "these-are-my-family",
+   "title": "What he said after gathering them under a cloak",
+   "story": "The verse came down in Umm Salamah's house. He called Fatimah, Hasan and Husayn, wrapped them in a cloak, with Ali behind him, wrapped him too, and then prayed the words of the verse back over them.",
+   "ref": "Jāmiʿ at-Tirmidhī 3205"
+  }
+ },
+ "morning-evening": {
+  "say": {
+   "id": "what-abu-bakr-asked-for",
+   "title": "What Abu Bakr asked to be given",
+   "arabic": "اللَّهُمَّ فَاطِرَ السَّمَوَاتِ وَالأَرْضِ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ رَبَّ كُلِّ شَىْءٍ وَمَلِيكَهُ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ أَنْتَ أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي وَشَرِّ الشَّيْطَانِ وَشِرْكِهِ",
+   "translit": "Allāhumma fāṭira-s-samāwāti wa-l-arḍ, ʿālima-l-ghaybi wa-sh-shahādah, rabba kulli shayʾin wa malīkah, ashhadu an lā ilāha illā ant, aʿūdhu bika min sharri nafsī wa sharri-sh-shayṭāni wa shirkih",
+   "trans": "O Allah, Originator of the heavens and the earth, Knower of the unseen and the seen, Lord of everything and its Owner. I testify there is no god but You. I seek refuge in You from the evil of myself and from the evil of Satan and his idolatry.",
+   "ref": "Sunan Abī Dāwūd 5067",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/abudawud:5067"
+  },
+  "step": "Say it with the first cup of the day, so it has somewhere to live.",
+  "know": {
+   "id": "morning",
+   "title": "When you wake and the day begins",
+   "trans": "We have entered the morning, and the dominion belongs to Allah, and all praise is for Allah.",
+   "ref": "Jāmiʿ at-Tirmidhī 3390",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "by-you-we-enter-the-morning",
+   "title": "What he said at each end of the day",
+   "story": "Four things are put under the same preposition. Morning, evening, living, dying. In the evening he left out the word for morning, because it had already happened.",
+   "ref": "Sunan Abī Dāwūd 5068"
+  }
+ },
+ "sleep": {
+  "say": {
+   "id": "in-your-name-i-die",
+   "title": "Four words going to sleep, and what he said waking",
+   "arabic": "اللَّهُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا",
+   "translit": "Allāhumma bismika amūtu wa aḥyā",
+   "trans": "O Allah, in Your name I die and I live.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6314",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:6314"
+  },
+  "step": "Say it lying down, phone already face down.",
+  "know": {
+   "id": "sleep",
+   "title": "When you lie down to sleep",
+   "trans": "In Your name, O Allah, I die and I live.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6324",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "protect-me-that-day",
+   "title": "What he said with his hand under his cheek",
+   "story": "Ibn Masʿūd describes the posture exactly. He would lie down, put his right hand under his cheek, and say this. Sleep is the small version of the thing being asked about. You lie down not certain you will be the one to get up.",
+   "ref": "Sunan Ibn Mājah 3877"
+  }
+ },
+ "eating": {
+  "say": {
+   "id": "eat-from-the-sides",
+   "title": "Why he stopped a hand reaching for the middle",
+   "arabic": "كُلُوا بِسْمِ اللَّهِ مِنْ حَوَالَيْهَا وَاعْفُوا رَأْسَهَا فَإِنَّ الْبَرَكَةَ تَأْتِيهَا مِنْ فَوْقِهَا",
+   "translit": "Kulū bismi-Llāhi min ḥawālayhā wa-ʿfū raʾsahā, fa-inna-l-barakata taʾtīhā min fawqihā",
+   "trans": "Eat in the name of Allah from around it and leave its top alone, for the blessing comes down onto it from above.",
+   "ref": "Sunan Ibn Mājah 3276",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/ibnmajah:3276"
+  },
+  "step": "Say it before the first mouthful, not after you remember.",
+  "know": {
+   "id": "after-eating",
+   "title": "When you have eaten",
+   "trans": "All praise is for Allah, who fed me this and provided it for me, with no power or strength from myself.",
+   "ref": "Sunan Abī Dāwūd 4023",
+   "grade": "Ḥasan",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "when-the-table-was-cleared",
+   "title": "What he said as the food was taken away",
+   "story": "Abu Umamah says this is what he said when the spread was lifted from in front of him. The two negatives at the end are the whole point. Not a parting word, and not a thing we could manage without.",
+   "ref": "Jāmiʿ at-Tirmidhī 3456"
+  }
+ },
+ "prayer": {
+  "say": {
+   "id": "forgive-mend-provide",
+   "title": "Five things between two prostrations",
+   "arabic": "رَبِّ اغْفِرْ لِي وَارْحَمْنِي وَاجْبُرْنِي وَارْزُقْنِي وَارْفَعْنِي",
+   "translit": "Rabbi-ghfir lī wa-rḥamnī wa-jburnī wa-rzuqnī wa-rfaʿnī",
+   "trans": "My Lord, forgive me, have mercy on me, mend what is broken in me, provide for me, and raise me.",
+   "ref": "Sunan Ibn Mājah 898",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/ibnmajah:898"
+  },
+  "step": "Say it in its place in the prayer, not as an extra.",
+  "know": {
+   "id": "closest-in-sujud",
+   "title": "The place you are nearest to Him",
+   "trans": "The closest a servant is to his Lord is while he is prostrating, so say much supplication then.",
+   "ref": "Ṣaḥīḥ Muslim 482",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "glory-to-the-owner-of-might",
+   "title": "What he said bowing on a night that would not end",
+   "story": "ʿAwf ibn Mālik stood with him for the night. He read al-Baqarah, and every time he passed a verse about mercy he stopped and asked, and every time he passed a verse about punishment he stopped and sought refuge. Then he bowed for as long as he had stood, saying this.",
+   "ref": "Sunan Abī Dāwūd 873"
+  }
+ },
+ "mosque": {
+  "say": {
+   "id": "open-the-doors-for-me",
+   "title": "What he said walking in, and what changed on the way out",
+   "arabic": "رَبِّ اغْفِرْ لِي ذُنُوبِي وَافْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+   "translit": "Rabbi-ghfir lī dhunūbī wa-ftaḥ lī abwāba raḥmatik",
+   "trans": "My Lord, forgive me my sins and open for me the doors of Your mercy.",
+   "ref": "Jāmiʿ at-Tirmidhī 314",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/tirmidhi:314",
+   "recites": "part"
+  },
+  "step": "Say it at the door, going in and coming out.",
+  "know": {
+   "id": "enter-masjid",
+   "title": "Stepping into the masjid",
+   "trans": "O Allah, open for me the doors of Your mercy.",
+   "ref": "Ṣaḥīḥ Muslim 713a",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "the-three-who-came",
+   "title": "Three men and a gap in the circle",
+   "story": "Three arrived while he was teaching. One found a gap in the circle and sat in it. One sat at the back. One turned around and went away. The third is described in one line: he turned away, so Allah turned away from him.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 66"
+  }
+ },
+ "rain-weather": {
+  "say": {
+   "id": "around-us-not-on-us",
+   "title": "When the rain would not stop",
+   "arabic": "اللَّهُمَّ ظُهُورَ الْجِبَالِ وَالآكَامِ وَبُطُونَ الأَوْدِيَةِ وَمَنَابِتَ الشَّجَرِ",
+   "translit": "Allāhumma ẓuhūra-l-jibāli wa-l-ākām, wa buṭūna-l-awdiyah, wa manābita-sh-shajar",
+   "trans": "O Allah, on the ridges of the mountains and the hills, in the beds of the valleys, and where the trees grow.",
+   "ref": "Muwaṭṭa' Mālik 451",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/malik:451"
+  },
+  "step": "Say it while it is still falling.",
+  "know": {
+   "id": "wind",
+   "title": "When the wind picks up",
+   "trans": "O Allah, I ask You for its good, the good within it and the good it was sent with; and I seek refuge in You from its evil, the evil within it and the evil it was sent with.",
+   "ref": "Ṣaḥīḥ Muslim 899b",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "water-your-servants",
+   "title": "What he said when he asked for rain",
+   "story": "Every noun in it is possessive and none of them are his. Your servants, Your animals, Your mercy, Your land. He is not asking for something to be given to him. He is asking for something to be given back to what it belongs to.",
+   "ref": "Muwaṭṭa' Mālik 450"
+  }
+ },
+ "dhikr": {
+  "say": {
+   "id": "palm-tree",
+   "title": "Two phrases, and a palm tree planted for you",
+   "arabic": "كَلِمَتَانِ خَفِيفَتَانِ عَلَى اللِّسَانِ، ثَقِيلَتَانِ فِي الْمِيزَانِ، حَبِيبَتَانِ إِلَى الرَّحْمَنِ، سُبْحَانَ اللَّهِ الْعَظِيمِ، سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+   "translit": "Subḥāna-llāhi wa bi-ḥamdih, subḥāna-llāhi-l-ʿAẓīm.",
+   "trans": "Glory be to Allah and praise Him. Glory be to Allah, the Magnificent.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6406",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:6406",
+   "recites": "part"
+  },
+  "step": "Say it while your hands are busy with something else.",
+  "know": {
+   "id": "what-he-chose-for-the-angels",
+   "title": "The speech most beloved to Allah",
+   "trans": "What Allah chose for His angels: glory to my Lord, and praise to Him.",
+   "ref": "Jāmiʿ at-Tirmidhī 3593",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "teach-me-something-to-say",
+   "title": "What a bedouin was given when he asked for words",
+   "story": "A bedouin came and said: teach me something to say. He was given this. Then he said: this is for my Lord, what is for me. And he was given: O Allah, forgive me, have mercy on me, guide me and provide for me.",
+   "ref": "Ṣaḥīḥ Muslim 2696"
+  }
+ },
+ "misc": {
+  "say": {
+   "id": "five-fold",
+   "title": "Five things at once, when you do not know where to start",
+   "arabic": "اللَّهُمَّ اغْفِرْ لِي وَارْحَمْنِي وَاهْدِنِي وَعَافِنِي وَارْزُقْنِي",
+   "translit": "Allāhumma-ghfir lī wa-rḥamnī wa-hdinī wa ʿāfinī wa-rzuqnī.",
+   "trans": "O Allah, forgive me, have mercy on me, guide me, keep me well, and provide for me.",
+   "ref": "Ṣaḥīḥ Muslim 2697b",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/muslim:2697b"
+  },
+  "step": "Say it once, and let that be enough for today.",
+  "know": {
+   "id": "the-frequent-one",
+   "title": "What Anas answered when asked",
+   "trans": "O Allah, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire.",
+   "ref": "Ṣaḥīḥ Muslim 2690a",
+   "grade": "Ṣaḥīḥ",
+   "kind": "hadith"
+  },
+  "story": {
+   "id": "my-jest-and-my-earnest",
+   "title": "Everything he asked to have covered",
+   "story": "It works in pairs, and the pairs are opposites. Joking and serious. By accident and on purpose. Then the last clause stops pairing and just says: all of it, I have all of it.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 6399"
+  }
+ }
+}

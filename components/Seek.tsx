@@ -3,9 +3,9 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
-  matchSituations, entriesFor, neighboursOf, isCrisis, isHarm, isOtherLanguage, EXAMPLES,
+  matchSituations, neighboursOf, isCrisis, isHarm, isOtherLanguage, EXAMPLES,
 } from "@/lib/search";
-import { EntryCard } from "@/components/Cards";
+import Answer from "@/components/Answer";
 
 /** Offered when nothing matched, so the visitor is not sent away empty. */
 const FALLBACK: [string, string][] = [
@@ -23,11 +23,14 @@ export default function Seek(
 ) {
   const [q, setQ] = useState("");
 
-  // Read ?q= after mount rather than on the server, so the page it sits on can
-  // still be statically generated.
+  // Read ?q= after mount rather than on the server, so /browse stays static
+  // and the server and client agree on the first render. Setting state from an
+  // effect is exactly the pattern the rule warns about, and is the right one
+  // here: the value lives in the URL, which React cannot see during hydration.
   useEffect(() => {
     if (!readQueryFromUrl) return;
     const v = new URLSearchParams(window.location.search).get("q");
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (v) setQ(v.slice(0, 120));
   }, [readQueryFromUrl]);
   const asked = q.trim().length > 1;
@@ -220,38 +223,18 @@ export default function Seek(
             </div>
           ) : (
             <>
-              {primary.map(({ sit }, i) => {
-                const found = entriesFor(sit.id, 6);
-                return (
-                  <section key={sit.id} className="rise mb-14" style={{ animationDelay: `${i * 80}ms` }}>
-                    <div className="mb-6 flex flex-wrap items-end justify-between gap-3 border-b border-[var(--line)] pb-4">
-                      <div>
-                        <p className="mb-1.5 text-[11.5px] tracking-[0.16em] text-[var(--gold)] uppercase">
-                          For what you said
-                        </p>
-                        <h2 className="display text-[32px] leading-tight text-[var(--ink)]">
-                          {sit.label}
-                        </h2>
-                        <p className="mt-1.5 text-[14.5px] text-[var(--ink-soft)]">{sit.blurb}</p>
-                      </div>
-                      <Link
-                        href={`/s/${sit.id}`}
-                        className="inline-flex min-h-[44px] shrink-0 items-center rounded-full bg-[var(--green)] px-4 text-[13px] font-medium text-white transition-all hover:bg-[var(--green-deep)] sm:min-h-0 sm:py-2"
-                      >
-                        All {sit.count}
-                      </Link>
-                    </div>
-                    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                      {found.map((r) => (
-                        <EntryCard key={r.id} row={r} />
-                      ))}
-                    </div>
-                  </section>
-                );
-              })}
+              {/* One answer, not a shelf. The grid that used to sit here made
+                  the site read as a directory: it named a category and left
+                  the visitor to pick. This responds instead, and keeps the
+                  fuller list a click away. */}
+              <Answer
+                sit={primary[0].sit}
+                query={q}
+                alternatives={primary.slice(1).map((m) => m.sit)}
+              />
 
               {related.length > 0 && (
-                <section className="rise border-t border-[var(--line-soft)] pt-8">
+                <section className="rise mt-16 border-t border-[var(--line-soft)] pt-8">
                   <p className="text-[11.5px] tracking-[0.16em] text-[var(--ink-faint)] uppercase">
                     You might also look at
                   </p>

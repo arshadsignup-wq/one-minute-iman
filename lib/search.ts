@@ -167,7 +167,9 @@ function negatedWords(query: string) {
 const INTENT: [RegExp, string[], number][] = [
   [/\b(failed|flunked|didnt pass|did not pass|messed up|screwed up|didnt get|did not get|rejected|turned down|didnt work out|fell through)\b/,
     ["failure"], 22],
-  [/\b(passed|aced|got in|got the job|accepted|succeeded|graduated|good news|it worked out|alhamdulillah)\b/,
+  // "passed" must not match "passed away" or "passed on": someone reporting a
+  // death was being scored as someone reporting good news.
+  [/\b(passed(?!\s+(away|on)\b)|aced|got in|got the job|accepted|succeeded|graduated|good news|it worked out|alhamdulillah)\b/,
     ["gratitude"], 22],
   // A named person plus an illness word is someone else being ill, which is a
   // different need from being ill yourself and from having lost them.
@@ -210,6 +212,32 @@ export function isOtherLanguage(query: string) {
   return OTHER_LANGUAGE.some(([rx]) => rx.test(raw) || rx.test(n));
 }
 
+/** The thing a sentence is actually about, when it names both a symptom and a cause.
+ *
+ *  "I can't sleep for worrying about money" is not a question about sleep. The
+ *  symptom is stated first and loudest, and the lexicon scores it highest,
+ *  which is how the site came to answer money worry with a bedtime
+ *  supplication. Where a sentence names what is behind the symptom, the words
+ *  after that marker are what it is about.
+ */
+const CAUSE = /\b(because of|because|due to|on account of|worrying about|worried about|stressed about|thinking about|over|about)\b|\bfor\s+\w+ing\b/;
+
+function subject(query: string) {
+  const q = normalise(query);
+  const m = CAUSE.exec(q);
+  if (!m) return null;
+  // "at night", "all day", "lately" say when, not what, and they carry the
+  // vocabulary of situations the sentence is not about
+  const after = q
+    .slice(m.index + m[0].length)
+    .replace(/\b(at night|at bedtime|in the morning|in the evening|all day|all night|every night|every day|lately|these days|right now|today|tonight|recently|constantly)\b/g, " ")
+    .replace(/^(about|of|with|my|the)\s+/, "")
+    .trim();
+  const before = q.slice(0, m.index).trim();
+  if (!after) return null;
+  return { after, before };
+}
+
 function intentBoosts(query: string) {
   const raw = query.toLowerCase();
   const n = normalise(query);
@@ -227,9 +255,10 @@ export function matchSituations(query: string) {
   const qt = toks(query);
   const negated = negatedWords(query);
   const boosts = intentBoosts(query);
+  const subj = subject(query);
   if ((!q || !qt.length) && !boosts.size) return [] as { sit: Situation; score: number }[];
 
-  const scored: { sit: Situation; score: number }[] = [];
+  const scored: { sit: Situation; score: number; onSubject?: boolean }[] = [];
   for (const sit of situations) {
     let score = 0;
     for (const f of sit.feelings) {
@@ -260,10 +289,34 @@ export function matchSituations(query: string) {
     // what happened outranks what it is about
     const boost = boosts.get(sit.id);
     if (boost) score += boost;
-    if (score > 0) scored.push({ sit, score });
+
+    // and what it is about outranks the symptom it is described through
+    let onSubject = false;
+    if (subj && score > 0) {
+      const subjectWords = subj.after.split(" ").filter((t) => t.length > 3 && !STOP.has(t));
+      onSubject =
+        sit.feelings.some((f) => {
+          const nf = normalise(f);
+          return !!nf && (subj.after.includes(nf) || nf.includes(subj.after));
+        }) ||
+        // a feeling is usually a phrase ("no money", "cant pay"), so the test is
+        // whether a word of the subject appears in one, not whether it equals one
+        subjectWords.some((t) =>
+          sit.feelings.some((f) => normalise(f).split(" ").includes(t)));
+      if (onSubject) score += 16;
+    }
+
+    if (score > 0) scored.push({ sit, score, onSubject });
   }
+  // Once the sentence has told us what it is about, everything it matched only
+  // in passing steps back. Without this, "thinking about my debts at night"
+  // still leads with sleep, because "at night" is a louder phrase than "debts".
+  if (subj && scored.some((x) => x.onSubject)) {
+    for (const x of scored) if (!x.onSubject) x.score *= 0.55;
+  }
+
   scored.sort((a, b) => b.score - a.score || b.sit.count - a.sit.count);
-  return scored;
+  return scored.map(({ sit, score }) => ({ sit, score }));
 }
 
 /** Entries belonging to a situation: curated first, then the wider library. */
