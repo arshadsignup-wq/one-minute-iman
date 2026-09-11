@@ -17,6 +17,10 @@ def get(url):
 
 def strip(t):
     t = re.sub(r"<sup[^>]*>.*?</sup>", "", t or "", flags=re.S)
+    # Saheeh International marks footnotes as <sup foot_note=N>1</sup>. Removing
+    # tags alone leaves the marker digit welded to the previous word, which is
+    # how "comfort to our eyes1" reached the page.
+    t = re.sub(r"<sup[^>]*>.*?</sup>", "", t, flags=re.S)
     return re.sub(r"<[^>]+>", "", t).strip()
 
 chapters = get(f"{API}/chapters?language=en")["chapters"]

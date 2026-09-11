@@ -91,7 +91,9 @@ export default function Answer({
         )}
         {a.say.trans && (
           <p className="display mx-auto mt-6 max-w-xl text-[20px] leading-relaxed text-[var(--ink)] sm:text-[22px]">
-            “{a.say.trans}”
+            {/* Qur'anic translations often arrive already quoted; wrapping them
+                again produces "​"Our Lord ...""​. */}
+            {/^\s*["“]/.test(a.say.trans) ? a.say.trans : `“${a.say.trans}”`}
           </p>
         )}
       </div>

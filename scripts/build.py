@@ -158,7 +158,11 @@ for e in ENTRIES:
             d = qfetch(f"https://api.quran.com/api/v4/verses/by_key/{k}?fields=text_uthmani&translations=20")
             v = d["verse"]
             ars.append(v["text_uthmani"])
-            trs.append(re.sub(r'<[^>]+>','', v["translations"][0]["text"]))
+            # Saheeh International marks footnotes as <sup foot_note=N>1</sup>. Removing
+            # tags alone leaves the marker digit welded to the previous word, which is
+            # how "comfort to our eyes1" reached the page.
+            _t = re.sub(r'<sup[^>]*>.*?</sup>', '', v["translations"][0]["text"], flags=re.S)
+            trs.append(re.sub(r'<[^>]+>', '', _t))
             time.sleep(0.15)
         rec["arabic"] = " ".join(ars)
         rec["trans"] = " ".join(trs)
