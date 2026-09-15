@@ -165,12 +165,21 @@ Submit `https://www.oneminuteiman.xyz/sitemap.xml` in Search Console once the
 site answers on the new host, and check Coverage a few days later. After an
 outage the priority is getting 4,160 URLs crawled as healthy again.
 
-## Known weight
+## Known weight, deliberately left alone
 
 `/hadith/<collection>/<book>` renders every narration in a book on one page —
-921 of them on the largest, 5.6 MB of markup before compression. It is the
-reason Fast Origin Transfer ran over on Vercel. Paginating those pages the way
-`/s/[id]/[page]` already does would cut the export from 1.3 GB to roughly
-200 MB. Not urgent on a host with 250 GB of bandwidth, but worth doing: those
-pages are slow for readers on a phone, and their weight is the one thing here
-that could hold back ranking.
+921 of them on the largest, 5.6 MB of markup, about 740 KB once gzipped.
+
+Splitting them into pages would cut that to roughly 100 KB each. It has not
+been done, on purpose: `BookFilter` searches the narrations already in the
+DOM, so a paginated book would filter only the visible page while appearing
+to search the whole book. A filter that quietly misses fourteen fifteenths of
+a book is worse than a heavy page.
+
+The weight also no longer costs anything. It was Vercel's fast origin
+transfer that made it expensive; here the figure to watch is bandwidth, and
+the site uses 47 GB of 250 GB.
+
+Revisit only if these pages need to rank, or if mobile readers complain. If
+they are ever split, the filter has to be reworked at the same time — a small
+per-book index fetched client-side — not left to silently narrow.
