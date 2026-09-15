@@ -6,6 +6,10 @@ import { collections, COLLECTION_ORDER } from "@/lib/hadith";
 import { SITE_URL } from "@/lib/site";
 import stamp from "@/data/content-updated.json";
 
+// Required by `output: export`: these Metadata routes compile to Route
+// Handlers, which must declare themselves static to be prerendered.
+export const dynamic = "force-static";
+
 // The date the content last actually changed, not the time of this build.
 // Rebuilding without a content change used to restamp every URL, which claims
 // four thousand pages were revised when none were.

@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
+const EXPORTING = process.env.EXPORT_STATIC === "1";
+
 const nextConfig: NextConfig = {
+  ...(EXPORTING ? { output: "export" as const } : {}),
+  ...(EXPORTING ? {} : {
   async redirects() {
     return [
       // /d/afflicted showed the waking supplication under the title of the one
@@ -28,6 +32,7 @@ const nextConfig: NextConfig = {
       { source: "/d/a-goodly-life-for-both", destination: "/d/a-good-life", permanent: true },
     ];
   },
+  }),
 };
 
 export default nextConfig;

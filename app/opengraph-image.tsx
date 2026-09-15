@@ -1,5 +1,9 @@
 import { ImageResponse } from "next/og";
 
+// Required by `output: export`: this Metadata route compiles to a Route
+// Handler, which must declare itself static to be prerendered.
+export const dynamic = "force-static";
+
 export const alt = "One Minute Iman · a verified duʿā for what you're carrying";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
