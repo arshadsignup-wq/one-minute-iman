@@ -794,7 +794,8 @@
   "id": "righteous-children",
   "t": "Asking for a righteous child",
   "s": [
-   "children"
+   "children",
+   "intimacy"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -1141,6 +1142,7 @@
   "id": "wedding-night",
   "t": "At the beginning of a marriage",
   "s": [
+   "intimacy",
    "marriage"
   ],
   "x": 1,
@@ -1285,6 +1287,7 @@
   "id": "what-i-have-not-done",
   "t": "Refuge from what you have not even done yet",
   "s": [
+   "desire",
    "forgiveness",
    "shame"
   ],
@@ -2082,6 +2085,7 @@
   "id": "when-it-provokes-you",
   "t": "When something rises in you out of nowhere",
   "s": [
+   "desire",
    "refuge",
    "waswas"
   ],
@@ -2496,6 +2500,7 @@
   "t": "The morning after a marriage begins",
   "s": [
    "gratitude",
+   "intimacy",
    "marriage"
   ],
   "x": 1,
@@ -2550,6 +2555,7 @@
   "t": "When the easy thing is the wrong thing",
   "s": [
    "anxiety",
+   "desire",
    "forgiveness",
    "shame"
   ],
@@ -2751,7 +2757,9 @@
  {
   "id": "turn-our-hearts",
   "t": "When your heart is pulling the wrong way",
-  "s": [],
+  "s": [
+   "desire"
+  ],
   "x": 1,
   "g": "Ṣaḥīḥ",
   "r": "Ṣaḥīḥ Muslim 2655",
@@ -3789,6 +3797,7 @@
   "t": "Being fair to someone you dislike",
   "s": [
    "anger",
+   "desire",
    "enemy",
    "oppression",
    "work"
@@ -4084,6 +4093,7 @@
   "id": "desire-as-god",
   "t": "When you keep doing what you know you should not",
   "s": [
+   "desire",
    "forgiveness",
    "shame"
   ],
@@ -4893,6 +4903,7 @@
   "id": "what-i-hid",
   "t": "Forgiveness for the parts nobody saw",
   "s": [
+   "desire",
    "forgiveness",
    "loneliness",
    "morning-evening",
@@ -5189,6 +5200,7 @@
   "id": "my-own-shaytan",
   "t": "Everyone has one assigned",
   "s": [
+   "desire",
    "evil-eye",
    "waswas"
   ],
@@ -5597,6 +5609,7 @@
   "id": "successful-believers",
   "t": "A list of what success is made of",
   "s": [
+   "desire",
    "gratitude",
    "prayer",
    "weak-iman"
@@ -6581,6 +6594,7 @@
   "id": "adornment-to-test",
   "t": "Why any of it is attractive",
   "s": [
+   "desire",
    "gratitude",
    "knowledge"
   ],
@@ -6872,6 +6886,7 @@
   "id": "died-upon-it",
   "t": "A condition that reads as very small",
   "s": [
+   "desire",
    "despair",
    "forgiveness",
    "shame"
@@ -7136,6 +7151,7 @@
   "id": "modesty",
   "t": "Something every religion kept",
   "s": [
+   "desire",
    "shame"
   ],
   "x": 1,
@@ -7380,6 +7396,7 @@
   "t": "Seven kinds of people under shade",
   "s": [
    "death-remembrance",
+   "desire",
    "loneliness",
    "mosque",
    "sadness"
@@ -7452,6 +7469,7 @@
   "t": "Choosing the plainer of two cups",
   "s": [
    "decision",
+   "desire",
    "forgiveness",
    "shame"
   ],
@@ -7754,6 +7772,7 @@
   "id": "intended-a-good-deed",
   "t": "How intentions are counted before you act",
   "s": [
+   "desire",
    "despair",
    "failure"
   ],
@@ -8329,7 +8348,8 @@
   "id": "do-not-follow-your-desire",
   "t": "A warning given to a prophet acting as judge",
   "s": [
-   "decision"
+   "decision",
+   "desire"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -8341,6 +8361,7 @@
   "id": "do-not-approach-it",
   "t": "The wording avoids the act itself",
   "s": [
+   "desire",
    "forgiveness",
    "marriage"
   ],
@@ -8726,6 +8747,7 @@
   "t": "Said between husband and wife",
   "s": [
    "children",
+   "intimacy",
    "marriage",
    "refuge"
   ],
@@ -8825,6 +8847,7 @@
   "id": "whoever-dies-not-associating",
   "t": "Good news that a man wanted to run and tell everyone",
   "s": [
+   "desire",
    "despair",
    "forgiveness"
   ],
@@ -9251,6 +9274,7 @@
   "id": "a-woman-in-the-form",
   "t": "On what to do when you see something attractive",
   "s": [
+   "desire",
    "marriage"
   ],
   "x": 1,
@@ -9517,6 +9541,7 @@
   "t": "Said before intimacy, and what it protects",
   "s": [
    "children",
+   "intimacy",
    "marriage",
    "refuge"
   ],
@@ -9800,7 +9825,9 @@
  {
   "id": "a-good-deed-intended",
   "t": "A second narration of how intentions are recorded",
-  "s": [],
+  "s": [
+   "desire"
+  ],
   "x": 1,
   "g": "Ṣaḥīḥ",
   "r": "Ṣaḥīḥ Muslim 129",
@@ -10913,7 +10940,7 @@
   "id": "the-evil-of-my-own-tongue",
   "t": "A prayer someone asked for and could use",
   "s": [
-   "prayer"
+   "desire"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -11647,6 +11674,7 @@
   "id": "purify-with-it",
   "t": "Asma asking a question she was too shy to finish",
   "s": [
+   "desire",
    "reconcile",
    "shame"
   ],
@@ -12566,6 +12594,7 @@
   "id": "from-bad-character",
   "t": "Three things in three words",
   "s": [
+   "desire",
    "refuge"
   ],
   "x": 1,
@@ -14361,6 +14390,7 @@
   "id": "young-people",
   "t": "What he told those who could not yet afford it",
   "s": [
+   "desire",
    "eating",
    "loneliness",
    "marriage",
@@ -14517,6 +14547,7 @@
   "t": "Four words before, and what they cover",
   "s": [
    "children",
+   "intimacy",
    "marriage",
    "refuge"
   ],
@@ -14645,7 +14676,7 @@
   "t": "Ṣaḥīḥ al-Bukhārī 141",
   "s": [
    "children",
-   "refuge",
+   "intimacy",
    "waswas"
   ],
   "x": 0,
@@ -15266,7 +15297,8 @@
   "id": "bukhari-1237-70",
   "t": "Ṣaḥīḥ al-Bukhārī 1237",
   "s": [
-   "death-remembrance"
+   "death-remembrance",
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -15353,6 +15385,7 @@
   "id": "bukhari-1421-79",
   "t": "Ṣaḥīḥ al-Bukhārī 1421",
   "s": [
+   "desire",
    "morning-evening",
    "poverty"
   ],
@@ -15956,7 +15989,7 @@
   "id": "bukhari-3271-140",
   "t": "Ṣaḥīḥ al-Bukhārī 3271",
   "s": [
-   "children",
+   "intimacy",
    "poverty",
    "waswas"
   ],
@@ -17029,6 +17062,7 @@
   "id": "bukhari-5165-256",
   "t": "Ṣaḥīḥ al-Bukhārī 5165",
   "s": [
+   "intimacy",
    "waswas"
   ],
   "x": 0,
@@ -17693,6 +17727,7 @@
   "t": "Ṣaḥīḥ al-Bukhārī 6388",
   "s": [
    "children",
+   "intimacy",
    "waswas"
   ],
   "x": 0,
@@ -20097,6 +20132,7 @@
   "id": "muslim-1022-546",
   "t": "Ṣaḥīḥ Muslim 1022",
   "s": [
+   "desire",
    "poverty"
   ],
   "x": 0,
@@ -20711,7 +20747,8 @@
   "id": "muslim-2550b-620",
   "t": "Ṣaḥīḥ Muslim 2550b",
   "s": [
-   "children"
+   "children",
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -22791,6 +22828,7 @@
   "t": "Sunan Abī Dāwūd 2161",
   "s": [
    "children",
+   "intimacy",
    "waswas"
   ],
   "x": 0,
@@ -23342,6 +23380,7 @@
   "id": "abudawud-4447-871",
   "t": "Sunan Abī Dāwūd 4447",
   "s": [
+   "desire",
    "sleep"
   ],
   "x": 0,
@@ -26265,6 +26304,7 @@
   "id": "tirmidhi-1092-1128",
   "t": "Jāmiʿ at-Tirmidhī 1092",
   "s": [
+   "intimacy",
    "refuge",
    "waswas"
   ],
@@ -29985,7 +30025,7 @@
   "id": "bukhari-2465-1470",
   "t": "Ṣaḥīḥ al-Bukhārī 2465",
   "s": [
-   "misc"
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -30311,6 +30351,7 @@
   "id": "bukhari-2766-1497",
   "t": "Ṣaḥīḥ al-Bukhārī 2766",
   "s": [
+   "desire",
    "eating",
    "evil-eye"
   ],
@@ -30595,7 +30636,7 @@
   "id": "bukhari-5204-1520",
   "t": "Ṣaḥīḥ al-Bukhārī 5204",
   "s": [
-   "misc"
+   "intimacy"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -30693,6 +30734,7 @@
   "id": "bukhari-5231-1528",
   "t": "Ṣaḥīḥ al-Bukhārī 5231",
   "s": [
+   "desire",
    "knowledge"
   ],
   "x": 0,
@@ -30897,6 +30939,7 @@
   "id": "bukhari-5312-1545",
   "t": "Ṣaḥīḥ al-Bukhārī 5312",
   "s": [
+   "desire",
    "marriage"
   ],
   "x": 0,
@@ -31639,8 +31682,8 @@
   "id": "bukhari-6243-1606",
   "t": "Ṣaḥīḥ al-Bukhārī 6243",
   "s": [
+   "desire",
    "distress",
-   "evil-eye",
    "forgiveness"
   ],
   "x": 0,
@@ -32696,6 +32739,7 @@
   "id": "muslim-1434a-1692",
   "t": "Ṣaḥīḥ Muslim 1434a",
   "s": [
+   "intimacy",
    "waswas"
   ],
   "x": 0,
@@ -32757,7 +32801,8 @@
   "id": "muslim-1438a-1697",
   "t": "Ṣaḥīḥ Muslim 1438a",
   "s": [
-   "children"
+   "children",
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -32841,7 +32886,8 @@
   "id": "muslim-1475-1704",
   "t": "Ṣaḥīḥ Muslim 1475",
   "s": [
-   "death-remembrance"
+   "death-remembrance",
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -35689,7 +35735,7 @@
   "id": "abudawud-2153-1937",
   "t": "Sunan Abī Dāwūd 2153",
   "s": [
-   "misc"
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -35714,6 +35760,7 @@
   "t": "Sunan Abī Dāwūd 2161",
   "s": [
    "children",
+   "intimacy",
    "waswas"
   ],
   "x": 0,
@@ -37631,7 +37678,7 @@
   "id": "abudawud-5243-2096",
   "t": "Sunan Abī Dāwūd 5243",
   "s": [
-   "misc"
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -37787,6 +37834,7 @@
   "id": "tirmidhi-1081-2109",
   "t": "Jāmiʿ at-Tirmidhī 1081",
   "s": [
+   "desire",
    "marriage"
   ],
   "x": 0,
@@ -37847,6 +37895,7 @@
   "id": "tirmidhi-1102-2114",
   "t": "Jāmiʿ at-Tirmidhī 1102",
   "s": [
+   "desire",
    "marriage"
   ],
   "x": 0,
@@ -38677,7 +38726,7 @@
   "id": "tirmidhi-2339-2182",
   "t": "Jāmiʿ at-Tirmidhī 2339",
   "s": [
-   "misc"
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -39541,7 +39590,8 @@
   "t": "Jāmiʿ at-Tirmidhī 2563",
   "s": [
    "children",
-   "death-remembrance"
+   "death-remembrance",
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -39697,7 +39747,7 @@
   "id": "tirmidhi-2786-2265",
   "t": "Jāmiʿ at-Tirmidhī 2786",
   "s": [
-   "misc"
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -40523,7 +40573,7 @@
   "id": "tirmidhi-3879-2333",
   "t": "Jāmiʿ at-Tirmidhī 3879",
   "s": [
-   "misc"
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -40789,6 +40839,7 @@
   "id": "nasai-3206-2355",
   "t": "Sunan an-Nasā'ī 3206",
   "s": [
+   "desire",
    "marriage"
   ],
   "x": 0,
@@ -40801,6 +40852,7 @@
   "id": "nasai-3207-2356",
   "t": "Sunan an-Nasā'ī 3207",
   "s": [
+   "desire",
    "marriage"
   ],
   "x": 0,
@@ -41075,6 +41127,7 @@
   "id": "nasai-3389-2378",
   "t": "Sunan an-Nasā'ī 3389",
   "s": [
+   "intimacy",
    "marriage"
   ],
   "x": 0,
@@ -41185,6 +41238,7 @@
   "id": "nasai-3440-2387",
   "t": "Sunan an-Nasā'ī 3440",
   "s": [
+   "desire",
    "parents"
   ],
   "x": 0,
@@ -41484,7 +41538,7 @@
   "id": "nasai-3671-2411",
   "t": "Sunan an-Nasā'ī 3671",
   "s": [
-   "misc"
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",

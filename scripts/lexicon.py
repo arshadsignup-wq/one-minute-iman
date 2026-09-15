@@ -29,6 +29,8 @@ AR_PATTERNS = {'debt': 'المغرم|ضلع الدين|اقض عنا الدين|
      'knowledge': 'علما|العلم|فقه|علمني',
      'travel': 'السفر|سفرنا|وعثاء|الظعن|المنقلب',
      'marriage': 'زوج|ازواجنا|النكاح|اهلي',
+     'intimacy': 'جنبنا الشيطان|جنب الشيطان ما رزقتنا|اتى اهله|جامع',
+     'desire': 'الفرج|فروجهم|فرجه|الشهوه|الزنا|غض البصر|يغضوا من ابصارهم',
      'refuge': 'اعوذ بك|اعوذ بالله|اجرني|اعذني',
      'anger': 'الغضب|الشيطان الرجيم',
      'oppression': 'الظلم|المظلوم|ظلمت|القهر|قهر الرجال|غلبه الرجال',
@@ -146,6 +148,10 @@ dict(id="marriage", cat="people", label="Marriage & spouse", blurb="Looking for,
      match=r"\b(marriage|marry|married|spouse|wife|husband|nikah|wedding)\b",
      feelings=["marriage","married","getting married","nikah","wedding","spouse","husband","wife","looking for a spouse","want to get married","proposal","rishta","partner","relationship","marriage problems","fighting with my wife","fighting with my husband","divorce","separated","in love","love","heartbreak","breakup","rejected proposal", "got engaged", "engagement", "my nikah", "wedding tomorrow"]),
 
+dict(id="intimacy", cat="people", label="Intimacy", blurb="What a husband and wife say, and what it guards",
+     match=r"\b(intimacy|intimate|conjugal|comes to his wife|goes to his (wife|family)|sexual relation)\b",
+     feelings=["sex","intimacy","intimate","making love","husband and wife","before intimacy","sleeping with my wife","sleeping with my husband","sleeping together","conjugal","marital relations","in the bedroom","bedroom","dua before intimacy","what to say before intimacy","physical relationship","being close to my wife","being close to my husband","consummate","wedding night","first night","trying for a baby","trying to conceive","we want a child","starting a family"]),
+
 dict(id="children", cat="people", label="Children", blurb="Hoping for them, raising them, worrying about them",
      match=r"\b(child(ren)?|offspring|son|daughter|baby|born|pregnan)\b",
      feelings=["children","child","kids","my son","my daughter","baby","pregnant","pregnancy","expecting","birth","labour","labor","trying for a baby","infertility","cant conceive","ivf","childless","miscarriage","worried about my kids","my child is struggling","parenting","raising children","teenager","protect my children", "newborn", "new baby", "adoption", "adopted", "custody", "my kids", "raising kids", "single parent", "single mum", "single dad", "my teenager", "toddler"]),
@@ -183,6 +189,10 @@ dict(id="forgiveness", cat="faith", label="Seeking forgiveness", blurb="Turning 
 dict(id="weak-iman", cat="faith", label="Faith feeling weak", blurb="Distance, dryness, doubt",
      match=r"\b(steadfast|firm(ness)?|turner of hearts|guide|guidance|astray|iman|faith)\b",
      feelings=["weak iman","low iman","faith","losing faith","doubt","doubts","doubting","far from allah","distant","disconnected","empty prayers","cant pray","stopped praying","dont feel anything","spiritually dry","hypocrite","going through the motions","want to feel close","reconnect","lost my way","astray","need guidance", "new muslim", "just converted", "i converted", "reverted", "new to islam", "just became muslim", "family rejected me", "disowned me", "learning to pray", "dont know how to pray", "where do i start", "questioning islam", "questioning my faith", "doubts about islam", "losing my faith", "lost my faith", "dont feel anything in salah", "no khushu", "khushu", "hard to pray", "missed fajr", "cant wake for fajr", "struggling to pray", "far from deen"]),
+
+dict(id="desire", cat="faith", label="Desire & temptation", blurb="The wandering eye, the urge you are trying not to follow",
+     match=r"\b(lust|desire[sd]?|passion|chastity|chaste|lower(ing|s)? (his |the |their )?gaze|private parts?|guard(s|ing)? (his|their) (chastity|private)|fornicat\w*|adulter\w*|zina)\b",
+     feelings=["lust","lustful","desire","desires","tempted","temptation","urges","cant control myself","cant control my desire","struggling with desire","struggling with lust","porn","pornography","watching porn","addicted to porn","masturbation","masturbating","bad habit","secret sin","zina","adultery","fornication","haram relationship","girlfriend","boyfriend","talking to someone haram","attracted to someone","attracted to a coworker","i keep looking","cant stop looking","lower my gaze","lowering my gaze","wandering eye","modesty","chastity","staying chaste","want to stay pure","keep falling into the same sin","i keep relapsing","i cant stop","temptation is everywhere","dating","in a haram relationship","crush","i have a crush"]),
 
 dict(id="waswas", cat="faith", label="Intrusive thoughts", blurb="Whispers you would never choose to think",
      match=r"\b(whisper|waswas|satan|shaytan|devil|clear faith)\b",

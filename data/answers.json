@@ -564,6 +564,33 @@
    "ref": "Sunan Ibn Mājah 1918"
   }
  },
+ "intimacy": {
+  "say": {
+   "id": "before-intimacy",
+   "title": "Said between husband and wife",
+   "arabic": "بِسْمِ اللَّهِ اللَّهُمَّ جَنِّبْنَا الشَّيْطَانَ وَجَنِّبِ الشَّيْطَانَ مَا رَزَقْتَنَا",
+   "translit": "Bismillāh, Allāhumma jannibna-sh-shayṭāna wa jannibi-sh-shayṭāna mā razaqtanā.",
+   "trans": "In the name of Allah. O Allah, keep Satan away from us, and keep Satan away from what You provide us.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 141",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/bukhari:141"
+  },
+  "step": "Said once, before, and quietly. Nothing else is asked of you, and it is not a test you can fail.",
+  "know": {
+   "id": "righteous-children",
+   "title": "Asking for a righteous child",
+   "trans": "My Lord, grant me [a child] from among the righteous.\"",
+   "ref": "Qur'an 37:100",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "keep-satan-away-from-us",
+   "title": "Four words before, and what they cover",
+   "story": "If a child is decreed for them from that, no devil will ever harm him. The second clause is a request made on behalf of a person who has not been conceived.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 5165"
+  }
+ },
  "children": {
   "say": {
    "id": "protect-children",
@@ -820,6 +847,33 @@
    "title": "What was guaranteed for the one who leaves",
    "story": "Or that He will admit him to the Garden. The clause in the middle is the qualifier: driven out by nothing but. It rules out every other reason a person might have had for going.",
    "ref": "Ṣaḥīḥ al-Bukhārī 36"
+  }
+ },
+ "desire": {
+  "say": {
+   "id": "turn-our-hearts",
+   "title": "When your heart is pulling the wrong way",
+   "arabic": "اللَّهُمَّ مُصَرِّفَ الْقُلُوبِ صَرِّفْ قُلُوبَنَا عَلَى طَاعَتِكَ",
+   "translit": "Allāhumma muṣarrifa-l-qulūb, ṣarrif qulūbanā ʿalā ṭāʿatik.",
+   "trans": "O Allah, Turner of hearts, turn our hearts towards obedience to You.",
+   "ref": "Ṣaḥīḥ Muslim 2655",
+   "grade": "Ṣaḥīḥ",
+   "url": "https://sunnah.com/muslim:2655"
+  },
+  "step": "Say it when the pull starts rather than after it has passed. If it has already passed, seeking forgiveness is its own door and nobody is counting how many times you have used it.",
+  "know": {
+   "id": "prison-over-sin",
+   "title": "When the easy thing is the wrong thing",
+   "trans": "He said, \"My Lord, prison is more to my liking than that to which they invite me. And if You do not avert from me their plan, I might incline toward them and [thus] be of the ignorant.\"",
+   "ref": "Qur'an 12:33",
+   "grade": "Qur'an",
+   "kind": "quran"
+  },
+  "story": {
+   "id": "the-evil-of-my-own-tongue",
+   "title": "A prayer someone asked for and could use",
+   "story": "He said: teach me a supplication I can benefit from. Not one about enemies, or debt, or illness. Every item on the list is a part of himself he already owns and cannot put down.",
+   "ref": "Sunan an-Nasā'ī 5484"
   }
  },
  "waswas": {
