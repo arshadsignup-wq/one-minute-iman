@@ -160,3 +160,24 @@ html[data-recitation-size="2"] .translit { font-size: 22px; }
   html[data-recitation-size="1"] .arabic { font-size: 34px; }
   html[data-recitation-size="2"] .arabic { font-size: 42px; }
 }
+
+/* The āyah currently being recited, while the whole sūrah plays. A tint in the
+   margin rather than a highlight over the text: the Arabic has to stay exactly
+   as legible as it was, and a reader following along needs to find their place
+   without the page shouting. */
+[data-reciting="true"] {
+  position: relative;
+}
+[data-reciting="true"]::before {
+  content: "";
+  position: absolute;
+  inset: -0.25rem -0.75rem;
+  border-radius: 0.75rem;
+  background: var(--gold-bg);
+  z-index: -1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  [data-reciting="true"]::before {
+    transition: background 300ms ease;
+  }
+}

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { surahs, getSurah } from "@/lib/quran";
 import AyahView from "@/components/AyahView";
+import SurahPlayer from "@/components/SurahPlayer";
 import Tafsir from "@/components/Tafsir";
 import { readTafsir } from "@/lib/tafsir";
 
@@ -61,6 +62,8 @@ export default async function SurahPage({ params }: { params: Promise<{ surah: s
           {s.count} āyāt · {s.revelation === "makkah" ? "Revealed in Makkah" : "Revealed in Madinah"}
         </p>
       </header>
+
+      <SurahPlayer verses={s.verses} surahName={s.name} />
 
       <AyahView verses={s.verses} />
 
