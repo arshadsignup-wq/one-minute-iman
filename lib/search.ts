@@ -1,4 +1,5 @@
 import indexRaw from "@/data/index.json";
+import quranIndexRaw from "@/data/quran-index.json";
 import sitsRaw from "@/data/situations.json";
 
 export type Row = {
@@ -69,6 +70,72 @@ export function isCrisis(query: string) {
   return CRISIS.test(q) && !NOT_CRISIS.test(q);
 }
 
+
+
+/** Sūrahs, findable by the names people actually use for them.
+ *
+ *  "surah mulk" reached nothing. So did "yaseen", "ayatul kursi" and every
+ *  other way of naming a chapter — the site carries all 114 and none of them
+ *  could be asked for by name, only browsed to. The transliterations differ by
+ *  a letter in every direction (Waqi'ah / Waqia / Waqiah, Ya-Sin / Yaseen), so
+ *  matching is done on a stripped form with the article removed.
+ */
+const SURAH_NAMES = (quranIndexRaw as unknown as { names: Record<string, string> }).names;
+
+/** "Al-Waqi'ah" → "waqiah"; also yields "alwaqiah" so both are askable. */
+function surahKeys(name: string): string[] {
+  const bare = name.toLowerCase().replace(/[^a-z\s]/g, "");
+  const noArticle = bare.replace(/^(al|an|as|ash|ad|at|az)\s*/, "");
+  const squashed = bare.replace(/\s+/g, "");
+  return [...new Set([bare, noArticle, squashed, noArticle.replace(/\s+/g, "")])]
+    .filter((k) => k.length >= 3);
+}
+
+/** Spellings and by-names that are not the transliteration on the page. */
+const SURAH_ALIASES: Record<string, number> = {
+  yaseen: 36, yasin: 36, yseen: 36,
+  baqara: 2, bakarah: 2, baqrah: 2,
+  kahaf: 18, kehf: 18,
+  waqia: 56, waqiya: 56, waqiah: 56,
+  ikhlaas: 112, ikhlas: 112, tawhid: 112,
+  fatiha: 1, fateha: 1, faatiha: 1, "opening": 1,
+  nas: 114, naas: 114,
+  falak: 113,
+  mulk: 67, tabarak: 67,
+  rahmaan: 55,
+  kursi: 2, ayatulkursi: 2, ayatalkursi: 2, "throne verse": 2,
+};
+
+const SURAH_INDEX: Map<string, number> = (() => {
+  const m = new Map<string, number>();
+  for (const [num, name] of Object.entries(SURAH_NAMES)) {
+    for (const k of surahKeys(name)) if (!m.has(k)) m.set(k, Number(num));
+  }
+  for (const [k, n] of Object.entries(SURAH_ALIASES)) m.set(normalise(k).replace(/\s+/g, ""), n);
+  return m;
+})();
+
+/** A query naming a chapter, rather than describing a feeling. */
+export function matchSurah(query: string): { n: number; name: string } | null {
+  const q = normalise(query);
+  if (!q) return null;
+  // "surah 67", "chapter 18"
+  const byNumber = /\b(surah?|surat|chapter)\s*(\d{1,3})\b/.exec(q);
+  if (byNumber) {
+    const n = Number(byNumber[2]);
+    if (n >= 1 && n <= 114) return { n, name: SURAH_NAMES[String(n)] };
+  }
+  // strip the word "surah" and any article, then look the rest up whole
+  const bare = q
+    .replace(/\b(surah?|surat|sura|chapter|read|recite|the)\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  for (const cand of [bare, bare.replace(/\s+/g, ""), bare.replace(/^(al|an|as)\s*/, "")]) {
+    const hit = SURAH_INDEX.get(cand);
+    if (hit) return { n: hit, name: SURAH_NAMES[String(hit)] };
+  }
+  return null;
+}
 
 /** Words that mean the same thing to the person typing them.
  *

@@ -297,6 +297,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "desire",
    "failure",
    "forgiveness",
    "shame"
@@ -675,6 +676,7 @@
   "situations": [
    "illness",
    "parents",
+   "refuge",
    "someone-ill"
   ]
  },
@@ -1378,8 +1380,10 @@
   "situations": [
    "anxiety",
    "death",
+   "decision",
    "failure",
-   "shame"
+   "shame",
+   "steadfastness"
   ]
  },
  {
@@ -3211,6 +3215,7 @@
   },
   "tier": "curated",
   "situations": [
+   "desire",
    "forgiveness",
    "shame"
   ],
@@ -3816,6 +3821,7 @@
   "tier": "curated",
   "situations": [
    "illness",
+   "refuge",
    "someone-ill"
   ]
  },
@@ -6837,7 +6843,10 @@
   "english_full": "Abu Hurairah narrated that:The Messenger of Allah (ﷺ) said: “Whoever sits in a sitting and engages in much empty, meaningless speech and then says before getting from that sitting of his: ‘Glory is to You, O Allah, and praise, I bear witness that there is none worthy of worship except You, I seek You forgiveness, and I repent to You, (Subḥānaka Allāhumma wa biḥamdika, ashhadu an lā ilāha illā anta, astaghfiruka wa atūbu ilaik)’ whatever occurred in that sitting would be forgiven to him.”",
   "mode": "dua",
   "tier": "curated",
-  "situations": [],
+  "situations": [
+   "forgiveness",
+   "shame"
+  ],
   "recites": "part"
  },
  {
@@ -7020,6 +7029,7 @@
   "tier": "curated",
   "situations": [
    "illness",
+   "refuge",
    "someone-ill"
   ],
   "recites": "part"
@@ -7404,6 +7414,7 @@
   "english_full": "Anas b. Malik reported that Allah's Messenger (ﷺ) said:Allah is more pleased with the repentance of a servant as he turns towards Him for repentance than this that one amongst you is upon the camel in a waterless desert and there is upon (that camel) his provision of food and drink also and it is lost by him, and he having lost all hope (to get tbat) lies down in the shadow and is disappointed about his camel and there he finds that camel standing before him. He takes hold of his nosestring and then out of boundless joy says: 0 Lord, Thou art my servant and I am Thine Lord. He commits this mistake out of extreme delight",
   "tier": "curated",
   "situations": [
+   "desire",
    "despair",
    "forgiveness",
    "shame",
@@ -7548,7 +7559,9 @@
   "tier": "curated",
   "situations": [
    "fear",
-   "reconcile"
+   "forgiveness",
+   "reconcile",
+   "shame"
   ],
   "recites": "part",
   "audio": [
@@ -8348,6 +8361,7 @@
    "evil-eye",
    "illness",
    "overwhelm",
+   "refuge",
    "sadness",
    "someone-ill"
   ],
@@ -9361,6 +9375,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "desire",
    "forgiveness",
    "prayer",
    "shame"
@@ -9457,7 +9472,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "desire"
+   "desire",
+   "sadness"
   ]
  },
  {
@@ -9890,10 +9906,12 @@
   "tier": "curated",
   "situations": [
    "death",
+   "decision",
    "distress",
    "failure",
    "knowledge",
-   "oppression"
+   "oppression",
+   "steadfastness"
   ],
   "recites": "part",
   "audio": [
@@ -12300,6 +12318,7 @@
   "tier": "curated",
   "situations": [
    "illness",
+   "refuge",
    "someone-ill",
    "steadfastness"
   ],
@@ -13556,10 +13575,12 @@
   },
   "tier": "curated",
   "situations": [
+   "decision",
    "envy",
    "evil-eye",
    "failure",
    "oppression",
+   "steadfastness",
    "work"
   ],
   "recites": "part",
@@ -18119,7 +18140,9 @@
   "tier": "curated",
   "situations": [
    "anxiety",
-   "envy"
+   "envy",
+   "forgiveness",
+   "shame"
   ],
   "recites": "part",
   "audio": [
@@ -22999,6 +23022,7 @@
   "tier": "curated",
   "situations": [
    "illness",
+   "refuge",
    "someone-ill"
   ]
  },
@@ -23397,6 +23421,7 @@
   },
   "tier": "curated",
   "situations": [
+   "desire",
    "forgiveness",
    "gratitude",
    "shame"
@@ -24671,6 +24696,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "desire",
    "forgiveness",
    "reconcile",
    "shame",
@@ -26300,7 +26326,8 @@
   "situations": [
    "children",
    "evil-eye",
-   "illness"
+   "illness",
+   "refuge"
   ]
  },
  {
@@ -27781,6 +27808,7 @@
   "situations": [
    "death",
    "death-remembrance",
+   "decision",
    "enemy",
    "fear",
    "illness",
@@ -28816,7 +28844,8 @@
   "situations": [
    "children",
    "evil-eye",
-   "illness"
+   "illness",
+   "refuge"
   ]
  },
  {
@@ -30199,7 +30228,8 @@
    "anxiety",
    "decision",
    "failure",
-   "shame"
+   "shame",
+   "steadfastness"
   ],
   "recites": "part",
   "audio": [
@@ -30862,7 +30892,8 @@
   "tier": "curated",
   "situations": [
    "death-remembrance",
-   "fear"
+   "fear",
+   "rain-weather"
   ]
  },
  {
@@ -31252,6 +31283,7 @@
   "situations": [
    "death",
    "death-remembrance",
+   "decision",
    "fear",
    "illness",
    "refuge"
@@ -32618,8 +32650,10 @@
   "situations": [
    "anxiety",
    "children",
+   "decision",
    "failure",
-   "poverty"
+   "poverty",
+   "steadfastness"
   ]
  },
  {
@@ -34096,6 +34130,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "death-remembrance",
    "morning-evening",
    "refuge",
    "sleep"
@@ -34851,6 +34886,7 @@
   "tier": "curated",
   "situations": [
    "children",
+   "decision",
    "failure",
    "poverty"
   ]
@@ -36213,6 +36249,7 @@
   "tier": "curated",
   "situations": [
    "anxiety",
+   "decision",
    "failure",
    "shame"
   ]
@@ -36500,7 +36537,8 @@
   "tier": "curated",
   "situations": [
    "children",
-   "illness"
+   "illness",
+   "refuge"
   ]
  },
  {
@@ -36549,6 +36587,7 @@
   "situations": [
    "death",
    "death-remembrance",
+   "decision",
    "overwhelm",
    "travel"
   ]
@@ -36828,6 +36867,7 @@
    "fear",
    "forgiveness",
    "prayer",
+   "rain-weather",
    "refuge",
    "sadness"
   ]
@@ -36922,6 +36962,7 @@
   "situations": [
    "anxiety",
    "death-remembrance",
+   "decision",
    "failure",
    "poverty"
   ]
@@ -38207,7 +38248,8 @@
   "situations": [
    "home",
    "oppression",
-   "refuge"
+   "refuge",
+   "shame"
   ]
  },
  {
@@ -40216,6 +40258,7 @@
    "despair",
    "distress",
    "fear",
+   "sadness",
    "sleep"
   ]
  },
@@ -40585,7 +40628,9 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "desire",
    "despair",
+   "failure",
    "forgiveness"
   ]
  },
@@ -42681,7 +42726,9 @@
   "arabic": "فَمَنْ قَالَهَا فَقَدْ عَصَمَ مِنِّي مَالَهُ وَنَفْسَهُ إِلاَّ بِحَقِّهِ، وَحِسَابُهُ عَلَى اللَّهِ",
   "english_full": "Narrated Abu Huraira:When Allah's Messenger (ﷺ) died and Abu Bakr became the caliph some Arabs renegade (reverted to disbelief) (Abu Bakr decided to declare war against them), `Umar, said to Abu Bakr, \"How can you fight with these people although Allah's Messenger (ﷺ) said, 'I have been ordered (by Allah) to fight the people till they say: \"None has the right to be worshipped but Allah, and whoever said it then he will save his life and property from me except on trespassing the law (rights and conditions for which he will be punished justly), and his accounts will be with Allah.' \" Abu Bakr said, \"By Allah! I will fight those who differentiate between the prayer and the Zakat as Zakat is the compulsory right to be taken from the property (according to Allah's orders) By Allah! If they refuse to pay me even a she-kid which they used to pay at the time of Allah's Messenger (ﷺ) . I would fight with them for withholding it\" Then `Umar said, \"By Allah, it was nothing, but Allah opened Abu Bakr's chest towards the decision (to fight) and I came to know that his decision was right",
   "tier": "curated",
-  "situations": [],
+  "situations": [
+   "death-remembrance"
+  ],
   "recites": "part"
  },
  {
@@ -43397,6 +43444,7 @@
   "english_full": "It was narrated from Tamim Dari that the Prophet (ﷺ) said:“The first thing for which a person will be brought to account on the Day of Resurrection will be his prayer. If it is complete, then the voluntary (prayers) will also be recorded for him (as an increase). If it is not complete then Allah will say to His angels: ‘Look and see whether you find any voluntary prayers for My slave, and take them to make up what is lacking from his obligatory prayers.’ Then all his deeds will be reckoned in like manner.”",
   "tier": "curated",
   "situations": [
+   "death-remembrance",
    "prayer",
    "reconcile",
    "refuge"
@@ -44455,7 +44503,9 @@
   "english_full": "Narrated `Abdur-Rahman bin Abi Bakra's father:Once the Prophet (ﷺ) was riding his camel and a man was holding its rein. The Prophet (ﷺ) asked, \"What is the day today?\" We kept quiet, thinking that he might give that day another name. He said, \"Isn't it the day of Nahr (slaughtering of the animals of sacrifice)\" We replied, \"Yes.\" He further asked, \"Which month is this?\" We again kept quiet, thinking that he might give it another name. Then he said, \"Isn't it the month of Dhul-Hijja?\" We replied, \"Yes.\" He said, \"Verily! Your blood, property and honor are sacred to one another (i.e. Muslims) like the sanctity of this day of yours, in this month of yours and in this city of yours. It is incumbent upon those who are present to inform those who are absent because those who are absent might comprehend (what I have said) better than the present audience",
   "tier": "curated",
   "situations": [
-   "refuge"
+   "forgiveness",
+   "refuge",
+   "shame"
   ]
  },
  {

@@ -780,10 +780,10 @@
   },
   "step": "Say it as you set out, not once you have arrived.",
   "know": {
-   "id": "returning-home",
-   "title": "Coming back from a journey",
-   "trans": "We are returning, repenting, worshipping, and praising our Lord.",
-   "ref": "Ṣaḥīḥ al-Bukhārī 5968",
+   "id": "labbayk",
+   "title": "The call said on entering the pilgrimage",
+   "trans": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. All praise and favour are Yours, and the dominion. You have no partner.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 5915",
    "grade": "Ṣaḥīḥ",
    "kind": "hadith"
   },
@@ -851,14 +851,14 @@
  },
  "desire": {
   "say": {
-   "id": "turn-our-hearts",
-   "title": "When your heart is pulling the wrong way",
-   "arabic": "اللَّهُمَّ مُصَرِّفَ الْقُلُوبِ صَرِّفْ قُلُوبَنَا عَلَى طَاعَتِكَ",
-   "translit": "Allāhumma muṣarrifa-l-qulūb, ṣarrif qulūbanā ʿalā ṭāʿatik.",
-   "trans": "O Allah, Turner of hearts, turn our hearts towards obedience to You.",
-   "ref": "Ṣaḥīḥ Muslim 2655",
+   "id": "the-evil-of-my-own-tongue",
+   "title": "A prayer someone asked for and could use",
+   "arabic": "اللَّهُمَّ عَافِنِي مِنْ شَرِّ سَمْعِي وَبَصَرِي وَلِسَانِي وَقَلْبِي",
+   "translit": "Allāhumma ʿāfinī min sharri samʿī wa baṣarī wa lisānī wa qalbī",
+   "trans": "O Allah, keep me safe from the evil of my hearing, my sight, my tongue and my heart.",
+   "ref": "Sunan an-Nasā'ī 5484",
    "grade": "Ṣaḥīḥ",
-   "url": "https://sunnah.com/muslim:2655"
+   "url": "https://sunnah.com/nasai:5484"
   },
   "step": "Say it when the pull starts rather than after it has passed. If it has already passed, seeking forgiveness is its own door and nobody is counting how many times you have used it.",
   "know": {
@@ -870,10 +870,10 @@
    "kind": "quran"
   },
   "story": {
-   "id": "the-evil-of-my-own-tongue",
-   "title": "A prayer someone asked for and could use",
-   "story": "He said: teach me a supplication I can benefit from. Not one about enemies, or debt, or illness. Every item on the list is a part of himself he already owns and cannot put down.",
-   "ref": "Sunan an-Nasā'ī 5484"
+   "id": "young-people",
+   "title": "What he told those who could not yet afford it",
+   "story": "It goes on: it lowers the gaze and guards the private parts. And whoever cannot, let him fast, for it is a shield for him. The second half is addressed to the ones the first half does not solve.",
+   "ref": "Ṣaḥīḥ al-Bukhārī 5065"
   }
  },
  "waswas": {
@@ -957,10 +957,10 @@
    "kind": "quran"
   },
   "story": {
-   "id": "the-veil-of-pride",
-   "title": "The only thing between people and seeing their Lord",
-   "story": "Two gardens of silver, their vessels and everything in them. Two of gold, the same. Then the description stops listing objects and names the only remaining obstacle, and it is not distance and it is not a wall.",
-   "ref": "Sunan Ibn Mājah 186"
+   "id": "seventy-thousand",
+   "title": "What his Lord promised him about his community",
+   "story": "He began: by the One in whose hand is the soul of Muhammad, no servant believes and then holds steady but that he is walked into the Garden. Then he said he hoped they would not enter before his listeners and the righteous among their children had taken their places in it.",
+   "ref": "Sunan Ibn Mājah 4285"
   }
  },
  "refuge": {

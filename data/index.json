@@ -78,6 +78,7 @@
   "id": "sayyidul-istighfar",
   "t": "When you carry guilt",
   "s": [
+   "desire",
    "failure",
    "forgiveness",
    "shame"
@@ -188,6 +189,7 @@
   "s": [
    "illness",
    "parents",
+   "refuge",
    "someone-ill"
   ],
   "x": 1,
@@ -400,8 +402,10 @@
   "s": [
    "anxiety",
    "death",
+   "decision",
    "failure",
-   "shame"
+   "shame",
+   "steadfastness"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -922,6 +926,7 @@
   "id": "adam",
   "t": "When you know it was your own doing",
   "s": [
+   "desire",
    "forgiveness",
    "shame"
   ],
@@ -1100,6 +1105,7 @@
   "t": "Asking for someone to be healed",
   "s": [
    "illness",
+   "refuge",
    "someone-ill"
   ],
   "x": 1,
@@ -1991,7 +1997,10 @@
  {
   "id": "kaffarat-majlis",
   "t": "Before you get up and leave a gathering",
-  "s": [],
+  "s": [
+   "forgiveness",
+   "shame"
+  ],
   "x": 1,
   "g": "Ṣaḥīḥ",
   "r": "Jāmiʿ at-Tirmidhī 3433",
@@ -2045,6 +2054,7 @@
   "t": "Praying for a particular person to be healed",
   "s": [
    "illness",
+   "refuge",
    "someone-ill"
   ],
   "x": 1,
@@ -2155,6 +2165,7 @@
   "id": "joy-at-return",
   "t": "What He feels when you come back",
   "s": [
+   "desire",
    "despair",
    "forgiveness",
    "shame",
@@ -2200,7 +2211,9 @@
   "t": "When you have been talked about, or done the talking",
   "s": [
    "fear",
-   "reconcile"
+   "forgiveness",
+   "reconcile",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -2433,6 +2446,7 @@
    "evil-eye",
    "illness",
    "overwhelm",
+   "refuge",
    "sadness",
    "someone-ill"
   ],
@@ -2728,6 +2742,7 @@
   "id": "distance-from-sins",
   "t": "Asked at the very start of the prayer",
   "s": [
+   "desire",
    "forgiveness",
    "prayer",
    "shame"
@@ -2758,7 +2773,8 @@
   "id": "turn-our-hearts",
   "t": "When your heart is pulling the wrong way",
   "s": [
-   "desire"
+   "desire",
+   "sadness"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -2887,10 +2903,12 @@
   "t": "When something happens that you cannot make sense of",
   "s": [
    "death",
+   "decision",
    "distress",
    "failure",
    "knowledge",
-   "oppression"
+   "oppression",
+   "steadfastness"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -3597,6 +3615,7 @@
   "t": "Who does the healing",
   "s": [
    "illness",
+   "refuge",
    "someone-ill",
    "steadfastness"
   ],
@@ -3963,10 +3982,12 @@
   "id": "we-apportioned",
   "t": "When someone else got what you were qualified for",
   "s": [
+   "decision",
    "envy",
    "evil-eye",
    "failure",
    "oppression",
+   "steadfastness",
    "work"
   ],
   "x": 1,
@@ -5332,7 +5353,9 @@
   "t": "Before you assume the worst of someone",
   "s": [
    "anxiety",
-   "envy"
+   "envy",
+   "forgiveness",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -6789,6 +6812,7 @@
   "t": "Wiping with the right hand while saying it",
   "s": [
    "illness",
+   "refuge",
    "someone-ill"
   ],
   "x": 1,
@@ -6915,6 +6939,7 @@
   "id": "he-let-us-off",
   "t": "On being given another chance without asking",
   "s": [
+   "desire",
    "forgiveness",
    "gratitude",
    "shame"
@@ -7303,6 +7328,7 @@
   "id": "follow-a-bad-deed",
   "t": "What to do immediately after a slip",
   "s": [
+   "desire",
    "forgiveness",
    "reconcile",
    "shame",
@@ -7815,7 +7841,8 @@
   "s": [
    "children",
    "evil-eye",
-   "illness"
+   "illness",
+   "refuge"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -8272,6 +8299,7 @@
   "s": [
    "death",
    "death-remembrance",
+   "decision",
    "enemy",
    "fear",
    "illness",
@@ -8589,7 +8617,8 @@
   "s": [
    "children",
    "evil-eye",
-   "illness"
+   "illness",
+   "refuge"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -9004,7 +9033,8 @@
    "anxiety",
    "decision",
    "failure",
-   "shame"
+   "shame",
+   "steadfastness"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -9208,7 +9238,8 @@
   "t": "Said at the eclipse, having been shown both",
   "s": [
    "death-remembrance",
-   "fear"
+   "fear",
+   "rain-weather"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -9329,6 +9360,7 @@
   "s": [
    "death",
    "death-remembrance",
+   "decision",
    "fear",
    "illness",
    "refuge"
@@ -9760,8 +9792,10 @@
   "s": [
    "anxiety",
    "children",
+   "decision",
    "failure",
-   "poverty"
+   "poverty",
+   "steadfastness"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -10194,6 +10228,7 @@
   "id": "protect-me-that-day",
   "t": "What he said with his hand under his cheek",
   "s": [
+   "death-remembrance",
    "morning-evening",
    "refuge",
    "sleep"
@@ -10411,6 +10446,7 @@
   "t": "What the angel keeps saying over an unborn child",
   "s": [
    "children",
+   "decision",
    "failure",
    "poverty"
   ],
@@ -10786,6 +10822,7 @@
   "t": "The first thing created, and what it was told",
   "s": [
    "anxiety",
+   "decision",
    "failure",
    "shame"
   ],
@@ -10865,7 +10902,8 @@
   "t": "What he said with his finger for someone in pain",
   "s": [
    "children",
-   "illness"
+   "illness",
+   "refuge"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -10879,6 +10917,7 @@
   "s": [
    "death",
    "death-remembrance",
+   "decision",
    "overwhelm",
    "travel"
   ],
@@ -10955,6 +10994,7 @@
    "fear",
    "forgiveness",
    "prayer",
+   "rain-weather",
    "refuge",
    "sadness"
   ],
@@ -10983,6 +11023,7 @@
   "s": [
    "anxiety",
    "death-remembrance",
+   "decision",
    "failure",
    "poverty"
   ],
@@ -11351,7 +11392,8 @@
   "s": [
    "home",
    "oppression",
-   "refuge"
+   "refuge",
+   "shame"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -11941,6 +11983,7 @@
    "despair",
    "distress",
    "fear",
+   "sadness",
    "sleep"
   ],
   "x": 1,
@@ -12049,7 +12092,9 @@
   "id": "my-servant-knew",
   "t": "A man who sinned three times and was forgiven three times",
   "s": [
+   "desire",
    "despair",
+   "failure",
    "forgiveness"
   ],
   "x": 1,
@@ -12679,7 +12724,9 @@
  {
   "id": "his-reckoning-is-on-allah",
   "t": "Where the responsibility stops",
-  "s": [],
+  "s": [
+   "death-remembrance"
+  ],
   "x": 1,
   "g": "Ṣaḥīḥ",
   "r": "Ṣaḥīḥ al-Bukhārī 1399",
@@ -12882,6 +12929,7 @@
   "id": "what-is-made-up-from-the-voluntary",
   "t": "The first thing checked, and what covers the gap",
   "s": [
+   "death-remembrance",
    "prayer",
    "reconcile",
    "refuge"
@@ -13183,7 +13231,9 @@
   "id": "sacred-as-this-day",
   "t": "What he made inviolable in the farewell sermon",
   "s": [
-   "refuge"
+   "forgiveness",
+   "refuge",
+   "shame"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",

@@ -63,7 +63,7 @@ S = [
 # ── HEART ─────────────────────────────────────────────────────────────────
 dict(id="sadness", cat="heart", label="Sadness", blurb="Grief, low spirits, a heaviness you can't name",
      match=r"\b(grief|sorrow|sad(ness)?|hazan)\b",
-     feelings=["sad","sadness","i am sad","i feel sad","so sad","feeling low","low","down","feeling down","heavy","heavy heart","heartbroken","broken","broken hearted","miserable","unhappy","depressed","depression","despondent","blue","gloomy","empty","hollow","numb","crying","i keep crying","cant stop crying","tears","weeping","grief","grieving","sorrow","mourning","melancholy","dejected","downcast","joyless","cant feel happy","nothing makes me happy","lost my spark","feel like crying", "im not okay", "not ok", "im not ok", "gutted", "devastated", "shattered", "heart broken", "my heart is heavy", "down bad", "hurting", "in pain emotionally", "teary", "crying a lot"]),
+     feelings=["sad","sadness","i am sad","i feel sad","so sad","feeling low","low","down","feeling down","heavy","heavy heart","heartbroken","broken","broken hearted","miserable","unhappy","depressed","depression","despondent","blue","gloomy","empty","hollow","numb","crying","i keep crying","cant stop crying","tears","weeping","grief","grieving","sorrow","mourning","melancholy","dejected","downcast","joyless","cant feel happy","nothing makes me happy","lost my spark","feel like crying", "im not okay", "not ok", "im not ok", "gutted", "devastated", "shattered", "heart broken", "my heart is heavy", "down bad", "hurting", "in pain emotionally", "teary", "crying a lot", "cant get out of bed", "no motivation", "unmotivated", "no energy", "dont want to do anything", "everything feels pointless"]),
 
 dict(id="anxiety", cat="heart", label="Anxiety & worry", blurb="Racing thoughts, dread, the mind that won't settle",
      match=r"\b(anxiety|anxious|worry|worried|distress(ed)?|hamm)\b",
@@ -99,7 +99,7 @@ dict(id="envy", cat="heart", label="Envy & comparison", blurb="When someone else
 
 dict(id="shame", cat="heart", label="Shame & guilt", blurb="When you cannot forgive yourself",
      match=r"\b(shame|ashamed|regret|remorse)\b",
-     feelings=["guilty","guilt","ashamed","shame","embarrassed","humiliated","regret","regretful","remorse","i messed up","i ruined it","my fault","blame myself","cant forgive myself","disgusted with myself","hate myself","dirty","unworthy","not good enough","let everyone down","disappointed in myself", "i relapsed", "relapsed again", "i keep relapsing", "addicted", "addiction", "im addicted", "cant stop", "porn", "pornography", "gambling", "drinking", "alcohol", "drugs", "smoking", "bad habit", "keep going back", "slipped again", "did it again", "cant quit", "riya", "showing off", "show off", "pride", "arrogance", "arrogant", "ego", "vanity", "two faced", "hypocrite", "feel like a hypocrite", "munafiq", "insincere"]),
+     feelings=["guilty","guilt","ashamed","shame","embarrassed","humiliated","regret","regretful","remorse","i messed up","i ruined it","my fault","blame myself","cant forgive myself","disgusted with myself","hate myself","dirty","unworthy","not good enough","let everyone down","disappointed in myself", "i relapsed", "relapsed again", "i keep relapsing", "addicted", "addiction", "im addicted", "cant stop", "porn", "pornography", "gambling", "drinking", "alcohol", "drugs", "smoking", "bad habit", "keep going back", "slipped again", "did it again", "cant quit", "riya", "showing off", "show off", "pride", "arrogance", "arrogant", "ego", "vanity", "two faced", "hypocrite", "feel like a hypocrite", "munafiq", "insincere", "backbiting", "backbit", "gossiped", "gossiping", "i lied", "told a lie", "slandered someone", "spoke badly about someone", "lied", "i told a lie"]),
 
 # ── HARDSHIP ──────────────────────────────────────────────────────────────
 dict(id="distress", cat="hardship", label="Severe distress", blurb="The moment when everything presses in at once",
@@ -108,7 +108,7 @@ dict(id="distress", cat="hardship", label="Severe distress", blurb="The moment w
 
 dict(id="illness", cat="body", label="Being ill", blurb="Sickness, pain, waiting on a diagnosis",
      match=r"\b(sick|illness|ill\b|disease|cure|heal|pain|ache|fever|patient)\b",
-     feelings=["sick","ill","illness","unwell","disease","pain","in pain","hurts","hurting","ache","aching","sore","fever","infection","diagnosis","diagnosed","cancer","chronic","suffering","hospital","surgery","operation","treatment","recovery","not healing","doctor","test results","health","my health","body hurts", "chemo", "chemotherapy", "therapy", "counselling", "migraine", "headache", "ruqyah", "shifa", "healing", "poorly", "mental health", "depression", "anxiety disorder", "medication"]),
+     feelings=["sick","ill","illness","unwell","disease","pain","in pain","hurts","hurting","ache","aching","sore","fever","infection","diagnosis","diagnosed","cancer","chronic","suffering","hospital","surgery","operation","treatment","recovery","not healing","doctor","test results","health","my health","body hurts", "chemo", "chemotherapy", "therapy", "counselling", "migraine", "headache", "ruqyah", "shifa", "healing", "poorly", "mental health", "depression", "anxiety disorder", "medication", "recovering", "getting better", "convalescing", "after surgery"]),
 
 dict(id="someone-ill", cat="body", label="Someone you love is ill", blurb="Sitting beside the sick",
      match=r"\b(visit(s|ing|ed)? (a |the )?sick|visiting the sick)",
@@ -137,11 +137,11 @@ dict(id="oppression", cat="hardship", label="Being wronged", blurb="Injustice, b
 
 dict(id="enemy", cat="protection", label="Someone means you harm", blurb="Facing hostility or an enemy",
      match=r"\b(enem(y|ies)|adversar|against him|plot(s|ted|ting)?)\b",
-     feelings=["enemy","enemies","against me","they hate me","plotting","conspiring","out to get me","hostile","attacked","threatened","rivalry","feud","court case","lawsuit","legal trouble","confrontation","war","conflict", "islamophobia", "someone is after me", "being targeted"]),
+     feelings=["enemy","enemies","against me","they hate me","plotting","conspiring","out to get me","hostile","attacked","threatened","rivalry","feud","court case","lawsuit","legal trouble","confrontation","war","conflict", "islamophobia", "someone is after me", "being targeted", "dushman", "my enemy", "someone hates me", "they want to harm me"]),
 
 dict(id="failure", cat="hardship", label="When it did not work out", blurb="Rejection, failure, plans that collapsed",
      match=r"\b(if only|decree of allah|qadar|destin|fail(ed|ure)?)\b",
-     feelings=["failed","failure","rejected","rejection","didnt get it","turned down","lost the job","lost my job","fired","redundant","didnt work out","plans ruined","cancelled","if only","should have","what if","regret my choice","wasted","started over","back to square one","disappointed", "nothing is working", "it didnt work", "messed up", "i failed", "let everyone down", "not good enough", "i feel like a failure", "feel worthless", "worthless", "useless", "qadr", "qadar", "decree", "meant to be", "wasnt meant for me"]),
+     feelings=["failed","failure","rejected","rejection","didnt get it","turned down","lost the job","lost my job","fired","redundant","didnt work out","plans ruined","cancelled","if only","should have","what if","regret my choice","wasted","started over","back to square one","disappointed", "nothing is working", "it didnt work", "messed up", "i failed", "let everyone down", "not good enough", "i feel like a failure", "feel worthless", "worthless", "useless", "qadr", "qadar", "decree", "meant to be", "wasnt meant for me", "i keep failing", "keep failing", "failing at everything", "nothing works out", "cant get anything right"]),
 
 # ── PEOPLE ────────────────────────────────────────────────────────────────
 dict(id="marriage", cat="people", label="Marriage & spouse", blurb="Looking for, or living with, a partner",
@@ -175,16 +175,16 @@ dict(id="work", cat="provision", label="Work", blurb="Jobs, colleagues, and the 
 
 dict(id="decision", cat="provision", label="A decision to make", blurb="When you genuinely do not know which way",
      match=r"\b(istikhara|seek(ing)? .{0,12}(guidance|good)|decide|decision)\b",
-     feelings=["decision","decide","cant decide","which one","choice","choose","unsure","dont know what to do","confused","torn","crossroads","two options","should i","is this right","istikhara","guidance","need direction","what should i do","big decision","move abroad","accept the offer", "lost", "feel lost", "which path", "cant choose", "is this right for me"]),
+     feelings=["decision","decide","cant decide","which one","choice","choose","unsure","dont know what to do","confused","torn","crossroads","two options","should i","is this right","istikhara","guidance","need direction","what should i do","big decision","move abroad","accept the offer", "lost", "feel lost", "which path", "cant choose", "is this right for me", "taqdeer", "qismat", "qadar", "destiny", "fate", "meant to be", "is it written for me"]),
 
 dict(id="travel", cat="daily", label="Travelling", blurb="Setting out, and coming home",
      match=r"\b(journey|travel|riding|mount|set out|return(ing)? home)\b",
-     feelings=["travel","travelling","traveling","journey","trip","flight","flying","scared of flying","driving","commute","abroad","moving","relocating","holiday","hajj","umrah","pilgrimage","going home","arriving","safe travels","long drive", "going for hajj", "going for umrah", "moving house", "moving country", "long journey"]),
+     feelings=["travel","travelling","traveling","journey","trip","flight","flying","scared of flying","driving","commute","abroad","moving","relocating","holiday","hajj","umrah","pilgrimage","going home","arriving","safe travels","long drive", "going for hajj", "going for umrah", "moving house", "moving country", "long journey", "makkah", "mecca", "madinah", "medina", "tawaf", "ihram", "arafah"]),
 
 # ── FAITH ─────────────────────────────────────────────────────────────────
 dict(id="forgiveness", cat="faith", label="Seeking forgiveness", blurb="Turning back after sin",
      match=r"\b(forgive|forgiveness|istighfar|repent|pardon|sin(s|ned|ful)?)\b",
-     feelings=["sin","sinned","sinning","guilt","forgive me","forgiveness","repent","repentance","tawbah","astaghfirullah","istighfar","keep relapsing","same sin","cant stop","addiction","porn","alcohol","gambling","haram","ashamed of myself","gone too far","unforgivable","start again","clean slate", "taubah", "tawba", "turn back", "ramadan", "ramadan starting", "laylatul qadr", "last ten nights", "seeking pardon"]),
+     feelings=["sin","sinned","sinning","guilt","forgive me","forgiveness","repent","repentance","tawbah","astaghfirullah","istighfar","keep relapsing","same sin","cant stop","addiction","porn","alcohol","gambling","haram","ashamed of myself","gone too far","unforgivable","start again","clean slate", "taubah", "tawba", "turn back", "ramadan", "ramadan starting", "laylatul qadr", "last ten nights", "seeking pardon", "backbiting", "gossiped", "i lied", "cheated someone", "took what wasnt mine"]),
 
 dict(id="weak-iman", cat="faith", label="Faith feeling weak", blurb="Distance, dryness, doubt",
      match=r"\b(steadfast|firm(ness)?|turner of hearts|guide|guidance|astray|iman|faith)\b",
@@ -192,7 +192,7 @@ dict(id="weak-iman", cat="faith", label="Faith feeling weak", blurb="Distance, d
 
 dict(id="desire", cat="faith", label="Desire & temptation", blurb="The wandering eye, the urge you are trying not to follow",
      match=r"\b(lust|desire[sd]?|passion|chastity|chaste|lower(ing|s)? (his |the |their )?gaze|private parts?|guard(s|ing)? (his|their) (chastity|private)|fornicat\w*|adulter\w*|zina)\b",
-     feelings=["lust","lustful","desire","desires","tempted","temptation","urges","cant control myself","cant control my desire","struggling with desire","struggling with lust","porn","pornography","watching porn","addicted to porn","masturbation","masturbating","bad habit","secret sin","zina","adultery","fornication","haram relationship","girlfriend","boyfriend","talking to someone haram","attracted to someone","attracted to a coworker","i keep looking","cant stop looking","lower my gaze","lowering my gaze","wandering eye","modesty","chastity","staying chaste","want to stay pure","keep falling into the same sin","i keep relapsing","i cant stop","temptation is everywhere","dating","in a haram relationship","crush","i have a crush"]),
+     feelings=["lust","lustful","desire","desires","tempted","temptation","urges","cant control myself","cant control my desire","struggling with desire","struggling with lust","porn","pornography","watching porn","addicted to porn","masturbation","masturbating","bad habit","secret sin","zina","adultery","fornication","haram relationship","girlfriend","boyfriend","talking to someone haram","attracted to someone","attracted to a coworker","i keep looking","cant stop looking","lower my gaze","lowering my gaze","wandering eye","modesty","chastity","staying chaste","want to stay pure","keep falling into the same sin","i keep relapsing","i cant stop","temptation is everywhere","dating","in a haram relationship","crush","i have a crush", "horny", "aroused", "turned on", "relapsed", "relapse", "slipped again", "gave in again", "cant help myself", "weak against it"]),
 
 dict(id="waswas", cat="faith", label="Intrusive thoughts", blurb="Whispers you would never choose to think",
      match=r"\b(whisper|waswas|satan|shaytan|devil|clear faith)\b",
@@ -200,16 +200,16 @@ dict(id="waswas", cat="faith", label="Intrusive thoughts", blurb="Whispers you w
 
 dict(id="steadfastness", cat="faith", label="Staying firm", blurb="Patience, endurance, keeping going",
      match=r"\b(patien(ce|t)|sabr|persever|endur|steadfast)\b",
-     feelings=["patience","sabr","be patient","hard to be patient","waiting","still waiting","how long","enduring","persevere","keep going","dont give up","strength","need strength","tired of trying","consistency","istiqamah","discipline", "procrastinating", "procrastination", "keep putting it off", "cant start", "no discipline", "no willpower", "keep failing at it", "trying again", "start again", "cant keep it up", "fall off", "tawakkul", "reliance", "trust in allah", "hold on", "stay strong", "give me strength", "fitna", "trials", "tested", "being tested", "hardship", "disabled", "disability", "long illness", "chronic"]),
+     feelings=["patience","sabr","be patient","hard to be patient","waiting","still waiting","how long","enduring","persevere","keep going","dont give up","strength","need strength","tired of trying","consistency","istiqamah","discipline", "procrastinating", "procrastination", "keep putting it off", "cant start", "no discipline", "no willpower", "keep failing at it", "trying again", "start again", "cant keep it up", "fall off", "tawakkul", "reliance", "trust in allah", "hold on", "stay strong", "give me strength", "fitna", "trials", "tested", "being tested", "hardship", "disabled", "disability", "long illness", "chronic", "taqdeer", "qadar", "accept what happened", "content with the decree"]),
 
 dict(id="death-remembrance", cat="faith", label="Thinking about death", blurb="The hereafter, the grave, what comes after",
      match=r"\b(hereafter|akhirah|grave|resurrect|paradise|jannah|hell|fire\b|judgment)\b",
-     feelings=["death","dying","afraid of death","the grave","hereafter","akhirah","jannah","paradise","hellfire","jahannam","judgment day","qiyamah","afterlife","am i ready","what happens after","meeting allah","accountability","my deeds", "will anyone remember me", "what happens after i die", "legacy", "leave behind", "after im gone", "meaning of life", "why am i here"]),
+     feelings=["death","dying","afraid of death","the grave","hereafter","akhirah","jannah","paradise","hellfire","jahannam","judgment day","qiyamah","afterlife","am i ready","what happens after","meeting allah","accountability","my deeds", "will anyone remember me", "what happens after i die", "legacy", "leave behind", "after im gone", "meaning of life", "why am i here", "judgement day", "day of judgement", "yawm al qiyamah", "the hereafter", "akhira", "reckoning", "resurrection"]),
 
 # ── PROTECTION ────────────────────────────────────────────────────────────
 dict(id="refuge", cat="protection", label="Seeking refuge", blurb="Asking to be shielded from harm",
      match=r"\b(seek refuge|refuge|protect(ion)?|guard)\b",
-     feelings=["protection","protect me","seek refuge","refuge","keep me safe","safety","harm","danger","shield","cover","guard","watch over","travelling alone","walking home","at night","dark"]),
+     feelings=["protection","protect me","seek refuge","refuge","keep me safe","safety","harm","danger","shield","cover","guard","watch over","travelling alone","walking home","at night","dark", "manzil", "ruqyah", "ruqya", "shifa", "protection verses"]),
 
 dict(id="evil-eye", cat="protection", label="Evil eye & envy of others", blurb="Nazar, ḥasad, and the harm of ill will",
      match=r"\b(evil eye|envious eye|ain\b|amulet|ruqya|magic|sorcer|witch)\b",
@@ -222,7 +222,7 @@ dict(id="home", cat="protection", label="Home & household", blurb="Entering, lea
 # ── DAILY ─────────────────────────────────────────────────────────────────
 dict(id="morning-evening", cat="daily", label="Morning & evening", blurb="How to begin and end a day",
      match=r"\b(morning|evening|when he (rose|woke)|at dawn|sunset)\b",
-     feelings=["morning","good morning","start of the day","waking up","woke up","evening","end of the day","night","adhkar","daily dhikr","routine","every day","beginning","fresh start","new day"]),
+     feelings=["morning","good morning","start of the day","waking up","woke up","evening","end of the day","night","adhkar","daily dhikr","routine","every day","beginning","fresh start","new day", "looking in the mirror", "new clothes", "got dressed"]),
 
 dict(id="sleep", cat="daily", label="Sleep & the night", blurb="Lying down, waking, and bad dreams",
      match=r"\b(sleep|slept|bed\b|night|dream|awoke|wakes)\b",
@@ -242,7 +242,7 @@ dict(id="mosque", cat="daily", label="The masjid", blurb="Going to and being in 
 
 dict(id="rain-weather", cat="daily", label="Rain, wind & sky", blurb="When the weather turns",
      match=r"\b(rain|wind|thunder|lightning|cloud|drought|storm|moon|crescent)\b",
-     feelings=["rain","raining","storm","thunder","lightning","wind","windy","weather","drought","flood","new moon","crescent","ramadan moon","looking at the sky","natural disaster","earthquake"]),
+     feelings=["rain","raining","storm","thunder","lightning","wind","windy","weather","drought","flood","new moon","crescent","ramadan moon","looking at the sky","natural disaster","earthquake", "eclipse", "solar eclipse", "lunar eclipse", "kusuf", "khusuf"]),
 
 dict(id="dhikr", cat="reference", label="Remembrance & praise", blurb="Words of praise, glorification and testifying to Allah",
      match=r"(?!x)x",

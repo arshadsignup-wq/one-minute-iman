@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
-  matchSituations, neighboursOf, isCrisis, isHarm, isOtherLanguage, EXAMPLES, suggestions,
+  matchSituations, neighboursOf, isCrisis, isHarm, isOtherLanguage, EXAMPLES, suggestions, matchSurah,
 } from "@/lib/search";
 import Answer from "@/components/Answer";
 import { findEntry, loadEntry, type EntryDoc } from "@/lib/entryhits";
@@ -55,6 +55,9 @@ export default function Seek(
   const [named, setNamed] = useState<{ q: string; doc: EntryDoc | null; sits: string[] }>(
     { q: "", doc: null, sits: [] },
   );
+
+  // A query can name a chapter instead of describing a feeling.
+  const surah = useMemo(() => (crisis || harm ? null : matchSurah(q)), [q, crisis, harm]);
 
   // Offered while typing, so a half-finished word has somewhere to go.
   const suggested = useMemo(
@@ -130,6 +133,23 @@ export default function Seek(
           </button>
         )}
       </div>
+
+      {asked && surah && (
+        <Link
+          href={`/quran/${surah.n}`}
+          className="rise mt-6 flex items-center justify-between gap-4 rounded-2xl border border-[var(--sage)] bg-[var(--card)] p-5 transition-all hover:shadow-[0_10px_36px_-18px_var(--shadow)]"
+        >
+          <span>
+            <span className="text-[11px] tracking-[0.16em] text-[var(--ink-faint)] uppercase">
+              Sūrah {surah.n}
+            </span>
+            <span className="display mt-1 block text-[22px] text-[var(--green)]">
+              {surah.name}
+            </span>
+          </span>
+          <span className="shrink-0 text-[13px] text-[var(--sage)]">Read it →</span>
+        </Link>
+      )}
 
       {asked && suggested.length > 0 && (
         <div className="mt-4 flex flex-wrap items-center gap-2">

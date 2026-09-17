@@ -97,9 +97,15 @@
     "hurting",
     "in pain emotionally",
     "teary",
-    "crying a lot"
+    "crying a lot",
+    "cant get out of bed",
+    "no motivation",
+    "unmotivated",
+    "no energy",
+    "dont want to do anything",
+    "everything feels pointless"
    ],
-   "count": 116
+   "count": 118
   },
   {
    "id": "anxiety",
@@ -543,9 +549,19 @@
     "hypocrite",
     "feel like a hypocrite",
     "munafiq",
-    "insincere"
+    "insincere",
+    "backbiting",
+    "backbit",
+    "gossiped",
+    "gossiping",
+    "i lied",
+    "told a lie",
+    "slandered someone",
+    "spoke badly about someone",
+    "lied",
+    "i told a lie"
    ],
-   "count": 136
+   "count": 141
   },
   {
    "id": "distress",
@@ -626,7 +642,11 @@
     "mental health",
     "depression",
     "anxiety disorder",
-    "medication"
+    "medication",
+    "recovering",
+    "getting better",
+    "convalescing",
+    "after surgery"
    ],
    "count": 119
   },
@@ -888,7 +908,11 @@
     "conflict",
     "islamophobia",
     "someone is after me",
-    "being targeted"
+    "being targeted",
+    "dushman",
+    "my enemy",
+    "someone hates me",
+    "they want to harm me"
    ],
    "count": 62
   },
@@ -933,9 +957,14 @@
     "qadar",
     "decree",
     "meant to be",
-    "wasnt meant for me"
+    "wasnt meant for me",
+    "i keep failing",
+    "keep failing",
+    "failing at everything",
+    "nothing works out",
+    "cant get anything right"
    ],
-   "count": 43
+   "count": 44
   },
   {
    "id": "marriage",
@@ -1254,9 +1283,16 @@
     "feel lost",
     "which path",
     "cant choose",
-    "is this right for me"
+    "is this right for me",
+    "taqdeer",
+    "qismat",
+    "qadar",
+    "destiny",
+    "fate",
+    "meant to be",
+    "is it written for me"
    ],
-   "count": 54
+   "count": 64
   },
   {
    "id": "travel",
@@ -1289,7 +1325,14 @@
     "going for umrah",
     "moving house",
     "moving country",
-    "long journey"
+    "long journey",
+    "makkah",
+    "mecca",
+    "madinah",
+    "medina",
+    "tawaf",
+    "ihram",
+    "arafah"
    ],
    "count": 68
   },
@@ -1330,9 +1373,14 @@
     "ramadan starting",
     "laylatul qadr",
     "last ten nights",
-    "seeking pardon"
+    "seeking pardon",
+    "backbiting",
+    "gossiped",
+    "i lied",
+    "cheated someone",
+    "took what wasnt mine"
    ],
-   "count": 282
+   "count": 286
   },
   {
    "id": "weak-iman",
@@ -1439,9 +1487,18 @@
     "dating",
     "in a haram relationship",
     "crush",
-    "i have a crush"
+    "i have a crush",
+    "horny",
+    "aroused",
+    "turned on",
+    "relapsed",
+    "relapse",
+    "slipped again",
+    "gave in again",
+    "cant help myself",
+    "weak against it"
    ],
-   "count": 48
+   "count": 55
   },
   {
    "id": "waswas",
@@ -1517,9 +1574,13 @@
     "disabled",
     "disability",
     "long illness",
-    "chronic"
+    "chronic",
+    "taqdeer",
+    "qadar",
+    "accept what happened",
+    "content with the decree"
    ],
-   "count": 151
+   "count": 156
   },
   {
    "id": "death-remembrance",
@@ -1551,9 +1612,16 @@
     "leave behind",
     "after im gone",
     "meaning of life",
-    "why am i here"
+    "why am i here",
+    "judgement day",
+    "day of judgement",
+    "yawm al qiyamah",
+    "the hereafter",
+    "akhira",
+    "reckoning",
+    "resurrection"
    ],
-   "count": 523
+   "count": 526
   },
   {
    "id": "refuge",
@@ -1576,9 +1644,14 @@
     "travelling alone",
     "walking home",
     "at night",
-    "dark"
+    "dark",
+    "manzil",
+    "ruqyah",
+    "ruqya",
+    "shifa",
+    "protection verses"
    ],
-   "count": 239
+   "count": 248
   },
   {
    "id": "evil-eye",
@@ -1656,7 +1729,10 @@
     "every day",
     "beginning",
     "fresh start",
-    "new day"
+    "new day",
+    "looking in the mirror",
+    "new clothes",
+    "got dressed"
    ],
    "count": 135
   },
@@ -1786,9 +1862,14 @@
     "ramadan moon",
     "looking at the sky",
     "natural disaster",
-    "earthquake"
+    "earthquake",
+    "eclipse",
+    "solar eclipse",
+    "lunar eclipse",
+    "kusuf",
+    "khusuf"
    ],
-   "count": 53
+   "count": 55
   },
   {
    "id": "dhikr",
