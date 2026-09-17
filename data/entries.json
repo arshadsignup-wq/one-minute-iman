@@ -1328,7 +1328,8 @@
   "situations": [
    "dhikr",
    "gratitude",
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "recites": "part",
   "audio": [
@@ -2023,7 +2024,9 @@
   "english_full": "Narrated Aisha, Ummul Mu'minin: When the Prophet (ﷺ) came out of the privy, he used to say: \"Grant me Thy forgiveness",
   "mode": "dua",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "morning-evening"
+  ]
  },
  {
   "id": "after-wudu",
@@ -2856,6 +2859,7 @@
   "tier": "curated",
   "situations": [
    "decision",
+   "despair",
    "failure",
    "shame"
   ],
@@ -3521,6 +3525,7 @@
   },
   "tier": "curated",
   "situations": [
+   "prayer",
    "waswas"
   ],
   "audio": [
@@ -5477,6 +5482,7 @@
   "situations": [
    "children",
    "parents",
+   "prayer",
    "weak-iman"
   ]
  },
@@ -5662,7 +5668,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "illness"
+   "illness",
+   "poverty"
   ],
   "recites": "part"
  },
@@ -5757,6 +5764,8 @@
   "situations": [
    "morning-evening",
    "prayer",
+   "refuge",
+   "shame",
    "steadfastness",
    "weak-iman"
   ],
@@ -6108,8 +6117,10 @@
   "tier": "curated",
   "situations": [
    "anxiety",
+   "eating",
    "enemy",
-   "fear"
+   "fear",
+   "travel"
   ],
   "recites": "part",
   "audio": [
@@ -7876,6 +7887,7 @@
    "gratitude",
    "illness",
    "poverty",
+   "shame",
    "steadfastness"
   ],
   "recites": "part"
@@ -9133,7 +9145,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "debt"
+   "debt",
+   "poverty"
   ]
  },
  {
@@ -9222,7 +9235,8 @@
   "tier": "curated",
   "situations": [
    "forgiveness",
-   "steadfastness"
+   "steadfastness",
+   "weak-iman"
   ],
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/006079.mp3"
@@ -9275,6 +9289,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "anxiety",
    "dhikr",
    "distress",
    "gratitude",
@@ -9473,7 +9488,9 @@
   "tier": "curated",
   "situations": [
    "desire",
-   "sadness"
+   "refuge",
+   "sadness",
+   "shame"
   ]
  },
  {
@@ -9907,6 +9924,7 @@
   "situations": [
    "death",
    "decision",
+   "despair",
    "distress",
    "failure",
    "knowledge",
@@ -10828,6 +10846,7 @@
   "tier": "curated",
   "situations": [
    "death",
+   "shame",
    "steadfastness"
   ],
   "audio": [
@@ -11330,6 +11349,7 @@
   "tier": "curated",
   "situations": [
    "forgiveness",
+   "poverty",
    "prayer",
    "shame",
    "steadfastness"
@@ -11825,6 +11845,7 @@
   "tier": "curated",
   "situations": [
    "anxiety",
+   "prayer",
    "sadness",
    "weak-iman"
   ],
@@ -11874,6 +11895,7 @@
   "tier": "curated",
   "situations": [
    "gratitude",
+   "poverty",
    "work"
   ],
   "recites": "part",
@@ -12172,6 +12194,7 @@
   },
   "tier": "curated",
   "situations": [
+   "despair",
    "distress",
    "forgiveness",
    "knowledge",
@@ -12270,7 +12293,8 @@
   "situations": [
    "despair",
    "loneliness",
-   "overwhelm"
+   "overwhelm",
+   "poverty"
   ],
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/047007.mp3"
@@ -12619,7 +12643,8 @@
   "situations": [
    "dhikr",
    "gratitude",
-   "illness"
+   "illness",
+   "shame"
   ],
   "recites": "part",
   "audio": [
@@ -12767,6 +12792,7 @@
   },
   "tier": "curated",
   "situations": [
+   "shame",
    "work"
   ],
   "audio": [
@@ -13151,7 +13177,8 @@
   "tier": "curated",
   "situations": [
    "fear",
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "recites": "part",
   "audio": [
@@ -13195,7 +13222,11 @@
    ]
   },
   "tier": "curated",
-  "situations": [],
+  "situations": [
+   "eating",
+   "poverty",
+   "travel"
+  ],
   "recites": "part",
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/003092.mp3"
@@ -13580,6 +13611,7 @@
    "evil-eye",
    "failure",
    "oppression",
+   "poverty",
    "steadfastness",
    "work"
   ],
@@ -13681,6 +13713,7 @@
    "anger",
    "anxiety",
    "parents",
+   "prayer",
    "weak-iman"
   ],
   "recites": "part",
@@ -14061,7 +14094,8 @@
   },
   "tier": "curated",
   "situations": [
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/051019.mp3"
@@ -14260,6 +14294,7 @@
   "situations": [
    "morning-evening",
    "sadness",
+   "shame",
    "steadfastness"
   ],
   "recites": "part",
@@ -14352,7 +14387,10 @@
   },
   "tier": "curated",
   "situations": [
-   "poverty"
+   "eating",
+   "poverty",
+   "shame",
+   "travel"
   ],
   "recites": "part",
   "audio": [
@@ -14597,7 +14635,8 @@
   "situations": [
    "anxiety",
    "overwhelm",
-   "prayer"
+   "prayer",
+   "shame"
   ],
   "recites": "part",
   "audio": [
@@ -14650,7 +14689,8 @@
    "anxiety",
    "death",
    "death-remembrance",
-   "loneliness"
+   "loneliness",
+   "poverty"
   ],
   "recites": "part",
   "audio": [
@@ -14744,7 +14784,8 @@
   },
   "tier": "curated",
   "situations": [
-   "despair"
+   "despair",
+   "poverty"
   ],
   "recites": "part",
   "audio": [
@@ -14793,7 +14834,8 @@
   },
   "tier": "curated",
   "situations": [
-   "gratitude"
+   "gratitude",
+   "shame"
   ],
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/100006.mp3",
@@ -14843,6 +14885,7 @@
   "tier": "curated",
   "situations": [
    "death",
+   "poverty",
    "prayer",
    "shame",
    "weak-iman"
@@ -15049,7 +15092,8 @@
   "tier": "curated",
   "situations": [
    "mosque",
-   "reconcile"
+   "reconcile",
+   "shame"
   ]
  },
  {
@@ -17095,7 +17139,10 @@
   "english_full": "Narrated Abu Huraira:The Prophet (ﷺ) said, \"Yawning is from Satan and if anyone of you yawns, he should check his yawning as much as possible, for if anyone of you (during the act of yawning) should say: 'Ha', Satan will laugh at him",
   "tier": "curated",
   "situations": [
+   "morning-evening",
    "prayer",
+   "refuge",
+   "shame",
    "sleep"
   ]
  },
@@ -17281,6 +17328,7 @@
   "english_full": "A'isha reported:I said: Messenger of Allah, the son of Jud'an established ties of relationship, fed the poor. Would that be of any avail to him? He said: It would be of no avail to him as he did not ever say: O my Lord, pardon my sins on the Day of Resurrection",
   "tier": "curated",
   "situations": [
+   "poverty",
    "sadness",
    "weak-iman"
   ]
@@ -17510,6 +17558,7 @@
   "tier": "curated",
   "situations": [
    "forgiveness",
+   "shame",
    "steadfastness",
    "work"
   ]
@@ -18692,6 +18741,7 @@
   },
   "tier": "curated",
   "situations": [
+   "poverty",
    "steadfastness"
   ],
   "recites": "part",
@@ -19017,7 +19067,8 @@
    "death-remembrance",
    "envy",
    "gratitude",
-   "parents"
+   "parents",
+   "shame"
   ],
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/018046.mp3"
@@ -19064,6 +19115,7 @@
   "situations": [
    "desire",
    "gratitude",
+   "poverty",
    "prayer",
    "weak-iman"
   ],
@@ -19666,6 +19718,7 @@
   "situations": [
    "gratitude",
    "morning-evening",
+   "poverty",
    "prayer",
    "sleep"
   ]
@@ -20109,7 +20162,10 @@
    ]
   },
   "tier": "curated",
-  "situations": [],
+  "situations": [
+   "eating",
+   "travel"
+  ],
   "recites": "part",
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/009111.mp3"
@@ -20667,6 +20723,7 @@
   "english_full": "Narrated Abu Musa:Whenever a beggar or a person in need of something came to the Prophet (ﷺ) , he used to say (to his companions), \"Intercede (for him) and you will be rewarded for that, and Allah will fulfill what He will through His Apostle's tongue",
   "tier": "curated",
   "situations": [
+   "poverty",
    "work"
   ]
  },
@@ -21298,7 +21355,8 @@
   },
   "tier": "curated",
   "situations": [
-   "gratitude"
+   "gratitude",
+   "shame"
   ],
   "recites": "part",
   "audio": [
@@ -21481,7 +21539,8 @@
    "death",
    "eating",
    "enemy",
-   "poverty"
+   "poverty",
+   "travel"
   ],
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/076008.mp3",
@@ -21713,9 +21772,11 @@
   "english_full": "Narrated Abu Huraira:The Prophet (ﷺ) said that Gabriel said, \"Here is Khadija coming to you with a dish of food or a tumbler containing something to drink. Convey to her a greeting from her Lord (Allah) and give her the glad tidings that she will have a palace in Paradise built of Qasab wherein there will be neither any noise nor any fatigue (trouble).\"",
   "tier": "curated",
   "situations": [
+   "eating",
    "marriage",
    "overwhelm",
-   "sleep"
+   "sleep",
+   "travel"
   ]
  },
  {
@@ -22058,7 +22119,9 @@
    ]
   },
   "tier": "curated",
-  "situations": [],
+  "situations": [
+   "shame"
+  ],
   "recites": "part",
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/003110.mp3"
@@ -22420,6 +22483,7 @@
   },
   "tier": "curated",
   "situations": [
+   "despair",
    "distress",
    "knowledge",
    "overwhelm",
@@ -22602,6 +22666,7 @@
   "tier": "curated",
   "situations": [
    "decision",
+   "shame",
    "steadfastness",
    "work"
   ],
@@ -22649,6 +22714,7 @@
   },
   "tier": "curated",
   "situations": [
+   "despair",
    "gratitude",
    "knowledge",
    "poverty",
@@ -22698,7 +22764,8 @@
   },
   "tier": "curated",
   "situations": [
-   "debt"
+   "debt",
+   "poverty"
   ],
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/092017.mp3",
@@ -23563,7 +23630,8 @@
   "tier": "curated",
   "situations": [
    "enemy",
-   "oppression"
+   "oppression",
+   "poverty"
   ],
   "recites": "part",
   "audio": [
@@ -23893,6 +23961,7 @@
    "knowledge",
    "loneliness",
    "steadfastness",
+   "weak-iman",
    "work"
   ]
  },
@@ -24425,7 +24494,8 @@
   "situations": [
    "debt",
    "distress",
-   "overwhelm"
+   "overwhelm",
+   "poverty"
   ]
  },
  {
@@ -24556,6 +24626,8 @@
   "tier": "curated",
   "situations": [
    "illness",
+   "refuge",
+   "shame",
    "steadfastness"
   ]
  },
@@ -24998,6 +25070,7 @@
    "desire",
    "loneliness",
    "mosque",
+   "poverty",
    "sadness"
   ]
  },
@@ -25084,7 +25157,8 @@
   "tier": "curated",
   "situations": [
    "decision",
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "recites": "part"
  },
@@ -25446,6 +25520,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "poverty",
    "work"
   ],
   "recites": "part"
@@ -26009,6 +26084,7 @@
   "tier": "curated",
   "situations": [
    "forgiveness",
+   "shame",
    "steadfastness"
   ],
   "audio": [
@@ -26279,7 +26355,9 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "eating",
    "gratitude",
+   "poverty",
    "travel"
   ],
   "recites": "part"
@@ -26848,7 +26926,9 @@
    ]
   },
   "tier": "curated",
-  "situations": [],
+  "situations": [
+   "poverty"
+  ],
   "recites": "part",
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/002263.mp3"
@@ -26974,7 +27054,9 @@
   "arabic": "مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ وَمَا زَادَ اللَّهُ عَبْدًا بِعَفْوٍ إِلاَّ عِزًّا وَمَا تَوَاضَعَ أَحَدٌ لِلَّهِ إِلاَّ رَفَعَهُ اللَّهُ",
   "english_full": "Abu Huraira reported Allah's Messenger (ﷺ) as saying:Charity does not decrease wealth, no one forgives another except that Allah increases his honor, and no one humbles himself for the sake of Allah except that Allah raises his status",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "poverty"
+  ]
  },
  {
   "id": "do-not-turn-away-a-beggar",
@@ -27055,7 +27137,10 @@
   "arabic": "الْيَدُ الْعُلْيَا خَيْرٌ مِنَ الْيَدِ السُّفْلَى، فَالْيَدُ الْعُلْيَا هِيَ الْمُنْفِقَةُ، وَالسُّفْلَى هِيَ السَّائِلَةُ",
   "english_full": "Narrated Ibn `Umar:I heard Allah's Messenger (ﷺ) while he was on the pulpit speaking about charity, to abstain from asking others for some financial help and about begging others, saying, \"The upper hand is better than the lower hand. The upper hand is that of the giver and the lower (hand) is that of the beggar",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "poverty",
+   "shame"
+  ]
  },
  {
   "id": "not-the-one-who-turns-away",
@@ -27098,7 +27183,8 @@
   "situations": [
    "loneliness",
    "overwhelm",
-   "poverty"
+   "poverty",
+   "shame"
   ]
  },
  {
@@ -27143,7 +27229,8 @@
    "death",
    "death-remembrance",
    "fear",
-   "poverty"
+   "poverty",
+   "shame"
   ]
  },
  {
@@ -27373,8 +27460,10 @@
    "children",
    "despair",
    "distress",
+   "eating",
    "gratitude",
-   "parents"
+   "parents",
+   "travel"
   ]
  },
  {
@@ -29292,7 +29381,9 @@
    ]
   },
   "tier": "curated",
-  "situations": [],
+  "situations": [
+   "shame"
+  ],
   "recites": "part",
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/015088.mp3"
@@ -29569,6 +29660,7 @@
   "situations": [
    "dhikr",
    "envy",
+   "poverty",
    "shame"
   ]
  },
@@ -29615,7 +29707,9 @@
    "death",
    "death-remembrance",
    "fear",
+   "parents",
    "refuge",
+   "shame",
    "steadfastness"
   ]
  },
@@ -30048,7 +30142,8 @@
   },
   "tier": "curated",
   "situations": [
-   "debt"
+   "debt",
+   "poverty"
   ],
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/057018.mp3"
@@ -30181,6 +30276,7 @@
   },
   "tier": "curated",
   "situations": [
+   "shame",
    "steadfastness"
   ],
   "recites": "part",
@@ -30849,8 +30945,10 @@
   "situations": [
    "death",
    "death-remembrance",
+   "eating",
    "gratitude",
-   "sadness"
+   "sadness",
+   "travel"
   ]
  },
  {
@@ -33317,7 +33415,9 @@
    ]
   },
   "tier": "curated",
-  "situations": [],
+  "situations": [
+   "poverty"
+  ],
   "recites": "part",
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/016096.mp3"
@@ -33451,6 +33551,7 @@
   "tier": "curated",
   "situations": [
    "morning-evening",
+   "poverty",
    "sleep"
   ],
   "recites": "part",
@@ -36393,9 +36494,11 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "eating",
    "gratitude",
    "loneliness",
-   "poverty"
+   "poverty",
+   "travel"
   ]
  },
  {
@@ -38515,7 +38618,9 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "reconcile"
+   "eating",
+   "reconcile",
+   "travel"
   ],
   "recites": "part"
  },
@@ -38986,7 +39091,9 @@
   "tier": "curated",
   "situations": [
    "forgiveness",
-   "gratitude"
+   "gratitude",
+   "poverty",
+   "shame"
   ],
   "recites": "part"
  },
@@ -40122,7 +40229,8 @@
    "envy",
    "fear",
    "home",
-   "illness"
+   "illness",
+   "poverty"
   ]
  },
  {
@@ -40258,7 +40366,9 @@
    "despair",
    "distress",
    "fear",
+   "refuge",
    "sadness",
+   "shame",
    "sleep"
   ]
  },
@@ -40352,7 +40462,8 @@
   "situations": [
    "illness",
    "loneliness",
-   "marriage"
+   "marriage",
+   "oppression"
   ],
   "recites": "part"
  },
@@ -40867,6 +40978,7 @@
   "situations": [
    "morning-evening",
    "refuge",
+   "shame",
    "sleep"
   ]
  },
@@ -42588,6 +42700,7 @@
    "fear",
    "refuge",
    "sadness",
+   "shame",
    "sleep"
   ]
  },
@@ -42637,7 +42750,9 @@
    "death",
    "death-remembrance",
    "despair",
-   "shame"
+   "eating",
+   "shame",
+   "travel"
   ],
   "recites": "part"
  },
@@ -43877,6 +43992,7 @@
   "tier": "curated",
   "situations": [
    "eating",
+   "poverty",
    "prayer",
    "travel"
   ]
@@ -44776,6 +44892,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "weak-iman",
    "work"
   ],
   "recites": "part"
@@ -45230,6 +45347,7 @@
   "tier": "curated",
   "situations": [
    "mosque",
+   "poverty",
    "work"
   ]
  },
@@ -45592,6 +45710,7 @@
    "children",
    "distress",
    "parents",
+   "poverty",
    "prayer"
   ]
  },
@@ -46684,7 +46803,9 @@
   "tier": "curated",
   "situations": [
    "children",
-   "parents"
+   "eating",
+   "parents",
+   "travel"
   ]
  },
  {
@@ -46870,7 +46991,8 @@
   "english_full": "Narrated Anas bin Malik:The Prophet (ﷺ) said, \"If any Muslim plants any plant and a human being or an animal eats of it, he will be rewarded as if he had given that much in charity",
   "tier": "curated",
   "situations": [
-   "death-remembrance"
+   "death-remembrance",
+   "poverty"
   ],
   "recites": "part"
  },
@@ -47411,6 +47533,7 @@
   "situations": [
    "death-remembrance",
    "parents",
+   "poverty",
    "prayer"
   ]
  },
@@ -47546,6 +47669,7 @@
   "english_full": "Narrated Abu Huraira:Allah's Messenger (ﷺ) said, \"Time will pass rapidly, good deeds will decrease, and miserliness will be thrown (in the hearts of the people), and the Harj (will increase).\" They asked, \"What is the Harj?\" He replied, \"(It is) killing (murdering), (it is) murdering (killing)",
   "tier": "curated",
   "situations": [
+   "shame",
    "steadfastness"
   ]
  },
@@ -47590,7 +47714,8 @@
   "english_full": "Narrated Al-Mughira:The Prophet (ﷺ) said, \"Allah has forbidden you ( 1 ) to be undutiful to your mothers (2) to withhold (what you should give) or (3) demand (what you do not deserve), and (4) to bury your daughters alive. And Allah has disliked that (A) you talk too much about others ( B), ask too many questions (in religion), or (C) waste your property",
   "tier": "curated",
   "situations": [
-   "parents"
+   "parents",
+   "shame"
   ],
   "recites": "part"
  },

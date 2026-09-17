@@ -388,7 +388,8 @@
   "s": [
    "dhikr",
    "gratitude",
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -580,7 +581,9 @@
  {
   "id": "ghufranak",
   "t": "Leaving the washroom",
-  "s": [],
+  "s": [
+   "morning-evening"
+  ],
   "x": 1,
   "g": "Ṣaḥīḥ",
   "r": "Sunan Abī Dāwūd 30",
@@ -827,6 +830,7 @@
   "t": "When you did not get what you wanted",
   "s": [
    "decision",
+   "despair",
    "failure",
    "shame"
   ],
@@ -1019,6 +1023,7 @@
   "id": "whispers",
   "t": "When the whispering will not stop",
   "s": [
+   "prayer",
    "waswas"
   ],
   "x": 1,
@@ -1603,6 +1608,7 @@
   "s": [
    "children",
    "parents",
+   "prayer",
    "weak-iman"
   ],
   "x": 1,
@@ -1658,7 +1664,8 @@
   "id": "support-their-work",
   "t": "For someone doing good work",
   "s": [
-   "illness"
+   "illness",
+   "poverty"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -1687,6 +1694,8 @@
   "s": [
    "morning-evening",
    "prayer",
+   "refuge",
+   "shame",
    "steadfastness",
    "weak-iman"
   ],
@@ -1790,8 +1799,10 @@
   "t": "When standing firm will cost you",
   "s": [
    "anxiety",
+   "eating",
    "enemy",
-   "fear"
+   "fear",
+   "travel"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -2299,6 +2310,7 @@
    "gratitude",
    "illness",
    "poverty",
+   "shame",
    "steadfastness"
   ],
   "x": 1,
@@ -2669,7 +2681,8 @@
   "id": "feed-who-fed-me",
   "t": "For whoever put food in front of you",
   "s": [
-   "debt"
+   "debt",
+   "poverty"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -2697,7 +2710,8 @@
   "t": "Turning towards Him at the start",
   "s": [
    "forgiveness",
-   "steadfastness"
+   "steadfastness",
+   "weak-iman"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -2709,6 +2723,7 @@
   "id": "help-me-remember",
   "t": "The one he ﷺ told Muʿādh never to leave",
   "s": [
+   "anxiety",
    "dhikr",
    "distress",
    "gratitude",
@@ -2774,7 +2789,9 @@
   "t": "When your heart is pulling the wrong way",
   "s": [
    "desire",
-   "sadness"
+   "refuge",
+   "sadness",
+   "shame"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -2904,6 +2921,7 @@
   "s": [
    "death",
    "decision",
+   "despair",
    "distress",
    "failure",
    "knowledge",
@@ -3173,6 +3191,7 @@
   "t": "What actually gets wasted",
   "s": [
    "death",
+   "shame",
    "steadfastness"
   ],
   "x": 1,
@@ -3322,6 +3341,7 @@
   "t": "After a bad day of your own making",
   "s": [
    "forgiveness",
+   "poverty",
    "prayer",
    "shame",
    "steadfastness"
@@ -3470,6 +3490,7 @@
   "t": "When you have everything and still feel hollow",
   "s": [
    "anxiety",
+   "prayer",
    "sadness",
    "weak-iman"
   ],
@@ -3484,6 +3505,7 @@
   "t": "Balancing this life against the next",
   "s": [
    "gratitude",
+   "poverty",
    "work"
   ],
   "x": 1,
@@ -3570,6 +3592,7 @@
   "id": "whatever-strikes-you",
   "t": "Reading a hardship without blaming yourself for all of it",
   "s": [
+   "despair",
    "distress",
    "forgiveness",
    "knowledge",
@@ -3602,7 +3625,8 @@
   "s": [
    "despair",
    "loneliness",
-   "overwhelm"
+   "overwhelm",
+   "poverty"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -3704,7 +3728,8 @@
   "s": [
    "dhikr",
    "gratitude",
-   "illness"
+   "illness",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -3748,6 +3773,7 @@
   "id": "rivalry",
   "t": "What has been keeping you busy",
   "s": [
+   "shame",
    "work"
   ],
   "x": 1,
@@ -3860,7 +3886,8 @@
   "t": "When you are afraid giving will leave you short",
   "s": [
    "fear",
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -3871,7 +3898,11 @@
  {
   "id": "give-what-you-love",
   "t": "The threshold for real giving",
-  "s": [],
+  "s": [
+   "eating",
+   "poverty",
+   "travel"
+  ],
   "x": 1,
   "g": "Qur'an",
   "r": "Qur'an 3:92",
@@ -3987,6 +4018,7 @@
    "evil-eye",
    "failure",
    "oppression",
+   "poverty",
    "steadfastness",
    "work"
   ],
@@ -4018,6 +4050,7 @@
    "anger",
    "anxiety",
    "parents",
+   "prayer",
    "weak-iman"
   ],
   "x": 1,
@@ -4128,7 +4161,8 @@
   "id": "a-right-in-wealth",
   "t": "On the part of your money that is not yours",
   "s": [
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -4189,6 +4223,7 @@
   "s": [
    "morning-evening",
    "sadness",
+   "shame",
    "steadfastness"
   ],
   "x": 1,
@@ -4214,7 +4249,10 @@
   "id": "prefer-others",
   "t": "Giving when you have little yourself",
   "s": [
-   "poverty"
+   "eating",
+   "poverty",
+   "shame",
+   "travel"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -4288,7 +4326,8 @@
   "s": [
    "anxiety",
    "overwhelm",
-   "prayer"
+   "prayer",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -4303,7 +4342,8 @@
    "anxiety",
    "death",
    "death-remembrance",
-   "loneliness"
+   "loneliness",
+   "poverty"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -4329,7 +4369,8 @@
   "id": "the-one-who-gives",
   "t": "Two paths, described in parallel",
   "s": [
-   "despair"
+   "despair",
+   "poverty"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -4341,7 +4382,8 @@
   "id": "ungrateful",
   "t": "An honest description you may recognise",
   "s": [
-   "gratitude"
+   "gratitude",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -4354,6 +4396,7 @@
   "t": "Prayer that does not reach the person next to you",
   "s": [
    "death",
+   "poverty",
    "prayer",
    "shame",
    "weak-iman"
@@ -4414,7 +4457,8 @@
   "t": "Praise for there being more than one right way",
   "s": [
    "mosque",
-   "reconcile"
+   "reconcile",
+   "shame"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -5036,7 +5080,10 @@
   "id": "yawning",
   "t": "A small thing with an instruction attached",
   "s": [
+   "morning-evening",
    "prayer",
+   "refuge",
+   "shame",
    "sleep"
   ],
   "x": 1,
@@ -5093,6 +5140,7 @@
   "id": "charity-without-faith",
   "t": "When someone good has died outside faith",
   "s": [
+   "poverty",
    "sadness",
    "weak-iman"
   ],
@@ -5168,6 +5216,7 @@
   "t": "A deadline nobody is told in advance",
   "s": [
    "forgiveness",
+   "shame",
    "steadfastness",
    "work"
   ],
@@ -5525,6 +5574,7 @@
   "id": "righteousness-is",
   "t": "What righteousness is actually made of",
   "s": [
+   "poverty",
    "steadfastness"
   ],
   "x": 1,
@@ -5620,7 +5670,8 @@
    "death-remembrance",
    "envy",
    "gratitude",
-   "parents"
+   "parents",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -5634,6 +5685,7 @@
   "s": [
    "desire",
    "gratitude",
+   "poverty",
    "prayer",
    "weak-iman"
   ],
@@ -5806,6 +5858,7 @@
   "s": [
    "gratitude",
    "morning-evening",
+   "poverty",
    "prayer",
    "sleep"
   ],
@@ -5938,7 +5991,10 @@
  {
   "id": "allah-has-purchased",
   "t": "A transaction already described as complete",
-  "s": [],
+  "s": [
+   "eating",
+   "travel"
+  ],
   "x": 1,
   "g": "Qur'an",
   "r": "Qur'an 9:111",
@@ -6103,6 +6159,7 @@
   "id": "intercede-for-people",
   "t": "Being asked to put in a word",
   "s": [
+   "poverty",
    "work"
   ],
   "x": 1,
@@ -6299,7 +6356,8 @@
   "id": "few-are-grateful",
   "t": "An observation, not a command",
   "s": [
-   "gratitude"
+   "gratitude",
+   "shame"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -6351,7 +6409,8 @@
    "death",
    "eating",
    "enemy",
-   "poverty"
+   "poverty",
+   "travel"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -6416,9 +6475,11 @@
   "id": "khadijah",
   "t": "A message passed to someone through him",
   "s": [
+   "eating",
    "marriage",
    "overwhelm",
-   "sleep"
+   "sleep",
+   "travel"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -6526,7 +6587,9 @@
  {
   "id": "best-nation-conditions",
   "t": "A title with two conditions attached",
-  "s": [],
+  "s": [
+   "shame"
+  ],
   "x": 1,
   "g": "Qur'an",
   "r": "Qur'an 3:110",
@@ -6631,6 +6694,7 @@
   "id": "we-will-test-you",
   "t": "Stated in the first person, plainly",
   "s": [
+   "despair",
    "distress",
    "knowledge",
    "overwhelm",
@@ -6684,6 +6748,7 @@
   "t": "An honest diagnosis of what people choose",
   "s": [
    "decision",
+   "shame",
    "steadfastness",
    "work"
   ],
@@ -6697,6 +6762,7 @@
   "id": "honour-and-restriction",
   "t": "Two situations people misread",
   "s": [
+   "despair",
    "gratitude",
    "knowledge",
    "poverty",
@@ -6712,7 +6778,8 @@
   "id": "gives-to-purify",
   "t": "Who is kept away from the fire",
   "s": [
-   "debt"
+   "debt",
+   "poverty"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -6984,7 +7051,8 @@
   "t": "On the weight of a single person",
   "s": [
    "enemy",
-   "oppression"
+   "oppression",
+   "poverty"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -7081,6 +7149,7 @@
    "knowledge",
    "loneliness",
    "steadfastness",
+   "weak-iman",
    "work"
   ],
   "x": 1,
@@ -7247,7 +7316,8 @@
   "s": [
    "debt",
    "distress",
-   "overwhelm"
+   "overwhelm",
+   "poverty"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -7287,6 +7357,8 @@
   "t": "On trust and taking precautions",
   "s": [
    "illness",
+   "refuge",
+   "shame",
    "steadfastness"
   ],
   "x": 1,
@@ -7425,6 +7497,7 @@
    "desire",
    "loneliness",
    "mosque",
+   "poverty",
    "sadness"
   ],
   "x": 1,
@@ -7451,7 +7524,8 @@
   "t": "Two angels who ask opposite things each morning",
   "s": [
    "decision",
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -7567,6 +7641,7 @@
   "id": "intercede-and-be-rewarded",
   "t": "He turned requests into opportunities for others",
   "s": [
+   "poverty",
    "work"
   ],
   "x": 1,
@@ -7745,6 +7820,7 @@
   "t": "Turn back before it is taken out of your hands",
   "s": [
    "forgiveness",
+   "shame",
    "steadfastness"
   ],
   "x": 1,
@@ -7826,7 +7902,9 @@
   "id": "accept-from-muhammad",
   "t": "Said while making the sacrifice himself",
   "s": [
+   "eating",
    "gratitude",
+   "poverty",
    "travel"
   ],
   "x": 1,
@@ -8006,7 +8084,9 @@
  {
   "id": "a-kind-word",
   "t": "What is better than charity followed by injury",
-  "s": [],
+  "s": [
+   "poverty"
+  ],
   "x": 1,
   "g": "Qur'an",
   "r": "Qur'an 2:263",
@@ -8039,7 +8119,9 @@
  {
   "id": "wealth-is-not-decreased",
   "t": "Three claims about what giving does",
-  "s": [],
+  "s": [
+   "poverty"
+  ],
   "x": 1,
   "g": "Ṣaḥīḥ",
   "r": "Ṣaḥīḥ Muslim 2588",
@@ -8062,7 +8144,10 @@
  {
   "id": "the-upper-hand",
   "t": "A comparison between two hands",
-  "s": [],
+  "s": [
+   "poverty",
+   "shame"
+  ],
   "x": 1,
   "g": "Ṣaḥīḥ",
   "r": "Ṣaḥīḥ al-Bukhārī 1429",
@@ -8075,7 +8160,8 @@
   "s": [
    "loneliness",
    "overwhelm",
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -8090,7 +8176,8 @@
    "death",
    "death-remembrance",
    "fear",
-   "poverty"
+   "poverty",
+   "shame"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -8161,8 +8248,10 @@
    "children",
    "despair",
    "distress",
+   "eating",
    "gratitude",
-   "parents"
+   "parents",
+   "travel"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -8749,7 +8838,9 @@
  {
   "id": "lower-your-wing",
   "t": "A physical image for how to treat believers",
-  "s": [],
+  "s": [
+   "shame"
+  ],
   "x": 1,
   "g": "Qur'an",
   "r": "Qur'an 15:88",
@@ -8833,6 +8924,7 @@
   "s": [
    "dhikr",
    "envy",
+   "poverty",
    "shame"
   ],
   "x": 1,
@@ -8848,7 +8940,9 @@
    "death",
    "death-remembrance",
    "fear",
+   "parents",
    "refuge",
+   "shame",
    "steadfastness"
   ],
   "x": 1,
@@ -8983,7 +9077,8 @@
   "id": "a-hidden-good",
   "t": "On charity that is not seen",
   "s": [
-   "debt"
+   "debt",
+   "poverty"
   ],
   "x": 1,
   "g": "Qur'an",
@@ -9018,6 +9113,7 @@
   "id": "the-heart-of-the-matter",
   "t": "A short verse about turning things over",
   "s": [
+   "shame",
    "steadfastness"
   ],
   "x": 1,
@@ -9224,8 +9320,10 @@
   "s": [
    "death",
    "death-remembrance",
+   "eating",
    "gratitude",
-   "sadness"
+   "sadness",
+   "travel"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -9996,7 +10094,9 @@
  {
   "id": "what-is-with-allah",
   "t": "On preferring what does not run out",
-  "s": [],
+  "s": [
+   "poverty"
+  ],
   "x": 1,
   "g": "Qur'an",
   "r": "Qur'an 16:96",
@@ -10032,6 +10132,7 @@
   "t": "What a person will be under on that Day",
   "s": [
    "morning-evening",
+   "poverty",
    "sleep"
   ],
   "x": 1,
@@ -10864,9 +10965,11 @@
   "id": "and-from-whoever-did-not",
   "t": "Who he included in his own sacrifice",
   "s": [
+   "eating",
    "gratitude",
    "loneliness",
-   "poverty"
+   "poverty",
+   "travel"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -11469,7 +11572,9 @@
   "id": "you-know-there-is-no-one",
   "t": "Saʿd's vow after the Trench",
   "s": [
-   "reconcile"
+   "eating",
+   "reconcile",
+   "travel"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -11607,7 +11712,9 @@
   "t": "A man who gave the worst animal he had",
   "s": [
    "forgiveness",
-   "gratitude"
+   "gratitude",
+   "poverty",
+   "shame"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -11942,7 +12049,8 @@
    "envy",
    "fear",
    "home",
-   "illness"
+   "illness",
+   "poverty"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -11983,7 +12091,9 @@
    "despair",
    "distress",
    "fear",
+   "refuge",
    "sadness",
+   "shame",
    "sleep"
   ],
   "x": 1,
@@ -12012,7 +12122,8 @@
   "s": [
    "illness",
    "loneliness",
-   "marriage"
+   "marriage",
+   "oppression"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -12170,6 +12281,7 @@
   "s": [
    "morning-evening",
    "refuge",
+   "shame",
    "sleep"
   ],
   "x": 1,
@@ -12686,6 +12798,7 @@
    "fear",
    "refuge",
    "sadness",
+   "shame",
    "sleep"
   ],
   "x": 1,
@@ -12701,7 +12814,9 @@
    "death",
    "death-remembrance",
    "despair",
-   "shame"
+   "eating",
+   "shame",
+   "travel"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -13054,6 +13169,7 @@
   "t": "What the whole thing stands on",
   "s": [
    "eating",
+   "poverty",
    "prayer",
    "travel"
   ],
@@ -13312,6 +13428,7 @@
   "id": "two-rewards",
   "t": "Three people who get paid twice",
   "s": [
+   "weak-iman",
    "work"
   ],
   "x": 1,
@@ -13439,6 +13556,7 @@
   "t": "What is built in return",
   "s": [
    "mosque",
+   "poverty",
    "work"
   ],
   "x": 1,
@@ -13541,6 +13659,7 @@
    "children",
    "distress",
    "parents",
+   "poverty",
    "prayer"
   ],
   "x": 1,
@@ -13872,7 +13991,9 @@
   "t": "What a woman did with the only thing she was given",
   "s": [
    "children",
-   "parents"
+   "eating",
+   "parents",
+   "travel"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -13928,7 +14049,8 @@
   "id": "whatever-eats-from-it",
   "t": "What a planted thing keeps earning",
   "s": [
-   "death-remembrance"
+   "death-remembrance",
+   "poverty"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",
@@ -14080,6 +14202,7 @@
   "s": [
    "death-remembrance",
    "parents",
+   "poverty",
    "prayer"
   ],
   "x": 1,
@@ -14119,6 +14242,7 @@
   "id": "time-contracting",
   "t": "Four things named together as one condition",
   "s": [
+   "shame",
    "steadfastness"
   ],
   "x": 1,
@@ -14131,7 +14255,8 @@
   "id": "what-was-forbidden-to-you",
   "t": "Three things forbidden and three disliked",
   "s": [
-   "parents"
+   "parents",
+   "shame"
   ],
   "x": 1,
   "g": "Ṣaḥīḥ",

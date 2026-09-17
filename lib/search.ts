@@ -399,7 +399,11 @@ export function matchSituations(query: string) {
   const negated = negatedWords(query);
   const boosts = intentBoosts(query);
   const subj = subject(query);
-  if ((!q || !qt.length) && !boosts.size) return [] as { sit: Situation; score: number }[];
+  // Not `!qt.length`: "why me", "what now", "is this it" are made entirely of
+  // stop words, so tokenising leaves nothing and the function used to return
+  // before the phrase path ran — even with the phrase written in the lexicon.
+  // Someone typing three small words is still asking something.
+  if (!q && !boosts.size) return [] as { sit: Situation; score: number }[];
 
   const scored: { sit: Situation; score: number; onSubject?: boolean }[] = [];
   for (const sit of situations) {

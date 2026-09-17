@@ -85,6 +85,68 @@ const SPOKEN = [
   "is there a dua for this", "what did the prophet say when he was sad",
 ];
 
+
+/** The span of a life, by category, written by asking "what happens to people"
+ *  rather than "what does the lexicon cover". This is the list that took the
+ *  site from 75% to 100%, and it is kept so that it stays there.
+ *
+ *  Categories are only for reading the failure report — a gap in one column is
+ *  a subject the site cannot be asked about, which is more useful to see than
+ *  a flat percentage.
+ */
+const LIFE = {
+  addiction: ["addicted to drugs", "alcohol", "drinking", "smoking", "cant quit smoking",
+    "vaping", "gambling", "betting", "addicted to my phone", "social media addiction",
+    "video games", "cant stop scrolling"],
+  mental: ["ocd", "obsessive thoughts", "bipolar", "adhd", "cant concentrate",
+    "eating disorder", "anorexia", "binge eating", "body image", "hate my body",
+    "overweight", "self esteem", "therapy", "medication", "psychiatrist"],
+  fertility: ["infertile", "cant conceive", "miscarriage", "stillbirth", "lost the baby",
+    "ivf", "pregnancy", "morning sickness", "labour pains", "breastfeeding",
+    "postnatal", "c section"],
+  family: ["caring for my mother", "elderly parents", "dementia", "my parents are fighting",
+    "siblings fighting", "cut off my family", "estranged from family", "adopted",
+    "orphan", "step parent", "custody"],
+  money: ["bankrupt", "business failed", "cant pay my staff", "investment lost", "scammed",
+    "fraud", "stock market", "crypto", "inheritance", "zakat", "charity", "sadaqah", "tax"],
+  work: ["hate my job", "toxic workplace", "discriminated at work", "overworked",
+    "night shift", "started a business", "first day", "made a mistake at work",
+    "office politics"],
+  migration: ["visa rejected", "immigration", "deported", "asylum", "refugee",
+    "moving country", "homesick", "far from family", "living abroad", "cant go home"],
+  conflict: ["war", "bombing", "genocide", "occupation", "famine", "earthquake", "flood",
+    "hurricane", "lost my home", "displaced", "natural disaster"],
+  legal: ["court case", "prison", "arrested", "police", "lawsuit", "wrongly accused",
+    "jail", "released from prison"],
+  social: ["bullied", "cyberbullied", "no friends", "social anxiety", "public speaking",
+    "presentation", "betrayed by a friend", "friend stopped talking", "fell out"],
+  practice: ["new muslim", "revert", "convert", "first ramadan", "hijab",
+    "started wearing hijab", "stopped praying", "missed prayers", "cant wake for fajr",
+    "beard", "music", "doubts about islam", "questioning my faith", "apostasy",
+    "cant feel anything when i pray"],
+  worship: ["ramadan", "laylatul qadr", "eid", "jummah", "friday", "fasting",
+    "breaking fast", "hajj", "umrah", "qurbani", "eid al adha", "tarawih", "itikaf"],
+  illness: ["depression", "anxiety disorder", "cancer diagnosis", "chemotherapy", "dialysis",
+    "transplant", "chronic illness", "long covid", "heart attack", "stroke", "paralysed",
+    "blind", "deaf", "disability"],
+  children: ["my child wont listen", "teenage son", "rebellious daughter",
+    "child with autism", "special needs", "school problems", "bullied at school",
+    "exam results", "university"],
+  grief: ["my father died", "my mother died", "lost my child", "lost my spouse",
+    "lost a friend", "pet died", "anniversary of death", "visiting the grave", "funeral"],
+  daily: ["before eating", "after eating", "entering the toilet", "leaving the toilet",
+    "wearing new clothes", "looking in the mirror", "sneezing", "yawning", "waking up",
+    "going to sleep", "leaving home", "entering home", "riding", "boarding a plane",
+    "seeing the moon", "hearing a rooster", "hearing a dog bark", "strong wind",
+    "first fruit of the season"],
+  unseen: ["black magic", "sihr", "jinn", "possessed", "haunted", "nightmare",
+    "sleep paralysis", "evil eye on my child", "someone cursed me", "hasad"],
+  character: ["arrogant", "proud", "impatient", "short tempered", "lazy", "procrastinating",
+    "ungrateful", "stingy", "judgemental", "gossiping", "jealous of my friend"],
+  hope: ["dua not answered", "been asking for years", "allah is not listening",
+    "feel abandoned", "why me", "lost hope", "istikhara result", "waiting for an answer"],
+};
+
 /** Words the site's own entries lean on, which a visitor may therefore type.
  *
  *  An earlier version of this counted any word appearing four times or more,
@@ -121,7 +183,7 @@ function fromContent() {
 }
 
 const content = fromContent();
-const groups = [["spoken", SPOKEN], ["content", content]];
+const groups = [["spoken", SPOKEN], ...Object.entries(LIFE), ["content", content]];
 
 // The entry index is what answers a query naming something specific.
 const entryKeywords = JSON.parse(

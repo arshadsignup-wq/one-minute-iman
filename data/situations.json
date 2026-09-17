@@ -103,7 +103,21 @@
     "unmotivated",
     "no energy",
     "dont want to do anything",
-    "everything feels pointless"
+    "everything feels pointless",
+    "bipolar",
+    "adhd",
+    "anorexia",
+    "bulimia",
+    "eating disorder",
+    "body image",
+    "hate how i look",
+    "overweight",
+    "obese",
+    "psychiatrist",
+    "therapist",
+    "on medication",
+    "mental health",
+    "mental illness"
    ],
    "count": 118
   },
@@ -164,9 +178,18 @@
     "peace of mind",
     "sakinah",
     "tension",
-    "in tension"
+    "in tension",
+    "public speaking",
+    "presentation",
+    "speech tomorrow",
+    "stage fright",
+    "scared to speak",
+    "cyberbullied",
+    "adhd",
+    "cant concentrate",
+    "cant focus"
    ],
-   "count": 125
+   "count": 126
   },
   {
    "id": "fear",
@@ -235,7 +258,12 @@
     "fuming",
     "fed up",
     "had enough",
-    "cant take it"
+    "cant take it",
+    "short tempered",
+    "quick to anger",
+    "snap at people",
+    "lose my temper easily",
+    "irritable"
    ],
    "count": 62
   },
@@ -348,9 +376,16 @@
     "no point trying",
     "at rock bottom",
     "lowest point",
-    "cant see a way"
+    "cant see a way",
+    "why me",
+    "why is this happening to me",
+    "what did i do to deserve this",
+    "dua not answered",
+    "allah is not listening",
+    "been asking for years",
+    "feel abandoned"
    ],
-   "count": 77
+   "count": 82
   },
   {
    "id": "overwhelm",
@@ -559,9 +594,24 @@
     "slandered someone",
     "spoke badly about someone",
     "lied",
-    "i told a lie"
+    "i told a lie",
+    "proud",
+    "boastful",
+    "stingy",
+    "stinginess",
+    "miserly",
+    "tight with money",
+    "ungrateful",
+    "judgemental",
+    "judging others",
+    "looking down on people",
+    "lazy",
+    "laziness",
+    "procrastinating",
+    "cant be bothered",
+    "wasting time"
    ],
-   "count": 141
+   "count": 176
   },
   {
    "id": "distress",
@@ -589,7 +639,14 @@
     "hardest time",
     "trial",
     "tested",
-    "severe"
+    "severe",
+    "prison",
+    "jail",
+    "arrested",
+    "locked up",
+    "court tomorrow",
+    "hearing tomorrow",
+    "waiting for a verdict"
    ],
    "count": 67
   },
@@ -646,7 +703,19 @@
     "recovering",
     "getting better",
     "convalescing",
-    "after surgery"
+    "after surgery",
+    "dialysis",
+    "transplant",
+    "long covid",
+    "stroke",
+    "paralysed",
+    "deaf",
+    "hard of hearing",
+    "losing my sight",
+    "radiotherapy",
+    "ventilator",
+    "icu",
+    "intensive care"
    ],
    "count": 119
   },
@@ -803,9 +872,19 @@
     "salary",
     "expensive",
     "short on money",
-    "tight this month"
+    "tight this month",
+    "zakat",
+    "zakah",
+    "charity",
+    "sadaqah",
+    "giving charity",
+    "inheritance",
+    "tax",
+    "crypto",
+    "investment",
+    "savings"
    ],
-   "count": 157
+   "count": 192
   },
   {
    "id": "oppression",
@@ -878,9 +957,28 @@
     "scared of my husband",
     "forced marriage",
     "coerced",
-    "controlling"
+    "controlling",
+    "scammed",
+    "scam",
+    "fraud",
+    "defrauded",
+    "cheated out of money",
+    "conned",
+    "cyberbullied",
+    "deported",
+    "displaced",
+    "expelled from my home",
+    "prison",
+    "jail",
+    "arrested",
+    "police",
+    "in custody",
+    "wrongly imprisoned",
+    "released from prison",
+    "court case",
+    "lawsuit"
    ],
-   "count": 82
+   "count": 83
   },
   {
    "id": "enemy",
@@ -1078,7 +1176,13 @@
     "single mum",
     "single dad",
     "my teenager",
-    "toddler"
+    "toddler",
+    "breastfeeding",
+    "nursing my baby",
+    "c section",
+    "caesarean",
+    "my baby wont sleep",
+    "weaning"
    ],
    "count": 186
   },
@@ -1115,9 +1219,14 @@
     "looking after my parents",
     "caring for my mum",
     "caring for my dad",
-    "elderly parents"
+    "elderly parents",
+    "dementia",
+    "alzheimers",
+    "caring for my mother",
+    "caring for my father",
+    "nursing home"
    ],
-   "count": 139
+   "count": 140
   },
   {
    "id": "reconcile",
@@ -1155,7 +1264,12 @@
     "my sister doesnt speak to me",
     "family feud",
     "toxic family",
-    "fell out with family"
+    "fell out with family",
+    "friend stopped talking",
+    "they blocked me",
+    "fell out with a friend",
+    "not on speaking terms",
+    "silent treatment"
    ],
    "count": 89
   },
@@ -1332,9 +1446,18 @@
     "medina",
     "tawaf",
     "ihram",
-    "arafah"
+    "arafah",
+    "boarding a plane",
+    "getting on a plane",
+    "riding",
+    "in the car",
+    "on the bus",
+    "train journey",
+    "qurbani",
+    "sacrifice",
+    "eid al adha"
    ],
-   "count": 68
+   "count": 80
   },
   {
    "id": "forgiveness",
@@ -1433,9 +1556,15 @@
     "missed fajr",
     "cant wake for fajr",
     "struggling to pray",
-    "far from deen"
+    "far from deen",
+    "convert",
+    "revert",
+    "born muslim but",
+    "beard",
+    "hijab struggle",
+    "practising is hard"
    ],
-   "count": 154
+   "count": 157
   },
   {
    "id": "desire",
@@ -1496,7 +1625,15 @@
     "slipped again",
     "gave in again",
     "cant help myself",
-    "weak against it"
+    "weak against it",
+    "vaping",
+    "betting",
+    "gambling",
+    "video games",
+    "gaming",
+    "cant stop gaming",
+    "addicted to games",
+    "gambling debt"
    ],
    "count": 55
   },
@@ -1649,9 +1786,16 @@
     "ruqyah",
     "ruqya",
     "shifa",
-    "protection verses"
+    "protection verses",
+    "haunted",
+    "something in the house",
+    "strange noises",
+    "frightened at night",
+    "lazy",
+    "laziness",
+    "incapacity"
    ],
-   "count": 248
+   "count": 253
   },
   {
    "id": "evil-eye",
@@ -1732,9 +1876,16 @@
     "new day",
     "looking in the mirror",
     "new clothes",
-    "got dressed"
+    "got dressed",
+    "yawning",
+    "sneezing",
+    "when someone sneezes",
+    "entering the toilet",
+    "leaving the toilet",
+    "going to the bathroom",
+    "waking up at night"
    ],
-   "count": 135
+   "count": 137
   },
   {
    "id": "sleep",
@@ -1791,9 +1942,12 @@
     "bismillah before food",
     "gratitude for food",
     "about to eat",
-    "having a meal"
+    "having a meal",
+    "qurbani",
+    "slaughtering",
+    "sacrifice"
    ],
-   "count": 103
+   "count": 115
   },
   {
    "id": "prayer",
@@ -1819,9 +1973,14 @@
     "dua in prayer",
     "fajr",
     "concentration in prayer",
-    "khushu"
+    "khushu",
+    "cant focus in salah",
+    "distracted in prayer",
+    "missed fajr",
+    "missed prayers",
+    "stopped praying"
    ],
-   "count": 270
+   "count": 274
   },
   {
    "id": "mosque",
@@ -1867,7 +2026,12 @@
     "solar eclipse",
     "lunar eclipse",
     "kusuf",
-    "khusuf"
+    "khusuf",
+    "hurricane",
+    "cyclone",
+    "typhoon",
+    "tornado",
+    "seeing the moon"
    ],
    "count": 55
   },
