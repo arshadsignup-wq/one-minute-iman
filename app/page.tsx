@@ -24,7 +24,7 @@ export default function Home() {
       {/* ── hero ───────────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden border-b border-[var(--line-soft)]">
         <div
-          className="absolute inset-0"
+          className="pointer-events-none absolute inset-0"
           style={{ background: "linear-gradient(180deg, var(--paper-2) 0%, var(--paper) 100%)" }}
           aria-hidden="true"
         />

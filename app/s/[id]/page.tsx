@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { situations, sitById, entriesFor, categories } from "@/lib/search";
 import { SITE_URL, clampDescription, OG_IMAGE } from "@/lib/site";
 import { EntryCard, EntryRow } from "@/components/Cards";
+import SurahFor from "@/components/SurahFor";
 import hubCopy from "@/data/hub-copy.json";
 
 type HubCopy = { answer: string; faq: string[][] };
@@ -154,6 +155,8 @@ export default async function SituationPage({
           </div>
         </section>
       )}
+
+      <SurahFor situation={sit.id} />
 
       {rest.length > 0 && (
         <section className="mt-14 pb-8">

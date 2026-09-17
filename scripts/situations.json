@@ -975,6 +975,40 @@
    "count": 179
   },
   {
+   "id": "intimacy",
+   "label": "Intimacy",
+   "cat": "people",
+   "blurb": "What a husband and wife say, and what it guards",
+   "feelings": [
+    "sex",
+    "intimacy",
+    "intimate",
+    "making love",
+    "husband and wife",
+    "before intimacy",
+    "sleeping with my wife",
+    "sleeping with my husband",
+    "sleeping together",
+    "conjugal",
+    "marital relations",
+    "in the bedroom",
+    "bedroom",
+    "dua before intimacy",
+    "what to say before intimacy",
+    "physical relationship",
+    "being close to my wife",
+    "being close to my husband",
+    "consummate",
+    "wedding night",
+    "first night",
+    "trying for a baby",
+    "trying to conceive",
+    "we want a child",
+    "starting a family"
+   ],
+   "count": 16
+  },
+  {
    "id": "children",
    "label": "Children",
    "cat": "people",
@@ -1017,7 +1051,7 @@
     "my teenager",
     "toddler"
    ],
-   "count": 187
+   "count": 186
   },
   {
    "id": "parents",
@@ -1356,6 +1390,60 @@
    "count": 154
   },
   {
+   "id": "desire",
+   "label": "Desire & temptation",
+   "cat": "faith",
+   "blurb": "The wandering eye, the urge you are trying not to follow",
+   "feelings": [
+    "lust",
+    "lustful",
+    "desire",
+    "desires",
+    "tempted",
+    "temptation",
+    "urges",
+    "cant control myself",
+    "cant control my desire",
+    "struggling with desire",
+    "struggling with lust",
+    "porn",
+    "pornography",
+    "watching porn",
+    "addicted to porn",
+    "masturbation",
+    "masturbating",
+    "bad habit",
+    "secret sin",
+    "zina",
+    "adultery",
+    "fornication",
+    "haram relationship",
+    "girlfriend",
+    "boyfriend",
+    "talking to someone haram",
+    "attracted to someone",
+    "attracted to a coworker",
+    "i keep looking",
+    "cant stop looking",
+    "lower my gaze",
+    "lowering my gaze",
+    "wandering eye",
+    "modesty",
+    "chastity",
+    "staying chaste",
+    "want to stay pure",
+    "keep falling into the same sin",
+    "i keep relapsing",
+    "i cant stop",
+    "temptation is everywhere",
+    "dating",
+    "in a haram relationship",
+    "crush",
+    "i have a crush"
+   ],
+   "count": 48
+  },
+  {
    "id": "waswas",
    "label": "Intrusive thoughts",
    "cat": "faith",
@@ -1490,7 +1578,7 @@
     "at night",
     "dark"
    ],
-   "count": 240
+   "count": 239
   },
   {
    "id": "evil-eye",
@@ -1520,7 +1608,7 @@
     "someone jealous of me",
     "ill wish"
    ],
-   "count": 44
+   "count": 43
   },
   {
    "id": "home",
@@ -1657,7 +1745,7 @@
     "concentration in prayer",
     "khushu"
    ],
-   "count": 271
+   "count": 270
   },
   {
    "id": "mosque",
@@ -1741,7 +1829,7 @@
     "full collection",
     "anything else"
    ],
-   "count": 825
+   "count": 817
   }
  ]
 }

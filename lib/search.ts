@@ -70,6 +70,82 @@ export function isCrisis(query: string) {
 }
 
 
+/** Words that mean the same thing to the person typing them.
+ *
+ *  The lexicon lists what someone might type, but it cannot list every way of
+ *  saying one thing under every situation that answers it. "sex" was written
+ *  into the intimacy vocabulary and "intimate" was not, so one of them found
+ *  the duʿā and the other found nothing — for the same question.
+ *
+ *  Each row is a set of words that should reach whatever any of them reaches.
+ *  A synonym scores below a word the lexicon actually lists, so a deliberate
+ *  phrasing still outranks an inferred one.
+ *
+ *  The Arabic and Urdu terms are here because people type them: someone asking
+ *  about rizq is asking about provision, and the site should not need them to
+ *  translate themselves first.
+ */
+const SYNONYMS: string[][] = [
+  ["sex", "intimacy", "intimate", "lovemaking", "conjugal", "consummation"],
+  ["lust", "desire", "temptation", "urge", "craving", "shahwa"],
+  ["chastity", "modesty", "purity", "haya", "iffah"],
+  ["zina", "adultery", "fornication"],
+  ["rizq", "provision", "sustenance", "livelihood", "income", "earnings"],
+  ["money", "wealth", "finances", "cash", "funds"],
+  ["debt", "loan", "owing", "qarz", "qard"],
+  ["sabr", "patience", "endurance", "steadfastness", "perseverance"],
+  ["shukr", "gratitude", "thankfulness", "thanks"],
+  ["tawbah", "repentance", "repent", "istighfar", "forgiveness"],
+  ["dua", "duaa", "supplication", "invocation", "prayer"],
+  ["salah", "salat", "namaz", "prayer"],
+  ["iman", "eman", "faith", "belief"],
+  ["sadness", "grief", "sorrow", "gham", "dukh"],
+  ["anxiety", "worry", "stress", "tension", "pareshani"],
+  ["fear", "khawf", "dread", "terror"],
+  ["anger", "ghadab", "rage", "fury"],
+  ["illness", "sickness", "disease", "ailment", "bimari"],
+  ["death", "dying", "passing", "maut", "bereavement"],
+  ["grave", "qabr", "barzakh", "burial"],
+  ["protection", "refuge", "shelter", "safety", "hifz"],
+  ["evil eye", "nazar", "ayn", "hasad"],
+  ["magic", "sihr", "witchcraft", "black magic"],
+  ["marriage", "nikah", "wedding", "shaadi", "matrimony"],
+  ["children", "kids", "offspring", "aulad", "progeny"],
+  ["parents", "mother", "father", "walidayn", "ammi", "abbu"],
+  ["knowledge", "study", "exam", "ilm", "learning"],
+  ["work", "job", "career", "employment", "business"],
+  ["travel", "journey", "safar", "trip"],
+  ["guidance", "hidayah", "direction", "istikhara"],
+  ["oppression", "injustice", "zulm", "wronged"],
+  ["loneliness", "lonely", "alone", "isolated", "abandoned"],
+  ["hopelessness", "despair", "hopeless", "giving up"],
+  ["satan", "shaytan", "devil", "iblis", "waswas", "whispers"],
+];
+
+/** token → every word that should also be tried for it. */
+const SYNONYM_INDEX: Map<string, Set<string>> = (() => {
+  const m = new Map<string, Set<string>>();
+  for (const row of SYNONYMS) {
+    const words = row.map((w) => normalise(w)).filter(Boolean);
+    for (const w of words) {
+      // multi-word entries ("evil eye") join the index under each of their
+      // words too, so "nazar" reaches "evil" and "eye" alike
+      for (const key of [w, ...w.split(" ")]) {
+        if (!key) continue;
+        const set = m.get(key) ?? new Set<string>();
+        for (const other of words) if (other !== key) set.add(other);
+        m.set(key, set);
+      }
+    }
+  }
+  return m;
+})();
+
+/** Every word that should also be tried in place of this one. */
+export function synonymsOf(token: string): string[] {
+  return [...(SYNONYM_INDEX.get(token) ?? [])];
+}
+
 /** True when two words are one edit apart (a swap, an insertion, a deletion or
  *  a substitution). Bounded to short words and bailing early, so it stays cheap
  *  enough to run over the whole lexicon on every keystroke. */
@@ -268,6 +344,8 @@ export function matchSituations(query: string) {
         // An exact phrase from the lexicon wins over the negation heuristic:
         // "im not okay" is written there deliberately and means what it says.
         if (q.includes(nf)) score += 14 + nf.length / 5;
+        // "evil eye" is listed, "nazar" is what was typed.
+        else if (qt.some((t) => SYNONYM_INDEX.get(t)?.has(nf))) score += 9;
         continue;
       }
       for (const t of qt) {
@@ -280,6 +358,9 @@ export function matchSituations(query: string) {
         // "anxeity", "depresion", "greif": a transposed or dropped letter is not
         // a prefix, so prefix matching alone never catches a typo.
         else if (t.length >= 5 && near(t, nf)) score += 7;
+        // A word the lexicon never listed, meaning the same as one it did.
+        // Scored below an exact listing so a deliberate phrasing still leads.
+        else if (SYNONYM_INDEX.get(t)?.has(nf)) score += 8;
       }
     }
     for (const t of qt) {
@@ -347,5 +428,47 @@ export const EXAMPLES = [
   "I feel alone", "I can't stop worrying", "Something good happened", "I'm in debt",
   "I lost my mother", "I keep sinning", "I can't decide", "I'm angry",
   "I have an exam", "someone wronged me", "I can't sleep", "I feel far from Allah",
-  "I'm travelling",
+  "I'm travelling", "I'm getting married", "protect my home", "someone is ill",
+  "I can't stop looking", "thinking about death", "my child is sick",
 ];
+
+/** What to offer while someone is still typing.
+ *
+ *  The examples only showed on an empty box, so the moment a visitor started
+ *  typing they were on their own — and a half-typed word matches nothing, which
+ *  reads as "we have nothing for you" rather than "keep going". These are the
+ *  situations a partial word is heading towards, offered as somewhere to land.
+ *
+ *  Prefix matching on the vocabulary, not the scorer: this answers "what could
+ *  you mean" while the scorer answers "what did you mean", and half a word is
+ *  not yet a question.
+ */
+export function suggestions(query: string, take = 6) {
+  const q = normalise(query);
+  if (q.length < 2) return [] as { sit: Situation; hint: string }[];
+  const last = q.split(" ").filter(Boolean).pop() ?? "";
+  if (!last) return [];
+
+  const out: { sit: Situation; hint: string; rank: number }[] = [];
+  for (const sit of situations) {
+    if (sit.id === "misc") continue;
+    let best: { hint: string; rank: number } | null = null;
+    const consider = (hint: string, rank: number) => {
+      if (!best || rank < best.rank) best = { hint, rank };
+    };
+    const label = normalise(sit.label);
+    if (label.startsWith(last)) consider(sit.label, 0);
+    else if (label.includes(last)) consider(sit.label, 3);
+    for (const f of sit.feelings) {
+      const nf = normalise(f);
+      if (!nf) continue;
+      if (nf === last) consider(f, 1);
+      else if (nf.startsWith(last)) consider(f, 2);
+      // a word the visitor knows, for a situation named differently
+      else if (SYNONYM_INDEX.get(last)?.has(nf)) consider(f, 4);
+    }
+    if (best) out.push({ sit, hint: (best as { hint: string }).hint, rank: (best as { rank: number }).rank });
+  }
+  out.sort((a, b) => a.rank - b.rank || b.sit.count - a.sit.count);
+  return out.slice(0, take).map(({ sit, hint }) => ({ sit, hint }));
+}

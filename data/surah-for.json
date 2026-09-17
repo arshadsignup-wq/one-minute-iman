@@ -1,0 +1,444 @@
+{
+ "for": {
+  "death-remembrance": [
+   {
+    "surahs": [
+     {
+      "n": 67,
+      "name": "Al-Mulk",
+      "translated": "The Sovereignty"
+     }
+    ],
+    "says": "A sūrah of thirty verses that intercedes for whoever reads it until he is forgiven.",
+    "ref": {
+     "collection": "ibnmajah",
+     "number": 3786,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Al-Albani: Sahih",
+      "Muhammad Fouad Abd al-Baqi: Sahih",
+      "Shuaib Al Arnaut: Hasan Lighairihi",
+      "Zubair Ali Zai: Isnaad Hasan"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 67,
+      "name": "Al-Mulk",
+      "translated": "The Sovereignty"
+     }
+    ],
+    "says": "Narrated again in Abū Dāwūd, with the same thirty verses and the same intercession.",
+    "ref": {
+     "collection": "abudawud",
+     "number": 1400,
+     "grade": "Ḥasan",
+     "verdicts": [
+      "Al-Albani: Hasan",
+      "Muhammad Muhyi Al-Din Abdul Hamid: Hasan",
+      "Shuaib Al Arnaut: Hasan Lighairihi",
+      "Zubair Ali Zai: Isnaad Hasan"
+     ]
+    }
+   }
+  ],
+  "forgiveness": [
+   {
+    "surahs": [
+     {
+      "n": 67,
+      "name": "Al-Mulk",
+      "translated": "The Sovereignty"
+     }
+    ],
+    "says": "A sūrah of thirty verses that intercedes for whoever reads it until he is forgiven.",
+    "ref": {
+     "collection": "ibnmajah",
+     "number": 3786,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Al-Albani: Sahih",
+      "Muhammad Fouad Abd al-Baqi: Sahih",
+      "Shuaib Al Arnaut: Hasan Lighairihi",
+      "Zubair Ali Zai: Isnaad Hasan"
+     ]
+    }
+   }
+  ],
+  "protection": [
+   {
+    "surahs": [
+     {
+      "n": 2,
+      "name": "Al-Baqarah",
+      "translated": "The Cow"
+     }
+    ],
+    "says": "Whoever recites the last two āyāt of al-Baqarah at night, they will suffice him.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2881,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Bashar Awad Maarouf: Hasan Sahih",
+      "Zubair Ali Zai: Sahih - Agreed Upon"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 2,
+      "name": "Al-Baqarah",
+      "translated": "The Cow"
+     }
+    ],
+    "says": "Āyat al-Kursī, recited at night, and what was said to guard the one who reads it.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2880,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Zubair Ali Zai: Daif"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 113,
+      "name": "Al-Falaq",
+      "translated": "The Daybreak"
+     },
+     {
+      "n": 114,
+      "name": "An-Nas",
+      "translated": "Mankind"
+     }
+    ],
+    "says": "Recited into the hands and wiped over the body, every night, before sleep.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 3402,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Zubair Ali Zai: Sahih Bukhari"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 18,
+      "name": "Al-Kahf",
+      "translated": "The Cave"
+     }
+    ],
+    "says": "Recited by a man when tranquillity descended, and his horse startled at it.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2885,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Bashar Awad Maarouf: Hasan Sahih",
+      "Zubair Ali Zai: Sahih - Agreed Upon"
+     ]
+    }
+   }
+  ],
+  "sleep": [
+   {
+    "surahs": [
+     {
+      "n": 2,
+      "name": "Al-Baqarah",
+      "translated": "The Cow"
+     }
+    ],
+    "says": "Whoever recites the last two āyāt of al-Baqarah at night, they will suffice him.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2881,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Bashar Awad Maarouf: Hasan Sahih",
+      "Zubair Ali Zai: Sahih - Agreed Upon"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 2,
+      "name": "Al-Baqarah",
+      "translated": "The Cow"
+     }
+    ],
+    "says": "Āyat al-Kursī, recited at night, and what was said to guard the one who reads it.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2880,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Zubair Ali Zai: Daif"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 113,
+      "name": "Al-Falaq",
+      "translated": "The Daybreak"
+     },
+     {
+      "n": 114,
+      "name": "An-Nas",
+      "translated": "Mankind"
+     }
+    ],
+    "says": "Recited into the hands and wiped over the body, every night, before sleep.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 3402,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Zubair Ali Zai: Sahih Bukhari"
+     ]
+    }
+   }
+  ],
+  "home": [
+   {
+    "surahs": [
+     {
+      "n": 2,
+      "name": "Al-Baqarah",
+      "translated": "The Cow"
+     }
+    ],
+    "says": "Whoever recites the last two āyāt of al-Baqarah at night, they will suffice him.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2881,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Bashar Awad Maarouf: Hasan Sahih",
+      "Zubair Ali Zai: Sahih - Agreed Upon"
+     ]
+    }
+   }
+  ],
+  "refuge": [
+   {
+    "surahs": [
+     {
+      "n": 2,
+      "name": "Al-Baqarah",
+      "translated": "The Cow"
+     }
+    ],
+    "says": "Āyat al-Kursī, recited at night, and what was said to guard the one who reads it.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2880,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Zubair Ali Zai: Daif"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 113,
+      "name": "Al-Falaq",
+      "translated": "The Daybreak"
+     },
+     {
+      "n": 114,
+      "name": "An-Nas",
+      "translated": "Mankind"
+     }
+    ],
+    "says": "Recited into the hands and wiped over the body, every night, before sleep.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 3402,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Zubair Ali Zai: Sahih Bukhari"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 18,
+      "name": "Al-Kahf",
+      "translated": "The Cave"
+     }
+    ],
+    "says": "Recited by a man when tranquillity descended, and his horse startled at it.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2885,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Bashar Awad Maarouf: Hasan Sahih",
+      "Zubair Ali Zai: Sahih - Agreed Upon"
+     ]
+    }
+   }
+  ],
+  "dhikr": [
+   {
+    "surahs": [
+     {
+      "n": 2,
+      "name": "Al-Baqarah",
+      "translated": "The Cow"
+     }
+    ],
+    "says": "Āyat al-Kursī named as the greatest āyah in the Book.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2884,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Zubair Ali Zai: Isnaad Sahih"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 112,
+      "name": "Al-Ikhlas",
+      "translated": "The Sincerity"
+     }
+    ],
+    "says": "Equal to a third of the Qur'an.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2896,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Zubair Ali Zai: Sahih"
+     ]
+    }
+   }
+  ],
+  "evil-eye": [
+   {
+    "surahs": [
+     {
+      "n": 113,
+      "name": "Al-Falaq",
+      "translated": "The Daybreak"
+     },
+     {
+      "n": 114,
+      "name": "An-Nas",
+      "translated": "Mankind"
+     }
+    ],
+    "says": "Recited into the hands and wiped over the body, every night, before sleep.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 3402,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Zubair Ali Zai: Sahih Bukhari"
+     ]
+    }
+   }
+  ],
+  "illness": [
+   {
+    "surahs": [
+     {
+      "n": 1,
+      "name": "Al-Fatihah",
+      "translated": "The Opener"
+     }
+    ],
+    "says": "Recited over a man who had been stung, and he got up as though nothing had ailed him.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 2064,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Bashar Awad Maarouf: Sahih",
+      "Zubair Ali Zai: Sahih - Agreed Upon"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 1,
+      "name": "Al-Fatihah",
+      "translated": "The Opener"
+     }
+    ],
+    "says": "The same practice, narrated again: the Opening of the Book used as a cure.",
+    "ref": {
+     "collection": "abudawud",
+     "number": 3896,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Al-Albani: Sahih",
+      "Muhammad Muhyi Al-Din Abdul Hamid: Sahih",
+      "Zubair Ali Zai: Isnaad Hasan"
+     ]
+    }
+   }
+  ]
+ },
+ "absent": [
+  {
+   "surahs": [
+    56
+   ],
+   "situations": [
+    "poverty",
+    "debt",
+    "work"
+   ],
+   "claim": "“Whoever recites Sūrat al-Wāqiʿah every night will never be touched by poverty.”",
+   "verdict": "Not established",
+   "detail": "Narrated through Abū Shujāʿ from Abū Ṭiybah, chains the critics rejected; al-Bayhaqī himself recorded it among the weak. It is not in any of the collections indexed here, and a sweep of them for al-Wāqiʿah returns nothing on provision. The Qur'an is not thereby less worth reading — only this particular promise is unsupported."
+  }
+ ]
+}

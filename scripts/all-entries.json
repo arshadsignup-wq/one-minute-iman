@@ -2750,7 +2750,8 @@
   },
   "tier": "curated",
   "situations": [
-   "children"
+   "children",
+   "intimacy"
   ],
   "audio": [
    "https://verses.quran.com/Alafasy/mp3/037100.mp3"
@@ -3958,6 +3959,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "intimacy",
    "marriage"
   ],
   "recites": "part"
@@ -4439,6 +4441,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "desire",
    "forgiveness",
    "shame"
   ]
@@ -7158,6 +7161,7 @@
   },
   "tier": "curated",
   "situations": [
+   "desire",
    "refuge",
    "waswas"
   ],
@@ -8576,6 +8580,7 @@
   "tier": "curated",
   "situations": [
    "gratitude",
+   "intimacy",
    "marriage"
   ]
  },
@@ -8760,6 +8765,7 @@
   "tier": "curated",
   "situations": [
    "anxiety",
+   "desire",
    "forgiveness",
    "shame"
   ],
@@ -9450,7 +9456,9 @@
   "english_full": "Abdullah b. Amr b. al-'As reported that he heard Allah's Messenger (ﷺ) as saying:Verily, the hearts of all the sons of Adam are between the two fingers out of the fingers of the Compassionate Lord as one heart. He turns that to any (direction) He likes. Then Allahs Messenger (ﷺ) said: 0 Allah, the Turner of the hearts, turn our hearts to Thine obedience",
   "mode": "dua",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "desire"
+  ]
  },
  {
   "id": "hundred-times",
@@ -12979,6 +12987,7 @@
   "tier": "curated",
   "situations": [
    "anger",
+   "desire",
    "enemy",
    "oppression",
    "work"
@@ -13982,6 +13991,7 @@
   },
   "tier": "curated",
   "situations": [
+   "desire",
    "forgiveness",
    "shame"
   ],
@@ -16679,6 +16689,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "desire",
    "forgiveness",
    "loneliness",
    "morning-evening",
@@ -17656,6 +17667,7 @@
   "english_full": "A'isha the wife of Allah's Apostle (ﷺ), reported that one day Allah's Messenger (ﷺ) came out of her (apartment) during the night and she felt jealous. Then he came and he saw me (in what agitated state of mind) I was. He said:A'isha, what has happened to you? Do you feel jealous? Thereupon she said: How can it be (that a woman like me) should not feel jealous in regard to a husband like you. Thereupon Allah's Messenger (ﷺ) said: It was your devil who had come to you, and she said: Allah's Messenger, is there along with me a devil? He said: Yes. I said: Is a devil attached to everyone? He said: Yes. I (Aisha) again said: Allah's Messenger, is it with you also? He said: Yes, but my Lord has helped me against him and as such I am absolutely safe from his mischief",
   "tier": "curated",
   "situations": [
+   "desire",
    "evil-eye",
    "waswas"
   ]
@@ -19027,6 +19039,7 @@
   },
   "tier": "curated",
   "situations": [
+   "desire",
    "gratitude",
    "prayer",
    "weak-iman"
@@ -22339,6 +22352,7 @@
   },
   "tier": "curated",
   "situations": [
+   "desire",
    "gratitude",
    "knowledge"
   ],
@@ -23298,6 +23312,7 @@
   "english_full": "Narrated Abu Dharr:I came to the Prophet (ﷺ) while he was wearing white clothes and sleeping. Then I went back to him again after he had got up from his sleep. He said, \"Nobody says: 'None has the right to be worshipped but Allah' and then later on he dies while believing in that, except that he will enter Paradise.\" I said, \"Even if he had committed illegal sexual intercourse and theft?\" He said. 'Even if he had committed illegal sexual intercourse and theft.\" I said, \"Even if he had committed illegal sexual intercourse and theft?\" He said. 'Even if he had committed illegal sexual intercourse and theft.\" I said, 'Even it he had committed illegal sexual intercourse and theft?' He said, \"Even if he had committed illegal sexual intercourse and theft, inspite of the Abu Dharr's dislike. Abu `Abdullah said, \"This is at the time of death or before it if one repents and regrets and says \"None has the right to be worshipped but Allah. He will be forgiven his sins",
   "tier": "curated",
   "situations": [
+   "desire",
    "despair",
    "forgiveness",
    "shame"
@@ -24168,6 +24183,7 @@
   "english_full": "Narrated Abu Mas`ud:The Prophet (ﷺ) said, 'One of the sayings of the early Prophets which the people have got is: If you don't feel ashamed (from Haya': pious shyness from committing religeous indiscretions) do whatever you like.\"",
   "tier": "curated",
   "situations": [
+   "desire",
    "shame"
   ]
  },
@@ -24953,6 +24969,7 @@
   "tier": "curated",
   "situations": [
    "death-remembrance",
+   "desire",
    "loneliness",
    "mosque",
    "sadness"
@@ -25180,6 +25197,7 @@
   "tier": "curated",
   "situations": [
    "decision",
+   "desire",
    "forgiveness",
    "shame"
   ]
@@ -26145,6 +26163,7 @@
   "english_full": "Abu Huraira reported that Muhammad, the Messenger of Allah (ﷺ), said:When it occurs to my bondsman that he should do a good deed but he actually does not do it, record one good to him, but if he puts it into practice, I make an entry of ten good acts in his favour. When it occurs to him to do evil, but he does not commit it, I forgive that. But if he commits it, I record one evil against his name. The Messenger of Allah (ﷺ) observed. The angels said: That bondsman of Yours intends to commit evil. though His Lord is more Vigilant than he. Upon this He (the Lord) said: Watch him; if he commits (evil), write it against his name but if he refrains from doing it, write one good deed or him, for he desisted from doing it for My sake. The Messenger of Allah said: He who amongst you is good of faith, all his good acts are multiplied from ten to seven hundred times (and are recorded in his name) and all the evils that he commits are recorded as such (i, e. without increase) till he meets Allah",
   "tier": "curated",
   "situations": [
+   "desire",
    "despair",
    "failure"
   ]
@@ -28029,7 +28048,8 @@
   },
   "tier": "curated",
   "situations": [
-   "decision"
+   "decision",
+   "desire"
   ],
   "recites": "part",
   "audio": [
@@ -28074,6 +28094,7 @@
   },
   "tier": "curated",
   "situations": [
+   "desire",
    "forgiveness",
    "marriage"
   ],
@@ -29344,6 +29365,7 @@
   "tier": "curated",
   "situations": [
    "children",
+   "intimacy",
    "marriage",
    "refuge"
   ]
@@ -29652,6 +29674,7 @@
   "english_full": "Narrated Abu Dhar:Allah's Messenger (ﷺ) said, \"Someone came to me from my Lord and gave me the news (or good tidings) that if any of my followers dies worshipping none (in any way) along with Allah, he will enter Paradise.\" I asked, \"Even if he committed illegal sexual intercourse (adultery) and theft?\" He replied, \"Even if he committed illegal sexual intercourse (adultery) and theft",
   "tier": "curated",
   "situations": [
+   "desire",
    "despair",
    "forgiveness"
   ]
@@ -31051,6 +31074,7 @@
   "english_full": "Jabir reported that Allah's Messenger (ﷺ) saw a woman, and so he came to his wife, Zainab, as she was tanning a leather and had sexual intercourse with her. He then went to his Companions and told them:The woman advances and retires in the shape of a devil, so when one of you sees a woman, he should come to his wife, for that will repel what he feels in his heart",
   "tier": "curated",
   "situations": [
+   "desire",
    "marriage"
   ]
  },
@@ -31900,6 +31924,7 @@
   "tier": "curated",
   "situations": [
    "children",
+   "intimacy",
    "marriage",
    "refuge"
   ],
@@ -32806,7 +32831,9 @@
   "arabic": "قَالَتِ الْمَلاَئِكَةُ رَبِّ ذَاكَ عَبْدُكَ يُرِيدُ أَنْ يَعْمَلَ سَيِّئَةً - وَهُوَ أَبْصَرُ بِهِ - فَقَالَ ارْقُبُوهُ فَإِنْ عَمِلَهَا فَاكْتُبُوهَا لَهُ بِمِثْلِهَا . وَإِنْ تَرَكَهَا فَاكْتُبُوهَا لَهُ حَسَنَةً - إِنَّمَا تَرَكَهَا مِنْ جَرَّاىَ",
   "english_full": "Abu Huraira reported that Muhammad, the Messenger of Allah (ﷺ), said:When it occurs to my bondsman that he should do a good deed but he actually does not do it, record one good to him, but if he puts it into practice, I make an entry of ten good acts in his favour. When it occurs to him to do evil, but he does not commit it, I forgive that. But if he commits it, I record one evil against his name. The Messenger of Allah (ﷺ) observed. The angels said: That bondsman of Yours intends to commit evil. though His Lord is more Vigilant than he. Upon this He (the Lord) said: Watch him; if he commits (evil), write it against his name but if he refrains from doing it, write one good deed or him, for he desisted from doing it for My sake. The Messenger of Allah said: He who amongst you is good of faith, all his good acts are multiplied from ten to seven hundred times (and are recorded in his name) and all the evils that he commits are recorded as such (i, e. without increase) till he meets Allah",
   "tier": "curated",
-  "situations": []
+  "situations": [
+   "desire"
+  ]
  },
  {
   "id": "rescue-the-oppressed",
@@ -36752,7 +36779,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "prayer"
+   "desire"
   ]
  },
  {
@@ -39301,6 +39328,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "desire",
    "reconcile",
    "shame"
   ]
@@ -42365,6 +42393,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
+   "desire",
    "refuge"
   ]
  },
@@ -48596,6 +48625,7 @@
   "english_full": "Narrated 'Alqama:While I was with `Abdullah, `Uthman met him at Mina and said, \"O Abu `Abdur-Rahman ! I have something to say to you.\" So both of them went aside and `Uthman said, \"O Abu `Abdur-Rah. man! Shall we marry you to a virgin who will make you remember your past days?\" When `Abdullah felt that he was not in need of that, he beckoned me (to join him) saying, \"O 'Alqama!\" Then I heard him saying (in reply to `Uthman), \"As you have said that, (I tell you that) the Prophet (ﷺ) once said to us, 'O young people! Whoever among you is able to marry, should marry, and whoever is not able to marry, is recommended to fast, as fasting diminishes his sexual power",
   "tier": "curated",
   "situations": [
+   "desire",
    "eating",
    "loneliness",
    "marriage",
@@ -49108,6 +49138,7 @@
   "tier": "curated",
   "situations": [
    "children",
+   "intimacy",
    "marriage",
    "refuge"
   ]
@@ -49394,7 +49425,7 @@
   "tags": [],
   "situations": [
    "children",
-   "refuge",
+   "intimacy",
    "waswas"
   ],
   "source": {
@@ -50781,7 +50812,8 @@
   "english_full": "Narrated Abu Dhar:Allah's Messenger (ﷺ) said, \"Someone came to me from my Lord and gave me the news (or good tidings) that if any of my followers dies worshipping none (in any way) along with Allah, he will enter Paradise.\" I asked, \"Even if he committed illegal sexual intercourse (adultery) and theft?\" He replied, \"Even if he committed illegal sexual intercourse (adultery) and theft",
   "tags": [],
   "situations": [
-   "death-remembrance"
+   "death-remembrance",
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -50976,6 +51008,7 @@
   "english_full": "Narrated Abu Huraira:Allah's Messenger (ﷺ) said, \"A man said that he would give something in charity. He went out with his object of charity and unknowingly gave it to a thief. Next morning the people said that he had given his object of charity to a thief. (On hearing that) he said, \"O Allah! All the praises are for you. I will give alms again.\" And so he again went out with his alms and (unknowingly) gave it to an adulteress. Next morning the people said that he had given his alms to an adulteress last night. The man said, \"O Allah! All the praises are for you. (I gave my alms) to an adulteress. I will give alms again.\" So he went out with his alms again and (unknowingly) gave it to a rich person. (The people) next morning said that he had given his alms to a wealthy person. He said, \"O Allah! All the praises are for you. (I had given alms) to a thief, to an adulteress and to a wealthy man.\" Then someone came and said to him, \"The alms which you gave to the thief, might make him abstain from stealing, and that given to the adulteress might make her abstain from illegal sexual intercourse (adultery), and that given to the wealthy man might make him take a lesson from it and spend his wealth which Allah has given him, in Allah's cause",
   "tags": [],
   "situations": [
+   "desire",
    "morning-evening",
    "poverty"
   ],
@@ -52327,7 +52360,7 @@
   "english_full": "Narrated Ibn `Abbas:The Prophet (ﷺ) said, \"If anyone of you, when having sexual relation with his wife, say: 'In the name of Allah. O Allah! Protect us from Satan and prevent Satan from approaching our offspring you are going to give us,' and if he begets a child (as a result of that relation) Satan will not harm it",
   "tags": [],
   "situations": [
-   "children",
+   "intimacy",
    "poverty",
    "waswas"
   ],
@@ -54734,6 +54767,7 @@
   "english_full": "Narrated Ibn `Abbas:The Prophet (ﷺ) said, \"If anyone of you, when having sexual intercourse with his wife, says: Bismillah, Allahumma jannibni-Sh-Shaitan wa jannib-ish-Shaitan ma razaqtana, and if it is destined that they should have a child, then Satan will never be able to harm him",
   "tags": [],
   "situations": [
+   "intimacy",
    "waswas"
   ],
   "source": {
@@ -56204,6 +56238,7 @@
   "tags": [],
   "situations": [
    "children",
+   "intimacy",
    "waswas"
   ],
   "source": {
@@ -61582,6 +61617,7 @@
   "english_full": "Abu Huraira reported Allah's Apostle (ﷺ) as saying:A man expressed his intention to give charity, so he came out with charity and placed it in the hand of an adulteress. In the morning, the people were talking and saying: charity was given to an adulteress last night. He (the giver of Sadaqa) said: 0 Allah, to Thee be the praise-to an adulteress. He then again expressed his intention to give charity; so he went out with the charity and placed it in the hand of a rich person. In the morning the people were talking and saying: Charity was given to a rich person. He (the giver of charity) said: 0 Allah, to Thee be the praise-to a well-to-do person. He then expressed his intention to give charity, so he went out with charity and placed it in the hand of a thief. In the morning, the people were talking and saying: Charity was given to a thief. So (one of the persons) said: 0 Allah, to Thee be the praise (what a misfortune it is that charity has been given to) the adulteress, to a rich person. to a thief! There came (the angel to him) and he was told: Your charity has been accepted. As for the adulteress (the charity might become the means) whereby she might restrain herself from fornication. The rich man might perhaps learn a lesson and spend from what Allah has given him, and the thief might thereby refrain from committing theft",
   "tags": [],
   "situations": [
+   "desire",
    "poverty"
   ],
   "source": {
@@ -62952,7 +62988,8 @@
   "english_full": "Abu Huraira reported Allah's Apostle (ﷺ) as saying:None spoke in the cradle but only three (persons), Christ son of Mary, the second one the companion of Juraij. Juraij had got constructed a temple and confined himself in that. His mother came to him as he was busy in prayer and she said: Juraij. He said: My Lord, my mother (is calling me while I am engaged in) my prayer. He continued with the prayer. She returned and she came on the next day and he was busy in prayer, and she said: Juraij. And he said: My Lord, my mother (is calling me while I am engaged) in prayer, and he continued with the prayer and she went back, and then on the next day she again came and he was busy in prayer and she said: Juraij. And he said: My Lord, my mother (is calling me while I am engaged in my prayer, and he continued with the prayer, and she said: My Lord, don't give him death unless he has seen the fate of the prostitutes. The story of Juraij and that of his meditation and prayer gained currency amongst Bani Isra'il. There was a prostitute who had been a beauty incarnate. She said (to the people): If you like I can allure him to evil. She presented herself to him but he paid no heed (to her). She came to a shepherd who lived near the temple and she offered herself to him and he had a sexual intercourse with her and so she became pregnant arid when she gave birth to a child she said: This is from Juraij. So they came and asked him to get down and demolished the temple and began to beat him. He said: What is the matter? They said: You have committed fornication with this prostitute and she has given birth to a child from your loins. He said: Where is the child? They brought him (the child) and he said: just leave me so that I should observe prayer. And he observed prayer and when he finished, he came to the child. He struck his stomach and said: O boy, who is your father? lie said: He is such shepherd. So they turned towards Juraij, kissed him and touched him (for seeking blessing) and said: We are prepared to construct your temple with gold. He said. No, just rebuild it with mud as it had been, and they did that. Then there was a babe who was sucking his mother that a person dressed in fine garment came riding upon a beast. His mother said: O Allah, make my child like this one. He (the babe) left sucking and began to see towards him, and said: O Allah, don't make me like him. He then returned to the chest and began to suck the milk of his mother. He (Abu Huraira) said: I perceived as if I am seeing Allah's Messenger (ﷺ) as he is explaining the scene of his sucking milk with his forefinger in his mouth and sucking that. He (Abu Huraira) further reported Allah's Apostle (may be peace upon him) as saying: There happened to pass by him a girl who was being beaten and they were saying: You have committed adultery and you have committed theft and she was saying: Allah is enough for me and He is my good Protector, and his mother said: O Allah, don't make my child like her and he left sucking the milk, and looked towards her and said: O Allah, make me like her, and there was a talk between them. She said: O with shaven head, a good-looking person happened to pass by and I said: O Allah, make my child like him, and you said: O Allah, don't make me like him, and they passed by a girl while they were beating her and saying: You committed fornication and you committed theft, and I said: O Allah, don't make my child like her, and you said: O Allah, make me like her. Thereupon he said: That person was a tyrant, and I said: O Allah, don't make me like him, and they were saying about her: You committed fornication whereas in fact she had not committed that and they were saying: You have committed theft whereas she had not committed theft, so I said: O Allah, make me like her",
   "tags": [],
   "situations": [
-   "children"
+   "children",
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -67820,6 +67857,7 @@
   "tags": [],
   "situations": [
    "children",
+   "intimacy",
    "waswas"
   ],
   "source": {
@@ -69152,6 +69190,7 @@
   "english_full": "Al-Bara’ b. Azib said:The people passed by the Messenger of Allah (ﷺ) with a jew whose face blackened with charcoal and he was being taken around. He adjured them by Allah and asked: What is the prescribed punishment for a fornicator in your Divine book? He (the narrator) said: They referred him to a man of them. The Prophet (ﷺ) adjured him and asked: What is the punishment for a fornication in your Divine Book? He replied: Stoning. But fornication spread among our people of rank, so we disliked that a person of rank should be left alone and the punishment be inflicted on one who is lower in rank than him. So we suspended it for us. The Messenger of Allah (ﷺ) then commanded regarding him and he was stoned to death. He then said: O Allah! I am the first to give life to a command of Thy Book which they had killed",
   "tags": [],
   "situations": [
+   "desire",
    "sleep"
   ],
   "source": {
@@ -76135,6 +76174,7 @@
   "english_full": "Ibn Abbas narrated that:The Messenger of Allah said: \"If anyone of you, when having sexual intercourse with his wife, says: (Bismillah, Allahumma jannibnash-Shaitana wa jannibish-Shaitana ma razaqtana) 'In the Name of Allah, O Allah! Protect me from Shaitan and protect what you bestow upon us from Shaitan' - then if Allah decrees that they should have a child, Shaitan will not be able to harm him",
   "tags": [],
   "situations": [
+   "intimacy",
    "refuge",
    "waswas"
   ],
@@ -85090,7 +85130,7 @@
   "english_full": "Narrated Abu Sa`id Al-Khudri:The Prophet (ﷺ) said, \"Beware! Avoid sitting on the roads (ways).\" The people said, \"There is no way out of it as these are our sitting places where we have talks.\" The Prophet (ﷺ) said, \"If you must sit there, then observe the rights of the way.\" They asked, \"What are the rights of the way?\" He said, \"They are the lowering of your gazes (on seeing what is illegal to look at), refraining from harming people, returning greetings, advocating good and forbidding evil",
   "tags": [],
   "situations": [
-   "misc"
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -85767,6 +85807,7 @@
   "english_full": "Narrated Abu Huraira:The Prophet (ﷺ) said, \"Avoid the seven great destructive sins.\" The people enquired, \"O Allah's Messenger (ﷺ)! What are they?\" He said, \"To join others in worship along with Allah, to practice sorcery, to kill the life which Allah has forbidden except for a just cause, (according to Islamic law), to eat up Riba (usury), to eat up an orphan's wealth, to give back to the enemy and fleeing from the battlefield at the time of fighting, and to accuse, chaste women, who never even think of anything touching chastity and are good believers",
   "tags": [],
   "situations": [
+   "desire",
    "eating",
    "evil-eye"
   ],
@@ -86350,7 +86391,7 @@
   "english_full": "Narrated `Abdullah bin Zam`a:The Prophet (ﷺ) said, \"None of you should flog his wife as he flogs a slave and then have sexual intercourse with her in the last part of the day",
   "tags": [],
   "situations": [
-   "misc"
+   "intimacy"
   ],
   "source": {
    "kind": "hadith",
@@ -86552,6 +86593,7 @@
   "english_full": "Narrated Anas:I will narrate to you a Habith I heard from Allah's Messenger (ﷺ) and none other than I will tell you of it. I heard Allah's Messenger (ﷺ) saying, \"From among the portents of the Hour are the following: Religious knowledge will be taken away; General ignorance (in religious matters) will increase; illegal Sexual intercourse will prevail: Drinking of alcoholic drinks will prevail. Men will decrease in number, and women will increase in number, so much so that fifty women will be looked after by one man",
   "tags": [],
   "situations": [
+   "desire",
    "knowledge"
   ],
   "source": {
@@ -86977,6 +87019,7 @@
   "english_full": "Narrated Sa`id bin Jubair:I asked Ibn `Umar about those who were involved in a case of Lien. He said, \"The Prophet (ﷺ) said to those who were involved in a case of Lien, 'Your accounts are with Allah. One of you two is a liar, and you (the husband) have no right over her (she is divorced).\" The man said, 'What about my property (Mahr) ?' The Prophet (ﷺ) said, 'You have no right to get back your property. If you have told the truth about her then your property was for the consummation of your marriage with her; and if you told a lie about her, then you are less rightful to get your property back.' \" Sufyan, a sub-narrator said: I learned the Hadith from `Amr. Narrated Aiyub: I heard Sa`id bin Jubair saying, \"I asked Ibn `Umar, 'If a man (accuses his wife for an illegal sexual intercourse and) carries out the process of Lian (what will happen)?' Ibn `Umar set two of his fingers apart. (Sufyan set his index finger and middle finger apart.) Ibn `Umar said, 'The Prophet (ﷺ) separated the couple of Bani Al-Ajlan by divorce and said thrice, \"Allah knows that one of you two is a liar; so will one of you repent (to Allah)?",
   "tags": [],
   "situations": [
+   "desire",
    "marriage"
   ],
   "source": {
@@ -88512,8 +88555,8 @@
   "english_full": "Narrated Ibn `Abbas:I have not seen a thing resembling 'lamam' (minor sins) than what Abu Huraira 'narrated from the Prophet who said \"Allah has written for Adam's son his share of adultery which he commits inevitably. The adultery of the eyes is the sight (to gaze at a forbidden thing), the adultery of the tongue is the talk, and the inner self wishes and desires and the private parts testify all this or deny it",
   "tags": [],
   "situations": [
+   "desire",
    "distress",
-   "evil-eye",
    "forgiveness"
   ],
   "source": {
@@ -90687,6 +90730,7 @@
   "english_full": "Ibn\" Abbas (Allah be pleased with thern) reported that Allah's Messenger (ﷺ) said:If anyone amongst you intends to go to his wife he should say: In the name of Allah,0 Allah protect us against Satan and keep away the Satan from the one that you have bestowed upon us, and if He has ordained a male child for them, Satan will never be able to do any harm to him",
   "tags": [],
   "situations": [
+   "intimacy",
    "waswas"
   ],
   "source": {
@@ -90813,7 +90857,8 @@
   "english_full": "Abu Sirma said to Abu Sa'id al Khadri (Allah he pleased with him):0 Abu Sa'id, did you hear Allah's Messenger (ﷺ) mentioning al-'azl? He said: Yes, and added: We went out with Allah's Messenger (ﷺ) on the expedition to the Bi'l-Mustaliq and took captive some excellent Arab women; and we desired them, for we were suffering from the absence of our wives, (but at the same time) we also desired ransom for them. So we decided to have sexual intercourse with them but by observing 'azl (Withdrawing the male sexual organ before emission of semen to avoid-conception). But we said: We are doing an act whereas Allah's Messenger is amongst us; why not ask him? So we asked Allah's Mes- senger (ﷺ), and he said: It does not matter if you do not do it, for every soul that is to be born up to the Day of Resurrection will be born",
   "tags": [],
   "situations": [
-   "children"
+   "children",
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -90988,7 +91033,8 @@
   "english_full": "A'isha (Allah be pleased with her) reported:When the Messenger of Allah (ﷺ) was commanded to give option to his wives, he started it from me saying: I am going to mention to you a matter which you should not (decide) in haste until you have consulted your parents. She said that he already knew that my parents would never allow me to seek separation from him She said: Then he said: Allah, the Exalted and Glorious, said: Prophet, say to thy wives: If you desire this world's life and its adornment, then come, I will give you a provision and allow you to depart a goodly departing; and if you desire Allah and His Messenger and the abode of the Hereafter, then Allah has prepared for the doers of good among you a great reward She is reported to have said: About what should I consult my parents, for I desire Allah and His Messenger and the abode of the Hereafter? She ('A'isha) said: Then all the wives of Allah's Messenger (ﷺ) did as I had done",
   "tags": [],
   "situations": [
-   "death-remembrance"
+   "death-remembrance",
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -96951,7 +96997,7 @@
   "english_full": "Abu Hurairah reported the Prophet (ﷺ) as saying “ Every child of Adam has his share in adultery. He then narrated the rest of the tradition. This version goes “And the hands commit adultery; their adultery is catching; and the legs commit adultery; their adultery is walking; and the mouth commits adultery – its adultery is kissing.”",
   "tags": [],
   "situations": [
-   "misc"
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -97011,6 +97057,7 @@
   "tags": [],
   "situations": [
    "children",
+   "intimacy",
    "waswas"
   ],
   "source": {
@@ -101660,7 +101707,7 @@
   "english_full": "Narrated AbuDharr: The Prophet (ﷺ) said: In the morning alms are due from every bone in man's fingers and toes. Salutation to everyone he meets is alms; enjoining good is alms; forbidding what is disreputable is alms; removing what is harmful from the road is alms; having sexual intercourse with his wife is alms. The people asked: He fulfils his desire, Messenger of Allah; is it alms? He replied: Tell me if he fulfilled his desire where he had no right, would he commit a sin ? He then said: Two rak'ahs which one prays in the forenoon serve instead of all that. Abu Dawud said: Hammad did not mention enjoining good and forbidding what is disreputable",
   "tags": [],
   "situations": [
-   "misc"
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -102040,6 +102087,7 @@
   "english_full": "Abdullah bin Mas'ud narrated:\"We went with Allah's Messenger, while we were young men who had nothing. He said: 'O young men! You should marry, for indeed it helps in lowering the gaze and protecting the private parts. Whoever among you is not able to marry, then let him fast, for indeed fasting will diminish his sexual desire",
   "tags": [],
   "situations": [
+   "desire",
    "marriage"
   ],
   "source": {
@@ -102189,6 +102237,7 @@
   "english_full": "Aishah narrated that:The Messenger of Allah said: \"Whichever woman married without the permission of her Wali her marriage is invalid, her marriage is invalid, her marriage is invalid. If he entered into her, then the Mahr is for her in lieu of what he enjoyed from her private part. If they disagree, then the Sultan is the Wali for one who has no Wali",
   "tags": [],
   "situations": [
+   "desire",
    "marriage"
   ],
   "source": {
@@ -104219,7 +104268,7 @@
   "english_full": "Anas bin Malik narrated that the Prophet (s.a.w) said:\"The Son Of Adan grows old, but two things keep him young: Desire for life and desire for wealth",
   "tags": [],
   "situations": [
-   "misc"
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -106319,7 +106368,8 @@
   "tags": [],
   "situations": [
    "children",
-   "death-remembrance"
+   "death-remembrance",
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -106701,7 +106751,7 @@
   "english_full": "Narrated Abu Musa:that the Prophet (ﷺ) said: \"Every eye commits adultery, and when the woman uses perfume and she passes by a gathering, then she is like this and that.'\" Meaning an adulteress",
   "tags": [],
   "situations": [
-   "misc"
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -108728,7 +108778,7 @@
   "english_full": "Narrated 'Aishah:\"The people used to give their gifts [to the Prophet (ﷺ)] on 'Aishah's day.\" She said: \"So my companions gathered with Umm Salamah and they said 'O Umm Salamah! The people give their gifts on 'Aishah's day, and we desire good as 'Aishah desires, so tell the Messenger of Allah (ﷺ) to order the people to give (their gifts to) him no matter where he is.' So Umm Salamah said that, and he turned away from her. Then he turned back to her and she repeated the words saying: 'O Messenger of Allah! My companions have mentioned that the people give their gifts on 'Aishah's day, so order the people to give them no matter where you are.' So upon the third time she said that, he said: 'O Umm Salamah! Do not bother me about 'Aishah! For Revelation has not been sent down upon me while I was under the blankets of a woman among you other than her",
   "tags": [],
   "situations": [
-   "misc"
+   "desire"
   ],
   "source": {
    "kind": "hadith",
@@ -109382,6 +109432,7 @@
   "english_full": "Narrated 'Alqamah:It was narrated that 'Alqamah said: \"I was with Ibn Mas'ud while he was with 'Uthman, may Allah be pleased with him, and 'Uthman said: 'The Messenger of Allah came out to some fityah (young men)--Abu 'AbdurRahman said, 'I did not understand (the word) fityah as I would want'-- and said: 'Whoever among you can afford it, let him get married, for it is more effective in lowering the gaze and guarding chastity, and whoever cannot, then fasting will be a restraint (wija') for him",
   "tags": [],
   "situations": [
+   "desire",
    "marriage"
   ],
   "source": {
@@ -109411,6 +109462,7 @@
   "english_full": "Narrated 'Alqamah:It was narrated from 'Alqamah, that 'Uthman said to Ibn Mas'ud: \"Shall I arrange for you to marry a young girl?\" 'Abdullah called 'Alqamah and he told the people that the Prophet said: \"Whoever among you can afford it, let him get married, for it is more effective in lowering the gaze and guarding chastity. And whoever cannot afford it, then let him fast, for it will be a restraint for him",
   "tags": [],
   "situations": [
+   "desire",
    "marriage"
   ],
   "source": {
@@ -110059,6 +110111,7 @@
   "english_full": "Nafi' narrated from 'Abdullah, that he divorced his wife while she was menstruating. 'Umar asked the Messenger of Allah about that and said:\"Abdullah has divorced his wife while she was menstruating.\" He said: \"Tell 'Abdullah to take her back, then leave her until she becomes pure from this menstrual period, then menstruates again, then when she becomes pure again, if he wishes he may separate from her before having intercourse with her, or if he wishes he may keep her. This is the time when Allah, the Mighty and Sublime, has stated that women may be divorced",
   "tags": [],
   "situations": [
+   "intimacy",
    "marriage"
   ],
   "source": {
@@ -110322,6 +110375,7 @@
   "english_full": "It was narrated that 'Aishah said:\"When the following was revealed: 'But if you desire Allah and His Messenger,' the Prophet came and started with me. He said: 'O 'Aishah, I am going to say something to you and you do not have to rush (to make a decision) until you consult your parents.'\" She said: \"He knew, by Allah, that my parents would never tell me to leave him. Then he recited to me: 'O Prophet! Say to your wives: If you desire the life of this world, and its glitter.'\" \"I said: 'Do I need to consult my parents concerning this? I desire Allah and His Messenger",
   "tags": [],
   "situations": [
+   "desire",
    "parents"
   ],
   "source": {
@@ -111029,7 +111083,7 @@
   "english_full": "It was narrated from Abu Hurairah that the Messenger of Allah said:\"Avoid the seven sins that doom one to Hell.\" It was said: \"O Messenger of Allah, what are they?\" He said: \"Associating others with Allah (Shirk), magic, killing a soul whom Allah has forbidden killing, except in cases dictated by Islamic law, consuming Riba, consuming the property of orphans, fleeing on the day of the march (to battlefield), and slandering chaste women who never even think of anything touching their chastity and are good believers",
   "tags": [],
   "situations": [
-   "misc"
+   "desire"
   ],
   "source": {
    "kind": "hadith",

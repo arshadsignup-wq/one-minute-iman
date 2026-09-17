@@ -149,12 +149,16 @@ function Header() {
             </svg>
             <span className="hidden sm:inline">Saved</span>
           </Link>
+          {/* The button in the corner should offer the thing the site is for.
+              "How we verify" is the answer to a question nobody has yet asked,
+              and it was sitting where "find what you need" belongs. The method
+              is still one tap away, in the footer and from every entry. */}
           <Link
-            href="/authenticity"
-            className="ml-0.5 flex min-h-[44px] shrink-0 items-center rounded-full border border-[var(--line)] px-2.5 text-[var(--green)] transition-all hover:border-[var(--sage)] hover:bg-[var(--card)] sm:ml-1 sm:px-3"
+            href="/browse"
+            className="ml-0.5 flex min-h-[44px] shrink-0 items-center rounded-full bg-[var(--green)] px-3 text-white transition-all hover:opacity-90 sm:ml-1 sm:px-4"
           >
-            <span className="sm:hidden">Verify</span>
-            <span className="hidden sm:inline">How we verify</span>
+            <span className="sm:hidden">Find</span>
+            <span className="hidden sm:inline">Find yours</span>
           </Link>
         </div>
       </nav>

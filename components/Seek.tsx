@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
-  matchSituations, neighboursOf, isCrisis, isHarm, isOtherLanguage, EXAMPLES,
+  matchSituations, neighboursOf, isCrisis, isHarm, isOtherLanguage, EXAMPLES, suggestions,
 } from "@/lib/search";
 import Answer from "@/components/Answer";
 import { findEntry, loadEntry, type EntryDoc } from "@/lib/entryhits";
@@ -19,6 +19,12 @@ const FALLBACK: [string, string][] = [
   ["death", "Losing someone"],
   ["poverty", "Money"],
 ];
+
+/** Compares a chip's word with the heading it belongs to, so the heading is
+ *  only repeated when it adds something. */
+function normaliseLabel(v: string) {
+  return v.toLowerCase().replace(/[^a-z0-9]/g, "");
+}
 
 export default function Seek(
   { readQueryFromUrl = false }: { readQueryFromUrl?: boolean } = {},
@@ -48,6 +54,12 @@ export default function Seek(
   // synchronously when the query changes.
   const [named, setNamed] = useState<{ q: string; doc: EntryDoc | null; sits: string[] }>(
     { q: "", doc: null, sits: [] },
+  );
+
+  // Offered while typing, so a half-finished word has somewhere to go.
+  const suggested = useMemo(
+    () => (crisis || harm ? [] : suggestions(q, 6)),
+    [q, crisis, harm],
   );
 
   const { primary, related } = useMemo(() => {
@@ -118,6 +130,25 @@ export default function Seek(
           </button>
         )}
       </div>
+
+      {asked && suggested.length > 0 && (
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          <span className="text-[13px] text-[var(--ink-faint)]">Did you mean</span>
+          {suggested.map(({ sit, hint }) => (
+            <button
+              key={sit.id}
+              onClick={() => setQ(hint)}
+              className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-[var(--line)] bg-[var(--card)] px-3.5 text-[13px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:text-[var(--green)] sm:min-h-0 sm:py-1.5"
+            >
+              {hint}
+              {/* the heading it leads to, when the word typed is not the heading */}
+              {normaliseLabel(hint) !== normaliseLabel(sit.label) && (
+                <span className="text-[var(--ink-faint)]">· {sit.label}</span>
+              )}
+            </button>
+          ))}
+        </div>
+      )}
 
       {!asked && (
         <div className="mt-5 flex flex-wrap items-center gap-2">
