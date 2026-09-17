@@ -13,6 +13,12 @@ import { useCallback, useEffect, useRef, useState } from "react";
  * āyah: 286 elements would each hold a connection, and Safari refuses to start
  * a fresh element without a gesture, which is exactly what continuous play is
  * meant to avoid.
+ *
+ * It preloads. An earlier version set preload="none" to be frugal, and the
+ * result was a player that said "Pause" and produced silence: with the src
+ * swapped under it, the element never ran resource selection and play() sat at
+ * readyState 0 indefinitely. Only the current āyah is ever loaded, so there is
+ * nothing to save here anyway.
  */
 export default function SurahPlayer({
   verses,
@@ -26,6 +32,19 @@ export default function SurahPlayer({
   const [at, setAt] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [failed, setFailed] = useState(false);
+
+  /** play() rejects for reasons that are not failures.
+   *
+   *  Swapping src aborts a pending play with AbortError, and a browser that
+   *  wants a fresh gesture answers NotAllowedError. Neither means the
+   *  recitation is unavailable, and tearing the player out of the page over
+   *  one is how a working sūrah ended up with no controls at all. Only a real
+   *  media error, raised on the element itself, retires it. */
+  const settle = useCallback((err: unknown) => {
+    setPlaying(false);
+    const name = (err as { name?: string })?.name;
+    if (name !== "AbortError" && name !== "NotAllowedError") setFailed(true);
+  }, []);
   const [follow, setFollow] = useState(true);
 
   const current = playable[at];
@@ -81,14 +100,16 @@ export default function SurahPlayer({
   }, [playable.length]);
 
   // Advancing the index changes src; play it, since we are mid-recitation.
+  //
+  // No load() call here. Forcing one aborts the pending play and rejects it
+  // with AbortError, which an earlier version treated as fatal — clicking play
+  // removed the whole player from the page. preload="auto" on the element makes
+  // it unnecessary: the src is already being fetched by the time this runs.
   useEffect(() => {
     const el = ref.current;
     if (!el || !playing) return;
-    el.play().catch(() => {
-      setPlaying(false);
-      setFailed(true);
-    });
-  }, [at, playing]);
+    el.play().catch(settle);
+  }, [at, playing, settle]);
 
   const toggle = useCallback(() => {
     const el = ref.current;
@@ -98,12 +119,9 @@ export default function SurahPlayer({
       setPlaying(false);
     } else {
       setPlaying(true);
-      el.play().catch(() => {
-        setPlaying(false);
-        setFailed(true);
-      });
+      el.play().catch(settle);
     }
-  }, [playing]);
+  }, [playing, settle]);
 
   const restart = useCallback(() => {
     setAt(0);
@@ -163,7 +181,7 @@ export default function SurahPlayer({
       <audio
         ref={ref}
         src={current?.audio}
-        preload="none"
+        preload="auto"
         title={`Surah ${surahName}, recitation`}
       />
     </div>
