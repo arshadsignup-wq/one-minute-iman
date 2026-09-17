@@ -274,7 +274,10 @@ export default function Seek(
 
       {asked && (
         <div className="mt-12">
-          {primary.length === 0 && !hit && !crisis && !harm ? (
+          {/* A sūrah counts as having found something. Without this the page
+              answered "surah mulk" with the chapter and, underneath it, "we
+              could not find that one". */}
+          {primary.length === 0 && !hit && !surah && !crisis && !harm ? (
             /* The failure here is the site's, not the visitor's. Saying "try a
                plainer word" hands them the problem; offering somewhere to go
                does not. */
