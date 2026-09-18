@@ -171,9 +171,9 @@ export default function Seek(
       )}
 
       {!asked && (
-        <div className="mt-5 flex flex-wrap items-center gap-2">
+        <div className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-2.5">
           <span className="text-[13px] text-[var(--ink-faint)]">Try</span>
-          {EXAMPLES.slice(0, 5).map((p) => (
+          {EXAMPLES.slice(0, 12).map((p) => (
             <button
               key={p}
               onClick={() => setQ(p)}

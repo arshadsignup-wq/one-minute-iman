@@ -6468,7 +6468,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "death"
+   "death",
+   "death-remembrance"
   ]
  },
  {
@@ -27551,6 +27552,7 @@
   "tier": "curated",
   "situations": [
    "death",
+   "death-remembrance",
    "parents",
    "sadness"
   ]
@@ -30558,6 +30560,7 @@
   "tier": "curated",
   "situations": [
    "death",
+   "death-remembrance",
    "parents",
    "sadness"
   ]
@@ -34518,7 +34521,8 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "death"
+   "death",
+   "death-remembrance"
   ]
  },
  {
@@ -38714,7 +38718,7 @@
   "english_full": "Yahya related to me from Malik from Zayd ibn Aslam from Ata ibn Yasar that the Messenger of Allah, may Allah bless him and grant him peace, said, \"O Allah! Do not make my grave an idol that is worshipped. The anger on those who took the graves of their Prophets as places of prostration was terrible",
   "tier": "curated",
   "situations": [
-   "death"
+   "death-remembrance"
   ]
  },
  {
@@ -38807,6 +38811,7 @@
   "situations": [
    "children",
    "death",
+   "death-remembrance",
    "parents"
   ]
  },
@@ -40834,7 +40839,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "death",
+   "death-remembrance",
    "distress",
    "morning-evening",
    "prayer",
@@ -41619,7 +41624,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "death",
+   "death-remembrance",
    "fear",
    "refuge"
   ]
@@ -47256,7 +47261,7 @@
   "mode": "dua",
   "tier": "curated",
   "situations": [
-   "death",
+   "death-remembrance",
    "loneliness"
   ],
   "recites": "part"

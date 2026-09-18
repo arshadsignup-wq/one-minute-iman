@@ -116,12 +116,7 @@ dict(id="someone-ill", cat="body", label="Someone you love is ill", blurb="Sitti
 
 dict(id="death", cat="hardship", label="Losing someone", blurb="Death, funerals, and the days after",
      match=r"\b(death|died|deceased|funeral|janazah|grave|bereave|mourn)\b",
-     feelings=["death","died","passed away","lost someone","loss","bereaved",
-               "lost my mother","lost my father","lost my mum","lost my dad","lost my son",
-               "lost my daughter","lost my wife","lost my husband","lost my brother",
-               "lost my sister","lost my friend","lost my baby","lost my child",
-               "lost my grandmother","lost my grandfather","he died","she died",
-               "they died","just died","funeral tomorrow","buried","burying","funeral","janazah","burial","grave","my mother died","my father died","my child died","miscarriage","stillbirth","widow","orphan","mourning","grieving","miss them","they are gone","condolence","anniversary of their death"]),
+     feelings=["death", "died", "passed away", "lost someone", "loss", "bereaved", "lost my mother", "lost my father", "lost my mum", "lost my dad", "lost my son", "lost my daughter", "lost my wife", "lost my husband", "lost my brother", "lost my sister", "lost my friend", "lost my baby", "lost my child", "lost my grandmother", "lost my grandfather", "he died", "she died", "they died", "just died", "funeral tomorrow", "buried", "burying", "funeral", "janazah", "burial", "my mother died", "my father died", "my child died", "miscarriage", "stillbirth", "widow", "orphan", "mourning", "grieving", "miss them", "they are gone", "condolence", "anniversary of their death"]),
 
 dict(id="debt", cat="provision", label="Debt", blurb="When you owe more than you can pay",
      match=r"\b(debt|indebted|creditor|loan|owe[sd]?\b)",
@@ -204,7 +199,7 @@ dict(id="steadfastness", cat="faith", label="Staying firm", blurb="Patience, end
 
 dict(id="death-remembrance", cat="faith", label="Thinking about death", blurb="The hereafter, the grave, what comes after",
      match=r"\b(hereafter|akhirah|grave|resurrect|paradise|jannah|hell|fire\b|judgment)\b",
-     feelings=["death","dying","afraid of death","the grave","hereafter","akhirah","jannah","paradise","hellfire","jahannam","judgment day","qiyamah","afterlife","am i ready","what happens after","meeting allah","accountability","my deeds", "will anyone remember me", "what happens after i die", "legacy", "leave behind", "after im gone", "meaning of life", "why am i here", "judgement day", "day of judgement", "yawm al qiyamah", "the hereafter", "akhira", "reckoning", "resurrection"]),
+     feelings=["death","dying","afraid of death","the grave","hereafter","akhirah","jannah","paradise","hellfire","jahannam","judgment day","qiyamah","afterlife","am i ready","what happens after","meeting allah","accountability","my deeds", "will anyone remember me", "what happens after i die", "legacy", "leave behind", "after im gone", "meaning of life", "why am i here", "judgement day", "day of judgement", "yawm al qiyamah", "the hereafter", "akhira", "reckoning", "resurrection", "grave", "qabr", "the punishment of the grave", "azab al qabr", "adhab al qabr", "what happens in the grave", "barzakh", "after i die", "after death", "when i die"]),
 
 # ── PROTECTION ────────────────────────────────────────────────────────────
 dict(id="refuge", cat="protection", label="Seeking refuge", blurb="Asking to be shielded from harm",

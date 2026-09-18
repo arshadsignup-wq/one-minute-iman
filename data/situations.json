@@ -781,7 +781,6 @@
     "funeral",
     "janazah",
     "burial",
-    "grave",
     "my mother died",
     "my father died",
     "my child died",
@@ -796,7 +795,7 @@
     "condolence",
     "anniversary of their death"
    ],
-   "count": 169
+   "count": 165
   },
   {
    "id": "debt",
@@ -1756,9 +1755,19 @@
     "the hereafter",
     "akhira",
     "reckoning",
-    "resurrection"
+    "resurrection",
+    "grave",
+    "qabr",
+    "the punishment of the grave",
+    "azab al qabr",
+    "adhab al qabr",
+    "what happens in the grave",
+    "barzakh",
+    "after i die",
+    "after death",
+    "when i die"
    ],
-   "count": 526
+   "count": 535
   },
   {
    "id": "refuge",

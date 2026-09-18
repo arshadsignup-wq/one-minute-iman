@@ -387,18 +387,18 @@
   },
   "step": "Say it when the words will come. There is no window you have missed.",
   "know": {
-   "id": "burial",
-   "title": "As someone is laid in the grave",
-   "trans": "In the name of Allah, and upon the way of the Messenger of Allah.",
-   "ref": "Sunan Ibn Mājah 1550",
+   "id": "janazah",
+   "title": "Praying over someone who has died",
+   "trans": "O Allah, forgive him and have mercy on him, keep him safe and pardon him.",
+   "ref": "Ṣaḥīḥ Muslim 963a",
    "grade": "Ṣaḥīḥ",
    "kind": "hadith"
   },
   "story": {
-   "id": "forgive-him-and-have-mercy",
-   "title": "What he said standing over a man he had just prayed for",
-   "story": "Wāthilah heard the whole prayer. It began: O Allah, so and so son of so and so is in Your protection, so guard him from the trial of the grave. Then it ended here, with the two names that answer the request built into it.",
-   "ref": "Sunan Abī Dāwūd 3202"
+   "id": "compensate-me-well",
+   "title": "The prayer Umm Salamah hated to say",
+   "story": "Abu Salamah died and she asked what to say. He gave her these words. She said it. And she is the one who reported the ending herself: Allah gave me Muhammad after him. She could not have written that ending. She said the words before she could see it.",
+   "ref": "Sunan an-Nasā'ī 1825"
   }
  },
  "debt": {

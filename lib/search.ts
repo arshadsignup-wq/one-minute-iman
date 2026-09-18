@@ -172,7 +172,10 @@ const SYNONYMS: string[][] = [
   ["anger", "ghadab", "rage", "fury"],
   ["illness", "sickness", "disease", "ailment", "bimari"],
   ["death", "dying", "passing", "maut", "bereavement"],
-  ["grave", "qabr", "barzakh", "burial"],
+  // "burial" and "funeral" are about a person who has died; "grave" and
+  // "qabr" are about what follows, which is a different question.
+  ["grave", "qabr", "barzakh"],
+  ["burial", "funeral", "janazah", "buried"],
   ["protection", "refuge", "shelter", "safety", "hifz"],
   ["evil eye", "nazar", "ayn", "hasad"],
   ["magic", "sihr", "witchcraft", "black magic"],
@@ -496,11 +499,29 @@ export function neighboursOf(sitId: string, exclude: string[], take = 4) {
 /** The first five are the ones shown as chips. They led with grief, debt and
  *  sin alone, which tells a visitor this is a place for bad days only. */
 export const EXAMPLES = [
-  "I feel alone", "I can't stop worrying", "Something good happened", "I'm in debt",
-  "I lost my mother", "I keep sinning", "I can't decide", "I'm angry",
-  "I have an exam", "someone wronged me", "I can't sleep", "I feel far from Allah",
-  "I'm travelling", "I'm getting married", "protect my home", "someone is ill",
-  "I can't stop looking", "thinking about death", "my child is sick",
+  // Ordered deliberately: these are the first thing a visitor reads, and five
+  // of them used to be grief, worry, debt and a death. That is a true picture
+  // of some days and a narrow picture of the site, which also answers a good
+  // morning, a wedding, an exam, and "which sūrah for the grave".
+  //
+  // The spread is the point — a person who sees only sorrow here assumes the
+  // site is for emergencies, and does not come back on an ordinary Tuesday.
+  "I feel alone",
+  "Something good happened",
+  "I can't stop worrying",
+  "I'm getting married",
+  "I have an exam",
+  "which surah for the grave",
+  "I'm in debt",
+  "protect my home",
+  "I keep sinning",
+  "I lost my mother",
+  "I can't sleep",
+  "I'm travelling",
+  // the rest stay available to the suggestion code, just below the fold
+  "someone wronged me", "I can't decide", "I'm angry", "I feel far from Allah",
+  "someone is ill", "thinking about death", "I can't stop looking",
+  "my child is sick",
 ];
 
 /** What to offer while someone is still typing.
