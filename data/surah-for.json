@@ -222,6 +222,27 @@
       "Zubair Ali Zai: Sahih Bukhari"
      ]
     }
+   },
+   {
+    "surahs": [
+     {
+      "n": 109,
+      "name": "Al-Kafirun",
+      "translated": "The Disbelievers"
+     }
+    ],
+    "says": "Recited at bedtime, and finished as you fall asleep: a declaration of freedom from associating anything with Allah.",
+    "ref": {
+     "collection": "abudawud",
+     "number": 5055,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Al-Albani: Sahih",
+      "Muhammad Muhyi Al-Din Abdul Hamid: Sahih",
+      "Shuaib Al Arnaut: Hasan",
+      "Zubair Ali Zai: Hasan"
+     ]
+    }
    }
   ],
   "home": [
@@ -313,6 +334,37 @@
       "Zubair Ali Zai: Sahih - Agreed Upon"
      ]
     }
+   },
+   {
+    "surahs": [
+     {
+      "n": 112,
+      "name": "Al-Ikhlas",
+      "translated": "The Sincerity"
+     },
+     {
+      "n": 113,
+      "name": "Al-Falaq",
+      "translated": "The Daybreak"
+     },
+     {
+      "n": 114,
+      "name": "An-Nas",
+      "translated": "Mankind"
+     }
+    ],
+    "says": "Three times as the morning comes and three times as the evening does.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 3575,
+     "grade": "Ḥasan",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Hasan",
+      "Al-Albani: Hasan",
+      "Bashar Awad Maarouf: Hasan Sahih",
+      "Zubair Ali Zai: Isnaad Hasan"
+     ]
+    }
    }
   ],
   "dhikr": [
@@ -351,6 +403,24 @@
       "Ahmad Muhammad Shakir: Sahih",
       "Al-Albani: Sahih",
       "Zubair Ali Zai: Sahih"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 1,
+      "name": "Al-Fatihah",
+      "translated": "The Opener"
+     }
+    ],
+    "says": "Named by the Prophet ﷺ as the greatest sūrah in the Qur'an, before he left the mosque.",
+    "ref": {
+     "collection": "bukhari",
+     "number": 4474,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Agreed upon as authentic (al-Bukhārī / Muslim)"
      ]
     }
    }
@@ -421,6 +491,90 @@
       "Al-Albani: Sahih",
       "Muhammad Muhyi Al-Din Abdul Hamid: Sahih",
       "Zubair Ali Zai: Isnaad Hasan"
+     ]
+    }
+   }
+  ],
+  "morning-evening": [
+   {
+    "surahs": [
+     {
+      "n": 112,
+      "name": "Al-Ikhlas",
+      "translated": "The Sincerity"
+     },
+     {
+      "n": 113,
+      "name": "Al-Falaq",
+      "translated": "The Daybreak"
+     },
+     {
+      "n": 114,
+      "name": "An-Nas",
+      "translated": "Mankind"
+     }
+    ],
+    "says": "Three times as the morning comes and three times as the evening does.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 3575,
+     "grade": "Ḥasan",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Hasan",
+      "Al-Albani: Hasan",
+      "Bashar Awad Maarouf: Hasan Sahih",
+      "Zubair Ali Zai: Isnaad Hasan"
+     ]
+    }
+   }
+  ],
+  "prayer": [
+   {
+    "surahs": [
+     {
+      "n": 1,
+      "name": "Al-Fatihah",
+      "translated": "The Opener"
+     }
+    ],
+    "says": "Named by the Prophet ﷺ as the greatest sūrah in the Qur'an, before he left the mosque.",
+    "ref": {
+     "collection": "bukhari",
+     "number": 4474,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Agreed upon as authentic (al-Bukhārī / Muslim)"
+     ]
+    }
+   },
+   {
+    "surahs": [
+     {
+      "n": 87,
+      "name": "Al-A'la",
+      "translated": "The Most High"
+     },
+     {
+      "n": 109,
+      "name": "Al-Kafirun",
+      "translated": "The Disbelievers"
+     },
+     {
+      "n": 112,
+      "name": "Al-Ikhlas",
+      "translated": "The Sincerity"
+     }
+    ],
+    "says": "What ʿĀ'ishah said he recited in witr, one sūrah to each rakʿah.",
+    "ref": {
+     "collection": "tirmidhi",
+     "number": 463,
+     "grade": "Ṣaḥīḥ",
+     "verdicts": [
+      "Ahmad Muhammad Shakir: Sahih",
+      "Al-Albani: Sahih",
+      "Bashar Awad Maarouf: Hasan",
+      "Zubair Ali Zai: Daif"
      ]
     }
    }

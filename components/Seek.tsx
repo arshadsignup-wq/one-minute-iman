@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import SurahFor from "@/components/SurahFor";
 import {
   matchSituations, neighboursOf, isCrisis, isHarm, isOtherLanguage, EXAMPLES, suggestions, matchSurah,
 } from "@/lib/search";
@@ -133,6 +134,14 @@ export default function Seek(
           </button>
         )}
       </div>
+
+      {/* The hub pages carried "From the Qur'an" and the search did not, so a
+          person who asked "protect my home" was told the duʿā and never that
+          al-Baqarah is narrated for it. Same data, shown where the question
+          was actually asked. */}
+      {asked && owned && !crisis && !harm && (
+        <SurahFor situation={owned.id} compact />
+      )}
 
       {asked && surah && (
         <Link

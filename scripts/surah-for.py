@@ -43,7 +43,22 @@ CANDIDATES = [
      "Equal to a third of the Qur'an."),
     ([18], ["protection", "refuge"], "tirmidhi", 2885,
      "Recited by a man when tranquillity descended, and his horse startled at it."),
+    ([109], ["sleep"], "abudawud", 5055,
+     "Recited at bedtime, and finished as you fall asleep: a declaration of "
+     "freedom from associating anything with Allah."),
+    ([112, 113, 114], ["morning-evening", "refuge"], "tirmidhi", 3575,
+     "Three times as the morning comes and three times as the evening does."),
+    ([1], ["prayer", "dhikr"], "bukhari", 4474,
+     "Named by the Prophet ﷺ as the greatest sūrah in the Qur'an, before he "
+     "left the mosque."),
+    ([87, 109, 112], ["prayer"], "tirmidhi", 463,
+     "What ʿĀ'ishah said he recited in witr, one sūrah to each rakʿah."),
 ]
+
+# Checked and rejected: Sunan an-Nasā'ī 1337 is cited everywhere for Āyat
+# al-Kursī after the prayer. Read, it is the dhikr "Allāhumma anta as-salām" —
+# a different narration entirely. Quoting it from memory would have put a wrong
+# reference under a correct-looking grading.
 
 # Claims people search for that the collections here do not carry. Published
 # rather than omitted: someone who has been told to recite al-Wāqiʿah for money

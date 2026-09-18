@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import surahForRaw from "@/data/surah-for.json";
 
@@ -38,13 +40,25 @@ const COLLECTION: Record<string, string> = {
  * something, and an empty page does not answer them; the verdict does. Leaving
  * the unsupported claim out would look like the site had never heard of it.
  */
-export default function SurahFor({ situation }: { situation: string }) {
+export default function SurahFor({
+  situation,
+  compact = false,
+}: {
+  situation: string;
+  compact?: boolean;
+}) {
   const links = DATA.for[situation] ?? [];
   const absent = DATA.absent.filter((a) => a.situations.includes(situation));
   if (!links.length && !absent.length) return null;
 
   return (
-    <section className="mt-12 border-t border-[var(--line)] pt-10">
+    <section
+      className={
+        compact
+          ? "mt-8 rounded-2xl border border-[var(--line)] bg-[var(--paper-2)] p-6"
+          : "mt-12 border-t border-[var(--line)] pt-10"
+      }
+    >
       <h2 className="text-[11px] tracking-[0.16em] text-[var(--ink-faint)] uppercase">
         From the Qur&apos;an
       </h2>
