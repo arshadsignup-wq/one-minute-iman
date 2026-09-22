@@ -59,6 +59,25 @@ for (const r of redirects) {
 }
 
 lines.push(`
+# --- a directory with no page of its own is a 404, not a merry-go-round -----
+# /d and /s are directories of per-page payloads with no page at those paths.
+# mod_dir adds a trailing slash to a directory request, the rule below strips
+# it off again, and the two spin: curl gives up, and so does a crawler.
+#
+# The .html condition is the one that matters, and leaving it out took the
+# whole site down for a minute: /d/dua-yunus is ALSO a directory of payloads,
+# so a rule that 404s directories without an index 404s every entry, situation
+# and hadith page on the site. Only a directory with no page of its own —
+# nothing at X.html and nothing at X/index.html — is the dead end this catches.
+# It also has to keep its hands off anything ending in a slash, or /d/foo/
+# stops redirecting to /d/foo and starts 404ing instead. Those go to the rule
+# below first and come back here without the slash if there is nothing at them.
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.html !-f
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}/index.html !-f
+RewriteRule ^ - [R=404,L]
+
 # --- trailing slash is not canonical: strip it BEFORE the rewrite below -----
 # This has to run first. If the clean-URL rule ran first it would happily
 # serve /d/foo/ as 200, leaving the same page live on two URLs.
