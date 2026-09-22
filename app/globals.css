@@ -28,8 +28,20 @@
   --shadow:     rgba(14, 52, 33, 0.30);
   --glow:       rgba(11, 87, 48, 0.055);
   --pattern:    rgba(11, 87, 48, 0.055);
+
+  /* Text on a green fill. The green inverts for dark, and white on a pale
+     green is unreadable, so the contrasting colour has to invert with it. */
+  --on-green:   #FFFFFF;
 }
 
+/* The palette when it is dark.
+ *
+ * Written twice on purpose. The first copy is the system preference, which
+ * is all a reader without JavaScript ever gets. The second is the reader's
+ * own choice, stamped on <html> before first paint by the script in the
+ * layout, and it has to win over a light system setting — which a rule
+ * inside a prefers-color-scheme query cannot do. CSS has no way to share one
+ * declaration block across that boundary, so the two must be kept in step. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --paper:      #0C1310;
@@ -57,8 +69,43 @@
     --shadow:     rgba(0, 0, 0, 0.65);
     --glow:       rgba(116, 194, 147, 0.06);
     --pattern:    rgba(168, 206, 183, 0.05);
+
+    --on-green:   #08110C;
+  
   }
 }
+
+:root[data-theme="dark"] {
+    --paper:      #0C1310;
+    --paper-2:    #111A15;
+    --paper-3:    #16211B;
+    --card:       #16211B;
+
+    --ink:        #E9EFEA;
+    --ink-soft:   #A2B0A7;
+    --ink-faint:  #718077;
+
+    --green:      #74C293;
+    --green-deep: #A9DCBD;
+    --green-mid:  #4E9E6C;
+    --sage:       #5FA87C;
+    --pale:       #244032;
+
+    --gold:       #D9BE7A;
+    --gold-mid:   #C9A24A;
+    --gold-pale:  #4A3D1E;
+    --gold-bg:    #241F12;
+
+    --line:       rgba(168, 206, 183, 0.17);
+    --line-soft:  rgba(168, 206, 183, 0.085);
+    --shadow:     rgba(0, 0, 0, 0.65);
+    --glow:       rgba(116, 194, 147, 0.06);
+    --pattern:    rgba(168, 206, 183, 0.05);
+
+    --on-green:   #08110C;
+  
+}
+
 
 @theme inline {
   --color-paper: var(--paper);
@@ -81,7 +128,17 @@
 }
 
 * { border-color: var(--line); }
-html { scroll-behavior: smooth; }
+/* Not scroll-behavior: smooth.
+   
+   Every anchor on this site was dead: #v100 on a sūrah page, and the nine
+   category links from the home page to /browse. A smooth scroll is abandoned by
+   the browser the moment content above the viewport changes height, and on
+   pages this long something is always still arriving — a font, an image, a
+   block fading in. The scroll was starting and being thrown away, so the
+   visitor stayed exactly where they were. An unanimated jump that arrives beats
+   an animated one that does not. Where an animation is wanted it is asked for
+   in JavaScript, with a check that it actually happened. */
+html { scroll-behavior: auto; }
 
 body {
   background: var(--paper);
@@ -133,11 +190,15 @@ input:focus-visible { outline: none; }
 
 @media (prefers-reduced-motion: reduce) {
   .rise { animation: none; }
-  html { scroll-behavior: auto; }
 }
 
 /* Mobile safety. A single unbroken string (a long reference, a URL, a run of
-   Arabic without spaces) would otherwise push the whole page sideways. */
+   Arabic without spaces) would otherwise push the whole page sideways.
+
+   It has to be "hidden", not "clip". With clip the root computes to
+   "clip visible", which is not a scroll container at all: the page still
+   scrolls under the wheel, but scrollTop, scrollTo and scrollIntoView all
+   silently do nothing. hidden computes to "hidden auto", which scrolls. */
 html {
   overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
@@ -181,3 +242,13 @@ html[data-recitation-size="2"] .translit { font-size: 22px; }
     transition: background 300ms ease;
   }
 }
+
+/* Sections that are an introduction to the site rather than an answer from it.
+   While a question is on screen they are out of the way; clearing the box
+   brings them back. They stay in the markup either way, so the page a search
+   engine reads is the whole page. */
+:root[data-seeking="true"] .when-unasked {
+  display: none;
+}
+
+:root[data-theme="dark"] .pattern { opacity: 0.28; filter: invert(1) hue-rotate(180deg); }

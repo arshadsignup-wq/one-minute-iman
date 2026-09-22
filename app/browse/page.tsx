@@ -1,7 +1,8 @@
 import { OG_IMAGE } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { categories, situationsInCategory, TOTAL } from "@/lib/search";
+import { categories, situationsInCategory } from "@/lib/search";
+import { TOTAL } from "@/lib/corpus";
 import Seek from "@/components/Seek";
 
 export const metadata: Metadata = {
@@ -25,13 +26,36 @@ export default function Browse() {
         {TOTAL.toLocaleString()} verified entries, sorted by what a person is
         actually going through.
       </p>
+      <p className="mt-2 max-w-xl text-[13.5px] leading-relaxed text-[var(--ink-faint)]">
+        The number beside each situation counts everything filed under it. An entry
+        that answers two situations is listed under both, so these overlap rather
+        than add up.
+      </p>
 
       {/* The site's SearchAction advertises /browse?q=, so the query has to do
           something here; it previously landed on the unfiltered directory. The
           value is read in the browser so this page stays static. */}
       <div className="mt-8">
-        <Seek readQueryFromUrl />
+        <Seek />
       </div>
+
+      {/* 45 situations under nine headings is a long scroll to search by eye.
+          These were the links the home page already pointed at; they only
+          started working when the page stopped asking for a smooth scroll. */}
+      <nav
+        aria-label="Jump to an area of life"
+        className="mt-12 flex flex-wrap gap-2 border-y border-[var(--line-soft)] py-4"
+      >
+        {Object.entries(categories).map(([key, [label]]) => (
+          <a
+            key={key}
+            href={`#${key}`}
+            className="inline-flex min-h-[44px] items-center rounded-full border border-[var(--line)] px-3.5 text-[13px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:text-[var(--green)] sm:min-h-0 sm:py-1.5"
+          >
+            {label}
+          </a>
+        ))}
+      </nav>
 
       <div className="mt-14 space-y-16">
         {Object.entries(categories).map(([key, [label, blurb]]) => {

@@ -10,7 +10,8 @@ export const metadata: Metadata = {
 import Link from "next/link";
 import Seek from "@/components/Seek";
 import { EntryCard, CategoryCard } from "@/components/Cards";
-import { categories, situationsInCategory, rows, TOTAL, CURATED } from "@/lib/search";
+import { categories, situationsInCategory } from "@/lib/search";
+import { entriesInCategory, rows, TOTAL, CURATED } from "@/lib/corpus";
 import { AYAT_TOTAL, surahs } from "@/lib/quran";
 import { HADITH_TOTAL } from "@/lib/hadith";
 
@@ -54,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* ── categories ──────────────────────────────────────────────────── */}
-      <section className="mx-auto max-w-5xl px-6 py-20">
+      <section className="when-unasked mx-auto max-w-5xl px-6 py-20">
         <div className="mb-9 flex flex-wrap items-end justify-between gap-3">
           <div>
             <p className="mb-2 text-[11.5px] tracking-[0.16em] text-[var(--gold)] uppercase">
@@ -63,6 +64,10 @@ export default function Home() {
             <h2 className="display text-[34px] leading-tight text-[var(--ink)]">
               Or start from where you are
             </h2>
+            <p className="mt-2.5 max-w-md text-[13.5px] leading-relaxed text-[var(--ink-faint)]">
+              Most entries answer more than one of these, so the counts overlap
+              rather than add up to the {TOTAL.toLocaleString()} on the site.
+            </p>
           </div>
           <Link
             href="/browse"
@@ -82,7 +87,7 @@ export default function Home() {
                 label={label}
                 blurb={blurb}
                 tags={sits.filter((s) => s.id !== "misc" && s.id !== "dhikr").slice(0, 3).map((s) => s.label)}
-                count={sits.reduce((a, s) => a + s.count, 0)}
+                count={entriesInCategory(key)}
               />
             );
           })}
@@ -90,7 +95,7 @@ export default function Home() {
       </section>
 
       {/* ── featured ────────────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden border-y border-[var(--line-soft)] bg-[var(--paper-2)]">
+      <section className="when-unasked relative overflow-hidden border-y border-[var(--line-soft)] bg-[var(--paper-2)]">
         <div className="relative mx-auto max-w-5xl px-6 py-20">
           <p className="mb-2 text-[11.5px] tracking-[0.16em] text-[var(--gold)] uppercase">
             Written out in full
@@ -108,7 +113,7 @@ export default function Home() {
       </section>
 
       {/* ── the two libraries ───────────────────────────────────────────── */}
-      <section className="mx-auto max-w-5xl px-6 py-20">
+      <section className="when-unasked mx-auto max-w-5xl px-6 py-20">
         <p className="mb-2 text-[11.5px] tracking-[0.16em] text-[var(--gold)] uppercase">
           Read it in full
         </p>
@@ -155,7 +160,7 @@ export default function Home() {
       </section>
 
       {/* ── trust ───────────────────────────────────────────────────────── */}
-      <section className="mx-auto max-w-4xl px-6 py-20">
+      <section className="when-unasked mx-auto max-w-4xl px-6 py-20">
         <div className="mx-auto max-w-2xl text-center">
           <span className="gold-rule mx-auto mb-7 block h-px w-24" aria-hidden="true" />
           <h2 className="display text-[34px] leading-tight text-[var(--ink)]">
@@ -186,7 +191,7 @@ export default function Home() {
         <div className="mt-14 text-center">
           <Link
             href="/authenticity"
-            className="inline-block rounded-full bg-[var(--green)] px-6 py-3 text-[14px] font-medium text-white transition-all hover:bg-[var(--green-deep)]"
+            className="inline-block rounded-full bg-[var(--green)] px-6 py-3 text-[14px] font-medium text-[var(--on-green)] transition-all hover:bg-[var(--green-deep)]"
           >
             Read the full method
           </Link>
