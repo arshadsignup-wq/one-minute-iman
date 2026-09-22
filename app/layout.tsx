@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Cormorant_Garamond, Inter, Amiri } from "next/font/google";
 import "./globals.css";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const display = Cormorant_Garamond({
   subsets: ["latin"],
@@ -155,7 +156,7 @@ function Header() {
               is still one tap away, in the footer and from every entry. */}
           <Link
             href="/browse"
-            className="ml-0.5 flex min-h-[44px] shrink-0 items-center rounded-full bg-[var(--green)] px-3 text-white transition-all hover:opacity-90 sm:ml-1 sm:px-4"
+            className="ml-0.5 flex min-h-[44px] shrink-0 items-center rounded-full bg-[var(--green)] px-3 text-[var(--on-green)] transition-all hover:opacity-90 sm:ml-1 sm:px-4"
           >
             <span className="sm:hidden">Find</span>
             <span className="hidden sm:inline">Find yours</span>
@@ -191,10 +192,13 @@ function Footer() {
           . This site is a starting point for reflection, not a substitute for a
           qualified teacher.
         </p>
-        <p className="mt-6 text-[12px] text-[var(--ink-faint)]">
-          Qur&apos;an text and translation via Quran.com · Hadith references follow
-          Sunnah.com numbering
-        </p>
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-4">
+          <p className="text-[12px] text-[var(--ink-faint)]">
+            Qur&apos;an text and translation via Quran.com · Hadith references follow
+            Sunnah.com numbering
+          </p>
+          <ThemeToggle />
+        </div>
       </div>
     </footer>
   );
@@ -219,8 +223,22 @@ export function Star({ className = "" }: { className?: string }) {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    /* The script in the head stamps data-theme before React arrives, which is
+       the point of it — and which React then reports as markup it did not
+       write. This is the case the flag exists for. */
+    <html lang="en" suppressHydrationWarning>
       <head>
+        {/* Resolve the reader's chosen palette before anything is painted.
+            Without this the page renders light, then flips, which at night is
+            the whole screen going white in someone's face. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var c=localStorage.getItem('omi.theme.v1');" +
+              "var d=c==='dark'||(c!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches);" +
+              "document.documentElement.dataset.theme=d?'dark':'light';}catch(e){}",
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}

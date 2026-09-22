@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { CORRECTIONS_URL, OG_IMAGE } from "@/lib/site";
+import { OG_IMAGE } from "@/lib/site";
+import ReportMistake from "@/components/ReportMistake";
 
 export const metadata: Metadata = {
   title: "Report a mistake",
@@ -55,18 +56,16 @@ export default function Corrections() {
         trust.
       </p>
 
-      <a
-        href={CORRECTIONS_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-10 inline-flex min-h-[44px] items-center rounded-full bg-[var(--green)] px-6 text-[15px] text-[var(--paper)] transition-opacity hover:opacity-90"
-      >
-        Report a mistake ↗
-      </a>
-      <p className="mt-4 text-[13px] leading-relaxed text-[var(--ink-faint)]">
-        Reports go to the public issue tracker for this site, so you can see what has been
-        raised and what was done about it. Every entry page carries the same link, which
-        arrives with that entry already identified.
+      <div className="mt-10">
+        <ReportMistake />
+      </div>
+      <p className="mt-4 max-w-xl text-[13px] leading-relaxed text-[var(--ink-faint)]">
+        The tracker is public, so you can see what has been raised and what was done
+        about it &mdash; but it asks for an account, and you should not need one to
+        tell us a translation is wrong. &ldquo;Copy a report&rdquo; puts the page and
+        the questions worth answering on your clipboard, ready to send by any means
+        you like. Every entry page carries the same options, arriving with that entry
+        already identified.
       </p>
     </div>
   );

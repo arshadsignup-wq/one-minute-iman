@@ -7,6 +7,7 @@ import { sitById } from "@/lib/search";
 import Prose from "@/components/Prose";
 import { Grade } from "@/components/Cards";
 import EntryActions from "@/components/EntryActions";
+import ReportMistake from "@/components/ReportMistake";
 
 export function generateStaticParams() {
   return entries.map((e) => ({ id: e.id }));
@@ -318,6 +319,17 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
           >
             Report a mistake on this page
           </a>
+          {/* …and for the reader who has no account and should not need one. */}
+          <ReportMistake entryId={d.id} title={d.title} compact />
+          {/* The grading above is the site's whole argument, and how it was
+              arrived at was only ever explained in the footer. It belongs
+              beside the verdict it accounts for. */}
+          <Link
+            href="/authenticity"
+            className="inline-flex min-h-[44px] items-center text-[13px] text-[var(--ink-faint)] underline underline-offset-4 transition-colors hover:text-[var(--ink-soft)] sm:min-h-0"
+          >
+            How this was checked
+          </Link>
         </div>
       </section>
 

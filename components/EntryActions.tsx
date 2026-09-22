@@ -40,6 +40,7 @@ const SIZE_LABEL = ["Normal text size", "Larger text size", "Largest text size"]
 export default function EntryActions(props: Props) {
   const [saved, setSaved] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [shared, setShared] = useState<"" | "sent" | "link">("");
   const [size, setSize] = useState(0);
 
   // What is saved lives in localStorage, which React cannot read while
@@ -70,6 +71,31 @@ export default function EntryActions(props: Props) {
     }
   }
 
+  /** Send it to someone.
+   *
+   *  Copy puts the words on the clipboard; this passes the page itself to
+   *  whatever the reader shares with. People find these for somebody else at
+   *  least as often as for themselves, and there was no way to hand one on
+   *  except by copying the address out of the bar. Where the browser has no
+   *  share sheet it falls back to copying the link, and says which it did.
+   */
+  async function share() {
+    const data = { title: props.title, text: props.trans || props.title, url: props.url };
+    try {
+      if (typeof navigator.share === "function") {
+        await navigator.share(data);
+        setShared("sent");
+      } else {
+        await navigator.clipboard.writeText(props.url);
+        setShared("link");
+      }
+      window.setTimeout(() => setShared(""), 2000);
+    } catch {
+      // the sheet was dismissed, or the clipboard refused: say nothing
+      setShared("");
+    }
+  }
+
   const btn =
     "inline-flex min-h-[44px] items-center gap-2 rounded-full border border-[var(--line)] px-4 text-[13.5px] text-[var(--ink-soft)] transition-all hover:border-[var(--sage)] hover:text-[var(--green)]";
 
@@ -81,6 +107,10 @@ export default function EntryActions(props: Props) {
 
       <button type="button" onClick={copy} className={btn} aria-live="polite">
         {copied ? "Copied" : "Copy"}
+      </button>
+
+      <button type="button" onClick={share} className={btn} aria-live="polite">
+        {shared === "sent" ? "Shared" : shared === "link" ? "Link copied" : "Share"}
       </button>
 
       <button
