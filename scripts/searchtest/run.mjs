@@ -16,19 +16,24 @@ const tmp = resolve(here, ".build");
 rmSync(tmp, { recursive: true, force: true });
 mkdirSync(tmp, { recursive: true });
 
-const src = readFileSync(resolve(root, "lib/search.ts"), "utf8")
-  .replace(/@\/data\//g, resolve(root, "data") + "/")
-  .replace(/from\s+"([^"]+\.json)"/g, 'with { type: "json" } from "$1"')
-  .replace(/import (\w+) with \{ type: "json" \} from/g, 'import $1 from');
-// json imports need the attribute after the specifier
-const fixed = src.replace(
-  /import (\w+) from "([^"]+\.json)";/g,
-  'import $1 from "$2" with { type: "json" };',
-);
-const out = resolve(tmp, "search.ts");
-writeFileSync(out, fixed);
+/** Copy a lib module into the scratch dir with its aliases made relative. */
+function stage(name) {
+  const src = readFileSync(resolve(root, "lib", name), "utf8")
+    .replace(/@\/data\//g, resolve(root, "data") + "/")
+    .replace(/@\/lib\/(\w+)/g, "./$1.ts")
+    .replace(
+      /import (\w+) from "([^"]+\.json)";/g,
+      'import $1 from "$2" with { type: "json" };',
+    );
+  writeFileSync(resolve(tmp, name), src);
+}
+// corpus.ts holds the entries; search.ts holds the matching. Both are needed:
+// the checks below exercise what a visitor is shown, which is one then the other.
+stage("search.ts");
+stage("corpus.ts");
 
-const S = await import(pathToFileURL(out).href);
+const S = { ...(await import(pathToFileURL(resolve(tmp, "search.ts")).href)),
+            ...(await import(pathToFileURL(resolve(tmp, "corpus.ts")).href)) };
 
 /** Mirrors how components/Seek.tsx turns matches into what a visitor sees. */
 function results(q) {
@@ -46,6 +51,7 @@ function results(q) {
       : [...scored, ...S.neighboursOf(leadIds[0], [...leadIds, ...scored.map((s) => s.id)], 4)];
   return {
     mode: "results",
+    sure: !!lead[0]?.sure,
     lead: leadIds,
     related: filled.slice(0, 5).map((s) => s.id),
     cards: leadIds.length ? S.entriesFor(leadIds[0], 6).map((r) => r.id) : [],
@@ -85,6 +91,36 @@ const CASES = [
   // scoring a bereavement as a celebration and offering gratitude alongside it.
   ["my mother passed away last week", ["death"],        ["gratitude"],              "passed away is not good news"],
   ["my grandfather passed on",    ["death"],            ["gratitude"],              "passed on is not good news"],
+
+  // near() used to answer on the first transposed pair and never read the rest
+  // of the word, so any two words beginning with a swapped pair were treated as
+  // a typo of one another. Someone who could not have children was offered a
+  // supplication against nightmares.
+  ["i am infertile",              ["children"],         ["sleep", "fear"],          "infertility is about children"],
+  ["we cant have children",       ["children"],         [],                         "said the long way round"],
+  ["i had a miscarriage",         ["death"],            ["children"],               "a miscarriage is a bereavement"],
+  ["salawat on the prophet",      ["dhikr"],            ["shame"],                  "salawat is remembrance"],
+  ["durood",                      ["dhikr"],            [],                         "the Urdu name reaches it too"],
+  ["breaking my fast",            ["eating"],           ["overwhelm"],              "iftar, not burnout"],
+  ["i am fasting today",          ["eating"],           [],                         "fasting"],
+
+  // the repairs that are real typos must survive the stricter rule
+  ["anxeity",                     ["anxiety"],          [],                         "transposition repaired"],
+  ["depresion",                   ["sadness", "illness"], [],                       "dropped letter repaired"],
+  ["greif",                       ["sadness"],          [],                         "transposition repaired"],
+  ["lonly",                       ["loneliness"],       [],                         "dropped letter repaired"],
+];
+
+/** Whether the page may say "here is the thing for exactly that", or must
+ *  admit it is guessing. [query, expected] */
+const CONFIDENCE = [
+  ["I feel lonely",   true,  "a word the lexicon lists"],
+  ["I am in debt",    true,  "a word the lexicon lists"],
+  ["money",           true,  "the situation's own label"],
+  ["rizq",            true,  "a curated synonym"],
+  ["I lost my mother", true, "a phrase the lexicon lists"],
+  ["greif",           false, "only a repaired typo"],
+  ["lonly",           false, "only a repaired typo"],
 ];
 
 let pass = 0, fail = 0;
@@ -109,7 +145,19 @@ for (const [q, want, avoid, note] of CASES) {
   const mark = ok ? "pass" : "FAIL";
   console.log(`${mark}  ${q.padEnd(30)} -> ${r.mode === "results" ? r.lead.join(", ") : r.mode}`);
 }
-console.log(`\n${pass} passed, ${fail} failed of ${CASES.length}`);
+for (const [q, want, note] of CONFIDENCE) {
+  const r = results(q);
+  const got = r.mode === "results" ? r.sure : null;
+  const ok = got === want;
+  if (ok) pass++;
+  else {
+    fail++;
+    failures.push({ q, note, want: [`sure=${want}`], avoid: [], got: `sure=${got}` });
+  }
+  console.log(`${ok ? "pass" : "FAIL"}  ${q.padEnd(30)} -> sure=${got}`);
+}
+
+console.log(`\n${pass} passed, ${fail} failed of ${CASES.length + CONFIDENCE.length}`);
 if (failures.length) {
   console.log("\n--- failures in detail ---");
   for (const f of failures) {

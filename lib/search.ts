@@ -1,25 +1,24 @@
-import indexRaw from "@/data/index.json";
-import quranIndexRaw from "@/data/quran-index.json";
+// Names only. quran-index.json also carries every āyah of every translation,
+// 993KB of it, and importing the whole file to look up "surah mulk" put that
+// megabyte in the bundle of every page that shows a search box.
+import quranNamesRaw from "@/data/quran-names.json";
 import sitsRaw from "@/data/situations.json";
 
-export type Row = {
-  id: string; t: string; l?: string; s: string[];
-  x: 0 | 1; g: string; r: string; a?: string;
-};
+/* The entries themselves live in lib/corpus.ts. Nothing here reads them, which
+   is what keeps the 0.9MB index out of the bundle of every page that shows a
+   search box. */
+
 export type Situation = {
   id: string; label: string; cat: string; blurb: string;
   feelings: string[]; count: number;
 };
 
-export const rows = indexRaw as Row[];
 export const situations = (sitsRaw as unknown as { situations: Situation[] }).situations;
 export const categories = (sitsRaw as unknown as {
   categories: Record<string, [string, string]>;
 }).categories;
 
 export const sitById = new Map(situations.map((s) => [s.id, s]));
-export const TOTAL = rows.length;
-export const CURATED = rows.filter((r) => r.x === 1).length;
 
 const STOP = new Set([
   "i","im","am","is","are","a","an","the","my","me","to","of","and","so","feel",
@@ -80,7 +79,7 @@ export function isCrisis(query: string) {
  *  a letter in every direction (Waqi'ah / Waqia / Waqiah, Ya-Sin / Yaseen), so
  *  matching is done on a stripped form with the article removed.
  */
-const SURAH_NAMES = (quranIndexRaw as unknown as { names: Record<string, string> }).names;
+const SURAH_NAMES = (quranNamesRaw as unknown as { names: Record<string, string> }).names;
 
 /** "Al-Waqi'ah" → "waqiah"; also yields "alwaqiah" so both are askable. */
 function surahKeys(name: string): string[] {
@@ -218,24 +217,35 @@ export function synonymsOf(token: string): string[] {
 
 /** True when two words are one edit apart (a swap, an insertion, a deletion or
  *  a substitution). Bounded to short words and bailing early, so it stays cheap
- *  enough to run over the whole lexicon on every keystroke. */
+ *  enough to run over the whole lexicon on every keystroke.
+ *
+ *  Both branches used to answer on the first difference they found and never
+ *  look at the rest of the word. A transposed opening pair was therefore enough
+ *  on its own: "infertile" was read as a typo of "nightmare", "salawat" of
+ *  "ashamed", "ramadan" of "aroused" and "breaking" of "bereaved". Someone who
+ *  could not have children was offered a supplication against bad dreams. The
+ *  remainder has to agree as well, so both branches now run to the end.
+ */
 function near(a: string, b: string) {
   if (Math.abs(a.length - b.length) > 1) return false;
   if (a === b) return false;
-  // adjacent transposition, the most common typo
+
   if (a.length === b.length) {
-    let diff = -1;
+    // one substitution, or one adjacent transposition, and nothing else
+    const diffs: number[] = [];
     for (let i = 0; i < a.length; i++) {
       if (a[i] !== b[i]) {
-        if (diff >= 0) {
-          return diff === i - 1 && a[diff] === b[i] && a[i] === b[diff];
-        }
-        diff = i;
+        diffs.push(i);
+        if (diffs.length > 2) return false;
       }
     }
-    return diff >= 0;
+    if (diffs.length === 1) return true;
+    if (diffs.length !== 2) return false;
+    const [x, y] = diffs;
+    return y === x + 1 && a[x] === b[y] && a[y] === b[x];
   }
-  // one insertion or deletion
+
+  // one insertion or deletion: the shorter word must be consumed entirely
   const [short, long] = a.length < b.length ? [a, b] : [b, a];
   let i = 0, j = 0, skipped = false;
   while (i < short.length && j < long.length) {
@@ -243,7 +253,7 @@ function near(a: string, b: string) {
     if (skipped) return false;
     skipped = true; j++;
   }
-  return true;
+  return i === short.length;
 }
 
 
@@ -328,34 +338,45 @@ const INTENT: [RegExp, string[], number][] = [
     ["death"], 18],
 ];
 
-/** Phrasings in Bengali and in Banglish, the romanised form people type.
+/** Phrasings in a language the entries have not been translated into.
  *
- *  These route the visitor to the English entries that fit. Nothing on this
- *  site has been translated into Bengali, and the results are not presented as
- *  though it had been.
+ *  These route the visitor to the English entries that fit, and the page says
+ *  plainly that the entries are not in the language they asked in. Each row
+ *  carries that language's name: the notice used to be hard-coded to Bengali
+ *  and so told a Turk, an Arab and a Pakistani alike that nothing here has been
+ *  translated into Bengali.
+ *
+ *  Words that belong to no one language in particular are deliberately absent.
+ *  "alhamdulillah" and "tawba" are Arabic, said by everybody, and typing either
+ *  used to produce the Bengali notice above an answer in fluent English. They
+ *  are in the ordinary lexicon instead, where they reach the same entries
+ *  without a claim about the reader attached.
  */
-const OTHER_LANGUAGE: [RegExp, string[]][] = [
-  [/মন খারাপ|মনখারাপ|বিষণ্ণ|কষ্ট পাচ্ছি|দুঃখ/, ["sadness"]],
-  [/\b(mon kharap|mon-kharap|monkharap|mon kharab|kosto|koshto|dukkho|dukho)\b/, ["sadness"]],
-  [/দুশ্চিন্তা|চিন্তা হচ্ছে|ভয় লাগছে/, ["anxiety"]],
-  [/\b(chinta|dushchinta|tension lagche|voy lagche|bhoy lagche)\b/, ["anxiety"]],
-  [/একা লাগছে|একাকীত্ব/, ["loneliness"]],
-  [/\b(eka lagche|একা|eka lagse)\b/, ["loneliness"]],
-  [/ঋণ|দেনা/, ["debt"]],
-  [/\b(rin|dena|taka nei)\b/, ["debt"]],
-  [/অসুস্থ|অসুখ/, ["illness"]],
-  [/\b(osukh|osustho)\b/, ["illness"]],
-  [/ক্ষমা|তওবা/, ["forgiveness"]],
-  [/\b(khoma|toba|tawba)\b/, ["forgiveness"]],
-  [/শুকরিয়া|কৃতজ্ঞ|আলহামদুলিল্লাহ/, ["gratitude"]],
-  [/\b(shukriya|kritoggo|alhamdulillah)\b/, ["gratitude"]],
+const OTHER_LANGUAGE: [RegExp, string[], string][] = [
+  [/মন খারাপ|মনখারাপ|বিষণ্ণ|কষ্ট পাচ্ছি|দুঃখ/, ["sadness"], "Bengali"],
+  [/\b(mon kharap|mon-kharap|monkharap|mon kharab|kosto|koshto|dukkho|dukho)\b/, ["sadness"], "Bengali"],
+  [/দুশ্চিন্তা|চিন্তা হচ্ছে|ভয় লাগছে/, ["anxiety"], "Bengali"],
+  [/\b(dushchinta|tension lagche|voy lagche|bhoy lagche)\b/, ["anxiety"], "Bengali"],
+  [/একা লাগছে|একাকীত্ব/, ["loneliness"], "Bengali"],
+  [/\b(eka lagche|একা|eka lagse)\b/, ["loneliness"], "Bengali"],
+  [/ঋণ|দেনা/, ["debt"], "Bengali"],
+  [/\b(rin|dena|taka nei)\b/, ["debt"], "Bengali"],
+  [/অসুস্থ|অসুখ/, ["illness"], "Bengali"],
+  [/\b(osukh|osustho)\b/, ["illness"], "Bengali"],
+  [/ক্ষমা|তওবা/, ["forgiveness"], "Bengali"],
+  [/\b(khoma)\b/, ["forgiveness"], "Bengali"],
+  [/শুকরিয়া|কৃতজ্ঞ|আলহামদুলিল্লাহ/, ["gratitude"], "Bengali"],
+  [/\b(kritoggo)\b/, ["gratitude"], "Bengali"],
 ];
 
-/** True when the query used a language the site has no translated content in. */
-export function isOtherLanguage(query: string) {
+/** The language a query was asked in, when the site holds nothing in it. */
+export function otherLanguage(query: string): string | null {
   const raw = query.toLowerCase();
   const n = normalise(query);
-  return OTHER_LANGUAGE.some(([rx]) => rx.test(raw) || rx.test(n));
+  for (const [rx, , lang] of OTHER_LANGUAGE) {
+    if (rx.test(raw) || rx.test(n)) return lang;
+  }
+  return null;
 }
 
 /** The thing a sentence is actually about, when it names both a symptom and a cause.
@@ -406,25 +427,31 @@ export function matchSituations(query: string) {
   // stop words, so tokenising leaves nothing and the function used to return
   // before the phrase path ran — even with the phrase written in the lexicon.
   // Someone typing three small words is still asking something.
-  if (!q && !boosts.size) return [] as { sit: Situation; score: number }[];
+  if (!q && !boosts.size) return [] as { sit: Situation; score: number; sure: boolean }[];
 
-  const scored: { sit: Situation; score: number; onSubject?: boolean }[] = [];
+  const scored: { sit: Situation; score: number; sure?: boolean; onSubject?: boolean }[] = [];
   for (const sit of situations) {
     let score = 0;
+    // Whether anything the visitor actually wrote was recognised, as opposed to
+    // guessed at. A word the lexicon lists, a phrase, a curated synonym or the
+    // situation's own label is recognition. A prefix or a repaired typo is an
+    // inference, and an answer resting on nothing else should not be presented
+    // as though the site understood the question.
+    let sure = false;
     for (const f of sit.feelings) {
       const nf = normalise(f);
       if (!nf) continue;
       if (nf.includes(" ")) {
         // An exact phrase from the lexicon wins over the negation heuristic:
         // "im not okay" is written there deliberately and means what it says.
-        if (q.includes(nf)) score += 14 + nf.length / 5;
+        if (q.includes(nf)) { score += 14 + nf.length / 5; sure = true; }
         // "evil eye" is listed, "nazar" is what was typed.
-        else if (qt.some((t) => SYNONYM_INDEX.get(t)?.has(nf))) score += 9;
+        else if (qt.some((t) => SYNONYM_INDEX.get(t)?.has(nf))) { score += 9; sure = true; }
         continue;
       }
       for (const t of qt) {
         if (negated.has(t)) continue;
-        if (t === nf) score += 10;
+        if (t === nf) { score += 10; sure = true; }
         else if (
           t.length >= 4 && (nf.startsWith(t) || t.startsWith(nf)) &&
           Math.abs(t.length - nf.length) <= 3
@@ -434,16 +461,16 @@ export function matchSituations(query: string) {
         else if (t.length >= 5 && near(t, nf)) score += 7;
         // A word the lexicon never listed, meaning the same as one it did.
         // Scored below an exact listing so a deliberate phrasing still leads.
-        else if (SYNONYM_INDEX.get(t)?.has(nf)) score += 8;
+        else if (SYNONYM_INDEX.get(t)?.has(nf)) { score += 8; sure = true; }
       }
     }
     for (const t of qt) {
       if (negated.has(t)) continue;
-      if (t.length >= 4 && normalise(sit.label).includes(t)) score += 3;
+      if (t.length >= 4 && normalise(sit.label).includes(t)) { score += 3; sure = true; }
     }
     // what happened outranks what it is about
     const boost = boosts.get(sit.id);
-    if (boost) score += boost;
+    if (boost) { score += boost; sure = true; }
 
     // and what it is about outranks the symptom it is described through
     let onSubject = false;
@@ -461,7 +488,7 @@ export function matchSituations(query: string) {
       if (onSubject) score += 16;
     }
 
-    if (score > 0) scored.push({ sit, score, onSubject });
+    if (score > 0) scored.push({ sit, score, sure, onSubject });
   }
   // Once the sentence has told us what it is about, everything it matched only
   // in passing steps back. Without this, "thinking about my debts at night"
@@ -471,19 +498,14 @@ export function matchSituations(query: string) {
   }
 
   scored.sort((a, b) => b.score - a.score || b.sit.count - a.sit.count);
-  return scored.map(({ sit, score }) => ({ sit, score }));
+  return scored.map(({ sit, score, sure }) => ({ sit, score, sure: !!sure }));
 }
 
-/** Entries belonging to a situation: curated first, then the wider library. */
-export function entriesFor(sitId: string, limit?: number) {
-  const out = rows.filter((r) => r.s.includes(sitId));
-  out.sort((a, b) => b.x - a.x);
-  return limit ? out.slice(0, limit) : out;
-}
 
 export function situationsInCategory(cat: string) {
   return situations.filter((s) => s.cat === cat).sort((a, b) => b.count - a.count);
 }
+
 
 /** Neighbours worth offering when a query matches only one thing. */
 export function neighboursOf(sitId: string, exclude: string[], take = 4) {
@@ -562,5 +584,17 @@ export function suggestions(query: string, take = 6) {
     if (best) out.push({ sit, hint: (best as { hint: string }).hint, rank: (best as { rank: number }).rank });
   }
   out.sort((a, b) => a.rank - b.rank || b.sit.count - a.sit.count);
-  return out.slice(0, take).map(({ sit, hint }) => ({ sit, hint }));
+  // One word, one chip. "alhamdulillah" is written into both Joy & gratitude
+  // and Remembrance & praise, so the row offered it twice — two buttons that
+  // put the identical text in the box and produce the identical page.
+  const offered = new Set<string>();
+  return out
+    .filter(({ hint }) => {
+      const key = normalise(hint);
+      if (offered.has(key)) return false;
+      offered.add(key);
+      return true;
+    })
+    .slice(0, take)
+    .map(({ sit, hint }) => ({ sit, hint }));
 }

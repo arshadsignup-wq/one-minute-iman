@@ -59,6 +59,25 @@ AR_PATTERNS = {'debt': 'المغرم|ضلع الدين|اقض عنا الدين|
     'failure': 'قدر الله وما شاء فعل|لو اني',
     'overwhelm': 'لا تحملنا ما لا طاقه لنا|الا وسعها|طاقه لنا'}
 
+
+def _word_start(pattern):
+    """Require each alternative to begin a word.
+
+    Arabic attaches its pronouns as suffixes, so a bare substring sits inside
+    quite unrelated words: الهم (grief) is the tail of أموالهم (their wealth)
+    and of مكيالهم (their measure). That is the whole reason the narrations
+    about fighting and about the zakat collector were filed under anxiety and
+    listed beneath "Duʿā for anxiety and worry". A single one-letter
+    conjunction or preposition may still precede the word.
+    """
+    return "|".join(
+        "(?<![\u0621-\u064A])[\u0648\u0641\u0628\u0643\u0644]?" + alt
+        for alt in pattern.split("|")
+    )
+
+
+AR_PATTERNS = {k: _word_start(v) for k, v in AR_PATTERNS.items()}
+
 S = [
 # ── HEART ─────────────────────────────────────────────────────────────────
 dict(id="sadness", cat="heart", label="Sadness", blurb="Grief, low spirits, a heaviness you can't name",
@@ -116,7 +135,7 @@ dict(id="someone-ill", cat="body", label="Someone you love is ill", blurb="Sitti
 
 dict(id="death", cat="hardship", label="Losing someone", blurb="Death, funerals, and the days after",
      match=r"\b(death|died|deceased|funeral|janazah|grave|bereave|mourn)\b",
-     feelings=["death", "died", "passed away", "lost someone", "loss", "bereaved", "lost my mother", "lost my father", "lost my mum", "lost my dad", "lost my son", "lost my daughter", "lost my wife", "lost my husband", "lost my brother", "lost my sister", "lost my friend", "lost my baby", "lost my child", "lost my grandmother", "lost my grandfather", "he died", "she died", "they died", "just died", "funeral tomorrow", "buried", "burying", "funeral", "janazah", "burial", "my mother died", "my father died", "my child died", "miscarriage", "stillbirth", "widow", "orphan", "mourning", "grieving", "miss them", "they are gone", "condolence", "anniversary of their death"]),
+     feelings=["death", "died", "passed away", "lost someone", "loss", "bereaved", "lost my mother", "lost my father", "lost my mum", "lost my dad", "lost my son", "lost my daughter", "lost my wife", "lost my husband", "lost my brother", "lost my sister", "lost my friend", "lost my baby", "lost my child", "lost my grandmother", "lost my grandfather", "he died", "she died", "they died", "just died", "funeral tomorrow", "buried", "burying", "funeral", "janazah", "burial", "my mother died", "my father died", "my child died", "miscarriage", "stillbirth", "widow", "orphan", "mourning", "grieving", "miss them", "they are gone", "condolence", "anniversary of their death", "stillborn", "lost the baby", "lost our baby"]),
 
 dict(id="debt", cat="provision", label="Debt", blurb="When you owe more than you can pay",
      match=r"\b(debt|indebted|creditor|loan|owe[sd]?\b)",
@@ -149,7 +168,7 @@ dict(id="intimacy", cat="people", label="Intimacy", blurb="What a husband and wi
 
 dict(id="children", cat="people", label="Children", blurb="Hoping for them, raising them, worrying about them",
      match=r"\b(child(ren)?|offspring|son|daughter|baby|born|pregnan)\b",
-     feelings=["children","child","kids","my son","my daughter","baby","pregnant","pregnancy","expecting","birth","labour","labor","trying for a baby","infertility","cant conceive","ivf","childless","miscarriage","worried about my kids","my child is struggling","parenting","raising children","teenager","protect my children", "newborn", "new baby", "adoption", "adopted", "custody", "my kids", "raising kids", "single parent", "single mum", "single dad", "my teenager", "toddler", "breastfeeding", "nursing my baby", "c section", "caesarean", "my baby wont sleep", "weaning"]),
+     feelings=["children","child","kids","my son","my daughter","baby","pregnant","pregnancy","expecting","birth","labour","labor","trying for a baby","infertility","cant conceive","ivf","childless","worried about my kids","my child is struggling","parenting","raising children","teenager","protect my children", "newborn", "new baby", "adoption", "adopted", "custody", "my kids", "raising kids", "single parent", "single mum", "single dad", "my teenager", "toddler", "breastfeeding", "nursing my baby", "c section", "caesarean", "my baby wont sleep", "weaning", "infertile", "cant have children", "cannot have children", "trying to conceive", "struggling to conceive", "fertility"]),
 
 dict(id="parents", cat="people", label="Parents & family", blurb="Mothers, fathers, and those who raised you",
      match=r"\b(parents?|mother|father|mercy on them|raised me)\b",
@@ -225,7 +244,7 @@ dict(id="sleep", cat="daily", label="Sleep & the night", blurb="Lying down, waki
 
 dict(id="eating", cat="daily", label="Food & drink", blurb="Before and after eating",
      match=r"\b(eat(s|ing|en)?|food|meal|drink|drank|ate)\b",
-     feelings=["eating","food","meal","before eating","after eating","drinking","water","hungry","fasting","iftar","suhoor","breaking fast","bismillah before food","gratitude for food", "about to eat", "having a meal", "qurbani", "slaughtering", "sacrifice"]),
+     feelings=["eating","food","meal","before eating","after eating","drinking","water","hungry","fasting","iftar","suhoor","breaking fast","bismillah before food","gratitude for food", "about to eat", "having a meal", "qurbani", "slaughtering", "sacrifice", "breaking my fast", "break my fast", "broke my fast", "opening my fast", "ramadan", "fasting today", "i am fasting", "im fasting", "sehri", "sahoor"]),
 
 dict(id="prayer", cat="daily", label="In prayer", blurb="What is said within the ṣalāh",
      match=r"\b(rak(a|')ah|prostrat|sujud|ruku|bow(ing|ed)?|prayer|salat|salah|qunut|tashahhud)\b",
@@ -241,7 +260,7 @@ dict(id="rain-weather", cat="daily", label="Rain, wind & sky", blurb="When the w
 
 dict(id="dhikr", cat="reference", label="Remembrance & praise", blurb="Words of praise, glorification and testifying to Allah",
      match=r"(?!x)x",
-     feelings=["dhikr","remembrance","praise","tasbih","subhanallah","alhamdulillah","allahu akbar","tahlil","la ilaha illallah","shahada","glorify","thank allah","remember allah","dhikr after prayer","counting","tasbeeh","words of praise"]),
+     feelings=["dhikr","remembrance","praise","tasbih","subhanallah","alhamdulillah","allahu akbar","tahlil","la ilaha illallah","shahada","glorify","thank allah","remember allah","dhikr after prayer","counting","tasbeeh","words of praise", "salawat", "salawaat", "durood", "darood", "blessings on the prophet", "send blessings on the prophet", "salli ala", "allahumma salli", "peace and blessings"]),
 
 dict(id="misc", cat="reference", label="Further supplications", blurb="Verified supplications that don't sit under a single heading",
      match=r"(?!x)x",

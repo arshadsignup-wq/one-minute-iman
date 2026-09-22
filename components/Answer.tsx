@@ -46,12 +46,18 @@ export default function Answer({
   query,
   alternatives,
   named,
+  sure = true,
 }: {
   sit: Situation;
   query: string;
   alternatives: Situation[];
   /** The entry the query asked for by name, when it asked for one. */
   named?: EntryDoc | null;
+  /** False when nothing the visitor wrote was recognised and the situation was
+   *  inferred from a prefix or a repaired typo. The answer is still the best
+   *  one held, but it is offered as a guess rather than as the thing they
+   *  asked for. */
+  sure?: boolean;
 }) {
   const a = answers[sit.id];
   if (!a) return null;
@@ -84,9 +90,23 @@ export default function Answer({
         <h2 className="display mt-2 text-[30px] leading-tight text-[var(--ink)] sm:text-[36px]">
           {named ? named.t : sit.blurb}
         </h2>
-        <p className="mt-2 text-[13.5px] text-[var(--ink-faint)]">
-          Here is one thing to say, one thing to know, and where it comes from.
-        </p>
+        {sure ? (
+          <p className="mt-2 text-[13.5px] text-[var(--ink-faint)]">
+            Here is one thing to say, one thing to know, and where it comes from.
+          </p>
+        ) : (
+          /* Saying "here is the thing for exactly that" over a match the site
+             inferred rather than recognised is the one dishonesty this page can
+             commit. When the only signal was a near-miss on a word, it says so. */
+          <p className="mt-2.5 text-[13.5px] leading-relaxed text-[var(--ink-faint)]">
+            We are not sure we understood that. This is the nearest thing we hold
+            &mdash; if it is not what you meant,{" "}
+            <Link href="/browse" className="text-[var(--sage)] underline underline-offset-4">
+              browse every situation
+            </Link>
+            .
+          </p>
+        )}
       </div>
 
       {/* ── say ─────────────────────────────────────────────────────────── */}
