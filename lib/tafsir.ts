@@ -13,3 +13,15 @@ export function readTafsir(surah: number): TafsirBlock[] {
     return [];
   }
 }
+
+/** Just the passage ranges, without the commentary on them.
+ *
+ *  The whole of Ibn Kathīr on al-Baqarah is 1.2MB, and it was being written
+ *  into the page inside collapsed <details>: every reader downloaded all of it
+ *  to read one āyah, and most never opened a single section. The headings are
+ *  a few hundred bytes and render on the server; the commentary is fetched from
+ *  /tafsir/{surah}.json the first time somebody actually opens one.
+ */
+export function readTafsirRanges(surah: number): { from: number; to: number }[] {
+  return readTafsir(surah).map((b) => ({ from: b.from, to: b.to }));
+}

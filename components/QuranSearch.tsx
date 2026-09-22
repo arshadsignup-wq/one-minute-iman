@@ -1,18 +1,38 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import idxRaw from "@/data/quran-index.json";
 
 type Row = { s: number; n: number; e: string };
-const data = idxRaw as unknown as { names: Record<string, string>; ayat: Row[] };
+type Index = { names: Record<string, string>; ayat: Row[] };
+
+/** Every āyah of the translation is a megabyte, and it was bundled into the
+ *  page: the index of the Qurʾan cost that much to open whether or not anybody
+ *  searched it. It is fetched on the first keystroke instead, once. */
+let pending: Promise<Index | null> | null = null;
+function load() {
+  if (!pending) {
+    pending = fetch("/quran-index.json")
+      .then((r) => (r.ok ? (r.json() as Promise<Index>) : null))
+      .catch(() => null);
+  }
+  return pending;
+}
 
 export default function QuranSearch() {
   const [q, setQ] = useState("");
+  const [data, setData] = useState<Index | null>(null);
   const term = q.trim().toLowerCase();
 
+  useEffect(() => {
+    if (term.length < 3 || data) return;
+    let live = true;
+    void load().then((d) => { if (live && d) setData(d); });
+    return () => { live = false; };
+  }, [term, data]);
+
   const hits = useMemo(() => {
-    if (term.length < 3) return [];
+    if (term.length < 3 || !data) return [];
     const out: Row[] = [];
     for (const a of data.ayat) {
       if (a.e.toLowerCase().includes(term)) {
@@ -21,7 +41,7 @@ export default function QuranSearch() {
       }
     }
     return out;
-  }, [term]);
+  }, [term, data]);
 
   function highlight(text: string) {
     const i = text.toLowerCase().indexOf(term);
@@ -75,7 +95,7 @@ export default function QuranSearch() {
                 className="group block py-4"
               >
                 <span className="text-[11.5px] tracking-wide text-[var(--gold)]">
-                  {data.names[String(a.s)]} · {a.s}:{a.n}
+                  {data?.names[String(a.s)]} · {a.s}:{a.n}
                 </span>
                 <p className="mt-1.5 text-[14.5px] leading-relaxed text-[var(--ink-soft)] transition-colors group-hover:text-[var(--ink)]">
                   {highlight(a.e)}

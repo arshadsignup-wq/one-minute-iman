@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { rows } from "@/lib/search";
+import { rows } from "@/lib/corpus";
 import { EntryCard } from "@/components/Cards";
 import { getSaved, onSavedChange, removeSaved } from "@/lib/saved";
 

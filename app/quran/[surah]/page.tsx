@@ -6,7 +6,7 @@ import { surahs, getSurah } from "@/lib/quran";
 import AyahView from "@/components/AyahView";
 import SurahPlayer from "@/components/SurahPlayer";
 import Tafsir from "@/components/Tafsir";
-import { readTafsir } from "@/lib/tafsir";
+import { readTafsirRanges } from "@/lib/tafsir";
 
 export function generateStaticParams() {
   return surahs.map((s) => ({ surah: String(s.n) }));
@@ -39,7 +39,7 @@ export default async function SurahPage({ params }: { params: Promise<{ surah: s
   const s = getSurah(n);
   if (!s) notFound();
 
-  const tafsir = readTafsir(n);
+  const tafsir = readTafsirRanges(n);
   const prev = getSurah(n - 1);
   const next = getSurah(n + 1);
 
@@ -67,7 +67,7 @@ export default async function SurahPage({ params }: { params: Promise<{ surah: s
 
       <AyahView verses={s.verses} />
 
-      <Tafsir blocks={tafsir} surah={n} />
+      <Tafsir ranges={tafsir} surah={n} />
 
       <nav className="mt-12 flex items-center justify-between gap-4 border-t border-[var(--line)] pt-8">
         {prev ? (

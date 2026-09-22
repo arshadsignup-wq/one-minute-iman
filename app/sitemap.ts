@@ -3,6 +3,7 @@ import { entries } from "@/lib/entries";
 import { situations } from "@/lib/search";
 import { surahs } from "@/lib/quran";
 import { collections, COLLECTION_ORDER } from "@/lib/hadith";
+import { bookPageCount } from "@/components/BookView";
 import { SITE_URL } from "@/lib/site";
 import stamp from "@/data/content-updated.json";
 
@@ -66,12 +67,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     });
     for (const b of coll.books) {
-      hadith.push({
-        url: url(`/hadith/${c}/${b.n}`),
-        lastModified: now,
-        changeFrequency: "yearly",
-        priority: 0.5,
-      });
+      // A long book is served a page at a time. Every page carries narrations
+      // the others do not, and all of them were indexable when the book was one
+      // enormous page, so each is listed rather than treated as a continuation.
+      const pages = bookPageCount(c, b.n);
+      for (let p = 1; p <= pages; p++) {
+        hadith.push({
+          url: url(p === 1 ? `/hadith/${c}/${b.n}` : `/hadith/${c}/${b.n}/${p}`),
+          lastModified: now,
+          changeFrequency: "yearly",
+          priority: p === 1 ? 0.5 : 0.4,
+        });
+      }
     }
   }
 

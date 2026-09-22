@@ -165,21 +165,47 @@ Submit `https://www.oneminuteiman.xyz/sitemap.xml` in Search Console once the
 site answers on the new host, and check Coverage a few days later. After an
 outage the priority is getting 4,160 URLs crawled as healthy again.
 
-## Known weight, deliberately left alone
+## Page weight
 
-`/hadith/<collection>/<book>` renders every narration in a book on one page —
-921 of them on the largest, 5.6 MB of markup, about 740 KB once gzipped.
+`/hadith/<collection>/<book>` used to render every narration in a book on one
+page — 921 of them on the largest, 5.6 MB of markup. It is now served 80 at a
+time; `/hadith/x/y` is still page one, so nothing that was linked or indexed
+moved. Ninety-five pages were over a megabyte; one is.
 
-Splitting them into pages would cut that to roughly 100 KB each. It has not
-been done, on purpose: `BookFilter` searches the narrations already in the
-DOM, so a paginated book would filter only the visible page while appearing
-to search the whole book. A filter that quietly misses fourteen fifteenths of
-a book is worse than a heavy page.
+That was left undone for a real reason, which had to be answered first:
+`BookFilter` searches the narrations already in the DOM, so a paginated book
+would filter one page while appearing to search the whole book. It now says
+which page it is reading and links to the corpus-wide search with the words
+already typed, so the narrowing is never silent.
 
-The weight also no longer costs anything. It was Vercel's fast origin
-transfer that made it expensive; here the figure to watch is bandwidth, and
-the site uses 47 GB of 250 GB.
+Two other things used to travel with every page and no longer do:
 
-Revisit only if these pages need to rank, or if mobile readers complain. If
-they are ever split, the filter has to be reworked at the same time — a small
-per-book index fetched client-side — not left to silently narrow.
+- **Ibn Kathīr.** The commentary was written into each sūrah page inside
+  collapsed `<details>` — 1.2 MB of it on al-Baqarah, downloaded by everyone,
+  opened by almost nobody. The headings still render on the server; the text is
+  fetched from `/tafsir/<surah>.json` when a section is opened.
+- **Two index files in the JavaScript bundle.** `quran-index.json` is 1 MB, of
+  which the matcher wanted 2 KB of sūrah names, and `index.json` is 0.9 MB of
+  entries that the search box never reads. Both were in the bundle of every
+  page. The names are split into `quran-names.json`, the entries into
+  `lib/corpus.ts`, and the āyāt index is fetched by `/quran`'s search box on the
+  first keystroke. First-load JavaScript went from 1.67 MB to 706 KB.
+
+`node scripts/derive.mjs` and `node scripts/publish-tafsir.mjs` produce the
+split files. They are listed in `scripts/README.md` with the rest of the
+pipeline and must be re-run whenever `data/` changes, or a page will show text
+that no longer matches its source.
+
+## New generated assets
+
+Three directories under `public/` are build output, not hand-written, and have
+to reach the server with everything else:
+
+| Path | Size | What it is |
+|---|---|---|
+| `public/hsearch/` | 16 MB, 826 files | the sharded index behind the hadith search |
+| `public/tafsir/` | 12 MB, 114 files | Ibn Kathīr, fetched per sūrah on demand |
+| `public/quran-index.json` | 1 MB | every āyah, fetched by `/quran`'s search |
+
+A deploy that omits them leaves the hadith search answering nothing and every
+commentary section stuck on "Loading the commentary…".

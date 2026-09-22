@@ -1,7 +1,7 @@
 import { OG_IMAGE } from "@/lib/site";
 import type { Metadata } from "next";
 import notEstablished from "@/data/not-established.json";
-import { TOTAL, CURATED } from "@/lib/search";
+import { TOTAL, CURATED } from "@/lib/corpus";
 
 export const metadata: Metadata = {
   title: "How every entry is verified",

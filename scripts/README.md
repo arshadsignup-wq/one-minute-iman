@@ -12,6 +12,21 @@ python3 scripts/harvest.py      # sweep the corpus for every authentic supplicat
 python3 scripts/build_all.py    # assign situations, emit the du'a dataset
 python3 scripts/fetch-quran.py  # the complete Qur'an, 114 surahs / 6,236 ayat
 python3 scripts/build-hadith.py # every authenticated narration in the six books
+node scripts/build-hadith-search.mjs  # the sharded search index for all 43,551
+node scripts/derive.mjs               # small subsets the pages load instead
+node scripts/publish-tafsir.mjs       # commentary, fetched only when opened
+```
+
+`build-hadith-search.mjs` writes `public/hsearch/`. It has to run after
+`build-hadith.py`, and again whenever `data/hadith/` changes, or the search will
+answer from a stale corpus. It reads only `data/`, so it needs no network.
+
+`refile.py` re-applies the situation rule to an already-built `data/` when only
+`lexicon.py` has changed, without re-fetching the sources:
+
+```bash
+python3 scripts/refile.py            # report what would move
+python3 scripts/refile.py --write    # write it, then re-run compose.py
 ```
 
 `build.py` caches every Qur'anic verse it fetches to `scripts/quran-cache.json`, so a
