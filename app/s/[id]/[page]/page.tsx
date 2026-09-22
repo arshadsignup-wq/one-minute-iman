@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { situations, sitById, entriesFor } from "@/lib/search";
+import { situations, sitById } from "@/lib/search";
+import { entriesFor } from "@/lib/corpus";
 import { EntryRow } from "@/components/Cards";
+import { getEntry } from "@/lib/entries";
 
 /** Kept in step with the first page of the hub. */
 const PER_PAGE = 60;
@@ -73,7 +75,7 @@ export default async function SituationPageN({
 
       <div className="mt-8">
         {slice.map((r) => (
-          <EntryRow key={r.id} row={r} />
+          <EntryRow key={r.id} row={r} english={getEntry(r.id)?.english_full} />
         ))}
       </div>
 

@@ -119,7 +119,7 @@
     "mental health",
     "mental illness"
    ],
-   "count": 118
+   "count": 93
   },
   {
    "id": "anxiety",
@@ -189,7 +189,7 @@
     "cant concentrate",
     "cant focus"
    ],
-   "count": 126
+   "count": 99
   },
   {
    "id": "fear",
@@ -524,7 +524,7 @@
     "social media makes me",
     "seeing everyone succeed"
    ],
-   "count": 44
+   "count": 40
   },
   {
    "id": "shame",
@@ -717,7 +717,7 @@
     "icu",
     "intensive care"
    ],
-   "count": 119
+   "count": 121
   },
   {
    "id": "someone-ill",
@@ -793,9 +793,12 @@
     "miss them",
     "they are gone",
     "condolence",
-    "anniversary of their death"
+    "anniversary of their death",
+    "stillborn",
+    "lost the baby",
+    "lost our baby"
    ],
-   "count": 165
+   "count": 168
   },
   {
    "id": "debt",
@@ -883,7 +886,7 @@
     "investment",
     "savings"
    ],
-   "count": 192
+   "count": 193
   },
   {
    "id": "oppression",
@@ -1098,7 +1101,7 @@
     "my nikah",
     "wedding tomorrow"
    ],
-   "count": 179
+   "count": 166
   },
   {
    "id": "intimacy",
@@ -1132,7 +1135,7 @@
     "we want a child",
     "starting a family"
    ],
-   "count": 16
+   "count": 14
   },
   {
    "id": "children",
@@ -1157,7 +1160,6 @@
     "cant conceive",
     "ivf",
     "childless",
-    "miscarriage",
     "worried about my kids",
     "my child is struggling",
     "parenting",
@@ -1181,9 +1183,15 @@
     "c section",
     "caesarean",
     "my baby wont sleep",
-    "weaning"
+    "weaning",
+    "infertile",
+    "cant have children",
+    "cannot have children",
+    "trying to conceive",
+    "struggling to conceive",
+    "fertility"
    ],
-   "count": 186
+   "count": 184
   },
   {
    "id": "parents",
@@ -1225,7 +1233,7 @@
     "caring for my father",
     "nursing home"
    ],
-   "count": 140
+   "count": 139
   },
   {
    "id": "reconcile",
@@ -1312,7 +1320,7 @@
     "learning arabic",
     "seeking knowledge"
    ],
-   "count": 90
+   "count": 76
   },
   {
    "id": "work",
@@ -1502,7 +1510,7 @@
     "cheated someone",
     "took what wasnt mine"
    ],
-   "count": 286
+   "count": 279
   },
   {
    "id": "weak-iman",
@@ -1563,7 +1571,7 @@
     "hijab struggle",
     "practising is hard"
    ],
-   "count": 157
+   "count": 158
   },
   {
    "id": "desire",
@@ -1716,7 +1724,7 @@
     "accept what happened",
     "content with the decree"
    ],
-   "count": 156
+   "count": 151
   },
   {
    "id": "death-remembrance",
@@ -1834,7 +1842,7 @@
     "someone jealous of me",
     "ill wish"
    ],
-   "count": 43
+   "count": 39
   },
   {
    "id": "home",
@@ -1954,9 +1962,19 @@
     "having a meal",
     "qurbani",
     "slaughtering",
-    "sacrifice"
+    "sacrifice",
+    "breaking my fast",
+    "break my fast",
+    "broke my fast",
+    "opening my fast",
+    "ramadan",
+    "fasting today",
+    "i am fasting",
+    "im fasting",
+    "sehri",
+    "sahoor"
    ],
-   "count": 115
+   "count": 113
   },
   {
    "id": "prayer",
@@ -1989,7 +2007,7 @@
     "missed prayers",
     "stopped praying"
    ],
-   "count": 274
+   "count": 261
   },
   {
    "id": "mosque",
@@ -2042,7 +2060,7 @@
     "tornado",
     "seeing the moon"
    ],
-   "count": 55
+   "count": 54
   },
   {
    "id": "dhikr",
@@ -2066,9 +2084,18 @@
     "dhikr after prayer",
     "counting",
     "tasbeeh",
-    "words of praise"
+    "words of praise",
+    "salawat",
+    "salawaat",
+    "durood",
+    "darood",
+    "blessings on the prophet",
+    "send blessings on the prophet",
+    "salli ala",
+    "allahumma salli",
+    "peace and blessings"
    ],
-   "count": 144
+   "count": 160
   },
   {
    "id": "misc",
@@ -2083,7 +2110,7 @@
     "full collection",
     "anything else"
    ],
-   "count": 817
+   "count": 853
   }
  ]
 }

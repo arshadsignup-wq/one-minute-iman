@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Row } from "@/lib/search";
+import type { Row } from "@/lib/corpus";
 
 export function Grade({ g }: { g: string }) {
   const quran = g === "Qur'an";
@@ -17,12 +17,18 @@ export function Grade({ g }: { g: string }) {
   );
 }
 
-/** A verified entry. The Arabic leads, because it is the thing itself. */
+/** A verified entry. The Arabic leads, because it is the thing itself.
+ *
+ *  data-entry and data-kind are what SituationFilter narrows on, so the filter
+ *  needs nothing fetched: everything it matches is already on the page.
+ */
 export function EntryCard({ row }: { row: Row }) {
   const curated = row.x === 1;
   return (
     <Link
       href={`/d/${row.id}`}
+      data-entry={`${row.t} ${row.l ?? ""} ${row.r} ${row.g}`.toLowerCase()}
+      data-kind={row.g === "Qur'an" ? "quran" : "hadith"}
       className="group relative flex flex-col overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--card)] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[var(--sage)] hover:shadow-[0_18px_44px_-24px_var(--shadow)]"
     >
       {/* a thread of gold that lights up on hover */}
@@ -63,12 +69,23 @@ export function EntryCard({ row }: { row: Row }) {
   );
 }
 
-/** Compact row for dense lists. */
-export function EntryRow({ row }: { row: Row }) {
+/** Compact row for dense lists.
+ *
+ *  `english` is the collection's own translation of the narration. These rows
+ *  used to show the Arabic and a reference and nothing else, which means a
+ *  reader who does not read Arabic — most of the people this site is for — was
+ *  handed a line they could not read and a number. It is passed in rather than
+ *  carried in the search index because the index is shipped to the browser and
+ *  the narrations are long; the page that renders this is built on the server,
+ *  where the full text is free.
+ */
+export function EntryRow({ row, english }: { row: Row; english?: string }) {
   return (
     <Link
       href={`/d/${row.id}`}
-      className="group flex items-center justify-between gap-6 rounded-xl px-4 py-4 transition-colors hover:bg-[var(--card)]"
+      data-entry={`${row.t} ${row.l ?? ""} ${row.r} ${row.g} ${english ?? ""}`.toLowerCase()}
+      data-kind={row.g === "Qur'an" ? "quran" : "hadith"}
+      className="group flex items-start justify-between gap-6 rounded-xl px-4 py-4 transition-colors hover:bg-[var(--card)]"
     >
       <div className="min-w-0 flex-1">
         {row.a && (
@@ -76,12 +93,19 @@ export function EntryRow({ row }: { row: Row }) {
             {row.a}
           </p>
         )}
-        <p className="mt-1 truncate text-[12px] text-[var(--ink-faint)]">
+        {english && (
+          <p className="mt-1.5 line-clamp-2 text-[13.5px] leading-relaxed text-[var(--ink-soft)]">
+            {english}
+          </p>
+        )}
+        <p className="mt-1.5 truncate text-[12px] text-[var(--ink-faint)]">
           {row.r}
           {row.l ? ` · ${row.l}` : ""}
         </p>
       </div>
-      <Grade g={row.g} />
+      <span className="shrink-0 pt-0.5">
+        <Grade g={row.g} />
+      </span>
     </Link>
   );
 }

@@ -14769,8 +14769,7 @@
   "id": "bukhari-25-1",
   "t": "Ṣaḥīḥ al-Bukhārī 25",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -14917,8 +14916,7 @@
   "id": "bukhari-392-17",
   "t": "Ṣaḥīḥ al-Bukhārī 392",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -15428,7 +15426,8 @@
   "t": "Ṣaḥīḥ al-Bukhārī 1206",
   "s": [
    "children",
-   "parents"
+   "parents",
+   "prayer"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -15527,9 +15526,8 @@
   "id": "bukhari-1395-76",
   "t": "Ṣaḥīḥ al-Bukhārī 1395",
   "s": [
-   "anxiety",
    "knowledge",
-   "sadness"
+   "poverty"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -15615,9 +15613,7 @@
   "id": "bukhari-1496-84",
   "t": "Ṣaḥīḥ al-Bukhārī 1496",
   "s": [
-   "anxiety",
-   "oppression",
-   "sadness"
+   "oppression"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -15763,9 +15759,7 @@
   "id": "bukhari-2130-100",
   "t": "Ṣaḥīḥ al-Bukhārī 2130",
   "s": [
-   "anxiety",
-   "children",
-   "sadness"
+   "children"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -16421,8 +16415,7 @@
   "id": "bukhari-3654-164",
   "t": "Ṣaḥīḥ al-Bukhārī 3654",
   "s": [
-   "mosque",
-   "prayer"
+   "mosque"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -16737,9 +16730,7 @@
   "id": "bukhari-4347-203",
   "t": "Ṣaḥīḥ al-Bukhārī 4347",
   "s": [
-   "anxiety",
-   "oppression",
-   "sadness"
+   "oppression"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -16813,9 +16804,7 @@
   "id": "bukhari-4480-213",
   "t": "Ṣaḥīḥ al-Bukhārī 4480",
   "s": [
-   "anxiety",
-   "children",
-   "sadness"
+   "children"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -16938,7 +16927,6 @@
   "t": "Ṣaḥīḥ al-Bukhārī 4699",
   "s": [
    "death-remembrance",
-   "steadfastness",
    "weak-iman"
   ],
   "x": 0,
@@ -17180,7 +17168,7 @@
   "id": "bukhari-4919-249",
   "t": "Ṣaḥīḥ al-Bukhārī 4919",
   "s": [
-   "prayer"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -18494,8 +18482,7 @@
   "t": "Ṣaḥīḥ al-Bukhārī 7440",
   "s": [
    "death-remembrance",
-   "illness",
-   "knowledge"
+   "illness"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -18730,8 +18717,7 @@
   "id": "bukhari-7516-401",
   "t": "Ṣaḥīḥ al-Bukhārī 7516",
   "s": [
-   "illness",
-   "prayer"
+   "illness"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -18827,8 +18813,7 @@
   "id": "muslim-21b-409",
   "t": "Ṣaḥīḥ Muslim 21b",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -18840,8 +18825,7 @@
   "id": "muslim-21c-410",
   "t": "Ṣaḥīḥ Muslim 21c",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -19244,8 +19228,7 @@
   "t": "Ṣaḥīḥ Muslim 193a",
   "s": [
    "death-remembrance",
-   "illness",
-   "knowledge"
+   "illness"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -19753,7 +19736,7 @@
   "id": "muslim-521a-495",
   "t": "Ṣaḥīḥ Muslim 521a",
   "s": [
-   "prayer"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -19777,7 +19760,7 @@
   "id": "muslim-523a-497",
   "t": "Ṣaḥīḥ Muslim 523a",
   "s": [
-   "prayer"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -20361,8 +20344,7 @@
   "id": "muslim-1218a-550",
   "t": "Ṣaḥīḥ Muslim 1218a",
   "s": [
-   "eating",
-   "marriage"
+   "eating"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -20399,9 +20381,7 @@
   "id": "muslim-1368-554",
   "t": "Ṣaḥīḥ Muslim 1368",
   "s": [
-   "anxiety",
-   "children",
-   "sadness"
+   "children"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -20838,8 +20818,7 @@
   "id": "muslim-2405-609",
   "t": "Ṣaḥīḥ Muslim 2405",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -21097,7 +21076,7 @@
   "id": "muslim-2652c-637",
   "t": "Ṣaḥīḥ Muslim 2652c",
   "s": [
-   "prayer"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -22884,9 +22863,7 @@
   "id": "abudawud-1584-807",
   "t": "Sunan Abī Dāwūd 1584",
   "s": [
-   "anxiety",
-   "oppression",
-   "sadness"
+   "oppression"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -23156,8 +23133,7 @@
   "id": "abudawud-2640-834",
   "t": "Sunan Abī Dāwūd 2640",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -23169,8 +23145,7 @@
   "id": "abudawud-2641-835",
   "t": "Sunan Abī Dāwūd 2641",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -23487,8 +23462,7 @@
   "id": "abudawud-4174-865",
   "t": "Sunan Abī Dāwūd 4174",
   "s": [
-   "mosque",
-   "prayer"
+   "mosque"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -23673,7 +23647,7 @@
   "id": "abudawud-4750-881",
   "t": "Sunan Abī Dāwūd 4750",
   "s": [
-   "steadfastness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -24108,8 +24082,8 @@
   "t": "Sunan an-Nasā'ī 103",
   "s": [
    "forgiveness",
-   "mosque",
-   "prayer"
+   "illness",
+   "mosque"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -25150,7 +25124,7 @@
   "id": "nasai-2522-1018",
   "t": "Sunan an-Nasā'ī 2522",
   "s": [
-   "anxiety",
+   "knowledge",
    "oppression",
    "poverty"
   ],
@@ -25412,8 +25386,7 @@
   "id": "nasai-3966-1040",
   "t": "Sunan an-Nasā'ī 3966",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -25425,8 +25398,7 @@
   "id": "nasai-3967-1041",
   "t": "Sunan an-Nasā'ī 3967",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -25450,8 +25422,7 @@
   "id": "nasai-3971-1043",
   "t": "Sunan an-Nasā'ī 3971",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -25463,8 +25434,7 @@
   "id": "nasai-3978-1044",
   "t": "Sunan an-Nasā'ī 3978",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -25476,8 +25446,7 @@
   "id": "nasai-3979-1045",
   "t": "Sunan an-Nasā'ī 3979",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -25489,8 +25458,7 @@
   "id": "nasai-3982-1046",
   "t": "Sunan an-Nasā'ī 3982",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -25502,8 +25470,7 @@
   "id": "nasai-3983-1047",
   "t": "Sunan an-Nasā'ī 3983",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -26756,8 +26723,7 @@
   "t": "Jāmiʿ at-Tirmidhī 2557",
   "s": [
    "death",
-   "death-remembrance",
-   "steadfastness"
+   "death-remembrance"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -27869,7 +27835,7 @@
   "id": "tirmidhi-3502-1251",
   "t": "Jāmiʿ at-Tirmidhī 3502",
   "s": [
-   "rain-weather"
+   "misc"
   ],
   "x": 0,
   "g": "Ḥasan",
@@ -28220,7 +28186,7 @@
   "id": "tirmidhi-3914-1285",
   "t": "Jāmiʿ at-Tirmidhī 3914",
   "s": [
-   "children"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -28368,8 +28334,8 @@
   "t": "Sunan Ibn Mājah 282",
   "s": [
    "forgiveness",
-   "mosque",
-   "prayer"
+   "illness",
+   "mosque"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -29494,8 +29460,7 @@
   "id": "ibnmajah-3929-1407",
   "t": "Sunan Ibn Mājah 3929",
   "s": [
-   "anxiety",
-   "sadness"
+   "dhikr"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -29628,8 +29593,8 @@
   "id": "ibnmajah-4269-1419",
   "t": "Sunan Ibn Mājah 4269",
   "s": [
+   "death",
    "death-remembrance",
-   "steadfastness",
    "weak-iman"
   ],
   "x": 0,
@@ -30457,7 +30422,7 @@
   "id": "bukhari-2738-1491",
   "t": "Ṣaḥīḥ al-Bukhārī 2738",
   "s": [
-   "forgiveness"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -30469,7 +30434,6 @@
   "id": "bukhari-2742-1492",
   "t": "Ṣaḥīḥ al-Bukhārī 2742",
   "s": [
-   "knowledge",
    "poverty"
   ],
   "x": 0,
@@ -30482,7 +30446,7 @@
   "id": "bukhari-2750-1493",
   "t": "Ṣaḥīḥ al-Bukhārī 2750",
   "s": [
-   "children"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -30557,7 +30521,7 @@
   "id": "bukhari-2776-1499",
   "t": "Ṣaḥīḥ al-Bukhārī 2776",
   "s": [
-   "knowledge"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -30605,7 +30569,7 @@
   "id": "bukhari-5083-1503",
   "t": "Ṣaḥīḥ al-Bukhārī 5083",
   "s": [
-   "marriage"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -30764,7 +30728,6 @@
   "id": "bukhari-5195-1516",
   "t": "Ṣaḥīḥ al-Bukhārī 5195",
   "s": [
-   "knowledge",
    "marriage"
   ],
   "x": 0,
@@ -30816,7 +30779,7 @@
   "id": "bukhari-5204-1520",
   "t": "Ṣaḥīḥ al-Bukhārī 5204",
   "s": [
-   "intimacy"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -31047,7 +31010,7 @@
   "id": "bukhari-5294-1539",
   "t": "Ṣaḥīḥ al-Bukhārī 5294",
   "s": [
-   "knowledge"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -31145,7 +31108,7 @@
   "id": "bukhari-5336-1547",
   "t": "Ṣaḥīḥ al-Bukhārī 5336",
   "s": [
-   "marriage"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -31520,7 +31483,6 @@
   "id": "bukhari-6113-1578",
   "t": "Ṣaḥīḥ al-Bukhārī 6113",
   "s": [
-   "forgiveness",
    "prayer"
   ],
   "x": 0,
@@ -31838,7 +31800,7 @@
   "id": "bukhari-6236-1604",
   "t": "Ṣaḥīḥ al-Bukhārī 6236",
   "s": [
-   "eating"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -31985,7 +31947,6 @@
   "id": "bukhari-6296-1616",
   "t": "Ṣaḥīḥ al-Bukhārī 6296",
   "s": [
-   "eating",
    "sleep"
   ],
   "x": 0,
@@ -33127,7 +33088,7 @@
   "id": "muslim-1480c-1709",
   "t": "Ṣaḥīḥ Muslim 1480c",
   "s": [
-   "knowledge"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -33176,7 +33137,6 @@
   "id": "muslim-1480q-1713",
   "t": "Ṣaḥīḥ Muslim 1480q",
   "s": [
-   "knowledge",
    "marriage",
    "poverty"
   ],
@@ -33323,8 +33283,7 @@
   "t": "Ṣaḥīḥ Muslim 1628a",
   "s": [
    "death",
-   "illness",
-   "knowledge"
+   "illness"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -33517,8 +33476,7 @@
   "id": "muslim-2563c-1741",
   "t": "Ṣaḥīḥ Muslim 2563c",
   "s": [
-   "envy",
-   "evil-eye"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -33530,8 +33488,7 @@
   "id": "muslim-2563d-1742",
   "t": "Ṣaḥīḥ Muslim 2563d",
   "s": [
-   "envy",
-   "evil-eye"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -33555,8 +33512,6 @@
   "id": "muslim-2564a-1744",
   "t": "Ṣaḥīḥ Muslim 2564a",
   "s": [
-   "envy",
-   "evil-eye",
    "reconcile"
   ],
   "x": 0,
@@ -34055,7 +34010,7 @@
   "id": "muslim-2615b-1785",
   "t": "Ṣaḥīḥ Muslim 2615b",
   "s": [
-   "prayer"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -34252,8 +34207,7 @@
   "id": "muslim-2638b-1801",
   "t": "Ṣaḥīḥ Muslim 2638b",
   "s": [
-   "knowledge",
-   "marriage"
+   "knowledge"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -35448,7 +35402,6 @@
   "id": "muslim-2870a-1899",
   "t": "Ṣaḥīḥ Muslim 2870a",
   "s": [
-   "anxiety",
    "death",
    "death-remembrance"
   ],
@@ -35462,9 +35415,7 @@
   "id": "muslim-2870b-1900",
   "t": "Ṣaḥīḥ Muslim 2870b",
   "s": [
-   "anxiety",
-   "death",
-   "sadness"
+   "death"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -35525,8 +35476,7 @@
   "id": "muslim-2962-1905",
   "t": "Ṣaḥīḥ Muslim 2962",
   "s": [
-   "envy",
-   "evil-eye"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -35551,8 +35501,7 @@
   "t": "Ṣaḥīḥ Muslim 533c",
   "s": [
    "death-remembrance",
-   "mosque",
-   "prayer"
+   "mosque"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -35842,7 +35791,7 @@
   "id": "abudawud-2140-1931",
   "t": "Sunan Abī Dāwūd 2140",
   "s": [
-   "prayer"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -36066,7 +36015,6 @@
   "t": "Sunan Abī Dāwūd 2274",
   "s": [
    "children",
-   "marriage",
    "parents"
   ],
   "x": 0,
@@ -36118,8 +36066,7 @@
   "id": "abudawud-2864-1953",
   "t": "Sunan Abī Dāwūd 2864",
   "s": [
-   "death",
-   "knowledge"
+   "death"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -36143,8 +36090,8 @@
   "id": "abudawud-2875-1955",
   "t": "Sunan Abī Dāwūd 2875",
   "s": [
+   "death",
    "home",
-   "parents",
    "sleep"
   ],
   "x": 0,
@@ -36703,7 +36650,7 @@
   "id": "abudawud-4743-2001",
   "t": "Sunan Abī Dāwūd 4743",
   "s": [
-   "forgiveness"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -36740,9 +36687,9 @@
   "id": "abudawud-4753-2004",
   "t": "Sunan Abī Dāwūd 4753",
   "s": [
-   "anxiety",
+   "death",
    "death-remembrance",
-   "sadness"
+   "weak-iman"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -37404,7 +37351,6 @@
   "id": "abudawud-5030-2059",
   "t": "Sunan Abī Dāwūd 5030",
   "s": [
-   "death",
    "illness"
   ],
   "x": 0,
@@ -37654,7 +37600,7 @@
   "id": "abudawud-5116-2079",
   "t": "Sunan Abī Dāwūd 5116",
   "s": [
-   "marriage"
+   "misc"
   ],
   "x": 0,
   "g": "Ḥasan",
@@ -38357,7 +38303,7 @@
   "id": "tirmidhi-1966-2137",
   "t": "Jāmiʿ at-Tirmidhī 1966",
   "s": [
-   "knowledge"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -38661,7 +38607,7 @@
   "id": "tirmidhi-2118-2162",
   "t": "Jāmiʿ at-Tirmidhī 2118",
   "s": [
-   "forgiveness"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -38832,7 +38778,7 @@
   "id": "tirmidhi-2322-2176",
   "t": "Jāmiʿ at-Tirmidhī 2322",
   "s": [
-   "knowledge"
+   "misc"
   ],
   "x": 0,
   "g": "Ḥasan",
@@ -39188,7 +39134,7 @@
   "id": "tirmidhi-2417-2205",
   "t": "Jāmiʿ at-Tirmidhī 2417",
   "s": [
-   "knowledge"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -39213,8 +39159,7 @@
   "id": "tirmidhi-2421-2207",
   "t": "Jāmiʿ at-Tirmidhī 2421",
   "s": [
-   "anxiety",
-   "sadness"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -39595,7 +39540,7 @@
   "id": "tirmidhi-2526-2238",
   "t": "Jāmiʿ at-Tirmidhī 2526",
   "s": [
-   "forgiveness"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -40789,8 +40734,7 @@
   "id": "tirmidhi-3901-2336",
   "t": "Jāmiʿ at-Tirmidhī 3901",
   "s": [
-   "children",
-   "marriage"
+   "children"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -40826,8 +40770,7 @@
   "id": "tirmidhi-3916-2339",
   "t": "Jāmiʿ at-Tirmidhī 3916",
   "s": [
-   "mosque",
-   "prayer"
+   "mosque"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -40995,7 +40938,7 @@
   "id": "tirmidhi-3955-2353",
   "t": "Jāmiʿ at-Tirmidhī 3955",
   "s": [
-   "marriage"
+   "misc"
   ],
   "x": 0,
   "g": "Ḥasan",
@@ -41007,7 +40950,7 @@
   "id": "tirmidhi-3956-2354",
   "t": "Jāmiʿ at-Tirmidhī 3956",
   "s": [
-   "marriage"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -41019,8 +40962,7 @@
   "id": "nasai-3206-2355",
   "t": "Sunan an-Nasā'ī 3206",
   "s": [
-   "desire",
-   "marriage"
+   "desire"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -41271,7 +41213,7 @@
   "id": "nasai-3344-2375",
   "t": "Sunan an-Nasā'ī 3344",
   "s": [
-   "marriage"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -41307,7 +41249,6 @@
   "id": "nasai-3389-2378",
   "t": "Sunan an-Nasā'ī 3389",
   "s": [
-   "intimacy",
    "marriage"
   ],
   "x": 0,
@@ -41332,7 +41273,6 @@
   "id": "nasai-3403-2380",
   "t": "Sunan an-Nasā'ī 3403",
   "s": [
-   "knowledge",
    "marriage",
    "poverty"
   ],
@@ -41358,7 +41298,7 @@
   "id": "nasai-3418-2382",
   "t": "Sunan an-Nasā'ī 3418",
   "s": [
-   "knowledge"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -41838,8 +41778,7 @@
   "id": "ibnmajah-1853-2421",
   "t": "Sunan Ibn Mājah 1853",
   "s": [
-   "marriage",
-   "prayer"
+   "marriage"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -41950,7 +41889,7 @@
   "id": "ibnmajah-1956-2430",
   "t": "Sunan Ibn Mājah 1956",
   "s": [
-   "marriage"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -42183,7 +42122,7 @@
   "id": "ibnmajah-2699-2449",
   "t": "Sunan Ibn Mājah 2699",
   "s": [
-   "forgiveness"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -42758,7 +42697,7 @@
   "id": "ibnmajah-4242-2496",
   "t": "Sunan Ibn Mājah 4242",
   "s": [
-   "marriage"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -42868,7 +42807,7 @@
   "id": "ibnmajah-4266-2505",
   "t": "Sunan Ibn Mājah 4266",
   "s": [
-   "forgiveness"
+   "misc"
   ],
   "x": 0,
   "g": "Ṣaḥīḥ",
@@ -42880,8 +42819,8 @@
   "id": "ibnmajah-4269-2506",
   "t": "Sunan Ibn Mājah 4269",
   "s": [
+   "death",
    "death-remembrance",
-   "steadfastness",
    "weak-iman"
   ],
   "x": 0,

@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { situations, sitById, entriesFor, categories } from "@/lib/search";
+import { situations, sitById, categories } from "@/lib/search";
+import { entriesFor } from "@/lib/corpus";
 import { SITE_URL, clampDescription, OG_IMAGE } from "@/lib/site";
 import { EntryCard, EntryRow } from "@/components/Cards";
+import { getEntry } from "@/lib/entries";
 import SurahFor from "@/components/SurahFor";
+import SituationFilter from "@/components/SituationFilter";
 import hubCopy from "@/data/hub-copy.json";
 
 type HubCopy = { answer: string; faq: string[][] };
@@ -130,6 +133,10 @@ export default async function SituationPage({
         <p className="mt-5 text-[13px] text-[var(--ink-faint)]">
           {all.length} verified {all.length === 1 ? "entry" : "entries"}
           {featured.length > 0 && ` · ${featured.length} written out in full`}
+          {" · "}
+          <Link href="/authenticity" className="text-[var(--sage)] underline underline-offset-4">
+            how we check
+          </Link>
         </p>
       </header>
 
@@ -145,6 +152,8 @@ export default async function SituationPage({
           </p>
         </section>
       )}
+
+      {all.length > 8 && <SituationFilter total={featured.length + rest.length} />}
 
       {featured.length > 0 && (
         <section className="mt-10">
@@ -164,12 +173,13 @@ export default async function SituationPage({
             From the wider collections
           </h2>
           <p className="mt-2 mb-4 max-w-lg text-[13.5px] leading-relaxed text-[var(--ink-faint)]">
-            Each of these passed the same grading rule. They are shown with the source
-            narration rather than a written-out translation.
+            Each of these passed the same grading rule. They are shown inside the
+            narration they come from, in that collection&rsquo;s own published
+            translation, rather than written out as an entry of ours.
           </p>
           <div>
             {rest.map((r) => (
-              <EntryRow key={r.id} row={r} />
+              <EntryRow key={r.id} row={r} english={getEntry(r.id)?.english_full} />
             ))}
           </div>
 

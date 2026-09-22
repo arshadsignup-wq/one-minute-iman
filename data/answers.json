@@ -1113,18 +1113,18 @@
   },
   "step": "Say it before the first mouthful, not after you remember.",
   "know": {
-   "id": "after-eating",
-   "title": "When you have eaten",
-   "trans": "All praise is for Allah, who fed me this and provided it for me, with no power or strength from myself.",
-   "ref": "Sunan Abī Dāwūd 4023",
+   "id": "iftar",
+   "title": "Breaking your fast",
+   "trans": "The thirst has gone, the veins are moistened, and the reward is certain, if Allah wills.",
+   "ref": "Sunan Abī Dāwūd 2357",
    "grade": "Ḥasan",
    "kind": "hadith"
   },
   "story": {
-   "id": "when-the-table-was-cleared",
-   "title": "What he said as the food was taken away",
-   "story": "Abu Umamah says this is what he said when the spread was lifted from in front of him. The two negatives at the end are the whole point. Not a parting word, and not a thing we could manage without.",
-   "ref": "Jāmiʿ at-Tirmidhī 3456"
+   "id": "two-joys",
+   "title": "The two moments a fasting person gets",
+   "story": "The first is ordinary and physical and comes at sunset with a date and water. The second is put in the same sentence as the first, at the same rank, without any note saying the first one is the lesser of the two.",
+   "ref": "Sunan an-Nasā'ī 2215"
   }
  },
  "prayer": {
@@ -1223,18 +1223,18 @@
   },
   "step": "Say it while your hands are busy with something else.",
   "know": {
-   "id": "what-he-chose-for-the-angels",
-   "title": "The speech most beloved to Allah",
-   "trans": "What Allah chose for His angels: glory to my Lord, and praise to Him.",
-   "ref": "Jāmiʿ at-Tirmidhī 3593",
+   "id": "salawat",
+   "title": "Sending prayers upon the Prophet ﷺ",
+   "trans": "O Allah, send prayers upon Muhammad and upon the family of Muhammad, as You sent prayers upon Ibrāhīm. Indeed You are Praiseworthy, Glorious.",
+   "ref": "Sunan Abī Dāwūd 978",
    "grade": "Ṣaḥīḥ",
    "kind": "hadith"
   },
   "story": {
-   "id": "teach-me-something-to-say",
-   "title": "What a bedouin was given when he asked for words",
-   "story": "A bedouin came and said: teach me something to say. He was given this. Then he said: this is for my Lord, what is for me. And he was given: O Allah, forgive me, have mercy on me, guide me and provide for me.",
-   "ref": "Ṣaḥīḥ Muslim 2696"
+   "id": "what-he-chose-for-the-angels",
+   "title": "The speech most beloved to Allah",
+   "story": "Abu Dharr asked which speech is most beloved to Allah. The answer did not describe a category. It named the exact words He had already picked out for the angels, and handed them over.",
+   "ref": "Jāmiʿ at-Tirmidhī 3593"
   }
  },
  "misc": {
