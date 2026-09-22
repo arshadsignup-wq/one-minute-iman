@@ -116,8 +116,56 @@ def _word(w):
     s = re.sub(r'ū{2,}', 'ū', s)
     return s
 
+
+# ── the disconnected letters ────────────────────────────────────────────────
+# Twenty-nine sūrahs open with letters that are recited by name, not read as a
+# word. The rules below have no way to know that: they saw يسٓ and produced
+# "ys", which is what the first line of Yā Sīn said on the page, under a
+# translation reading "Yā, Seen". These are spelled out instead.
+MUQATTAAT = {
+    'الم': 'Alif Lām Mīm',
+    'المص': 'Alif Lām Mīm Ṣād',
+    'المر': 'Alif Lām Mīm Rā',
+    'الر': 'Alif Lām Rā',
+    'كهيعص': 'Kāf Hā Yā ʿAyn Ṣād',
+    'طه': 'Ṭā Hā',
+    'طسم': 'Ṭā Sīn Mīm',
+    'طس': 'Ṭā Sīn',
+    'يس': 'Yā Sīn',
+    'ص': 'Ṣād',
+    'حم': 'Ḥā Mīm',
+    'عسق': 'ʿAyn Sīn Qāf',
+    'ق': 'Qāf',
+    'ن': 'Nūn',
+}
+# longest first, so الم does not win over المص
+_MUQ_ORDER = sorted(MUQATTAAT, key=len, reverse=True)
+_LETTERS_ONLY = re.compile(r'[^\u0621-\u064A]')
+
+
+def opening_letters(text):
+    """The reading of a sūrah's opening letters, when that is what this is.
+
+    Returns (reading, rest) where rest is whatever follows them, so 10:1 keeps
+    its verse: "Alif Lām Rā ۚ tilka āyātu …".
+    """
+    if not text:
+        return None, text
+    head = text.lstrip()
+    # the letters are never more than a handful, and never contain a space
+    first = head.split(' ')[0] if ' ' in head else head
+    bare = _LETTERS_ONLY.sub('', first)
+    for key in _MUQ_ORDER:
+        if bare == key:
+            return MUQATTAAT[key], head[len(first):]
+    return None, text
+
+
 def translit(text):
     if not text: return ''
+    reading, rest = opening_letters(text)
+    if reading is not None:
+        return (reading + ' ' + translit(rest)).strip() if rest.strip() else reading
     words = re.split(r'(\s+|[،.؛:!؟"\'()\[\]])', text)
     PUNCT = {'،': ',', '؛': ';', '؟': '?'}
     parts = [(_word(w) if re.search(r'[ء-ي]', w) else PUNCT.get(w, w)) for w in words]

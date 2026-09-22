@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { Ayah } from "@/lib/quran";
 
 const OPTIONS = [
@@ -12,6 +12,15 @@ const OPTIONS = [
 export default function AyahView({ verses }: { verses: Ayah[] }) {
   const [which, setWhich] = useState<(typeof OPTIONS)[number][0]>("en");
   const [showTr, setShowTr] = useState(true);
+  // which āyah the one player on this page is currently sounding, if any
+  const [reciting, setReciting] = useState<number | null>(null);
+
+  useEffect(() => {
+    const on = (e: Event) =>
+      setReciting((e as CustomEvent<{ n: number | null }>).detail?.n ?? null);
+    window.addEventListener("omi:reciting", on);
+    return () => window.removeEventListener("omi:reciting", on);
+  }, []);
 
   return (
     <>
@@ -22,7 +31,7 @@ export default function AyahView({ verses }: { verses: Ayah[] }) {
             onClick={() => setWhich(key)}
             className={`inline-flex min-h-[44px] items-center rounded-full px-3.5 text-[12.5px] transition-all sm:min-h-0 sm:py-1.5 ${
               which === key
-                ? "bg-[var(--green)] text-white"
+                ? "bg-[var(--green)] text-[var(--on-green)]"
                 : "border border-[var(--line)] text-[var(--ink-soft)] hover:border-[var(--sage)] hover:text-[var(--green)]"
             }`}
           >
@@ -63,13 +72,33 @@ export default function AyahView({ verses }: { verses: Ayah[] }) {
                   {(v[which] as string) || v.en}
                 </p>
                 {v.audio && (
-                  <audio
-                    controls
-                    preload="none"
-                    src={v.audio}
-                    className="mt-3 h-8 w-full max-w-xs"
-                    aria-label={`Recitation of āyah ${v.n}`}
-                  />
+                  <button
+                    type="button"
+                    onClick={() =>
+                      window.dispatchEvent(
+                        new CustomEvent("omi:recite", { detail: { n: v.n } }),
+                      )
+                    }
+                    aria-label={
+                      reciting === v.n
+                        ? `Pause the recitation from āyah ${v.n}`
+                        : `Play the recitation from āyah ${v.n} onwards`
+                    }
+                    className={`mt-3 inline-flex min-h-[44px] items-center gap-2 rounded-full border px-3.5 text-[12.5px] transition-all sm:min-h-0 sm:py-1.5 ${
+                      reciting === v.n
+                        ? "border-[var(--sage)] text-[var(--green)]"
+                        : "border-[var(--line)] text-[var(--ink-faint)] hover:border-[var(--sage)] hover:text-[var(--green)]"
+                    }`}
+                  >
+                    <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor" aria-hidden="true">
+                      {reciting === v.n ? (
+                        <path d="M8 5h3v14H8zm5 0h3v14h-3z" />
+                      ) : (
+                        <path d="M8 5.5v13l11-6.5z" />
+                      )}
+                    </svg>
+                    {reciting === v.n ? "Reciting" : "Play from here"}
+                  </button>
                 )}
               </div>
             </div>

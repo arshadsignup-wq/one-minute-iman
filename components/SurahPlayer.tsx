@@ -128,6 +128,32 @@ export default function SurahPlayer({
     setPlaying(true);
   }, []);
 
+  // "Play from here", asked for by the āyah rows.
+  //
+  // Each row used to carry its own <audio controls>: eighty-three grey browser
+  // widgets down Yā Sīn, each reading 0:00 / 0:00 because nothing had loaded,
+  // each stopping dead at the end of its verse. There is one player on this
+  // page and this is how a row reaches it — a custom event rather than lifted
+  // state, the same way lib/saved.ts talks to the header.
+  useEffect(() => {
+    const onRecite = (e: Event) => {
+      const n = (e as CustomEvent<{ n: number }>).detail?.n;
+      const i = playable.findIndex((v) => v.n === n);
+      if (i < 0) return;
+      setAt(i);
+      setPlaying(true);
+    };
+    window.addEventListener("omi:recite", onRecite);
+    return () => window.removeEventListener("omi:recite", onRecite);
+  }, [playable]);
+
+  // Rows need to know which one is sounding, and whether it is still sounding.
+  useEffect(() => {
+    window.dispatchEvent(new CustomEvent("omi:reciting", {
+      detail: { n: playing ? current?.n ?? null : null },
+    }));
+  }, [playing, current]);
+
   if (playable.length === 0 || failed) return null;
 
   return (
@@ -136,7 +162,7 @@ export default function SurahPlayer({
         <button
           type="button"
           onClick={toggle}
-          className="inline-flex min-h-[44px] items-center gap-2 rounded-full bg-[var(--green)] px-5 text-[13.5px] text-white transition-all hover:opacity-90"
+          className="inline-flex min-h-[44px] items-center gap-2 rounded-full bg-[var(--green)] px-5 text-[13.5px] text-[var(--on-green)] transition-all hover:opacity-90"
           aria-label={
             playing
               ? `Pause the recitation of Surah ${surahName}`
