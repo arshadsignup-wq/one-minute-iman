@@ -4,6 +4,7 @@ import Link from "next/link";
 import {
   collections, GRADED_ORDER, UNGRADED_ORDER, HADITH_TOTAL, COMPILATION_TOTAL,
 } from "@/lib/hadith";
+import HadithSearch from "@/components/HadithSearch";
 
 export const metadata: Metadata = {
   title: "Hadith: Bukhārī, Muslim and the Sunan",
@@ -76,10 +77,12 @@ export default function HadithIndex() {
         {HADITH_TOTAL.toLocaleString()} narrations from the six books and Muwaṭṭa&apos;
         Mālik. Where a narration sits outside al-Bukhārī and Muslim, the verdicts of the
         scholars on that exact chain are printed with it, and narrations the graders
-        declared weak are not shown. A further {COMPILATION_TOTAL} come from later
+        declared weak are not shown. A further {COMPILATION_TOTAL.toLocaleString()} come from later
         compilations and the classic Forty collections, which our source carries without
         chain gradings; those are marked so you know the difference.
       </p>
+
+      <HadithSearch />
 
       <Section
         title="Graded collections"
